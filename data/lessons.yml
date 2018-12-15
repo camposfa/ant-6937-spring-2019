@@ -1,0 +1,104 @@
+lessons:
+  - date: "2019-01-17"
+    topics: "Introduction & Setup"
+    reading: "read/setup"
+    
+  - topics: "<i class='fas fa-chart-bar fa-lg'></i><b> VISUALIZING DATA</b>"
+    
+  - date: "2019-01-24"
+    topics: "R Basics"
+    reading: "read/rmarkdown-basics"
+    
+  - date: "2019-01-31"
+    topics: "??"
+    reading: "read/git-1"
+    
+  - date: "2019-02-07"
+    topics: "Visualization basics"
+    reading: "read/ggplot-1"
+    
+  - date: "2019-02-14"
+    topics: "Manipulation basics"
+    reading: "read/dplyr-1"
+
+  - topics: "<i class='fas fa-tools fa-lg'></i><b> MANIPULATING DATA</b>"
+  
+  - date: "2019-02-21"
+    topics: "Relational data: groups"
+    reading: "read/dplyr-2"
+    
+  - date: "2019-02-28"
+    topics: "Relational data: joins"
+    reading: "read/dplyr-3"
+    
+  - date: "2019-03-07"
+    topics: "group_by and summarize"
+    reading: "read/fish"
+
+  - date: "2019-03-14"
+    topics: "<i class='fas fa-umbrella-beach'></i> No class: spring break <i class='fas fa-sun'></i>"
+
+  - date: "2019-03-21"
+    topics: "more dplyr"
+    
+  - date: "2019-03-28"
+    topics: "<i class='fas fa-chalkboard-teacher'></i> No class: AAPA Conference <i class='fas fa-globe-americas'></i>"
+ 
+  - date: "2019-04-04"
+    topics: "Reproducibility"
+ 
+  - date: "2019-04-11"
+    topics: "Functions"
+
+  - date: "2019-04-18"
+    topics: "geospatial intro, visualization"
+    reading: "read/geospatial-1"
+    
+  - date: "2019-04-25"
+    topics: "vector data"
+    reading: "read/geospatial-2"
+    
+  - topics: "<i class='fas fa-graduation-cap fa-lg'></i><b> FINAL PROJECTS<b>" 
+    
+  - date: "2019-05-02"
+    topics: "Final Projects"
+    project: "project/final-project"
+
+#  - date: "2018-10-22"
+#    topics: "spatial data manipulation"
+#
+#  - date: "2018-10-26"
+#    topics: "Reproducibility"
+#
+#  - date: "2018-10-29"
+#    topics: "REST APIs"
+#
+#  - date: "2018-11-02"
+#    topics: "REST APIs"
+#    
+#  - date: "2018-11-05"
+#    topics: "Regular Expressions"
+#    reading: "read/strings-regex"
+#    
+#  - date: "2018-11-09"
+#    topics: "Data rectangling"
+#    reading: "read/purrr-2"
+#    
+#  - date: "2018-11-16"
+#    topics: "Reproducibility & Data sources"
+#  
+#  - topics: "<b>FINAL PROJECTS</b>"
+#    
+#  - date: "2018-11-19"  
+#    topics: "Final Projects"
+#    project: "1"
+#    
+#    
+#  - module: "<i class='material-icons'>nature_people</i>"
+#    datatype: "<i class='material-icons'>share</i>"
+#    date: ""
+#    topics: "Data publishing"
+
+
+
+    
