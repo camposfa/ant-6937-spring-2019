@@ -11,7 +11,7 @@ description: |
 
   <span></span>     | <span></span>
   -----------|-------------------------------------------------------------------
-  Instructor | **[Dr. Fernando A. Campos](http://campos-lab.net)**  <a href="mailto:fernando.campos@utsa.edu" title="email"><i class="fas fa-envelope"></i></a>|  
+  Instructor | **[Dr. Fernando Campos](http://campos-lab.net)**  <a href="mailto:fernando.campos@utsa.edu" title="email"><i class="fas fa-envelope"></i></a>|  
   Location   |     ????           |   
   Times      | **Thu 9:00 am - 11:45 am**    |  
   CCN        |   26798                        |  
@@ -21,7 +21,7 @@ Office Hours | **Tue/Thu, 2:00-3:30 pm** MH 4.03.44 |
 
 ## Overview
 
-This course is designed for upper division undergraduate students regardless of prior experience. We aim to be accessible to those new to programming, but those who have been using R for years will find new material in this opinionated and fast moving area.  The course is project focused and centered around five [modules](/modules) reproducing important results in global change ecology.  A series of short [tutorials](/tutorials) will introduce relevant technology, but most concepts will be first introduced in reading outside of class, leaving class time to focus on the more complex examples encountered in the modules.  
+This course is designed for upper division undergraduate students regardless of prior experience. We aim to be accessible to those new to programming, but those who have been using R for years will find new material in this opinionated and fast moving area.  The course is project focused and centered around five [modules](/modules) reproducing important results in global change ecology.  A series of short [cheat sheets](/cheatsheets) will introduce relevant technology, but most concepts will be first introduced in reading outside of class, leaving class time to focus on the more complex examples encountered in the modules.  
 
 ## Approach
 
@@ -40,8 +40,11 @@ is preliminary and always subject to change.
 
 ## Texts
 
-We will use [Grolemund and Wickham's *R For Data Science*](http://amzn.to/2aHLAQ1) 
-as the primary text for this course. A hard copy of the book is not
-required and the openly licensed full text can be found on the [author's website for this book](http://r4ds.had.co.nz/). Additional reading material will be linked
-from the syllabus.  Please be sure to review the relevant reading prior to
-each class session.  
+We will use three openly licensed online textbooks for this course. Hard copies of the books are *not* required but can be found at the links below.
+<div align="left">
+- [<i class="fas fa-blog"></i> *R For Data Science*](http://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund. [<i class="fas fa-book"></i> Hard copy](http://amzn.to/2aHLAQ1).
+- [<i class="fas fa-blog"></i> *Fundamentals of Data Visualization*](https://serialmentor.com/dataviz/) by Claus Wilke.
+- [<i class="fas fa-blog"></i> *Data Visualization: A practical introduction*](https://socviz.co/) by Kieran Healy. [<i class="fas fa-book"></i> Hard copy](https://amzn.to/2vfAixM).
+</div>
+
+Additional reading material will be linked from the syllabus.

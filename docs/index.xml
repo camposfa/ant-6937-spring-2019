@@ -81,6 +81,17 @@ Watch  Background abbreviated documentary, features many of the leading authors 
     </item>
     
     <item>
+      <title>Cheat Sheets</title>
+      <link>/cheatsheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cheatsheets/</guid>
+      <description>&amp;nbsp;  GitHub
+Almost everything we do will involve GitHub in some way. This tutorial will provide a brief introduction to our GitHub-based workflow and review common git patterns for resolving issues you may encounter in working collaboratively.
+  RMarkdown Notebooks Most of your work will take place inside an RMarkdown notebook. While we will rely primarily on the github_document format, RMarkdown supports a wide variety of output formats that you can use to create pdf documents (including particular journal formats) slideshows, websites, ebooks and interactive tutorials.</description>
+    </item>
+    
+    <item>
       <title>Climate Exercise</title>
       <link>/assignments/climate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -389,17 +400,6 @@ Reading  Read the opening sections of chapter 13 on Strings and working with Reg
       
       <guid>/tools/</guid>
       <description>  GitHub     R    cloud Cloud computing     Docker               </description>
-    </item>
-    
-    <item>
-      <title>Tutorials</title>
-      <link>/tutorials/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tutorials/</guid>
-      <description>&amp;nbsp;  GitHub
-Almost everything we do will involve GitHub in some way. This tutorial will provide a brief introduction to our GitHub-based workflow and review common git patterns for resolving issues you may encounter in working collaboratively.
-  RMarkdown Notebooks Most of your work will take place inside an RMarkdown notebook. While we will rely primarily on the github_document format, RMarkdown supports a wide variety of output formats that you can use to create pdf documents (including particular journal formats) slideshows, websites, ebooks and interactive tutorials.</description>
     </item>
     
     <item>

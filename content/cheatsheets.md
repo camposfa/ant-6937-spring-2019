@@ -1,12 +1,12 @@
 +++
-title = "Tutorials"
+title = "Cheat Sheets"
 layout = "page-nav-pills"
-description = "Tutorials will provide a brief introduction to a range of data science tools, many of which we will continue to use regularly throughout the course modules.  Tutorial sessions will be woven in between modules and are meant to fit within a single class session.  While modules aim to help you master fundamental skills through a hands-on analysis over several weeks, tutorials are meant primarily to give you some context and a flavor for what is possible."
+description = "Cheat sheets will provide a brief introduction to a range of data science tools, many of which we will continue to use regularly throughout the course modules.  Tutorial sessions will be woven in between modules and are meant to fit within a single class session.  While modules aim to help you master fundamental skills through a hands-on analysis over several weeks, tutorials are meant primarily to give you some context and a flavor for what is possible."
 +++
 
 &nbsp;
 <div class="tab-pane active" id="github">
-<h3><i class="fa fa-github"></i> GitHub</h3>
+<h3><i class="fab fa-github"></i> GitHub</h3>
   
 Almost everything we do will involve GitHub in some way.  This tutorial will provide a brief introduction to our GitHub-based workflow and review common `git` patterns for resolving issues you may encounter in working collaboratively.  
 <!-- User name/picture, 2FA, github classroom, pull requests, github emoji-->

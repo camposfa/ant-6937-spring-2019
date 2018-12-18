@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "courses/ant6937-s2019/"
 languageCode = "en-uS"
 defaultContentLanguage = "en-us"
 title = "ANT 6937, Spring 2019"
@@ -43,10 +43,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   url = "/modules"
 [[menu.main]]
   weight = 3
-  identifier = "tutorials"
+  identifier = "cheatsheets"
   name = "Cheat Sheets"
   pre = "<i class='material-icons'>build</i>"
-  url = "/tutorials"
+  url = "/cheatsheets"
 [[menu.main]]
   weight = 4
   identifier = "syllabus"
@@ -64,29 +64,29 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.footer]]
   weight = 2
   identifier = "GitHub"
-  name = "Team Repos"
-  pre = "<i class='button-icon fa fa-2x fa-github'></i>"
-  url = "https://github.com/espm-157"
+  name = "Github"
+  pre = "<i class='fab fa-github fa-2x'></i>"
+  url = "https://github.com/camposfa/ant-6937-spring-2019"
 [[menu.footer]]
   weight = 3
+  name = "DataCamp"
+  pre = "<i class='material-icons'>video_library</i>"
+  url = "https://www.datacamp.com/groups/ant-6973-data-visualization-and-exploration"
+[[menu.footer]]
+  weight = 4
   name = "Textbook: R4DS"
   pre = "<i class='material-icons'>book</i>"
   url = "http://r4ds.had.co.nz/"
 [[menu.footer]]
-  weight = 4
+  weight = 5
   name = "Textbook: Wilke"
   pre = "<i class='material-icons'>book</i>"
   url = "https://serialmentor.com/dataviz/"
 [[menu.footer]]
-  weight = 5
+  weight = 6
   name = "Textbook: Healy"
   pre = "<i class='material-icons'>book</i>"
   url = "https://socviz.co/"
-[[menu.footer]]
-  weight = 6
-  name = "DataCamp"
-  pre = "<i class='material-icons'>video_library</i>"
-  url = "https://www.datacamp.com/groups/espm-157-data-science-for-global-change-ecology"
 
 
 
@@ -122,7 +122,7 @@ weight = 5
   weight = 1
   name = "GitHub"
   url = "#github"
-  pre = "<i class='fa fa-github'></i>"
+  pre = "<i class='fab fa-github'></i>"
 [[menu.tools]]
   weight = 3
   name = "Travis-CI"
@@ -132,7 +132,7 @@ weight = 5
   weight = 2
   name = "RMarkdown"
   url = "#rmarkdown"
-  pre = "<br/><img src='/img/rmarkdown.png' alt='rmarkdown' width='36' height='36'><br/>"
+  pre = "<br/><img src='/img/rmarkdown2.png' alt='rmarkdown' height='36'><br/>"
 [[menu.tools]]
   weight = 4
   name = "R Packages"
@@ -157,9 +157,10 @@ weight = 5
   weight = 8
   name = "Shiny"
   url = "#shiny"
-  pre = "<br/><img src='/img/shiny.png' alt='shiny' width='36' height='36'><br/>"
+  pre = "<br/><img src='/img/shiny.png' alt='shiny' height='36'><br/>"
 
 [params]
   dateFormat = "January 2, 2006"
   background = "/img/mugesketch.png"
   math = "true"
+  favicon = "/img/baboon.png"

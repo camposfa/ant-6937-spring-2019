@@ -49,6 +49,10 @@
   </url>
   
   <url>
+    <loc>/cheatsheets/</loc>
+  </url>
+  
+  <url>
     <loc>/assignments/climate/</loc>
   </url>
   
@@ -190,10 +194,6 @@
   
   <url>
     <loc>/tools/</loc>
-  </url>
-  
-  <url>
-    <loc>/tutorials/</loc>
   </url>
   
   <url>
