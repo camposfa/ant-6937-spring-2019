@@ -18,7 +18,7 @@
       
       <guid>/syllabus/</guid>
       <description>warning  clear  Please note: Syllabus subject to change    
- Date Topics Readings Activities Slides Projects   2019-01-17 Introduction &amp; Setup         VISUALIZING DATA       2019-01-24 R Basics       2019-01-31 ??       2019-02-07 Visualization basics       2019-02-14 Manipulation basics         MANIPULATING DATA       2019-02-21 Relational data: groups       2019-02-28 Relational data: joins       2019-03-07 group_by and summarize       2019-03-14  No class: spring break        2019-03-21 more dplyr       2019-03-28  No class: AAPA Conference        2019-04-04 Reproducibility       2019-04-11 Functions       2019-04-18 geospatial intro, visualization       2019-04-25 vector data         FINAL PROJECTS       2019-05-02 Final Projects         </description>
+ Date Topics Readings Activities Slides Projects   2019-01-17 Introduction &amp; Setup         FUNDAMENTALS OF DATA VISUALIZATION       2019-01-24 R Basics       2019-01-31 ??       2019-02-07 Visualization basics       2019-02-14 Manipulation basics         USING R TO CREATE VISUALIZATIONS       2019-02-21 Relational data: groups       2019-02-28 Relational data: joins       2019-03-07 group_by and summarize       2019-03-14  No class: spring break        2019-03-21 more dplyr       2019-03-28  No class: AAPA Conference          MANIPULATING DATA       2019-04-04 Reproducibility       2019-04-11 Functions       2019-04-18 geospatial intro, visualization       2019-04-25 vector data         FINAL PROJECTS       2019-05-02 Final Projects         </description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/policies/</guid>
-      <description>Prerequisites You should be generally numerically literate, and some prior programming experience will be helpful. Students new to programming might find Hands on Programming with R to be helpful. Students with significant experience in programming and statistical analysis should find themselves well prepared but should find plenty still to learn in each lesson.
+      <description>Preparation There are no prerequisites for this class, although some familiarity with quantitative methods and data analysis would be helpful. Prior programming experience is not required. Students who are entirely new to both R and programming in general might find Hands on Programming with R to be helpful. Students with significant experience in R should still find plenty to learn in each lesson.
 Instructional Methods As a flipped classroom, students are provided with either reading or video material that they are expected to view/read prior to class.</description>
     </item>
     
@@ -86,9 +86,7 @@ Watch  Background abbreviated documentary, features many of the leading authors 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/cheatsheets/</guid>
-      <description>&amp;nbsp;  GitHub
-Almost everything we do will involve GitHub in some way. This tutorial will provide a brief introduction to our GitHub-based workflow and review common git patterns for resolving issues you may encounter in working collaboratively.
-  RMarkdown Notebooks Most of your work will take place inside an RMarkdown notebook. While we will rely primarily on the github_document format, RMarkdown supports a wide variety of output formats that you can use to create pdf documents (including particular journal formats) slideshows, websites, ebooks and interactive tutorials.</description>
+      <description>RStudio Blah blah blah.      Data Visualization Blah blah blah.      Data Transformation Blah blah blah.      Data Import Blah blah blah.      R Markdown Notebooks Most of your work will take place inside an RMarkdown notebook. While we will rely primarily on the `github_document` format, RMarkdown supports a wide variety of output formats that you can use to create `pdf` documents (including particular journal formats) slideshows, websites, ebooks and interactive tutorials.</description>
     </item>
     
     <item>
