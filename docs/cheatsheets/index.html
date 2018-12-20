@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-  <meta name="generator" content="Hugo 0.51" />                                                                   
+  <meta name="generator" content="Hugo 0.52" />                                                                   
                
     
   <title>ANT 6937, Spring 2019</title>
@@ -117,117 +117,99 @@
               <ul class="nav nav-pills nav-pills-primary" role="tablist">
                   
                    <li class="nav-item">
-                      <a href="#github" data-toggle="tab" role="tab">
-                        <i class='fab fa-github'></i> GitHub
+                      <a href="#rstudio" data-toggle="tab" role="tab">
+                        <br/><img src='../img/logos/RStudio-Ball.png' alt='rstudio' height='36'><br/> R Studio
+                      </a>
+                    </li>
+                  
+                   <li class="nav-item">
+                      <a href="#ggplot2" data-toggle="tab" role="tab">
+                        <br/><img src='../img/logos/hex-ggplot2.png' alt='ggplot2' height='36'><br/> Data Visualization
+                      </a>
+                    </li>
+                  
+                   <li class="nav-item">
+                      <a href="#dplyr" data-toggle="tab" role="tab">
+                        <br/><img src='../img/logos/hex-dplyr.png' alt='dplyr' height='36'><br/> Data Transformation
+                      </a>
+                    </li>
+                  
+                   <li class="nav-item">
+                      <a href="#readr" data-toggle="tab" role="tab">
+                        <br/><img src='../img/logos/hex-readr.png' alt='readr' height='36'><br/> Data Import
                       </a>
                     </li>
                   
                    <li class="nav-item">
                       <a href="#rmarkdown" data-toggle="tab" role="tab">
-                        <br/><img src='../img/rmarkdown2.png' alt='rmarkdown' height='36'><br/> RMarkdown
-                      </a>
-                    </li>
-                  
-                   <li class="nav-item">
-                      <a href="#travis" data-toggle="tab" role="tab">
-                        <i class='material-icons'>check_circle</i> Travis-CI
-                      </a>
-                    </li>
-                  
-                   <li class="nav-item">
-                      <a href="#packages" data-toggle="tab" role="tab">
-                        <i class='fa fa-archive'></i> R Packages
-                      </a>
-                    </li>
-                  
-                   <li class="nav-item">
-                      <a href="#docker" data-toggle="tab" role="tab">
-                        <i class='fa fa-docker'></i> Docker
-                      </a>
-                    </li>
-                  
-                   <li class="nav-item">
-                      <a href="#cloud" data-toggle="tab" role="tab">
-                        <i class='fa fa-cloud'></i> Cloud
-                      </a>
-                    </li>
-                  
-                   <li class="nav-item">
-                      <a href="#website" data-toggle="tab" role="tab">
-                        <i class='material-icons'>language</i> Web design
-                      </a>
-                    </li>
-                  
-                   <li class="nav-item">
-                      <a href="#shiny" data-toggle="tab" role="tab">
-                        <br/><img src='../img/shiny.png' alt='shiny' height='36'><br/> Shiny
+                        <br/><img src='../img/logos/rmarkdown.png' alt='rmarkdown' height='36'><br/> R Markdown
                       </a>
                     </li>
                   
               </ul>
               <div class="tab-content gallery text-left">
-            	
-
-<p>&nbsp;
-<div class="tab-pane active" id="github">
-<h3><i class="fab fa-github"></i> GitHub</h3></p>
-
-<p>Almost everything we do will involve GitHub in some way.  This tutorial will provide a brief introduction to our GitHub-based workflow and review common <code>git</code> patterns for resolving issues you may encounter in working collaboratively.<br />
-<!-- User name/picture, 2FA, github classroom, pull requests, github emoji-->
+            	<div class="tab-pane" id="rstudio">
+<div class="row">
+<div class="col-md-6">
+<h3>RStudio</h3>
+Blah blah blah.
 </div>
-<div class="tab-pane" id="rmarkdown"></p>
-
-<h3 id="i-class-icon-rlogo-i-rmarkdown-notebooks"><i class="icon-rlogo"></i> RMarkdown Notebooks</h3>
-
-<p>Most of your work will take place inside an RMarkdown notebook.  While we will rely primarily on the <code>github_document</code> format, RMarkdown supports a wide variety of output formats that you can use to create <code>pdf</code> documents (including particular journal formats) slideshows, websites, ebooks and interactive tutorials.  In this tutorial, we will showcase these formats and introduce how RMarkdown output can be customized through <code>yaml</code> header blocks, <code>knitr</code> chunks, and templates.  We will also introduce some of the technology behind RMarkdown formats, including <code>pandoc</code>, <code>LaTeX</code>, and <code>HTML</code>/<code>CSS</code>.  See <a href="https://rmarkdown.rstudio.com">https://rmarkdown.rstudio.com</a>.</p>
-
-<p></div>
-<div class="tab-pane" id="travis"></p>
-
-<h3 id="i-class-fa-fa-check-i-travis-ci"><i class="fa fa-check"></i> Travis CI</h3>
-
-<p>Continuous Integration (CI) is an important concept data science practice has largely adopted from software engineering, in which a suite of tests are run every time changes are committed (i.e. pushed to GitHub or other version control platform) to a project. We will use the popular Travis-CI platform to check for successful and reproducible rendering of RMarkdown notebooks in your project directories.</p>
-
-<p>Our Travis-CI tutorial will provide more background on what Travis is an how it can be configured and used in a variety of settings.</p>
-
-<p></div>
-<div class="tab-pane" id="packages">
-  <h3><i class="fa fa-archive"></i> R Packages</h3></p>
-
-<p>Writing R packages isn&rsquo;t just for software developers.
-The R packaging mechanism provides a powerful and very flexible mechanism for organizing
-research projects, a notion we refer to as the R &ldquo;compendium&rdquo; model.  This tutorial will
-introduce you to the fundamentals of the R package structure and it&rsquo;s ecosystem of tools.</p>
-
-<p></div>
-<div class="tab-pane" id="docker">
-  <h3><i class="fa fa-docker"></i> Docker</h3></p>
-
-<p>Docker the engine behind the emerging Open Container standard for creating portable
-  computational environments; important both for reproducibility of existing work and
-  deploying analyses on larger compute systems (see Cloud Tutorial).  This tutorial will
-  introduce you to the basics of using Docker with the R environment.</p>
-
-<p></div>
-<div class="tab-pane" id="cloud">
-  <h3><i class="fa fa-cloud"></i> Cloud</h3></p>
-
-<p>This tutorial will review some of the major commercial and academic platforms for
-  cloud computing research and give you experience of launching your own instances and
-  running analyses on cloud computers using Docker and the RStudio interface.
+<div class="col-md-6">
+<a href="../files/rstudio-ide.pdf"><img src="../img/rstudio-ide.png" class="img-rounded img-responsive img-raised"/></a>
 </div>
-<div class="tab-pane" id="website">
-  <h3><i class="fa fa-html5"></i> Web design</h3></p>
-
-<p>Effective web-based communication is an important element of reproducible and collaborative data science.  This tutorial will provide a brief introduction to creating your own websites with <code>Rmarkdown</code> based tools such as <code>bookdown</code> and <code>blogdown</code>.</p>
-
-<p><!-- netlify, hugo, bootstrap css -->
 </div>
-<div class="tab-pane" id="shiny">
-  <h3> Shiny</h3>
-  RStudio&rsquo;s Shiny platform provides a simple way to turn your R plots and analyses into interactive interfaces with menus, buttons and slider bars.<br />
 </div>
-<!-- Shiny? --></p>
+
+<div class="tab-pane" id="ggplot2">
+<div class="row">
+<div class="col-md-6">
+<h3>Data Visualization</h3>
+Blah blah blah.
+</div>
+<div class="col-md-6">
+<a href="../files/data-visualization-2.1.pdf"><img src="../img/data-visualization-2.1.png" class="img-rounded img-responsive img-raised"/></a>
+</div>
+</div>
+</div>
+
+<div class="tab-pane" id="dplyr">
+<div class="row">
+<div class="col-md-6">
+<h3>Data Transformation</h3>
+Blah blah blah.
+</div>
+<div class="col-md-6">
+<a href="../files/data-transformation.pdf"><img src="../img/data-transformation.png" class="img-rounded img-responsive img-raised"/></a>
+</div>
+</div>
+</div>
+
+<div class="tab-pane" id="readr">
+<div class="row">
+<div class="col-md-6">
+<h3>Data Import</h3>
+Blah blah blah.
+</div>
+<div class="col-md-6">
+<a href="../files/data-import.pdf"><img src="../img/data-import.png" class="img-rounded img-responsive img-raised"/></a>
+</div>
+</div>
+</div>
+
+<div class="tab-pane" id="rmarkdown">
+<div class="row">
+<div class="col-md-6">
+<h3>R Markdown Notebooks</h3>
+
+Most of your work will take place inside an RMarkdown notebook.  While we will rely primarily on the `github_document` format, RMarkdown supports a wide variety of output formats that you can use to create `pdf` documents (including particular journal formats) slideshows, websites, ebooks and interactive tutorials.  In this tutorial, we will showcase these formats and introduce how RMarkdown output can be customized through `yaml` header blocks, `knitr` chunks, and templates.  We will also introduce some of the technology behind RMarkdown formats, including `pandoc`, `LaTeX`, and `HTML`/`CSS`.  See See <https://rmarkdown.rstudio.com>.
+</div>
+<div class="col-md-6">
+<a href="../files/rmarkdown-2.0.pdf"><img src="../img/rmarkdown-2.0.png" class="img-rounded img-responsive img-raised"/></a>
+</div>
+</div>
+</div>
+
+<p>You can find these and more at <a href="https://www.rstudio.com/resources/cheatsheets/">https://www.rstudio.com/resources/cheatsheets/</a>.</p>
 
               </div>
             </div>
@@ -272,6 +254,13 @@ introduce you to the fundamentals of the R package structure and it&rsquo;s ecos
 
         <li>
           <a href="https://socviz.co/"><i class='material-icons'>book</i> Textbook: Healy</a>
+        </li>
+        
+      
+        
+
+        <li>
+          <a href="https://rstudio-education.github.io/hopr/"><i class='material-icons'>book</i> Textbook: Grolemund</a>
         </li>
         
       
