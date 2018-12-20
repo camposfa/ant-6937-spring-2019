@@ -87,7 +87,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   name = "Textbook: Healy"
   pre = "<i class='material-icons'>book</i>"
   url = "https://socviz.co/"
-
+[[menu.footer]]
+  weight = 7
+  name = "Textbook: Grolemund"
+  pre = "<i class='material-icons'>book</i>"
+  url = "https://rstudio-education.github.io/hopr/"
 
 
 [[menu.sidebar]]
@@ -117,47 +121,32 @@ weight = 5
   url = "#extinction"
 
 
-
 [[menu.tools]]
   weight = 1
-  name = "GitHub"
-  url = "#github"
-  pre = "<i class='fab fa-github'></i>"
-[[menu.tools]]
-  weight = 3
-  name = "Travis-CI"
-  url = "#travis"
-  pre = "<i class='material-icons'>check_circle</i>"
+  name = "R Studio"
+  url = "#rstudio"
+  pre = "<br/><img src='/img/logos/RStudio-Ball.png' alt='rstudio' height='36'><br/>"
 [[menu.tools]]
   weight = 2
-  name = "RMarkdown"
-  url = "#rmarkdown"
-  pre = "<br/><img src='/img/rmarkdown2.png' alt='rmarkdown' height='36'><br/>"
+  name = "Data Visualization"
+  url = "#ggplot2"
+  pre = "<br/><img src='/img/logos/hex-ggplot2.png' alt='ggplot2' height='36'><br/>"
+[[menu.tools]]
+  weight = 3
+  name = "Data Transformation"
+  url = "#dplyr"
+  pre = "<br/><img src='/img/logos/hex-dplyr.png' alt='dplyr' height='36'><br/>"
 [[menu.tools]]
   weight = 4
-  name = "R Packages"
-  url = "#packages"
-  pre = "<i class='fa fa-archive'></i>"
+  name = "Data Import"
+  url = "#readr"
+  pre = "<br/><img src='/img/logos/hex-readr.png' alt='readr' height='36'><br/>"
 [[menu.tools]]
   weight = 5
-  name = "Docker"
-  url = "#docker"
-  pre = "<i class='fa fa-docker'></i>"
-[[menu.tools]]
-  weight = 6
-  name = "Cloud"
-  url = "#cloud"
-  pre = "<i class='fa fa-cloud'></i>"  
-[[menu.tools]]
-  weight = 7
-  name = "Web design"
-  url = "#website"
-  pre = "<i class='material-icons'>language</i>"
-[[menu.tools]]
-  weight = 8
-  name = "Shiny"
-  url = "#shiny"
-  pre = "<br/><img src='/img/shiny.png' alt='shiny' height='36'><br/>"
+  name = "R Markdown"
+  url = "#rmarkdown"
+  pre = "<br/><img src='/img/logos/rmarkdown.png' alt='rmarkdown' height='36'><br/>"
+
 
 [params]
   dateFormat = "January 2, 2006"
