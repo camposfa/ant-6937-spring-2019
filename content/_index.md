@@ -35,7 +35,7 @@ We will read sections from four openly licensed, online textbooks for this cours
 - [<i class="fas fa-link"></i> *R For Data Science*](http://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund. | [<i class="fas fa-book"></i> Hard copy](http://amzn.to/2aHLAQ1).
 - [<i class="fas fa-link"></i> *Fundamentals of Data Visualization*](https://serialmentor.com/dataviz/) by Claus Wilke.
 - [<i class="fas fa-link"></i> *Data Visualization: A practical introduction*](https://socviz.co/) by Kieran Healy. | [<i class="fas fa-book"></i> Hard copy](https://amzn.to/2vfAixM).
-- [<i class="fas fa-link"></i> *Hands-On Programming with R*](https://rstudio-education.github.io/hopr/) by Garrett Grolemund. | [<i class="fas fa-book"></i> Hard copy](http://a.co/d/1GYdCE1).
+- [<i class="fas fa-link"></i> *ModernDive: An Introduction to Statistical and Data Sciences via R*](https://moderndive.com/) by Chester Ismay and Albert Y. Kim.
 </div>
 
 Additional reading material will be linked from the [syllabus](/syllabus/).

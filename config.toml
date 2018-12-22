@@ -84,9 +84,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   url = "https://socviz.co/"
 [[menu.footer]]
   weight = 7
-  name = "Textbook: Grolemund"
+  name = "Textbook: ModernDive"
   pre = "<i class='material-icons'>book</i>"
-  url = "https://rstudio-education.github.io/hopr/"
+  url = "https://moderndive.com"
 
 
 [[menu.tools]]
