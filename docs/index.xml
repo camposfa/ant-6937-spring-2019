@@ -6,10 +6,20 @@
     <description>Recent content in ANT 6937: Data Visualization and Exploration on ANT 6937, Spring 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uS</language>
-    <lastBuildDate>Sat, 15 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>/datacamp/</link>
+      <pubDate>Sat, 22 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/datacamp/</guid>
+      <description>ANT 6937 DataCamp Dashboard 
+Throughout the course we will be using DataCamp, a platform that provides an interactive way to learn how to use R to create visualizations and carry out data analysis.</description>
+    </item>
     
     <item>
       <title></title>
@@ -18,7 +28,7 @@
       
       <guid>/syllabus/</guid>
       <description>warning  clear  Please note: Syllabus subject to change    
- Date Topics Readings Activities Slides Projects     R, RSTUDIO, AND THE TIDYVERSE       2019-01-17 Introduction &amp; Setup       2019-01-24 R and RStudio Basics       2019-01-31 Data Import and Principles of Tidy Data         DATA VISUALIZATION       2019-02-07 Visualization Basics       2019-02-14 Visualizing Amounts and Parts of a Whole       2019-02-21 Visualizing Distributions       2019-02-28 Visualizing Relationships       2019-03-07 Visualizing Change Over Time       2019-03-14  No class: Spring Break        2019-03-21 Principles of Figure Design       2019-03-28  No class: AAPA Conference          DATA MANIPULATTION       2019-04-04 Data Manipulation Basics       2019-04-11 Grouping and Summarizing       2019-04-18 Relational Data and Joins         FINAL PROJECTS       2019-04-25 Final Projects       2019-05-02 Final Projects         </description>
+ Date Topics Readings Assignments Slides Projects     R, RSTUDIO, AND THE TIDYVERSE       2019-01-17 Introduction &amp; Setup       2019-01-24 R and RStudio Basics       2019-01-31 Data Import and Principles of Tidy Data         DATA VISUALIZATION       2019-02-07 Visualization Basics       2019-02-14 Visualizing Amounts and Parts of a Whole       2019-02-21 Visualizing Distributions       2019-02-28 Visualizing Relationships       2019-03-07 Visualizing Change Over Time       2019-03-14  No class: Spring Break        2019-03-21 Principles of Figure Design       2019-03-28  No class: AAPA Conference          DATA MANIPULATTION       2019-04-04 Data Manipulation Basics       2019-04-11 Grouping and Summarizing       2019-04-18 Relational Data and Joins         FINAL PROJECTS       2019-04-25 Work on Final Projects       2019-05-02 Work on Final Projects         </description>
     </item>
     
     <item>
@@ -112,10 +122,10 @@ What rolling average is used in computing the “trend” line? How does the tre
     
     <item>
       <title>Final Project: Proposal</title>
-      <link>/assignments/final/</link>
+      <link>/projects/final-project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/assignments/final/</guid>
+      <guid>/projects/final-project/</guid>
       <description>Projects should essentially look like any of our modules, but with you identifying the dataset and questions rather than working from a template. You may choose to replicate a figure from an existing study, but are also encouraged to use this opportunity to perform some exploratory analysis on data you may be using in your DS421 team projects or your own dissertation research. Remember that as with modules, finals will be graded on workflow and presentation rather than particular conclusions.</description>
     </item>
     

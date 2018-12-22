@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/datacamp/</loc>
+    <lastmod>2018-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/syllabus/</loc>
     <lastmod>2018-12-15T00:00:00+00:00</lastmod>
   </url>
@@ -26,7 +31,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -61,7 +66,7 @@
   </url>
   
   <url>
-    <loc>/assignments/final/</loc>
+    <loc>/projects/final-project/</loc>
   </url>
   
   <url>
@@ -139,6 +144,11 @@
   
   <url>
     <loc>/modules/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
