@@ -122,6 +122,14 @@
   </url>
   
   <url>
+    <loc>/assignments/setup/</loc>
+  </url>
+  
+  <url>
+    <loc>/read/setup/</loc>
+  </url>
+  
+  <url>
     <loc>/read/purrr-1/</loc>
   </url>
   
@@ -156,6 +164,14 @@
   </url>
   
   <url>
+    <loc>/assignments/r-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/read/r-basics/</loc>
+  </url>
+  
+  <url>
     <loc>/read/httr-1/</loc>
   </url>
   
@@ -183,10 +199,6 @@
   <url>
     <loc>/rubrics/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/read/setup/</loc>
   </url>
   
   <url>

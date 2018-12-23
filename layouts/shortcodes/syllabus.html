@@ -13,7 +13,7 @@
     <th style="width:15%;text-align:left">Date</th>
     <th style="width:55%">Topics</th>
     <th style="width:7.5%;text-align:center">Readings</th>
-    <th style="width:7.5%;text-align:center">Activities</th>
+    <th style="width:7.5%;text-align:center">Assignments</th>
     <th style="width:7.5%;text-align:center">Slides</th>
     <th style="width:7.5%;text-align:center">Projects</th>
   </tr>
@@ -26,7 +26,7 @@
       <td>{{if .topics }}{{ .topics | safeHTML }}{{ end }}</td>
 
       {{ if .reading }}
-      <td align="center"><a href="{{ .Site.baseurl }}/{{ .reading }}">
+      <td align="center"><a href="{{ .Site.baseurl }}/read/{{ .reading }}">
           <i class="fab fa-readme fa-lg"></i></a></td>
       {{ else }}
         <td align="center"><font color="f1f1f1">
@@ -34,14 +34,14 @@
       {{ end }}
 
       {{ if .assignment }}
-      <td align="center"><a href="{{ .Site.baseurl }}/assignment/{{ .assignment }}">
+      <td align="center"><a href="{{ .Site.baseurl }}/assignments/{{ .assignment }}">
           <i class="fas fa-tasks fa-lg"></i></a></td>
       {{ else }}
         <td align="center"><font color="f1f1f1">
           <i class="fas fa-tasks fa-lg"></i></font></td>
       {{ end }}
 
-      {{ if .slides }}
+      {{ if .slide }}
       <td align="center"><a href="{{ .Site.baseurl }}/slide/{{ .slide  }}">
           <i class="far fa-file-pdf fa-lg"></i></a></td>
       {{ else }}
@@ -50,7 +50,7 @@
       {{ end }}
       
       {{ if .project }}
-      <td align="center"><a href="{{ .Site.baseurl }}/project/{{ .assignment }}">
+      <td align="center"><a href="{{ .Site.baseurl }}/projects/{{ .project }}">
           <i class="fas fa-project-diagram fa-lg"></i></a></td>
       {{ else }}
         <td align="center"><font color="f1f1f1">

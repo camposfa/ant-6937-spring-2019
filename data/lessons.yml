@@ -3,68 +3,71 @@ lessons:
   
   - date: "2019-01-17"
     topics: "Introduction & Setup"
-    reading: "read/setup"
+    reading: "setup"
+    assignment: "setup"
     
   - date: "2019-01-24"
     topics: "R and RStudio Basics"
-    reading: "read/r-basics"
-    
-  - date: "2019-01-31"
-    topics: "Data Import and Principles of Tidy Data"
-    reading: "read/data-import"
+    reading: "r-basics"
+    assignment: "r-basics"
     
   - topics: "<i class='fas fa-chart-bar fa-lg'></i><b> DATA VISUALIZATION</b>"
   
-  - date: "2019-02-07"
+  - date: "2019-01-31"
     topics: "Visualization Basics"
-    reading: "read/ggplot-1"
+    reading: "ggplot-1"
     
-  - date: "2019-02-14"
+  - date: "2019-02-07"
     topics: "Visualizing Amounts and Parts of a Whole"
-    reading: "read/viz-amounts"
+    reading: "viz-amounts"
 
-  - date: "2019-02-21"
+  - date: "2019-02-14"
     topics: "Visualizing Distributions"
-    reading: "read/viz-distributions"
+    reading: "viz-distributions"
+    
+  - date: "2019-02-21"
+    topics: "Visualizing Relationships"
+    reading: "viz-relationships"
     
   - date: "2019-02-28"
-    topics: "Visualizing Relationships"
-    reading: "read/viz-relationships"
-    
-  - date: "2019-03-07"
     topics: "Visualizing Change Over Time"
-    reading: "read/viz-change-over-time"
+    reading: "viz-change-over-time"
+  
+  - date: "2019-03-07"
+    topics: "Principles of Figure Design"
+    reading: "figure-design"
 
   - date: "2019-03-14"
     topics: "<i class='fas fa-umbrella-beach'></i> <b>No class:</b> Spring Break <i class='fas fa-sun'></i>"
 
+  - topics: "<i class='fas fa-tools fa-lg'></i><b> DATA MANIPULATTION</b>"
+  
   - date: "2019-03-21"
-    topics: "Principles of Figure Design"
-    reading: "read/figure-design"
+    topics: "Data Import and Principles of Tidy Data"
+    reading: "data-import"
     
   - date: "2019-03-28"
     topics: "<i class='fas fa-chalkboard-teacher'></i> <b>No class:</b> AAPA Conference <i class='fas fa-globe-americas'></i>"
  
-  - topics: "<i class='fas fa-tools fa-lg'></i><b> DATA MANIPULATTION</b>"
   
   - date: "2019-04-04"
     topics: "Data Manipulation Basics"
-    reading: "read/dplyr-1"
+    reading: "dplyr-1"
   
   - date: "2019-04-11"
     topics: "Grouping and Summarizing"
-    reading: "read/dplyr-2"
+    reading: "dplyr-2"
 
   - date: "2019-04-18"
     topics: "Relational Data and Joins"
-    reading: "read/dplyr-3"
+    reading: "dplyr-3"
     
   - topics: "<i class='fas fa-graduation-cap fa-lg'></i><b> FINAL PROJECTS<b>" 
     
   - date: "2019-04-25"
-    topics: "Final Projects"
-    project: "project/final-project"
+    topics: "Work on Final Projects"
+    project: "final-project"
     
   - date: "2019-05-02"
-    topics: "Final Projects"
-    project: "project/final-project"
+    topics: "Work on Final Projects"
+    project: "final-project"
