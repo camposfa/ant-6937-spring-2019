@@ -189,8 +189,8 @@ Reading  Introduction [r4ds-27.1] R Markdown [r4ds-27.2] Code chunks [r4ds-27.4]
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/r-basics/</guid>
-      <description>Read  ModernDive Ch. 2: Getting Started with Data in R
- Style guide, Ch. 1 and Ch. 2. Consistent style is an important element of communication and collaboration. Skim over the sections 1. Files and 2. Syntax. Don&amp;rsquo;t worry if you don&amp;rsquo;t understand the code examples, just start getting a feel for the style recommendations (e.g., using meaningful names for R objects, indenting, use of spacing, parentheses, commas, etc.</description>
+      <description>Read  ModernDive Ch. 2: Getting Started with Data in R Healy Section 2.3: Things to know about R Healy Section 2.4: Be patient with R, and with yourself
+ Tidyverse style guide, Ch. 1 and Ch. 2. Consistent style is an important element of communication and collaboration. Skim over the sections 1. Files and 2. Syntax. Don&amp;rsquo;t worry if you don&amp;rsquo;t understand the code examples. Just try to get a feel for the style recommendations (e.</description>
     </item>
     
     <item>
@@ -253,11 +253,38 @@ Reading  Read the opening sections of chapter 13 on Strings and working with Reg
     
     <item>
       <title>Visualization Basics</title>
-      <link>/read/ggplot-1/</link>
+      <link>/read/viz-basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/read/ggplot-1/</guid>
-      <description> Watch  Tidyverse Chapter 1: Data Wrangling (David Robinson) Tidyverse Chapter 2: Data Visualization (David Robinson)  Read Plotting  Data Exploration [r4ds-2] First Steps [r4ds-3.2] Aesthetic mappings [r4ds-3.3] Common problems [r4ds-3.4] Facets r4ds-3.5 Geometric objects r4ds-3.6  Reference  Data Visualization Cheat Sheet cheatsheets-ggplot2-2.1  </description>
+      <guid>/read/viz-basics/</guid>
+      <description> Read  Healy, Ch. 1: Look At Data Wilke, Ch. 1: Introduction Wilke, Ch. 2: Visualizing data: Mapping data onto aesthetics  </description>
+    </item>
+    
+    <item>
+      <title>Visualizing Amounts and Parts of a Whole</title>
+      <link>/read/viz-amounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/viz-amounts/</guid>
+      <description> Read  Wilke, Ch. 6: Visualizing Amounts Wilke, Ch. 10: Visualizing Proportions Wilke, Ch. 11: Visualizing Nested Proportions  Robert Kosara (2010), &amp;ldquo;Understanding Pie Charts.&amp;rdquo;  </description>
+    </item>
+    
+    <item>
+      <title>Visualizing Distributions and Uncertainty</title>
+      <link>/read/viz-distributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/viz-distributions/</guid>
+      <description> Read  Wilke, Ch. 7: Visualizing distributions: Histograms and density plots Wilke, Ch. 9: Visualizing many distributions at once  Matthew Conlen, &amp;ldquo;Kernel Density Estimation&amp;rdquo; Nicole Torres (2010), &amp;ldquo;Why It’s So Hard for Us to Visualize Uncertainty&amp;rdquo; Robert Kosara (2017), &amp;ldquo;Communicating Uncertainty When Lives Are on the Line&amp;rdquo; Nathan Yau (FlowingData): &amp;ldquo;Showing uncertainty during the live election forecast&amp;rdquo;&amp;rdquo; (and a humorous critique of the NYT election uncertainty dial).  </description>
+    </item>
+    
+    <item>
+      <title>Visualizing Relationships and Change Over Time</title>
+      <link>/read/viz-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/viz-relationships/</guid>
+      <description> Read  Wilke, Ch. 12: Visualizing associations among two or more quantitative variables  Keiran Healy, &amp;ldquo;Two Y-Axes&amp;rdquo; Stephanie Evergreen, &amp;ldquo;Two Alternatives to Using a Second Y-Axis&amp;rdquo;  </description>
     </item>
     
     <item>

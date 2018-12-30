@@ -15,27 +15,27 @@ lessons:
   
   - date: "2019-01-31"
     topics: "Visualization Basics"
-    reading: "ggplot-1"
+    reading: "viz-basics"
     
   - date: "2019-02-07"
     topics: "Visualizing Amounts and Parts of a Whole"
     reading: "viz-amounts"
 
   - date: "2019-02-14"
-    topics: "Visualizing Distributions"
+    topics: "Visualizing Distributions and Uncertainty"
     reading: "viz-distributions"
     
   - date: "2019-02-21"
-    topics: "Visualizing Relationships"
+    topics: "Visualizing Relationships and Change Over Time"
     reading: "viz-relationships"
     
   - date: "2019-02-28"
-    topics: "Visualizing Change Over Time"
-    reading: "viz-change-over-time"
+    topics: "Principles of Figure Design 1: Coordinate Systems, Color Scales, and Facets"
+    reading: "figure-design-1"
   
   - date: "2019-03-07"
-    topics: "Principles of Figure Design"
-    reading: "figure-design"
+    topics: "Principles of Figure Design 2: Annotations, Themes, and Common Pitfalls"
+    reading: "figure-design-2"
 
   - date: "2019-03-14"
     topics: "<i class='fas fa-umbrella-beach'></i> <b>No class:</b> Spring Break <i class='fas fa-sun'></i>"

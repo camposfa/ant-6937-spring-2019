@@ -5,20 +5,15 @@ markup: "mmark"
 ---
 
 
-## Prerequisites
+## Preparation
 
-You should be generally numerically literate, and some prior programming
-experience will be helpful. Students new to programming might find
-[Hands on Programming with R](http://amzn.com/1449359019) to be helpful.
-Students with significant experience in programming and statistical analysis
-should find themselves well prepared but should find plenty still to learn
-in each lesson.
+There are no prerequisites for this class. In particular, prior programming experience is _not_ required. Some familiarity with quantitative methods and data analysis would be helpful. Students with significant experience in R should still find plenty to learn in each lesson.
 
 
 ## Instructional Methods
 
-As a flipped classroom, students are provided with either reading or video
-material that they are expected to view/read prior to class. Classes
+As a flipped classroom, students will be provided with either reading or video
+material that they are expected to read or view prior to class. Classes
 will involve brief refreshers on new concepts followed by working on
 exercises in class that cover that concept. While students are working on
 exercises the instructor will actively engage with students to help them
@@ -36,8 +31,7 @@ Data science is about analyzing real-world data sets, and so a series
 of projects involving real data are a required part of the course. You
 may work alone or with a single partner on all projects. 
 
-All assignments are due by immediately **before** the start of class on the day indicated. Assignments
-should be submitted as instructed.
+All assignments are due by immediately **before** the start of class on the day indicated. Assignments should be submitted as instructed.
 
 ## Grading
 
@@ -45,11 +39,13 @@ Grades will be assigned using the following weighted components:
 
 {.table .table-striped}
 
-component      | weight   
+Component      | Weight   
 ---------------|-----
-Final Project  | 30% 
-HW Exercises   | 60% 
-Participation  | 10% 
+First Small Project  | 10%
+Second Small Project | 10%
+Final Project  | 20% 
+Completion of In-class Exercises   | 50% 
+Attendance and Participation  | 10% 
 
 Details of grading criteria will not usually be announced in advance. It is expected
 that students in this course will have a wide range of prior experience
