@@ -4,140 +4,116 @@ date: "2017-04-13T00:00:00"
 markup: "mmark"
 ---
 
+## Course Description
 
-## Preparation
-
-There are no prerequisites for this class. In particular, prior programming experience is _not_ required. Some familiarity with quantitative methods and data analysis would be helpful. Students with significant experience in R should still find plenty to learn in each lesson.
-
-
-## Instructional Methods
-
-As a flipped classroom, students will be provided with either reading or video
-material that they are expected to read or view prior to class. Classes
-will involve brief refreshers on new concepts followed by working on
-exercises in class that cover that concept. While students are working on
-exercises the instructor will actively engage with students to help them
-understand material they find confusing, explain misunderstandings and
-help identify mistakes that are preventing students from completing the
-exercises, and discuss novel applications and alternative approaches to
-the data analysis challenges students are attempting to solve. For more
-challenging topics class may start with 20-30 minute demonstrations on
-the concepts followed by time to work on exercises.
+This course introduces theory and practical skills for managing and displaying quantitative information so that visual stories can be found and communicated effectively. We will cover principles of tidy data, strategies for data exploration, and principles of visual presentation. We will use the R computing environment, but no prior programming experience is required. The emphasis is on gaining practical skills that will empower students to answer questions with data.
 
 
-## Assignment policy
+## Course Goals
 
-Data science is about analyzing real-world data sets, and so a series
-of projects involving real data are a required part of the course. You
-may work alone or with a single partner on all projects. 
+This course will provide students an opportunity to master theoretical concepts in data visualization and to acquire valuable skills for exploring data and producing statistical graphics. Students will learn how to use R to produce visualizations and work with quantitative data, and to apply these skills to communicate scientific knowledge effectively.
 
-All assignments are due by immediately **before** the start of class on the day indicated. Assignments should be submitted as instructed.
+
+## Student Learning Objectives/Outcomes
+
+During this semester, students will have the opportunity to: 
+- Learn fundamental principles and best practices for the visual display of quantitative data.
+- Become familiar with data input, analysis, and export using the R statistical computing environment.
+- Achieve proficiency with key R packages for data visualization and exploration.
+- Develop skills in written and oral communication and graphical display of data through online activities, small group assignments, and individual projects.
+
+
+## Course Prerequisites
+
+There are no prerequisites for this class. In particular, prior programming experience is not required. Some familiarity with quantitative methods and data analysis would be helpful. Students with significant experience in R should still find new things to learn or important knowledge to review in each lesson.
+
+
+## Course Materials
+
+All reading materials will be online or posted to the course website. Assigned readings should be completed **before** the start of class on the day indicated.
+
+<br>
+<hr>
+
+## Course Requirements
+
+#### <u>In-Class Exercises</u>
+As a (mostly) flipped classroom, our in-class time will involve brief refreshers on new concepts introduced in the readings followed by working on exercises that relate to those concepts. These exercises will include DataCamp chapters or courses that can be accessed through the course's [DataCamp portal](../datacamp/), as well as custom activities that the instructor will describe in class. While students are working on these exercises, the instructor will actively engage with students to help them understand material that they find confusing, help identify problems that are preventing students from completing the exercises, and discuss novel applications and alternative approaches to the data visualization challenges that students are working to complete.
+
+**Assigned in-class exercises can be found under the "Assignments" column of the [course schedule](../schedule/).**
+
+<br>
+
+#### <u>Small Projects</u>
+
+During the term, there will be two small data visualization projects that each student must complete. The professor will provide a data set and detailed instructions for each project. In brief, the projects will be visualization challenges in which the student will read in the data set in R, produce one or more visualizations of the data, and provide a written narrative (~1000 words) of interesting aspects or insights gained in the process of analyzing the data. The submission should be an RMarkdown report in `HTML` format, and it must include the `R` code used, the embedded visualizations, and the written narrative. Please also submit the `.Rmd` file used to make the report.
+
+<br>
+
+#### <u>Final Project</u>
+
+For the final project, students are encouraged to use a data set of their own related to their thesis topic, if possible. If this is not possible, the professor can help to find a data set on a topic relevant to the student’s interests. The submitted final project should include:
+
+- The raw data set used in the analysis (contact me if there are any concerns about this).
+- An RMarkdown report in `HTML` format with all `R` code used, at least 3 plots, and a written narrative of approximately 1000 words. 
+- The `.Rmd` file used to make the report.
+- A digital poster (in `PDF` format—no actual printed posters please!), similar to what you might present at an academic conference, that presents your project visually.
+
+<br>
+
+#### <u>Attendance and Participation</u>
+
+Regular attendance will be essential to the successful completion of this course. Attendance is mandatory and will count toward your final grade. We are aiming for a supportive and cooperative learning environment. To accomplish this, I expect students to be actively engaged participants in all classroom activities. 
+
+<br>
+<hr>
 
 ## Grading
 
-Grades will be assigned using the following weighted components:
+<div class="alert alert-success" role="alert">
+  <div class="container-fluid">
+	  <div class="alert-icon">
+		  <i class="material-icons">assignment_turned_in</i>
+		</div>
+	  It is expected that students will have a wide range of prior experience and abilities. Grading will reflect learning and effort in the course rather than techical ability.
+  </div>
+</div>
+
+Details of grading scheme can be found in the course syllabus posted to Blackboard. Grades will be assigned using the following weighted components:
 
 {.table .table-striped}
 
 Component      | Weight   
 ---------------|-----
-First Small Project  | 10%
-Second Small Project | 10%
-Final Project  | 20% 
-Completion of In-class Exercises   | 50% 
-Attendance and Participation  | 10% 
-
-Details of grading criteria will not usually be announced in advance. It is expected
-that students in this course will have a wide range of prior experience
-and ability, and grading will aim to reflect learning and effort in the course.
-It is certainly possible for all students to receive high grades in this course
-if all of you show mastery of the material and completely attempt all assignments.
+Completion of In-class Exercises   | 40% 
+First Small Project  | 15%
+Second Small Project | 15%
+Final Project  | 25%
+Attendance and Participation | 5%
 
 
 ## Make-up policy
 
-Late assignments will be docked 20% and will not be accepted more than 48
-hours late except in cases of genuine emergencies that can be documented
-by the student or in cases where this has been discussed and approved in
-advance. This policy is based on the idea that in order to learn how to
-use computers well, students should be working with them at multiple times
-each week. Time has been allotted in class for working on assignments and
-students are expected to work on them outside of class. It is intended
-that you should have finished as much of the assignment as you can based
-on what we have covered in class by the following class period. Therefore,
-even if something unexpected happens at the last minute you should already
-be close to done with the assignment. This policy also allows rapid
-feedback to be provided to students by returning assignments quickly.
+Late assignments will be penalized 20% and will not be accepted more than 48 hours late except in cases of genuine emergencies that can be documented by the student or in cases where late submission has been discussed and approved in advance.
 
-## Learning Cooperatively
+<br>
+<hr>
 
-I encourage you to discuss all of the course activities with your friends
-and classmates as you are working on them. You will definitely learn more
-in this class if you work with others than if you do not. Ask questions,
-answer questions, and share ideas liberally. __Please identify your
-collaborators by name on all assignments__.
+## Cooperative Learning Environment
 
-Since you're working collaboratively, keep your project partner and the
-course instructor informed. If some medical or personal emergency takes
-you away from the course for an extended period, or if you decide to drop
-the course for any reason, please don't just disappear silently! You
-should inform your project partner, so that nobody is depending on you
-to do something you can't finish.
+I encourage you to discuss the course activities with your friends and classmates as you are working on them. You will learn more in this class if you work with others than if you do not. 
 
-## Academic Honesty
+However, **you should not directly copy code or allow other students to copy your code.** When cooperating on a problem, you can and should discuss it with others, but write your own solutions. Direct copying of code will be considered cheating, and will be subject to the Scholastic Dishonesty policies outlined in the Student Code of Conduct.
 
-Cooperation has a limit, however. You should not copy your code or
-answers directly with other students. Feel free to discuss the problems
-with others, but write your own solutions.  Penalties for cheating are
-severe -- they range from a zero grade for the assignment or exam up to
-dismissal from the University, for a second offense.
+Share ideas, ask questions, ask for help, but don't copy.
 
-Rather than copying someone else's work, ask for help. You are not alone
-in this course! If you invest the time to learn the material and complete
-the projects, you won't need to copy any answers.
-
-## Support
-
-You are not alone in this course; your student colleagues and the
-course instructor are here to support you as you learn the material. It's
-expected that some aspects of the course will take time to master, and the
-best way to master challenging material is to ask questions. Time will
-be set aside in each class to ask questions and discuss the material.
-You are encouraged to bring up related questions that arise in your
-research as well.
-
-__Office hours will be held by appointment.__
 
 ## Code of Conduct
 
-Our course is committed to providing a respectful and welcoming 
-environment to all participants.  Please review the 
-[Open Code of Conduct](http://todogroup.org/opencodeofconduct/)
-guidelines for respectful and harassment-free conduct. To report
-an incident or request more information, contact the UC Berkeley
-[Office for the Prevention of Harassment and Discrimination](https://ophd.berkeley.edu) by emailing `ask_ophd@berkeley.edu` or by phone (510) 643-7985.
+- _Classroom Etiquette:_ I expect and require behavior compatible with a high standard of scholarship. Refrain from distracting behavior, such as talking during lectures, and wait until class is dismissed before packing up your belongings. Please try not to arrive late or leave early. Most importantly, you must show respect for each other’s opinions and differing levels of prior knowledge and ability.
 
-
-
-## Quiz/Exam Policy
-
-There are no quizzes or exams in this course.
-
-
-## Course Technology
-
-Students are required to provide their own laptops and to install free
-and open source software on those laptops. 
-Support will be provided by the instructor in the
-installation of required software. If you don’t have access to a
-laptop please contact the instructor and they will do their best to
-provide you with one.
-
-
-## Materials & Resources
-
-All reading material required for this course will be made available
-through this website and links to related resources. 
+- _Scholastic Dishonesty:_ Students must adhere to the standards of academic honesty in the [Student Code of Conduct](http://catalog.utsa.edu/informationbulletin/appendices/studentcodeofconduct/). These policies will be strictly enforced, and violations may result in severe consequences, including failing the course and dismissal from the university. According to the Code of Conduct: 
+>"Scholastic Dishonesty or academic dishonesty includes, but is not limited to, cheating, plagiarism, collusion, falsifying academic records, and any act designed to give unfair advantage to the student (such as, but not limited to, submission of essentially the same written assignment for two (2) courses without the prior permission of the instructor, providing false or misleading information in an effort to receive a postponement or an extension on a test, quiz, or other assignment), or the attempt to commit such an act.”
 
 
 

@@ -40,7 +40,7 @@ lessons:
   - date: "2019-03-14"
     topics: "<i class='fas fa-umbrella-beach'></i> <b>No class:</b> Spring Break <i class='fas fa-sun'></i>"
 
-  - topics: "<i class='fas fa-tools fa-lg'></i><b> DATA MANIPULATTION</b>"
+  - topics: "<i class='fas fa-tools fa-lg'></i><b> DATA MANIPULATION</b>"
   
   - date: "2019-03-21"
     topics: "Data Import and Principles of Tidy Data"

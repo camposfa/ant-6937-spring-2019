@@ -49,10 +49,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   url = "/cheatsheets"
 [[menu.main]]
   weight = 4
-  identifier = "syllabus"
-  name = "Syllabus"
+  identifier = "schedule"
+  name = "Schedule"
   pre = "<i class='material-icons'>date_range</i>"
-  url = "/syllabus"
+  url = "/schedule"
 [[menu.main]]
   weight = 5
   identifier = "policies"
@@ -68,25 +68,25 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   pre = "<i class='fab fa-github fa-2x'></i>"
   url = "https://github.com/camposfa/ant-6937-spring-2019"
 [[menu.footer]]
-  weight = 4
-  name = "Textbook: R4DS"
-  pre = "<i class='material-icons'>book</i>"
-  url = "http://r4ds.had.co.nz/"
-[[menu.footer]]
-  weight = 5
+  weight = 3
   name = "Textbook: Wilke"
   pre = "<i class='material-icons'>book</i>"
   url = "https://serialmentor.com/dataviz/"
 [[menu.footer]]
-  weight = 6
+  weight = 4
   name = "Textbook: Healy"
   pre = "<i class='material-icons'>book</i>"
   url = "https://socviz.co/"
 [[menu.footer]]
-  weight = 7
+  weight = 5
   name = "Textbook: ModernDive"
   pre = "<i class='material-icons'>book</i>"
   url = "https://moderndive.com"
+[[menu.footer]]
+  weight = 6
+  name = "Textbook: R4DS"
+  pre = "<i class='material-icons'>book</i>"
+  url = "http://r4ds.had.co.nz/"
 
 
 [[menu.tools]]
