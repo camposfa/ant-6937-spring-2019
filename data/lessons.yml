@@ -66,8 +66,12 @@ lessons:
     
   - date: "2019-04-25"
     topics: "Work on Final Projects"
-    project: "final-project"
+    #project: "final-project"
     
   - date: "2019-05-02"
     topics: "Work on Final Projects"
+    #project: "final-project"
+    
+  - date: "2019-05-05"
+    topics: "Final Projects Due by End of Day (23:59:59)"
     project: "final-project"
