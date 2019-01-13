@@ -1,5 +1,5 @@
 baseurl = "/"
-languageCode = "en-uS"
+languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "ANT 6937, Spring 2019"
 theme = "material"
