@@ -9,7 +9,7 @@ markup: "mmark"
   <span></span>     | <span></span>
   -----------|-------------------------------------------------------------------
   Instructor | **Dr. Fernando Campos**  <a href="mailto:fernando.campos@utsa.edu" title="email"><i class="fas fa-envelope"></i></a>|  
-  Location   |     ????           |   
+  Location   |     **McKinney Humanities (MH) 3.02.52**           |   
   Times      | **Thu 9:00 am - 11:45 am**    |  
   Course     |   **ANT 6937.002**                 |  
   CRN        |   **34610**                        |  
