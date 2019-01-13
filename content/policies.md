@@ -52,12 +52,12 @@ During the term, there will be two small data visualization projects that each s
 
 #### <u>Final Project</u>
 
-For the final project, students are encouraged to use a data set of their own related to their thesis topic, if possible. If this is not possible, the professor can help to find a data set on a topic relevant to the student’s interests. The submitted final project should include:
+For the final project, students are encouraged to find and/or use a data set related to their thesis topic, if possible. If this is not possible, the professor can help to find a data set on a topic relevant to the student’s interests. Students must demonstrate and document both data tidying/preparation and data visualization. Further instructions will be provided. The submitted final project should include:
 
 - The raw data set used in the analysis (contact me if there are any concerns about this).
 - An RMarkdown report in `HTML` format with all `R` code used, at least 3 plots, and a written narrative of approximately 1000 words. 
 - The `.Rmd` file used to make the report.
-- A digital poster (in `PDF` format—no actual printed posters please!), similar to what you might present at an academic conference, that presents your project visually.
+- A digital poster (in a digital format such as `PDF`—no actual printed posters please!), similar to what you might present at an academic conference, that presents your project visually.
 
 <br>
 
