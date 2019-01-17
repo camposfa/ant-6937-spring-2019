@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ANT 6937: Data Visualization and Exploration on ANT 6937, Spring 2019</title>
+    <title>ANT 6973: Data Visualization and Exploration on ANT 6973, Spring 2019</title>
     <link>/</link>
-    <description>Recent content in ANT 6937: Data Visualization and Exploration on ANT 6937, Spring 2019</description>
+    <description>Recent content in ANT 6973: Data Visualization and Exploration on ANT 6973, Spring 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Dec 2018 00:00:00 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Sat, 22 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/datacamp/</guid>
-      <description>ANT 6937 DataCamp Dashboard 
+      <description>ANT 6973 DataCamp Dashboard 
 Throughout the course we will be using DataCamp, a platform that provides an interactive way to learn how to use R to create visualizations and carry out data analysis.
 Invite link: https://www.datacamp.com/groups/shared_links/860db90029f1891286789d3ece4f95d11df40484</description>
     </item>
@@ -47,7 +47,7 @@ Invite link: https://www.datacamp.com/groups/shared_links/860db90029f1891286789d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description> ANT 6937 </description>
+      <description> ANT 6973 </description>
     </item>
     
     <item>

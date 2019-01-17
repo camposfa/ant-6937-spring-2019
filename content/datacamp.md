@@ -7,7 +7,7 @@ date: "2018-12-22T00:00:00"
 <br>
 <br>
 
-### [ANT 6937 DataCamp Dashboard](https://www.datacamp.com/groups/ant-6973-data-visualization-and-exploration)
+### [ANT 6973 DataCamp Dashboard](https://www.datacamp.com/groups/ant-6973-data-visualization-and-exploration)
 
 <br>
 
