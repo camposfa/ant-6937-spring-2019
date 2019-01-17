@@ -130,6 +130,10 @@
   </url>
   
   <url>
+    <loc>/slide/setup/</loc>
+  </url>
+  
+  <url>
     <loc>/read/purrr-1/</loc>
   </url>
   
@@ -198,6 +202,11 @@
   
   <url>
     <loc>/rubrics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/slide/</loc>
     <priority>0</priority>
   </url>
   

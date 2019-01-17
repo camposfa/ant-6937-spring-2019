@@ -5,6 +5,7 @@ lessons:
     topics: "Introduction & Setup"
     reading: "setup"
     assignment: "setup"
+    slide: "setup"
     
   - date: "2019-01-24"
     topics: "R and RStudio Basics"
