@@ -8,9 +8,10 @@ lessons:
     slide: "setup"
     
   - date: "2019-01-24"
-    topics: "R and RStudio Basics"
+    topics: "R Basics and R Markdown"
     reading: "r-basics"
     assignment: "r-basics"
+    slide: "r-basics"
     
   - topics: "<i class='fas fa-chart-bar fa-lg'></i><b> DATA VISUALIZATION</b>"
   
