@@ -1,0 +1,120 @@
+---
+title: "In-class Activity: Visualization Basics"
+author: ""
+date: 2019-01-31
+output: html_document
+---
+
+```{r global_options, include = FALSE}
+library(knitr)
+opts_chunk$set(fig.align = "center", fig.height = 5, fig.width = 7, warning = FALSE)
+
+library(ggplot2)
+theme_set(theme_minimal(base_size = 12))
+```
+
+## Mammal sleep data
+
+We will be working with the `msleep` data set that is provided with ggplot2. The data set contains information about the sleep habits of 83 mammals. Enter `?msleep` on the R command line to learn more about the dataset.
+
+Let's say we want to show a few rows of the `msleep` data in the report. You can use the base R function `head()` to see the first 5 rows of data:
+
+```{r msleep-table-head}
+head(msleep)
+```
+
+But that's sort of ugly, and the output is cut off. Now try wrap this same command in the `knitr` function `kable()` to create a nice-looking table.
+
+```{r msleep-table-kable}
+# your R code goes here
+```
+
+
+#### **Problem 1:** 
+
+Create a scatterplot of total time awake vs. body weight, colored by "vore" (carnivore, herbivore, etc.).
+
+- What perceptual problems does this figure have, and what change could you make to show the data more effectively? 
+- What specifically causes these problems?
+
+```{r body-awake}
+# your R code goes here
+```
+
+*Problem 1 answer goes here.*
+
+<hr>
+
+#### **Problem 2:** 
+
+Create a scatterplot of body weight vs. brain weight, again colored by "vore."
+
+- When you plot body weight and/or brain weight, consider whether a linear scale or a logarithmic scale seems more appropriate, and explain your reasoning in 1-2 sentences.
+- In your opinion, what is the main story told by this visualization?  
+
+**HINT:** Use the functions `scale_x_log10()` and `scale_y_log10()` to change the scales.
+
+```{r msleep-body-brain}
+# your R code goes here
+```
+
+*Problem 2 answer goes here.*
+
+<hr>
+
+#### **Problem 3:** 
+
+Create the same plot of body weight vs. brain weight, colored by "vore," but this time label the points using the name of the animal.
+
+**HINT:** Use the function `geom_text()` and be sure to supply it with the proper aesthetic (type `?geom_text()` and see the bolded entries under "Aesthetics" in the help file). 
+
+- What perceptual problems does this figure have?
+
+```{r msleep-labeled, fig.height = 8, fig.width = 9}
+# your R code goes here
+```
+
+*Problem 3 answer goes here.* 
+
+<hr>
+
+#### **Problem 4:** 
+
+This was all an elaborate setup to introduce you to the `ggrepel` package, which is one example of the many helpful "extensions" that people have created for `ggplot2`. Install this package in the usual way: 
+
+```{r install-ggrepel, eval = FALSE}
+install.packages("ggrepel")
+```
+
+Now, modify the same plot of body weight vs. brain weight, colored by "vore" and labeled with the name of the animal. But this time, instead of using `geom_text()`, use the `geom_text_repel()` function provided by this packages.
+
+- What has changed in your figure?
+- How does the change improve the interpretability of the data?
+
+```{r msleep-labeled-repel, fig.height = 8, fig.width = 9}
+library(ggrepel)
+
+# your R code goes here
+```
+
+*Problem 4 answer goes here.* 
+
+<hr>
+
+#### **Problem 5:** 
+
+Add a linear regression line to the plot using the function `geom_smooth()`.
+
+**Hint:** A regresion line can be added with the function `geom_smooth(method = "lm")` ("lm" stands for "linear model").
+
+Play around with the relative position of the smoothed line by putting it above or below the other geoms. Try also to use `se = FALSE` to see the line without a confidence region around the smooth. What do you think is the best place to show this line and why? 
+
+- How does this simple addition changed the figure's interpretability? 
+- Can you find any interesting "stories" in the data that have been revealed?
+
+
+```{r msleep-labeled-repel-smooth, fig.height = 8, fig.width = 9}
+# your R code goes here
+```
+
+*Problem 5 answer goes here.* 

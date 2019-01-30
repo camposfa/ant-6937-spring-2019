@@ -30,7 +30,7 @@
     
   <link rel="alternate" href="../../index.xml" type="application/rss+xml" title="ANT 6973, Spring 2019">
   <link rel="feed" href="../../index.xml" type="application/rss+xml" title="ANT 6973, Spring 2019">
-  <link rel="canonical" href="../../assignments/setup/">
+  <link rel="canonical" href="../../livecode/msleep/">
 </head>
 
   
@@ -111,14 +111,72 @@
 		<div class="main main-raised">
 			<div class="container">
 		  	<div class="section text-left">
-		  	  <h2 class="title text-center">Introduction &amp; Setup</h2>
+		  	  <h2 class="title text-center">In-class Activity: Visualization Basics</h2>
 	            
 
-<h3 id="complete-in-class">Complete in Class</h3>
 
-<ul>
-<li>DataCamp Lesson: <strong><a href="https://www.datacamp.com/courses/working-with-the-rstudio-ide-part-1">RStudio IDE, Part I, Chapter 1: &ldquo;Orientation&rdquo;</a></strong> (by Garrett Grolemund).</li>
-</ul>
+<div id="mammal-sleep-data" class="section level2">
+<h2>Mammal sleep data</h2>
+<p>We will be working with the <code>msleep</code> data set that is provided with ggplot2. The data set contains information about the sleep habits of 83 mammals. Enter <code>?msleep</code> on the R command line to learn more about the dataset.</p>
+<p>Let’s say we want to show a few rows of the <code>msleep</code> data in the report. You can use the base R function <code>head()</code> to see the first 5 rows of data:</p>
+<pre class="r"><code>head(msleep)</code></pre>
+<pre><code>## # A tibble: 6 x 11
+##   name  genus vore  order conservation sleep_total sleep_rem sleep_cycle
+##   &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt;
+## 1 Chee… Acin… carni Carn… lc                  12.1      NA        NA    
+## 2 Owl … Aotus omni  Prim… &lt;NA&gt;                17         1.8      NA    
+## 3 Moun… Aplo… herbi Rode… nt                  14.4       2.4      NA    
+## 4 Grea… Blar… omni  Sori… lc                  14.9       2.3       0.133
+## 5 Cow   Bos   herbi Arti… domesticated         4         0.7       0.667
+## 6 Thre… Brad… herbi Pilo… &lt;NA&gt;                14.4       2.2       0.767
+## # … with 3 more variables: awake &lt;dbl&gt;, brainwt &lt;dbl&gt;, bodywt &lt;dbl&gt;</code></pre>
+<p>But that’s sort of ugly, and the output is cut off. Now try wrap this same command in the <code>knitr</code> function <code>kable()</code> to create a nice-looking table.</p>
+<pre class="r"><code># your R code goes here</code></pre>
+<div id="problem-1" class="section level4">
+<h4><strong>Problem 1:</strong></h4>
+<p>Create a scatterplot of total time awake vs. body weight, colored by “vore” (carnivore, herbivore, etc.). What perceptual problems does this figure have, and what change could you make to show the data more effectively? What specifically causes these problems?</p>
+<pre class="r"><code># your R code goes here</code></pre>
+<p><em>Problem 1 answer goes here.</em></p>
+<hr>
+</div>
+<div id="problem-2" class="section level4">
+<h4><strong>Problem 2:</strong></h4>
+<p>Create a scatterplot of body weight vs. brain weight, again colored by “vore.” When you plot body weight and/or brain weight, consider whether a linear scale or a logarithmic scale seems more appropriate, and explain your reasoning in 1-2 sentences.</p>
+<p><strong>HINT:</strong> Use the functions <code>scale_x_log10()</code> and <code>scale_y_log10()</code> to change the scales.</p>
+<pre class="r"><code># your R code goes here</code></pre>
+<p><em>Problem 2 answer goes here.</em></p>
+<hr>
+</div>
+<div id="problem-3" class="section level4">
+<h4><strong>Problem 3:</strong></h4>
+<p>Create the same plot of body weight vs. brain weight, colored by “vore,” but this time label the points using the name of the animal.</p>
+<p><strong>HINT:</strong> Use the function <code>geom_text()</code> and be sure to supply it with the proper aesthetic (type <code>?geom_text()</code> and see the bolded entries under “Aesthetics” in the help file).</p>
+<p>What perceptual problems does this figure have?</p>
+<pre class="r"><code># your R code goes here</code></pre>
+<p><em>Problem 3 answer goes here.</em></p>
+<hr>
+</div>
+<div id="problem-4" class="section level4">
+<h4><strong>Problem 4:</strong></h4>
+<p>This was all an elaborate setup to introduce you to the <code>ggrepel</code> package, which is one example of the many helpful “extensions” that people have created for <code>ggplot2</code>. Install this package in the usual way:</p>
+<pre class="r"><code>install.packages(&quot;ggrepel&quot;)</code></pre>
+<p>Now, modify the same plot of body weight vs. brain weight, colored by “vore” and labeled with the name of the animal. But this time, instead of using <code>geom_text()</code>, use the <code>geom_text_repel()</code> function provided by this packages. What has changed in your figure, and how does the change improve the interpretability of the data?</p>
+<pre class="r"><code>library(ggrepel)
+
+# your R code goes here</code></pre>
+<p><em>Problem 4 answer goes here.</em></p>
+<hr>
+</div>
+<div id="problem-5" class="section level4">
+<h4><strong>Problem 5:</strong></h4>
+<p>Add a linear regression line to the plot using the function <code>geom_smooth()</code>.</p>
+<p><strong>Hint:</strong> A regresion line can be added with the function <code>geom_smooth(method = &quot;lm&quot;)</code> (“lm” stands for “linear model”).</p>
+<p>Play around with the relative position of the smoothed line by putting it above or below the other geoms. Try also to use <code>se = FALSE</code> to see the line without a confidence region around the smooth. What do you think is the best place to show this line and why?</p>
+<p>How does this simple addition changed the figure’s interpretability? Can you find any interesting “stories” in the data that have been revealed?</p>
+<pre class="r"><code># your R code goes here</code></pre>
+<p><em>Problem 5 answer goes here.</em></p>
+</div>
+</div>
 
 	      </div>
       </div>

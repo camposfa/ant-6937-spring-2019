@@ -26,11 +26,11 @@
   </url>
   
   <url>
-    <loc>/overview-notes/</loc>
+    <loc>/assignments/viz-basics/</loc>
   </url>
   
   <url>
-    <loc>/livecode/2018-09-07-class-notes/</loc>
+    <loc>/overview-notes/</loc>
   </url>
   
   <url>
@@ -62,15 +62,11 @@
   </url>
   
   <url>
-    <loc>/assignments/climate/</loc>
-  </url>
-  
-  <url>
     <loc>/rubrics/climate/</loc>
   </url>
   
   <url>
-    <loc>/projects/final-project/</loc>
+    <loc>/projects/final-project-old/</loc>
   </url>
   
   <url>
@@ -122,10 +118,6 @@
   </url>
   
   <url>
-    <loc>/livecode/spatial-tidy/</loc>
-  </url>
-  
-  <url>
     <loc>/assignments/setup/</loc>
   </url>
   
@@ -147,11 +139,6 @@
   
   <url>
     <loc>/read/iteration/</loc>
-  </url>
-  
-  <url>
-    <loc>/livecode/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -177,6 +164,10 @@
   
   <url>
     <loc>/assignments/r-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignments/viz-basics/</loc>
   </url>
   
   <url>
@@ -216,6 +207,14 @@
   <url>
     <loc>/slide/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/small-project-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/small-project-1-temp/</loc>
   </url>
   
   <url>
@@ -265,10 +264,6 @@
   
   <url>
     <loc>/read/r-pkgs/</loc>
-  </url>
-  
-  <url>
-    <loc>/livecode/2018-10-08-functions/</loc>
   </url>
   
 </urlset>

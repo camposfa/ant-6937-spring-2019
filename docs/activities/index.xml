@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Livecodes on ANT 6973, Spring 2019</title>
-    <link>/livecode/</link>
-    <description>Recent content in Livecodes on ANT 6973, Spring 2019</description>
+    <title>Activities on ANT 6973, Spring 2019</title>
+    <link>/activities/</link>
+    <description>Recent content in Activities on ANT 6973, Spring 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/livecode/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/activities/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>In-class Activity: Visualization Basics</title>
-      <link>/livecode/viz-basics/msleep/</link>
+      <link>/activities/data-viz/msleep/</link>
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/livecode/viz-basics/msleep/</guid>
+      <guid>/activities/data-viz/msleep/</guid>
       <description>Mammal sleep data We will be working with the msleep data set that is provided with ggplot2. The data set contains information about the sleep habits of 83 mammals. Enter ?msleep on the R command line to learn more about the dataset.
 Let’s say we want to show a few rows of the msleep data in the report. You can use the base R function head() to see the first 5 rows of data:</description>
     </item>

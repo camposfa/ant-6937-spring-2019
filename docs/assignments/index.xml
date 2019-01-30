@@ -20,14 +20,12 @@
     </item>
     
     <item>
-      <title>Climate Exercise</title>
-      <link>/assignments/climate/</link>
+      <title></title>
+      <link>/assignments/viz-basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/assignments/climate/</guid>
-      <description>Unit I: Climate Change Module Warm-up exercise: Examining CO2 trends in R  Example from http://climate.nasa.gov/vital-signs/carbon-dioxide/ Raw data from ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_mlo.txt  Which months are the CO2 values at the maximum? Minimum? Why is this?
-What rolling average is used in computing the “trend” line? How does the trend depend on the rolling average?
-  Exercise I: Temperature Data Last year, 2015, has now been confirmed as the warmest year on record.</description>
+      <guid>/assignments/viz-basics/</guid>
+      <description>R and RStudio Basics       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
     <item>
@@ -48,6 +46,19 @@ What rolling average is used in computing the “trend” line? How does the tre
       <description>Complete in Class  DataCamp Lesson: Introduction to R, Chapter 1: &amp;ldquo;Intro to Basics&amp;rdquo; (by Jonathan Cornelissen). DataCamp Lesson: Reporting with R Markdown, Chapter 1: &amp;ldquo;Authoring R Markdown Reports&amp;rdquo; (by Garrett Grolemund).  
  (Optional) If this was too easy&amp;hellip; 
 Learn about (or brush up on) different kinds of objects in R by completing a few other chapters of Introduction to R by Jonathan Cornelissen. Note: these chapters cover base R, not the tidyverse R dialect, but the basic ideas will always be useful.</description>
+    </item>
+    
+    <item>
+      <title>R and RStudio Basics</title>
+      <link>/assignments/viz-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-basics/</guid>
+      <description>Complete in Class Mammalian sleep dataset: msleep
+Instructions: Download the R Markdown file below, insert your code where indicated, and send me your edited .Rmd file and knitted .html output as email attachments.
+  msleep.Rmd  msleep.html (for reference only)  
+Complete on your own time before next class (02/07) Complete the Chapters 1&amp;ndash;4 of Data Visualization with ggplot2 (Part 1) by Rick Scavetta.
+ Chapter 1: &amp;ldquo;Introduction&amp;rdquo; Chapter 2: &amp;ldquo;Data&amp;rdquo; Chapter 3: &amp;ldquo;Aesthetics&amp;rdquo; Chapter 4: &amp;ldquo;Geometries&amp;rdquo;</description>
     </item>
     
   </channel>
