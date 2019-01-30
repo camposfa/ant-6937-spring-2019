@@ -167,10 +167,6 @@
   </url>
   
   <url>
-    <loc>/assignments/viz-basics/</loc>
-  </url>
-  
-  <url>
     <loc>/read/r-basics/</loc>
   </url>
   
@@ -232,6 +228,10 @@
   
   <url>
     <loc>/tools/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignments/viz-basics/</loc>
   </url>
   
   <url>

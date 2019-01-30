@@ -1,5 +1,5 @@
 ---
-title: R and RStudio Basics
+title: Visualization Basics
 ---
 
 ### Complete in Class
