@@ -106,9 +106,9 @@ Add a linear regression line to the plot using the function `geom_smooth()`.
 
 **Hint:** A regression line can be added with the function `geom_smooth(method = "lm")` ("lm" stands for "linear model").
 
-Play around with the relative position of the smoothed line by putting it above or below the other geoms. Try also to use `se = FALSE` to see the line without a confidence region around the smooth. What do you think is the best place to show this line and why? 
+Play around with the relative position of the smoothed line by putting it above or below the other geoms. Try also to use `se = FALSE` to see the line without a confidence region around the smooth.
 
-- How has this simple addition changed the figure's interpretability? 
+- How has the addition of the line changed the figure's interpretability? 
 - Can you find any interesting "stories" in the data that have been revealed?
 
 
