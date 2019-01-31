@@ -11,7 +11,7 @@ lessons:
     topics: "R Basics and R Markdown"
     reading: "r-basics"
     assignment: "r-basics"
-    slide: "r-basics"
+    slide: "r-basics" 
     
   - topics: "<i class='fas fa-chart-bar fa-lg'></i><b> DATA VISUALIZATION</b>"
   
@@ -19,6 +19,7 @@ lessons:
     topics: "Visualization Basics"
     reading: "viz-basics"
     assignment: "viz-basics"
+    slide: "viz-basics"
     
   - date: "2019-02-07"
     topics: "Visualizing Amounts and Parts of a Whole"
