@@ -36,49 +36,49 @@ lessons:
     #reading: "viz-relationships"
     
   - date: "2019-02-28"
-    topics: "Principles of Figure Design 1: Coordinate Systems, Color Scales, and Facets"
-    #reading: "figure-design-1"
+    topics: "Catch-up / Work on Small Project 1"
     project: "small-project-1"
+    #reading: "small-project-1"
   
+  - topics: "<i class='fas fa-tools fa-lg'></i><b> DATA MANIPULATION</b>"
+
   - date: "2019-03-07"
-    topics: "Principles of Figure Design 2: Annotations, Themes, and Common Pitfalls"
-    #reading: "figure-design-2"
+    topics: "Data Import"
+    #reading: "data-import"
 
   - date: "2019-03-14"
     topics: "<i class='fas fa-umbrella-beach'></i> <b>No class:</b> Spring Break <i class='fas fa-sun'></i>"
-
-  - topics: "<i class='fas fa-tools fa-lg'></i><b> DATA MANIPULATION</b>"
   
   - date: "2019-03-21"
-    topics: "Data Import and Principles of Tidy Data"
-    #reading: "data-import"
+    topics: "Reshaping Data"
+    #reading: "tidyr"
     
   - date: "2019-03-28"
     topics: "<i class='fas fa-chalkboard-teacher'></i> <b>No class:</b> AAPA Conference <i class='fas fa-globe-americas'></i>"
  
-  
   - date: "2019-04-04"
-    topics: "Data Manipulation Basics"
+    topics: "Data Manip. 1: Filter, Select, and Arrange"
     #reading: "dplyr-1"
-  
+    #
   - date: "2019-04-11"
-    topics: "Grouping and Summarizing"
+    topics: "Data Manip. 2: Group, Summarize, and Mutate"
     #reading: "dplyr-2"
 
   - date: "2019-04-18"
-    topics: "Relational Data and Joins"
-    #reading: "dplyr-3"
-    
-  - topics: "<i class='fas fa-graduation-cap fa-lg'></i><b> FINAL PROJECTS<b>" 
+    topics: "Catch-up / Work on Small Project 2"
+    project: "small-project-2"
+    #reading: "small-project-1"
     
   - date: "2019-04-25"
-    topics: "Work on Final Projects"
-    #project: "final-project"
+    topics: "Data Manip. 3: Joins"
+    #project: "joins"
+  
+  - topics: "<i class='fas fa-graduation-cap fa-lg'></i><b> FINAL PROJECTS<b>" 
     
   - date: "2019-05-02"
-    topics: "Work on Final Projects"
+    topics: "Catch-up / Work on Final Projects"
     #project: "final-project"
     
   - date: "2019-05-05"
-    topics: "Final Projects Due by End of Day (23:59:59)"
-    #project: "final-project"
+    topics: "<b>No class:</b> Final Projects due by end of day (23:59:59)"
+    project: "final-project"
