@@ -106,6 +106,16 @@ Watch  Background abbreviated documentary, features many of the leading authors 
     </item>
     
     <item>
+      <title>Final Project</title>
+      <link>/projects/final-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/final-project/</guid>
+      <description>Instructions will appear here.
+Due date: May 05 by the end of the day (11:59:59 pm)</description>
+    </item>
+    
+    <item>
       <title>Final Project: Proposal</title>
       <link>/projects/final-project-temp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -417,6 +427,16 @@ Due date: Feb. 28 by the end of the day (11:59:59 pm)</description>
       
       <guid>/projects/small-project-1-temp/</guid>
       <description>Projects should essentially look like any of our modules, but with you identifying the dataset and questions rather than working from a template. You may choose to replicate a figure from an existing study, but are also encouraged to use this opportunity to perform some exploratory analysis on data you may be using in your DS421 team projects or your own dissertation research. Remember that as with modules, finals will be graded on workflow and presentation rather than particular conclusions.</description>
+    </item>
+    
+    <item>
+      <title>Small Project 2</title>
+      <link>/projects/small-project-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/small-project-2/</guid>
+      <description>Instructions will appear here.
+Due date: Apr. 18 by the end of the day (11:59:59 pm)</description>
     </item>
     
     <item>
