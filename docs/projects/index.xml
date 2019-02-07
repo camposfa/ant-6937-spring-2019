@@ -30,13 +30,16 @@ Due date: May 05 by the end of the day (11:59:59 pm)</description>
     </item>
     
     <item>
-      <title>Small Project 1</title>
+      <title>Small Project 1: Ape Teeth</title>
       <link>/projects/small-project-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/small-project-1/</guid>
-      <description>Instructions will appear soon&amp;hellip;
-Due date: Feb. 28 by the end of the day (11:59:59 pm)</description>
+      <description>Due date: Feb. 28 by the end of the day (11:59:59 pm)
+Introduction In this small project, you will think of conceptual questions to ask of a data set of ape teeth measurements and create plots to answer those questions.
+
+Description of the data  Download: -  ape_teeth.csv Data source: http://anthropologicaldata.free.fr/  Columns
+ Species: ape species the tooth belongs to, including:  Gorilla gorilla (Western gorilla) Pan troglodytes (Common chimpanzee) Pongo pygmaeus (Bornean orangutan)  Site: where specimen is located Specimen: specimen ID number Sex: Male or Female Source: where data come from Tooth: name of tooth (see below).</description>
     </item>
     
     <item>

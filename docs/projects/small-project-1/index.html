@@ -111,10 +111,99 @@
 		<div class="main main-raised">
 			<div class="container">
 		  	<div class="section text-left">
-		  	  <h2 class="title text-center">Small Project 1</h2>
-	            <p>Instructions will appear soon&hellip;</p>
+		  	  <h2 class="title text-center">Small Project 1: Ape Teeth</h2>
+	            
 
-<p><strong>Due date: Feb. 28 by the end of the day (11:59:59 pm)</strong></p>
+<p><br>
+<span style="color:red"><strong>Due date: Feb. 28 by the end of the day (11:59:59 pm)</strong></span></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>In this small project, you will think of conceptual questions to ask of a data set of ape teeth measurements and create plots to answer those questions.</p>
+
+<p><br></p>
+
+<h4 id="description-of-the-data">Description of the data</h4>
+
+<ul>
+<li>Download: - <a href="../../files/data/ape_teeth.csv"><i class="fas fa-file-csv"></i> ape_teeth.csv</a></li>
+<li>Data source: <a href="http://anthropologicaldata.free.fr/">http://anthropologicaldata.free.fr/</a></li>
+</ul>
+
+<p><u>Columns</u></p>
+
+<ul>
+<li>Species: ape species the tooth belongs to, including:
+
+<ul>
+<li><em>Gorilla gorilla</em> (Western gorilla)</li>
+<li><em>Pan troglodytes</em> (Common chimpanzee)</li>
+<li><em>Pongo pygmaeus</em> (Bornean orangutan)</li>
+</ul></li>
+<li>Site: where specimen is located</li>
+<li>Specimen: specimen ID number</li>
+<li>Sex: Male or Female</li>
+<li>Source: where data come from</li>
+<li>Tooth: name of tooth (see below). Possible values are I1, I2, C, P3, P4, M1, M2, and M3.</li>
+</ul>
+
+<p><img src="../../img/teeth_names.png" alt="" /></p>
+
+<ul>
+<li>ToothClass: Incisor, Canine, Premolar, or Molar</li>
+<li>Side: Left or Right</li>
+<li>Position: Superior (&ldquo;upper jaw&rdquo;) or Inferior (&ldquo;lower jaw&rdquo;)</li>
+<li>MD: Mesiodistal crown diameter in mm (how &ldquo;broad&rdquo; the tooth is).</li>
+<li>BL: Buccolinual crown diameter in mm (how &ldquo;thick&rdquo; the tooth is along the cheek&ndash;tongue axis).</li>
+</ul>
+
+<p>Note that there are no crown cervico-occlusal (&ldquo;height&rdquo;) measurements in the data <i class="far fa-frown"></i>.</p>
+
+<p><img src="../../img/teeth.jpg" alt="" /></p>
+
+<p><br>
+<hr>
+<br></p>
+
+<h2 id="instructions">Instructions</h2>
+
+<h4 id="content-instructions">Content Instructions</h4>
+
+<ul>
+<li>Think of three (and only three!) conceptual questions about the ape teeth data.</li>
+<li>Clearly state each question in your report. You might want to create different sections for your different questions.</li>
+<li>Using <code>ggplot2</code>, create <strong>at least one plot for each question</strong> that helps you to answer the question. For each plot, provide an explanation for why you chose the <em>type</em> of plot (e.g. scatterplot, boxplot, bar chart, histogram, etc.), and why you believe that it is best for showing the information related to your question.</li>
+<li><strong>You must use at least three different primary geoms.</strong></li>
+<li>Answer your questions by interpreting your plots and identifying any trends that they reveal (or do not reveal).</li>
+<li>In total, your text related to the conceptual questions, plot design decisions, and interpretation should be in the neighborhood of 1000 words.</li>
+</ul>
+
+<p><br></p>
+
+<h4 id="formatting-instructions">Formatting Instructions</h4>
+
+<ul>
+<li>The project report should essentially look similar to some of our class activities, but it should include more narrative/explanation along with the code and plots.</li>
+<li>Please create your report in an R markdown file called <code>small-project-1_XX.Rmd</code>, where you substitute your initials for &ldquo;XX&rdquo; (for example, my report would be called <code>small-project-1_FC.Rmd</code>.</li>
+<li>The R Markdown report should show all of the code that you used to work with the data and produce your plots.</li>
+<li><strong>Submit your report (in <code>.html</code> format) through Blackboard.</strong></li>
+</ul>
+
+<p><br></p>
+
+<h4 id="evaluation-criteria">Evaluation Criteria</h4>
+
+<p>Projects will be graded on workflow and presentation rather than particular conclusions. <em>So don&rsquo;t fret if you ask a question that fails to turn up interesting results!</em> The data are what they are.</p>
+
+<p>To receive full credit, I am looking for:</p>
+
+<ul>
+<li>Clear, coherent questions about the data. Questions end in a question mark!</li>
+<li>The questions should be conceptual, and should not prompt a specific analysis or plot.</li>
+<li>Each plot that you include in the report should help to answer one of your proposed questions, with a justification for <em>why</em> you chose to make the type of plot that you made. I am not looking for a dumping ground of many preliminary or poor-quality plots that you experimented with while trying to make a good one.</li>
+<li>Interpretation of your plots and responses to your proposed question.</li>
+<li><em>Statistical analysis is not necessary.</em> Just interpret your plots.</li>
+</ul>
 
 	      </div>
       </div>
