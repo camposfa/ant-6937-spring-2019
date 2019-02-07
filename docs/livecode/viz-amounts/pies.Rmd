@@ -1,0 +1,177 @@
+---
+title: "Pies"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+library("knitr")
+
+if (!("cowplot" %in% installed.packages()))
+  install.packages("cowplot")
+
+knitr::opts_chunk$set(fig.align = "center", 
+                      fig.height = 6, 
+                      fig.width = 8, 
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+## New things in this activity:
+
+- Basics of bar charts and pie charts
+- Using the `cowplot` package to arrange multiple `ggplot2` plots.
+
+Let's load some packages first, and also use specify that we want to use `theme_void()` for all plots. This is a built-in `ggplot2` theme that removes all tick marks, axes, and grid lines, leaving only the marks and legend.
+
+```{r}
+library("tidyverse")
+library("cowplot")
+
+theme_set(theme_void())
+```
+
+The code below creates some example data that looks like a 50-question multiple-choice exam answer key. Don't worry if you don't understand how it works, it's not important at this point.
+
+```{r}
+
+set.seed(7) # Set a random number "seed" so that we all get the same random numbers
+
+# The tibble function creates a table of data
+# We're defining two new variables: "question" and "answer"
+# Question is just a sequence of numbers from 1 to 50 (made using the ":" operator)
+# Answer is a random draw of the letters A, B, C, and D
+# We use the sample() function to draw randomly from a given set
+# LETTERS is a built-in array of capital letters. We want our set to be the first 4 letters
+# We draw 50 times with replacement (i.e., we allow the same letter to be drawn multiple times)
+exam <- tibble(question = 1:50, answer = sample(x = LETTERS[1:4], size = 50, replace = TRUE))
+```
+
+
+Let's look at the first 10 rows of data. Use the `head()` function to get 10 rows. By default, `head` only returns 6 rows, but we can specify that we want 10 by calling the function with the additional parameter `n = 10`.
+
+Wrap this in the `kable()` function that you saw last week to make a nicely formatted table. Use the help file (type `?kable` at the console) to make the columns of the table aligned left in your report.
+
+```{r}
+# your R code goes here
+```
+
+<br>
+<hr>
+<br>
+
+## Activity 1: Basic Pies
+
+Let's start with some pies. Pie charts in `ggplot2` are simply transformed bar charts. 
+
+Make a basic bar chart for the exam data using `geom_bar()`. In this example, map both `x` and `fill` to the answer column. Recall that by default, `geom_bar()` counts the number of x values to determine the length of the bar.
+ 
+```{r}
+# your R code goes here
+```
+
+Variations of pie charts can be produced by wrapping a bar chart around in a circle. This is accomplished by the `coord_polar()` transformation. See what happens when you just add `coord_polar()` to the previous plot.
+
+```{r}
+# your R code goes here
+```
+
+That's not exactly a typical pie chart. The reason is that, by default, the _angle_ (&theta;, or theta) of each slice is mapped to the x variable (answer), whereas the _radius_ or height of the slice is mapped to the count, as in the original plot. This kind of chart is called a "wind rose."
+
+How about if we specify that we want to set the angle variable &theta; to the bar height `coord_polar(theta = "y")`?
+
+```{r}
+# your R code goes here
+```
+
+Nope, we just wrapped each bar around in concentric circles (although angle _is_ now scaled to bar height, with the tallest bar being a complete circle).
+
+The solution has two parts:
+
+1) Don't map any variable to x. We want it all to be one "bar" that is wrapped around in a circle. We still need to put something for x in the `aes()` function, so just give it empty character for x (`aes(x = "", ...)`).
+2) Use a filled bar chart by using the `position = "fill"` position adjustment in `geom_bar()`.
+
+```{r}
+# your R code goes here
+```
+
+What do you think will happen if we use the same code but map &theta; to x with a filled bar chart? (Tip: include `width = 1` when you call geom_bar() to complete the circle).
+
+```{r}
+# your R code goes here
+```
+
+**And that's how you create a bar chart. Now please use them sparingly, if ever.**
+
+<br>
+<hr>
+<br>
+
+This is as good a time as any to introduce the [`cowplot`](https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html) package written by none other than one of your textbook authors, Claus O. Wilke from the Biology Dept. at UT Austin.
+
+Probably the most useful function provided by this packages is `plot_grid()`. Its purpose is to combine and arrange multiple `ggplot2` plots into one canvas. Using it is really easy: just give it the plots you want to arrange, separated by commas. Additional options---including row/column arrangments and labels---can be found in the help file (type `?plot_grid` at the console).
+
+For example:
+
+```{r, eval = FALSE}
+plot_grid(
+  
+  <Code to make first plot>,     <----- note the comma!!
+  <Code to make second plot>
+)
+
+```
+
+An alternative (and in my opinion, better) way of writing this is to save each plot as an object, and then call `plot_grid()` with the different objects separated by commas:
+
+```{r, eval = FALSE}
+  
+p1 <- <Code to make first plot>
+p2 <- <Code to make second plot>
+
+plot_grid(p1, p2)
+
+```
+
+## Activity 2: Combining Plots
+
+Using `plot_grid()`, plot each of the alternative pies we made above next to its non-transformed bar-chart cousin.
+
+For example, here's the first one: 
+
+#### Wind rose
+
+```{r}
+# First plot
+p1 <- ggplot(exam, aes(x = answer, fill = answer)) +
+  geom_bar()
+
+# Second plot
+p2 <- ggplot(exam, aes(x = answer, fill = answer)) +
+  geom_bar() +
+  coord_polar()
+
+plot_grid(p1, p2, nrow = 1, labels = c("Cartesian", "Polar"))
+```
+
+
+#### Swirling bull's-eye?
+
+```{r}
+# your R code goes here
+```
+
+
+#### Normal pie chart
+
+```{r}
+# your R code goes here
+```
+
+
+#### Concentric circles
+
+```{r}
+# your R code goes here
+```

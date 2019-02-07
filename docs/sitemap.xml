@@ -26,10 +26,6 @@
   </url>
   
   <url>
-    <loc>/assignments/viz-basics/</loc>
-  </url>
-  
-  <url>
     <loc>/overview-notes/</loc>
   </url>
   
@@ -240,6 +236,10 @@
   
   <url>
     <loc>/slide/viz-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignments/viz-amounts/</loc>
   </url>
   
   <url>

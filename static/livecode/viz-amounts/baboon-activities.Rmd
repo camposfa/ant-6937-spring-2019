@@ -1,0 +1,363 @@
+---
+title: "In-class Activity: Baboon Time Budgets"
+author: ""
+date: 2019-01-31
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+library("knitr")
+
+if (!("here" %in% installed.packages()))
+  install.packages("here")
+
+if (!("cowplot" %in% installed.packages()))
+  install.packages("cowplot")
+
+knitr::opts_chunk$set(fig.align = "center", 
+                      fig.height = 6, 
+                      fig.width = 8, 
+                      warning = FALSE,
+                      message = FALSE)
+
+opts_knit$set(root.dir = here::here())
+```
+
+## New things in this activity:
+
+- Learn how to make variations of bar plots and alternatives.
+- Data import from a `.csv` file using the `readr` package.
+- Scales with alternate color palettes.
+- Small multiples using `facet_` functions.
+- A few `fct_()` functions for categorical variables using the `forcats` package.
+- Alternate coordinate systems `coord_polar`, `coord_flip()`, and `coord_equal()`.
+- Dip our toes in the `dplyr` water: `filter()`, `add_count()`, and `distinct()`.
+
+Let's load some packages first, and also specify that we want to use `theme_minimal()` for all plots.
+
+```{r}
+library("tidyverse")
+library("cowplot")
+library("lubridate")
+
+theme_set(theme_minimal())
+```
+
+## Baboon Activities
+
+We're going to explore some real baboon activity data collected during the year 2000 from 64 adult female baboons in 5 social groups in the Amboseli basin, Kenya.
+
+We first use the `read_csv()` function from the [`readr`](https://readr.tidyverse.org/index.html) package. Before executing this code, you must download the data file and place it in a sub-folder called "data" located in your working directory. _It might need to be modified, depending on what your folder is called._
+
+```{r}
+# Read baboon activity data
+b_acts <- read_csv("04_viz-amounts/data/baboon_acts_2000.csv")
+```
+
+First, an annoyance to fix. The column "month_of" was interpreted as a character string. By default, it will be sorted alphabetically, but we want the months in their natural order. The following line reorders the months using a built-in set of month abbreviations called month.abb.
+
+```{r}
+b_acts$month_of <- factor(b_acts$month_of, levels = month.abb)
+```
+
+Let's look at the first 10 rows of data in a table using the `kable` function that you saw last week. We'll use the `head()` function to get 10 rows.
+
+```{r}
+kable(head(b_acts, n = 10))
+```
+
+Each row of data is an observation of a baboon activity behavior. In total, there are 40,292 observations of baboon activity behavior.
+
+<br><hr><br>
+
+### More Pies
+
+Let's build on our previous activity by making a pie chart out of this data (using the column `activity`). In addition, let's use a `scale_` function to map activity to a color scheme that is slightly less retina-scorching. In particular: `scale_fill_brewer(palette = "Set1")` uses a [colorbrewer](http://colorbrewer2.org) color palette called ["Set1"](http://colorbrewer2.org/#type=qualitative&scheme=Set1&n=9) for the fill aesthetic. These come with ggplot2. I also suggest using `theme_void()`, and setting `color = "white"` in `geom_bar()` so that the wedges are more clearly separable.
+
+```{r}
+ggplot(b_acts, aes(x = "", fill = activity)) +
+  geom_bar(position = "fill", color = "white") +
+  scale_fill_brewer(palette = "Set1") +
+  coord_polar(theta = "y") +
+  theme_void()
+```
+
+**This will be our starting point for pies.**
+
+
+<br><hr><br>
+
+#### Small Multiples
+
+One of the really nice things about `ggplot2` is that it's ridiculously easy to break apart your plot into small multiples. Let's re-plot the baboon activity data in pies, this time separately by month. All we need to do is tack on a `facet_wrap()` line and provide it with the variable by which we want to break the data apart (after a `~` symbol, which in many tidyverse functions stands for "as a function of").
+
+Specifically, facet the plot by the variable `month_of`.
+
+#### Small multiple pies
+
+```{r}
+# your R code goes here
+```
+
+#### Small multiple pies, collapsed
+
+These monstrocities still have way too many categories to be useful. The normal pie chart can be made (marginally) acceptable by displaying only two categories. To do this, we need to collapse all but one category into a new category called "Other". Let's compare the proportion of time spent **walking** to all other categories in each month.
+
+The collapsing can be done easily using the tidyverse package [`forcats`](https://forcats.tidyverse.org/). Yes, that is the actual name. It is used **for** **cat**egorical data. Get it?!!?! Ehh... anyway, all `forcats` functions start with the prefix `fct_`. Here, [`fct_other()`](https://forcats.tidyverse.org/reference/fct_other.html) is exactly what we need. See if you can figure out how to use it by reading the help file.
+
+_Hint: use it when the variable `activity` appears in the code: `fct_other(activity, <stuff here>)`._
+
+Note that the legend title becomes unruly by calling `fct_other()` function within the `aes()` function. You can fix this by entering a legend title manually in the `scale_` function: `scale_fill_brewer(palette = "Set1", name = "activity")`.
+
+```{r}
+# your R code goes here
+```
+
+
+#### Wind rose
+
+Instead of small multiples, the monthly data also look interesting as a wind rose, although it's not terribly useful. Give that a try. (Hint: instead of faceting by `month_of`, map month_of to `x`, and don't use a position adjustment in `geom_bar()`).
+
+```{r}
+# your R code goes here
+```
+
+
+<br><hr><br>
+
+
+### Bar Charts
+
+Leaving behind the world of pies, we now turn our attention to bar charts.
+
+#### Bad stacked bar
+
+This is our basic starting point for bars: **NOT IDEAL** 
+
+```{r}
+ggplot(b_acts, aes(x = month_of, fill = activity)) +
+  geom_bar(color = "white") +
+  scale_fill_brewer(palette = "Set1", direction = -1) + # Flip direction because I like having red on the bottom
+  labs(x = "Month", y = "Number of Samples")
+```
+
+#### Ordered stacked bar
+
+We can improve this slightly by reordering the activities in order of their frequencies. For this, we can use another `forcats` function [`fct_reorder()`](https://forcats.tidyverse.org/reference/fct_reorder.html), which as the name suggests reorders the category by some other variable. We first need to create the variable by which to order. Specifically, we want to count the number of rows with of each activity. `dplyr` has a convenient function called `add_count()` for this purpose.
+
+As for the reordering, to avoid having to do it in every single plot, we'll just do it once on the original data set.
+
+I'll provide this code:
+
+```{r}
+# How to use: add_count(<name of data>, <name of variable to count>)
+# The count is added in a new column called "n"
+# You'll learn more about the %>% symbol and the mutate() function later.
+b_acts <- add_count(b_acts, activity) %>% 
+  mutate(activity = fct_reorder(activity, n))
+
+# Now use our code from the starting point to make another bar chart, but this time use fct_reorder like you used fct_other above.
+# your R code goes here
+```
+
+Still, It's hard to make meaningful comparisons across months for two main reasons:
+
+1) The categories start and end at different baselines, which makes them hard to compare. For example, were there more total **Walk** (blue) samples in February or September?
+2) The different months have different total sample sizes, which makes the _relative frequencies_ hard to interpret. For example, is **Rest** (green) a larger part of the activity budget in January, June, September, or November? Who knows.
+
+Our main interest here is the activity budget, which is measured in _proportions_ rather than raw counts. What proportion of time did the baboons spend resting, feeding, socializing, etc.?
+
+Some of the "better alternative" plots that we will try to produce require that we summarize the data by actually calculating the proportions. As you will see, we can easily recreate the bar charts that we have already made from the summarized data using `geom_col()`, for which the default stat is `"identity"` rather than `"count"`.
+
+Here's a bit of `dplyr` magic that may look cryptic now but, by the end of this course, you will be able to understand it. This produces our summarized data set:
+
+```{r}
+b_acts_prop <- b_acts %>% 
+  group_by(month_of) %>% 
+  count(activity) %>% 
+  mutate(prop = nn / sum(nn)) %>% 
+  ungroup() %>%
+  complete(month_of, activity, fill = list(prop = 0, nn = 0))
+
+kable(head(b_acts_prop, n = 10))
+```
+
+
+#### Verify that we get the same stacked plots with `geom_bar()` and `geom_col()`
+
+```{r}
+
+# First plot using geom_bar() and original data
+p1 <-   ggplot(b_acts, aes(x = month_of, fill = activity)) +
+  geom_bar(color = "white") +
+  scale_fill_brewer(palette = "Set1", direction = -1) +
+  labs(x = "Month", y = "Number of Samples", title = "Using geom_bar()")
+
+# Second plot using geom_col() and summarized data (b_acts_prop)
+p2 <- ggplot(b_acts_prop, aes(x = month_of, y = nn, fill = activity)) +
+  geom_col(color = "white") +
+  scale_fill_brewer(palette = "Set1", direction = -1) +
+  labs(x = "Month", y = "Number of Samples", title = "Using geom_col()")
+
+plot_grid(p1, p2, nrow = 2)
+
+```
+
+
+<br><hr><br>
+
+## Recreating the bar plot alternatives
+
+In this activity we're going to recreate most of the "not ideal" and "better" examples in the article you all read (right?) called _["What to consider when creating stacked column charts"](https://academy.datawrapper.de/article/133-what-to-consider-when-creating-stacked-column-charts)._
+
+From now on, we'll map `y` to `prop` and use `geom_col()`.
+
+Here's our starting point:
+
+```{r}
+ggplot(b_acts_prop, aes(x = month_of, y = prop, fill = activity)) +
+  geom_col(color = "white") +
+  scale_fill_brewer(palette = "Set1", direction = -1) +
+  labs(x = "Month", y = "Proportion of Samples")
+```
+
+#### Small multiples
+
+_Hint: Facet by activity._
+
+```{r}
+# your R code goes here
+```
+
+
+#### Line chart
+
+_Hints: in the aesthetic mappings, use `group = activity` to make the lines properly. Lines and points use the color aesthetic rather than the fill aesthetic. Also, try adjusting the size of the lines and points._
+
+```{r}
+# your R code goes here
+```
+
+
+#### Stacked area
+
+_Hint: include an aesthetic mapping of `group = activity`, like with the lines._
+
+```{r}
+# your R code goes here
+```
+
+
+One of the suggestions in the article is simply to include less data in the plot. For example, if all we want to visualize is a trade-off between feeding and resting, then all the other categories are just a distraction from the main message. We can obtain subsets of data by using the `dplyr` function `filter()`.
+
+We will explore `filter()` in more detail later in the course, but here's the template:
+
+```filter(<data>, <conditions on which to filter>)```
+
+The conditions have to be logical---that is, they must evaluate to `TRUE` or `FALSE`. We test, one at a time, whether activity is equal to "Feed" **OR** whether activity is equal to "Rest". In R, the symbol `|` means "or". If _either_ condition is true (condition1 | condition2), then the row is retained in the filtered data subset.
+
+#### Plot Feed and Rest in line chart
+
+```{r}
+feed_rest <- filter(b_acts_prop, activity == "Feed" | activity == "Rest")
+
+# your R code goes here
+```
+
+
+#### One total filled bar chart for April only
+
+_Hint: filter again on `month_of`._
+
+```{r}
+# your R code goes here
+```
+
+
+#### Flip x and y axes for regular bar chart for April only
+
+_Hint: make the same plot as above, but add `coord_flip()`._
+
+```{r}
+# your R code goes here
+```
+
+
+#### Filled bars with feeding highlighted and others in varying shades of gray
+
+This one is tricky, so I'll provide the code. See if you can work out what fct_relevel() is doing by reading the help, and how I created the custom grays + blue color scheme using `scale_fill_manual()`.
+
+```{r}
+grays <- gray.colors(7, start = 0.9, end = 0.5)
+ggplot(b_acts_prop, aes(x = month_of, y = prop, fill = fct_relevel(activity, "Feed", after = Inf))) +
+  geom_col(color = "white") +
+  scale_fill_manual(values = c(grays, "lightblue"), name = "activity") +
+  labs(x = "Month", y = "Proportion of Samples")
+```
+
+
+#### Only distinguish Feed
+
+One way to accomplish this is by plotting two sets of bars:
+
+- First, the original set of all activities, but all have the same gray fill (and no color)
+- A filtered subset of Feed data only on top of the other bars with fill set to light blue
+
+```{r}
+# your R code goes here
+```
+
+
+<br><hr><br>
+
+## A few extras
+
+Finally, let's make two more plots shown in [Chapter 6 of Wilke's _Data Visualization_](https://serialmentor.com/dataviz/visualizing-amounts.html): dot plots and a heat map.
+
+
+#### Bad birth plot using bars
+
+Here, we want to plot the birth dates of all distinct baboon in the data set. We can get all distinct combinations of baboons and birth dates (the variables `sname` and `birth`, respectively) using the `dplyr` function `distinct()`. The template is similar to other `dplyr` functions that you have seen:
+
+```distinct(<data>, <variables separated by commas>)```
+
+```{r}
+distinct_baboons <- distinct(b_acts, sname, birth)
+
+ggplot(distinct_baboons, aes(x = sname, y = birth)) +
+  geom_col() +
+  labs(x = "Baboon ID", y = "Year of Birth")
+```
+
+Wow, what a mess. **This is a terrible use of a bar chart.** The common baseline, which starts at 1970, is completelty meaningless. The youngest animals have the longest bars! The x-axis labels are all squished together. Also, it would be easier to understand the plot if the baboons were in order of birth.
+
+Make this easier to read by using points rather than bars, flipping the x and y axis, and reordering the baboons by date of birth (hint: fct_reorder the category sname by the variable birth).
+
+#### Birth plot using dots
+
+```{r, fig.height=8}
+# your R code goes here
+```
+
+#### Heatmap
+
+Finally, let's make a heat map. As you saw in the chapter, heatmaps map amounts onto colors rather than x and y positions. They're made by mapping one category to x, another category to y, and a numeric amount to fill. Then, the tiles are made by using the `geom_tile()` function.
+
+Here's a really basic version:
+
+```{r}
+ggplot(b_acts_prop, aes(x = month_of, y = activity, fill = prop)) +
+geom_tile()
+```
+
+Some tips to improve appearance:
+
+- In `geom_tile()`, set `color = "white", size = 0.5` to give the tiles thin white borders.
+- You can force the tiles to be perfect squares by using `coord_equal()`
+- A nice continuous color gradient is `scale_fill_viridis_c()`. Try the various options (magma, inferno, plasma, viridis, and cividis)! For example, `scale_fill_viridis_c(option = "inferno")`.
+
+```{r}
+# your R code goes here
+```

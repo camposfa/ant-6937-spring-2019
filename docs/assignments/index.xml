@@ -20,15 +20,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>/assignments/viz-basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/viz-basics/</guid>
-      <description>R and RStudio Basics       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
-    </item>
-    
-    <item>
       <title>Introduction &amp; Setup</title>
       <link>/assignments/setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -59,6 +50,19 @@ Instructions: Download the R Markdown file below, insert your code where indicat
   msleep.Rmd  msleep.html (for reference only)  
 Complete on your own time between now and class on Feb. 07 Chapters 1&amp;ndash;4 of Data Visualization with ggplot2 (Part 1) by Rick Scavetta.
  Chapter 1: &amp;ldquo;Introduction&amp;rdquo; Chapter 2: &amp;ldquo;Data&amp;rdquo; Chapter 3: &amp;ldquo;Aesthetics&amp;rdquo; Chapter 4: &amp;ldquo;Geometries&amp;rdquo;  If you get stuck, feel free to email me or come by my office for some guidance.</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Amounts and Parts of a Whole</title>
+      <link>/assignments/viz-amounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-amounts/</guid>
+      <description>Complete in Class Pie Chart Practice
+Instructions: Download the R Markdown file below, insert your code where indicated, and send me your knitted .html output as an email attachment. No need to send the .Rmd file!
+  pies.Rmd  
+Baboon Activity Budgets (if we run out of time, complete between now and class on Feb. 14)
+Instructions: Download the R Markdown file below, insert your code where indicated, and send me your knitted .</description>
     </item>
     
   </channel>
