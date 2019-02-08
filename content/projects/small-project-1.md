@@ -42,6 +42,14 @@ Note that there are no crown cervico-occlusal ("height") measurements in the dat
 ![](/img/teeth.jpg)
 
 <br>
+
+The following short fact sheets about these great apes provide general information about diet, social organization, and mating system. These may or may not be helpful for formulating your questions.
+
+- [_Gorilla_ fact sheet](http://pin.primate.wisc.edu/factsheets/entry/gorilla)
+- [_Pan_ fact sheet](http://pin.primate.wisc.edu/factsheets/entry/chimpanzee)
+- [_Pongo_ fact sheet](http://pin.primate.wisc.edu/factsheets/entry/orangutan)
+
+<br>
 <hr>
 <br>
 

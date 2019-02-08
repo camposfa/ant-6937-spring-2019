@@ -43,15 +43,6 @@ Description of the data  Download: -  ape_teeth.csv Data source: http://anthropo
     </item>
     
     <item>
-      <title>Small Project 1: Redesigning bad figures</title>
-      <link>/projects/small-project-1-temp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/small-project-1-temp/</guid>
-      <description>Projects should essentially look like any of our modules, but with you identifying the dataset and questions rather than working from a template. You may choose to replicate a figure from an existing study, but are also encouraged to use this opportunity to perform some exploratory analysis on data you may be using in your DS421 team projects or your own dissertation research. Remember that as with modules, finals will be graded on workflow and presentation rather than particular conclusions.</description>
-    </item>
-    
-    <item>
       <title>Small Project 2</title>
       <link>/projects/small-project-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
