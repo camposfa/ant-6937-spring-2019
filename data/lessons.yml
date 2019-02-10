@@ -29,7 +29,7 @@ lessons:
     
   - date: "2019-02-14"
     topics: "Visualizing Distributions and Uncertainty"
-    #reading: "viz-distributions"
+    reading: "viz-distributions"
     
   - date: "2019-02-21"
     topics: "Visualizing Relationships and Change Over Time"
