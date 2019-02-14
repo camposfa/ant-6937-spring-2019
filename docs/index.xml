@@ -273,7 +273,7 @@ Reading Geospatial Textbook: Geocomputation with R (Lovelace, Nowosad, Muenchow)
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/setup/</guid>
-      <description>01_Introduction-and-Setup.pdf (  7.5 MB)</description>
+      <description> 01_Introduction-and-Setup.pdf (  7.5 MB)  </description>
     </item>
     
     <item>
@@ -328,7 +328,7 @@ Reading  R4DS 21.5: The map functions R4DS 21.6: Dealing with failure R4DS 21.7:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/r-basics/</guid>
-      <description>02_R-basics.pdf (  6.0 MB)</description>
+      <description> 02_R-basics.pdf (  6.0 MB)  </description>
     </item>
     
     <item>
@@ -489,7 +489,7 @@ Complete on your own time between now and class on Feb. 07 Chapters 1&amp;ndash;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/viz-basics/</guid>
-      <description>03_viz-basics.pdf (  4.6 MB)</description>
+      <description> 03_viz-basics.pdf (  4.6 MB)  </description>
     </item>
     
     <item>
@@ -520,7 +520,7 @@ Instructions: Download the R Markdown file below, insert your code where indicat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/viz-amounts/</guid>
-      <description>04_viz-amounts.pdf (  1.6 MB)</description>
+      <description> 04_viz-amounts.pdf (  1.6 MB)  </description>
     </item>
     
     <item>
@@ -542,6 +542,15 @@ Instructions: Download the R Object file to use during the in-class activities. 
       
       <guid>/read/viz-distributions/</guid>
       <description>Read  Wilke, Ch. 7: Visualizing distributions: Histograms and density plots Wilke, Ch. 9: Visualizing many distributions at once Wilke, Ch. 16: Visualizing uncertainty  Popovich and Pearce, &amp;ldquo;It’s Not Your Imagination. Summers Are Getting Hotter.&amp;rdquo; Matthew Conlen, &amp;ldquo;Kernel Density Estimation&amp;rdquo; Nicole Torres (2010), &amp;ldquo;Why It’s So Hard for Us to Visualize Uncertainty&amp;rdquo; Robert Kosara (2017), &amp;ldquo;Communicating Uncertainty When Lives Are on the Line&amp;rdquo; Nathan Yau (FlowingData): &amp;ldquo;Showing uncertainty during the live election forecast&amp;rdquo;&amp;rdquo; (and a humorous critique of the NYT election uncertainty dial).</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Distributions and Uncertainty</title>
+      <link>/slide/viz-distributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/viz-distributions/</guid>
+      <description> 05_viz-distributions.pdf (  3.3 MB)  </description>
     </item>
     
     <item>

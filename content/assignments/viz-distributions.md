@@ -8,7 +8,7 @@ title: Visualizing Distributions and Uncertainty
 
 Instructions: Download the R Object file to use during the in-class activities. _Nothing to turn in!_
 
-- [<i class="fas fa-database fa-sm"></i> late-quaternary-mammals.RDS](/livecode/viz-amounts/late-quaternary-mammals.RDS)
+- [<i class="fas fa-database fa-sm"></i> late-quaternary-mammals.RDS](/livecode/viz-distributions/late-quaternary-mammals.RDS)
 
 
 <br>
