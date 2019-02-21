@@ -38,6 +38,7 @@ install.pacakges("rgeos")
 
 Instructions: Reminder of how we arrived at our dumbbell plot in class.
 
+- [<i class="fas fa-file-csv"></i> school-earnings.csv](/livecode/viz-relationships/school-earnings.csv) (data file)
 - [<i class="fas fa-code fa-sm"></i> pay-gaps.html](/livecode/viz-relationships/pay-gaps.html)
 
 
