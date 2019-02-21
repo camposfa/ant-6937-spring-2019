@@ -180,7 +180,7 @@ Note that putting `\n` in the label creates a line break. Using this template, h
 
 - 1931 -- 1936: "Peak popularity in early 30s" (I used color "seagreen3")
 - 1982 -- 1986: "Lionel Richie's 3 best-selling albums" (I used color "coral")
-- 1931 -- 1936: "Lionel Messi's career with FC Barcelona" (I used color "skyblue2")
+- 2004 -- 2017: "Lionel Messi's career with FC Barcelona" (I used color "skyblue2")
 
 ```{r, fig.width = 10}
 # your R code goes here
