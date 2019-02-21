@@ -1,0 +1,187 @@
+---
+title: "In-class Activity: Changing Baby Names Over Time"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE,
+                      fig.align = "center", 
+                      fig.height = 6, 
+                      fig.width = 8)
+```
+
+## Baby Names
+
+```{r}
+library("tidyverse")
+library("babynames")
+library("cowplot")
+library("knitr")
+
+theme_set(theme_minimal())
+```
+
+The `babynames` package provides a data set (also called `babynames`) that we're going to work with here. Let's view the first 10 rows as usual:
+
+```{r}
+kable(head(babynames, n = 10))
+```
+
+Now, we're going to attempt to filter the babynames dataset to get only names of people in this class. **Note the use of the `%in%` operator,** which is a convenient way of checking if some value belongs to a given set. It's a much cleaner alternative to something like `name == "Fernando" | name == "Eugene" | name == "Robert" ...`.
+
+```{r}
+this_class <- filter(babynames, name %in% c("Fernando", "Eugene", "Robert", "Adam", "Karrie",
+                                            "Janelle", "Lori", "Lou", "Averee", "Anna",
+                                            "Shelby", "Alessandra"))
+```
+
+## Line Graphs
+
+#### **Problem 1:** 
+
+Below, we attempt to make a simple line graph with year on the x axis and prop on the y axis, with a different color for each name. Doesn't quite work out though...
+
+```{r}
+ggplot(this_class, aes(x = year, y = prop, color = name)) +
+  geom_line()
+```
+
+Why is this happening? _(Hint: inspect the data for "Robert")_
+
+`<your answer goes here>`
+
+
+#### **Problem 2:** 
+
+Below, we modify the filter statement above to obtain a data set of names for this class that does not have this problem. Use the exact same ggplot code as above to verify that the problem is gone. Recall that the "or" operator in R is `|` and the "and" operator in R is `&`.
+
+```{r}
+this_class <- filter(this_class,
+                     (name %in% c("Fernando", "Eugene", "Robert", "Adam") & sex == "M") |
+                       (name %in% c("Karrie", "Janelle", "Lori", "Lou", "Averee", "Anna", "Shelby", "Alessandra") & sex == "F"))
+# your R code goes here
+```
+
+Answer the following question:
+
+- Describe (in words) the logic of this modified `filter()` statement (i.e., what rows are retained in the data set?). How did this solve our problem?
+
+#### **Problem 3:** 
+
+If we're interested trends for each name over time rather than relative popularity, the previous graph is of limited use. In particular, the popularity of "Robert" during the mid-20th century makes it hard to see what's going on for many other names.
+
+Show the same data as small multiples with the following characteristics:
+
+- Each name has in its own separate small panel.
+- Each small panel has its own y-axis that is scaled to the popularity of the name.
+- Remove color so that all lines are simply black.
+
+```{r}
+# your R code goes here
+```
+
+#### **Problem 4:** 
+
+We can emphasize the temporal trends more effectively by filling the area under each curve. We can do this using `geom_ribbon()`. Try to add a ribbon to the previous plot with 50% transparency (`alpha = 0.5`). To get the aesthetic mappings right, it may be helpful to read to the [help page]](https://ggplot2.tidyverse.org/reference/geom_ribbon.html) for `geom_ribbon()`.
+
+```{r}
+# your R code goes here
+```
+
+#### **Problem 5:** 
+
+Although color would be redundant here, let's bring it back in to get some practice with ribbons. Try mapping fill and/or color to `name` to get the plot to look exactly like the one I made in the solutions file. _Note in particular that there is no solid outline on the sides and bottom!_ You can try doing this globally or in the `geom` functions, but not all configurations will produce the desired effect. The color/fill legend is pointless, so let's turn it off by adding this line to the plot: `guides(color = "none", fill = "none")`.
+
+```{r}
+# your R code goes here
+```
+
+#### **Problem 6:** 
+
+If you're only plotting a few lines, then plotting them together rather than in small multiples allows you to compare the trends more easily. Directly labeling the line with the name is cognitively easier to process than matching up a color with a legend. Let's try making a line graph for the names "Fernando" and "Eugene" only, with names labeling the lines. Here's the code to do that:
+
+```{r}
+fer_eug <- filter(this_class, name %in% c("Fernando", "Eugene"))
+
+ggplot() +
+  geom_line(data = fer_eug, aes(x = year, y = prop, color = name)) +
+  geom_text(data = filter(fer_eug, year == max(year)),
+            aes(x = year + 1, y = prop, color = name, label = name), hjust = 0) +
+  guides(color = "none") +
+  expand_limits(x = 2025)
+```
+
+Answer the following questions about this code and its plot:
+
+- Describe the data set used for the `geom_text()` function. How does the modified filter statement accomplish what we need? How many rows does this subset have?
+- Why did I make the aesthetic mapping `x = year + 1` for the `geom_text()` function?
+- Try deleting `hjust = 0`, or replacing it with `hjust = 1`. What does this option do?
+- View the help file for `expand_limits()` and describe how it improves our plot.
+
+`<your answers go here>`
+
+#### **Problem 7:** 
+
+There's another similar geom called `geom_path()`. To see how it differs from `geom_line()`, we're going to sort our data set by the column `prop`. This is our first introduction to a lovely `dplyr` function called `arrange()`. Like other tidyverse functions that you have encountered, the function takes a data set as its first argument. After that, we simply give it the column that we want to sort by.
+
+```{r, fig.height = 8}
+fer_eug_ordered <- arrange(fer_eug, prop)
+
+# Lines
+p1 <- ggplot() +
+  geom_line(data = fer_eug_ordered, aes(x = year, y = prop, color = name)) +
+  geom_text(data = filter(fer_eug_ordered, year == max(year)),
+            aes(x = year + 1, y = prop, color = name, label = name), hjust = 0) +
+  guides(color = "none") +
+  expand_limits(x = 2025) +
+  labs(x = "Year", y = "Proportion")
+
+# Paths
+p2 <- ggplot() +
+  geom_path(data = fer_eug_ordered, aes(x = year, y = prop, color = name)) +
+  geom_text(data = filter(fer_eug_ordered, year == max(year)),
+            aes(x = year + 1, y = prop, color = name, label = name), hjust = 0) +
+  guides(color = "none") +
+  expand_limits(x = 2025) +
+  labs(x = "Year", y = "Proportion")
+
+# Plot together to see the difference
+plot_grid(p1, p2, labels = c("geom_line()", "geom_path()"), ncol = 1)
+```
+
+Answer the following questions about this code and its plot:
+
+- Describe the difference between `geom_line()` and `geom_path()`.
+- If you were plotting an animal's GPS location data on x and y axes to show its movement, which geom would produce the right plot?
+
+`<your answers go here>`
+
+#### **Problem 8:** 
+
+Finally, let's practice adding annotations to plots. An annotation is graphical element, like a point, line, box, or text label, that is added to a plot but is not part of your data set. Annotations can be added using the `annotate()` function.
+
+We're going to plot the popularity over time of the name Lionel for boys, and annotate some of interesting features with both rectangles and text. Here's a template:
+
+```{r, fig.width = 10}
+ggplot(filter(babynames, name == "Lionel" & sex == "M"),
+       aes(x = year, y = prop)) +
+  geom_ribbon(aes(ymax = prop, ymin = 0), alpha = 0.5) +
+  geom_line() +
+  annotate(geom = "rect", xmin = 1950, xmax = 1960, ymin = 0, ymax = Inf, fill = "red", alpha = 0.25) +
+  annotate(geom = "text", x = 1949, y = 3e-4, label = "Some text\nMore text", color = "red", hjust = 1) +
+  labs(title = "Popularity of the name Lionel")
+```
+
+Note that putting `\n` in the label creates a line break. Using this template, highlight and label the following notable periods in the history of the name Lionel.
+
+- 1931 -- 1936: "Peak popularity in early 30s" (I used color "seagreen3")
+- 1982 -- 1986: "Lionel Richie's 3 best-selling albums" (I used color "coral")
+- 1931 -- 1936: "Lionel Messi's career with FC Barcelona" (I used color "skyblue2")
+
+```{r, fig.width = 10}
+# your R code goes here
+```

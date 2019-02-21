@@ -555,6 +555,20 @@ Instructions: Download the R Object file to use during the in-class activities. 
     
     <item>
       <title>Visualizing Relationships and Change Over Time</title>
+      <link>/assignments/viz-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-relationships/</guid>
+      <description>Complete in Class and Submit Baby Names
+Instructions: Download the R Markdown file below, insert your code where indicated, and email me your knitted .html output. No need to send the .Rmd file!
+To complete this assignment, you must install the babynames package:
+install.packages(&amp;quot;babynames&amp;quot;)    babynames.Rmd  babynames-solutions.html (for reference&amp;mdash;finished plots with no code!)  
+For Reference Only (nothing to turn in!) Katrina
+Instructions: Just look at it!</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Relationships and Change Over Time</title>
       <link>/read/viz-relationships/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

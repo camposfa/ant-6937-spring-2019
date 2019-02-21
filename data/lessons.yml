@@ -36,6 +36,7 @@ lessons:
   - date: "2019-02-21"
     topics: "Visualizing Relationships and Change Over Time"
     reading: "viz-relationships"
+    assignment: "viz-relationships"
     
   - date: "2019-02-28"
     topics: "Catch-up / Work on Small Project 1"
