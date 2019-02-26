@@ -40,9 +40,9 @@ lessons:
     slide: "viz-relationships"
     
   - date: "2019-02-28"
-    topics: "Catch-up / Work on Small Project 1"
+    topics: "Color, Output, and Geospatial Data"
     project: "small-project-1"
-    #reading: "small-project-1"
+    reading: "color-files-geospatial"
   
   - topics: "<i class='fas fa-tools fa-lg'></i><b> DATA MANIPULATION</b>"
 

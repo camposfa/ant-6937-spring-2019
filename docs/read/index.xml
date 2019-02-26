@@ -21,6 +21,18 @@ Watch  Background abbreviated documentary, features many of the leading authors 
     </item>
     
     <item>
+      <title>Color, Saving Output, and Geospatial Data</title>
+      <link>/read/color-files-geospatial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/color-files-geospatial/</guid>
+      <description>Read Making Effective Use of Color  Wilke, Ch. 4: Color scales Wilke, Ch. 19: Common pitfalls of color use  
+Saving Plots as Image Files  R4DS, Ch. 28.7: Saving your plots  
+Visualizing Geospatial Data  Why all world maps are wrong XKCD Map Projections XKCD Heatmap Wilke, Ch. 15: Visualizing geospatial data  
+ Color Resources  Color Brewer: Color advice and a great set of color palettes; r package: RColorBrewer.</description>
+    </item>
+    
+    <item>
       <title>Functions</title>
       <link>/read/functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
