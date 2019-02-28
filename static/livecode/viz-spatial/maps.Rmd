@@ -67,7 +67,7 @@ ggplot(africa) +
 
 #### Theme tweaks but still problems
 
-Let's improve the plot similar to how we styled the Katrina plot: blue for the surrounding water, a border around the map area, and the nice sequential "PurpOr" color scheme from the `rcartocolor` package. Let's also add country labels, which are stored in a column called "name", using the `geom_sf_text()` function.
+Let's improve the plot similar to how we styled the Katrina plot: blue for the surrounding water, a border around the map area, and the nice sequential "Mint" color scheme from the `rcartocolor` package. Let's also add country labels, which are stored in a column called "name", using the `geom_sf_text()` function.
 
 **Fill the countries usind the "Mint" color scheme from rcartocolor.**
 
