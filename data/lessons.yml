@@ -41,8 +41,9 @@ lessons:
     
   - date: "2019-02-28"
     topics: "Color, Output, and Geospatial Data"
-    project: "small-project-1"
+    assignment: "viz-spatial"
     reading: "color-files-geospatial"
+    project: "small-project-1"
   
   - topics: "<i class='fas fa-tools fa-lg'></i><b> DATA MANIPULATION</b>"
 

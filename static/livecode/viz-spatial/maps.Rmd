@@ -1,0 +1,336 @@
+---
+title: "In-class Activity: Maps"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE,
+                      fig.align = "center", 
+                      fig.height = 8, 
+                      fig.width = 8)
+```
+
+<span style="color:red">**Instructions: Remove the `eval = FALSE` from each chunk and add your code where you see `<---stuff--->`.**</span>
+
+## Setup
+
+```{r}
+library("tidyverse")
+library("sf")
+library("rnaturalearth")
+library("rcartocolor")
+library("colorspace")
+library("scales")
+
+theme_set(theme_minimal())
+```
+
+Last week I introduced the `rnaturalearth` package and how it provides nice country, state, and shoreline data for making maps.
+
+Just like before, let's obtain country data using the `ne_countries()` function.
+
+```{r}
+world <- ne_countries(scale = "medium", returnclass = "sf")
+```
+
+
+## Choropleth Map: Population of African Countries
+
+A choropleth is a very common style of showing spatial data in which we color individual regions in a map according to some data that we want to display. The country data from `rnaturalearth` contains lots of attribute columns, including estimates of population (the "pop_est" column). In this exercise, we want to make a choropleth map of the African continent showing the population of each country.
+
+We can use filter on the world data, as we would on any other data frame. There's a convenient column named "continent" that we can use for the filter.
+
+```{r}
+# Choropleth map
+africa <- filter(world, continent == "Africa")
+```
+
+#### A Bad First Attempt
+
+Creating the map is easy: just add in a call to `geom_sf()` with the africa data and map fill to pop_est. But there's one annoying issue that we have to fix. The pop_est column is stored as text rather than as a number. If we don't convert it to a number, ggplot2 uses a qualitative color scheme, which is the default when fill or color is mapped to some text variable.
+
+```{r, eval = FALSE}
+ggplot(africa) +
+  geom_sf(<---choropleth mappings--->)
+```
+
+Obviously not what we want. When we map fill to pop_est, we can just do the conversion on the fly by wrapping pop_est in the function `as.numeric()`.
+
+```{r, eval = FALSE}
+ggplot(africa) +
+  geom_sf(<---choropleth mappings--->)
+```
+
+#### Theme tweaks but still problems
+
+Let's improve the plot similar to how we styled the Katrina plot: blue for the surrounding water, a border around the map area, and the nice sequential "PurpOr" color scheme from the `rcartocolor` package. Let's also add country labels, which are stored in a column called "name", using the `geom_sf_text()` function.
+
+**Fill the countries usind the "Mint" color scheme from rcartocolor.**
+
+```{r, eval = FALSE}
+ggplot(africa) +
+  geom_sf(<---choropleth mappings--->) +
+  geom_sf_text(<---label mappings--->, size = 2.5) +
+ <---scale function--->(<---palette--->, 
+                        labels = comma, 
+                        name = "Population") +
+  labs(x = "Longitude", y = "Latitude") +
+  theme(panel.background = element_rect(fill = "aliceblue"),
+        panel.border = element_rect(fill = NA))
+```
+
+That certainly looks better, but there are still perceptual problems with this map. In particular, Africa is not surrounded by endless ocean, and we have a lot of space on the bottom because of South Africa's [Prince Edward Islands](https://en.wikipedia.org/wiki/Prince_Edward_Islands), which are about half way between South Africa and Antarctica.
+
+#### A Finished Choropleth Map
+
+We can fix these issues by:
+
+- Drawing the rest of the world underneath Africa
+- Providing x and y limits to `coord_sf()` (otherwise, by adding all other countries, we'll see the entire world)
+
+We can get the bounding box around our africa object like this:
+
+```{r}
+st_bbox(africa)
+```
+
+Then, we can plug in those numbers for xlim and ylim in `coord_sf()`, shaving a bit off the ymin value so that the map doesn't extend so far south. Finally, since this map is built from multiple data sets, we should now provide the data at the `geom_` level.
+
+**Fill the countries using an appropriate color scheme of your choice.**
+
+Note that I have added lots of different theme and guide customizations just to give you an idea of what's possible.
+
+```{r, eval = FALSE}
+ggplot() +
+  geom_sf(data = world, fill = "gray80") +
+  geom_sf(data = africa, <---choropleth mappings--->) +
+  geom_sf_text(data = africa, <---label mappings--->, size = 2.5) +
+ <---scale function--->(<---palette--->,
+                        labels = comma, 
+                        name = "Population (millions)",
+                        limits = c(0, 200),
+                        breaks = seq(0, 200, by = 50)) +
+  coord_sf(xlim = c(-25.34155, 51.39023),
+           ylim = c(-37, 37.34038)) +
+  labs(x = "Longitude", y = "Latitude") +
+  theme(panel.background = element_rect(fill = "aliceblue"),
+        panel.border = element_rect(fill = NA),
+        legend.title.align = 0.5,
+        legend.background = element_rect(fill = "white"),
+        legend.text.align = 0.5,
+        legend.justification = c(0, 0), 
+        legend.position = c(0.02, 0.1)) +
+  guides(fill = guide_colorbar(direction = "horizontal",
+                               label.position = "bottom",
+                               title.position = "top",
+                               ticks = FALSE,
+                               barwidth = grid::unit(2.5, "in"),
+                               barheight = grid::unit(0.15, "in")))
+```
+
+<br>
+<hr>
+<br>
+
+## Faceted Species Distributions
+
+You might already have geospatial data that you want to map in the form of a shapefile (a file with the `.shp` extension). For example, the IUCN [provides spatial data](https://www.iucnredlist.org/resources/spatial-data-download) on the known geographic ranges of many plant and animal species. These are huge downloads, but I have prepared a small subset for you called `iucn_primates.shp` that contains only non-human primates. We can use the `read_sf()` function from the `sf` package to read in the data:
+
+```{r}
+primates <- read_sf("07_viz-spatial/data/iucn_primates.shp")
+primates
+```
+
+This is stored as a tidy data frame, similar to other data that we have worked with, with a column for each attribute. But there is an additional column called "geometry" that contains the relevant spatial information, along with some spatial metadata such as the geographic projection and the bounding box.
+
+Since it functions as a normal data frame, we can perform operations on it, such as filtering for particular species (the column in the data that contains species is called "BINOMIAL"). Let's get the range for the white-faced capuchin, _Cebus capucinus,_ and also get the bounding box for this species.
+
+```{r}
+# C. capucinus range
+c_capucinus <- filter(primates, BINOMIAL == "Cebus capucinus")
+
+# C. capucinus bbox
+cc_bbox <- st_bbox(c_capucinus)
+```
+
+To avoid having to manually write in the xlim and ylim values, as we did for the Africa example above, we can refer to the `cc_bbox` object that we created, referencing the specific values that we want to extract.
+
+```{r}
+# Range map for C. capucinus
+ggplot() +
+  geom_sf(data = world, fill = "gray95") +
+  geom_sf(data = c_capucinus, fill = "skyblue", alpha = 0.5) +
+  geom_sf_label(data = world, aes(label = name)) +
+  coord_sf(xlim = cc_bbox[c("xmin", "xmax")],
+           ylim = cc_bbox[c("ymin", "ymax")]) +
+  labs(x = "Longitude", y = "Latitude") +
+  guides(fill = "none") +
+  theme(panel.background = element_rect(fill = "aliceblue"),
+        panel.border = element_rect(fill = NA))
+```
+
+And of course, we can do all the other nifty things that we do with normal ggplot2 plots, such as faceting. Let's filter so that we pull out all gibbon species belonging to the genus _Hylobates_, and then create a faceted map of their geographic ranges. The [`str_detect()`](https://stringr.tidyverse.org/reference/str_detect.html) function is part of the [`stringr`](https://stringr.tidyverse.org/) package, which is a part of the tidyverse. It tests for the presence of a sequence of characters, and returns TRUE if the sequence is detected. In this case, the filter statement below tests each value in BINOMIAL, and retain rows where the string "Hylobates" was detected.
+
+```{r}
+# Gibbon ranges
+gibbons <- filter(primates, str_detect(BINOMIAL, "Hylobates"))
+
+# Gibbon bbox
+gib_bbox <- st_bbox(gibbons)
+```
+
+Note how in this plot I have italicized the facet titles using `strip.text = element_text(face = "italic")` in the [`theme()`](https://ggplot2.tidyverse.org/reference/theme.html) function. 
+
+**Use a different fill for each gibbon species, and use the "Dark2" palette from RColorBrewer.**
+
+```{r, fig.width=10, fig.height=7.5, eval = FALSE}
+# Faceted distribution maps
+ggplot() +
+  geom_sf(data = world, fill = "gray95") +
+  geom_sf(<---gibbon mappings--->,
+          alpha = 0.75, color = NA) +
+  coord_sf(xlim = <---set xlims--->,
+           ylim = <---set ylims--->) +
+  labs(x = "Longitude", y = "Latitude") +
+  <---scale function---> +
+  guides(fill = "none") +
+  <---facet function--->
+  theme(panel.background = element_rect(fill = "aliceblue"),
+        panel.border = element_rect(fill = NA),
+        strip.text = element_text(face = "italic"))
+```
+
+<br>
+<hr>
+<br>
+
+## Points and small-scale features
+
+Another spatial task that you might be faced with is plotting location points relative to other spatial features in some small geographic area. For example, you might plot the locations of artifacts collected at an archaeological site in relation to roads, buildings, etc. In this example, we're going to plot GPS location points of five groups of capuchin monkeys over a 1-year time period along with streams, trails, and roads to gain insights about their movement patterns.
+
+The data include:
+
+- CSV file of ranging data that include X-Y coordinates of each GPS point
+- A shapefile of researcher trails in the study area
+- A shapefile of streams in the region
+- A shapefile of a paved road leading into the study area
+
+#### Read in data
+
+```{r}
+cap_df <- read_csv("07_viz-spatial/data/cap-ranging.csv")
+
+trails <- read_sf("07_viz-spatial/data/trails.shp")
+streams <- read_sf("07_viz-spatial/data/streams.shp")
+roads <- read_sf("07_viz-spatial/data/roads.shp")
+
+knitr::kable(head(cap_df))
+```
+
+First, to get oriented, let's create a basic plot that includes all four data sets. Our X-Y coordinates are called "lon" and "lat", respectively. For now, we're not going to set limits using `coord_sf()`.
+
+#### Basic plot
+
+```{r}
+ggplot() +
+  geom_point(data = cap_df, aes(x = lon, y = lat), 
+             size = 0.5, alpha = 0.5) +
+  geom_sf(data = roads, size = 1) +
+  geom_sf(data = streams, color = "skyblue") +
+  geom_sf(data = trails, color = "gray30", size = 0.1) +
+  theme(panel.border = element_rect(fill = NA),
+        panel.background = element_rect(fill = "gray98"))
+```
+
+All the points are concentrated in one relatively small region of the study area. We can't use the bounding box of any of our spatial features (trails, roads, streams), as we have previously done, because they all extend well beyond the points. To zoom in on the points, we could manually set the limits, or we could convert the points into a spatial feature and then extract the bounding box of the points. Let's do the latter.
+
+In the capuchin ranging data, our x-y values are longitude and latitude coordinates on the [WGS84 global reference system](http://spatialreference.org/ref/epsg/wgs-84/).  The standard way of referring to this very common coordinate system is by its EPSG identifier, which is 4326. Explaining all this in detail is beyond the scope of this class, but it was summarized in one of your [assigned readings](https://serialmentor.com/dataviz/geospatial-data.html#projections).
+
+To make a spatial feature out of the columns in our data, we use the function `st_as_sf()` (from the `sf` package), and we must supply it with the x and y columns, as well as the coordinate reference system. After that, we can get the bounding box.
+
+```{r}
+cap_sf <- st_as_sf(cap_df, coords = c("lon", "lat"), crs = 4326)
+cap_bbox <- st_bbox(cap_sf)
+```
+
+#### Zoomed-in plot, also faceted by group
+
+Note that I am still plotting the points using the non-spatial `cap_df` data with `geom_point()` rather than the spatial `cap_sf` data with `geom_sf()`. I do this because `geom_sf()` is excruciatingly slow compared to `geom_point()` when you have a large number of points. If we replace the `geom_point()` stuff in the code below with `geom_sf(data = cap_sf, aes(color = focal_group), size = 0.5)`, we would get exactly the same plot but you'd be significantly more annoyed right now because of the delay.
+
+Also, since the coordinates aren't really useful here, given how small the area is, let's just turn off the graticule and lat/long values along the axes by providing using `datum = NA` inside of `coord_sf()`.
+
+**Facet the map by group and show each group in a different color using the rcartocolor palette "Bold".**
+
+```{r, eval = FALSE}
+ggplot() +
+  geom_point(data = cap_df, <---point mappings--->,
+             size = 0.5) +
+  geom_sf(data = roads, size = 1) +
+  geom_sf(data = streams, color = "skyblue") +
+  geom_sf(data = trails, color = "gray30", size = 0.1) +
+  <---scale function---> +
+  coord_sf(xlim = <---set xlims--->,
+           ylim = <---set ylims--->,
+           datum = NA) +
+  guides(color = "none") +
+  labs(x = NULL, y = NULL) +
+  theme(panel.border = element_rect(fill = NA),
+        panel.background = element_rect(fill = "gray98")) +
+  <---facet function--->
+```
+
+#### Kernel density estimates
+
+We can also make use of R's various analysis capabilities to make interesting plots from dense point data, such as 2D kernel density estimates of home ranges for each group.
+
+**Fill the density polygons using the colorspace palette "Heat".**
+
+```{r, eval = FALSE}
+ggplot() +
+  stat_density_2d(data = cap_df, 
+                  aes(x = lon, y = lat, fill = stat(level)), 
+                  geom = "polygon") +
+  geom_sf(data = roads, size = 1) +
+  geom_sf(data = streams, color = "skyblue") +
+  geom_sf(data = trails, color = "gray30", size = 0.1) +
+  <---scale function---> +
+  coord_sf(xlim = <---set xlims--->,
+           ylim = <---set ylims--->,
+           datum = NA) +
+  guides(fill = "none") +
+  labs(x = NULL, y = NULL) +
+  theme(panel.border = element_rect(fill = NA),
+        panel.background = element_rect(fill = "gray98")) +
+  <---facet function--->
+```
+
+#### Hex bins
+
+Or a hexagonal heatmap of 2D bin counts.
+
+**Fill the hexagons using the colorspace palette "Purple-Orange".**
+
+```{r, eval = FALSE}
+ggplot() +
+  stat_bin_hex(data = cap_df, 
+               aes(x = lon, y = lat, fill = stat(density)), 
+               color = "black", size = 0.1) +
+  geom_sf(data = roads, size = 1) +
+  geom_sf(data = streams, color = "skyblue") +
+  geom_sf(data = trails, color = "gray30", size = 0.1) +
+  <---scale function---> +
+  coord_sf(xlim = <---set xlims--->,
+           ylim = <---set ylims--->,
+           datum = NA) +
+  guides(fill = "none") +
+  labs(x = NULL, y = NULL) +
+  theme(panel.border = element_rect(fill = NA),
+        panel.background = element_rect(fill = "gray98")) +
+  <---facet function--->
+```
+
+
