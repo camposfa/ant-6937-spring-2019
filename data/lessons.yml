@@ -44,6 +44,7 @@ lessons:
     assignment: "viz-spatial"
     reading: "color-files-geospatial"
     project: "small-project-1"
+    slide: "viz-color-files-spatial"
   
   - topics: "<i class='fas fa-tools fa-lg'></i><b> DATA MANIPULATION</b>"
 
