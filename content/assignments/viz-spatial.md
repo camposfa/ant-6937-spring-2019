@@ -25,12 +25,12 @@ Instructions:
 To complete this assignment, you must have the following packages. You have probably installed some of these already.
 
 ```
-install.pacakges("tidyverse")
-install.pacakges("sf")
-install.pacakges("rgeos")
-install.pacakges("rnaturalearth")
-install.pacakges("RColorBrewer")
-install.pacakges("rcartocolor")
-install.pacakges("colorspace")
-install.pacakges("scales")
+install.packages("tidyverse")
+install.packages("sf")
+install.packages("rgeos")
+install.packages("rnaturalearth")
+install.packages("RColorBrewer")
+install.packages("rcartocolor")
+install.packages("colorspace")
+install.packages("scales")
 ```

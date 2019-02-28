@@ -28,8 +28,8 @@ Instructions: Just look at it! And use it as a guide if you want to create maps.
 To make the maps, you will need to install the packages `rnaturalearth` and `rgeos`.
 
 ```
-install.pacakges("rnaturalearth")
-install.pacakges("rgeos")
+install.packages("rnaturalearth")
+install.packages("rgeos")
 ```
 
 - [<i class="fas fa-code fa-sm"></i> katrina.html](/livecode/viz-relationships/katrina.html)
