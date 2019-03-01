@@ -10,9 +10,10 @@ Instructions:
 
 1. Follow the instructions at the bottom of [this page](../../read/color-files-geospatial) under the heading "Extra Software and R Packages for Geospatial Data". These steps should install the necessary software for spatial data visualization.
 
-2. Download the R Markdown file below, insert your code where indicated, and email me your knitted `.html` output.
+2. Download the `.zip` file of data below, and unzip the file into this week's folder.
 
-3. Download the `.zip` file of data below, and unzip the file into this week's folder.
+3. Download the R Markdown file below, insert your code where indicated, and email me your knitted `.html` output.
+
 
 <br><br>
 
