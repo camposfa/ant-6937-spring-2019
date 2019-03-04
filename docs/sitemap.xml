@@ -45,20 +45,12 @@
   </url>
   
   <url>
-    <loc>/read/fish/</loc>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/cheatsheets/</loc>
-  </url>
-  
-  <url>
-    <loc>/rubrics/climate/</loc>
   </url>
   
   <url>
@@ -78,54 +70,6 @@
   </url>
   
   <url>
-    <loc>/rubrics/fish/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/functions/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/geospatial-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/geospatial-2/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/geospatial-orig/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/geospatial-io/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/geospatial-raster/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/geospatial-raster-vector/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/geospatial-vector/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/getting-help/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/git-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/dplyr-2/</loc>
-  </url>
-  
-  <url>
     <loc>/assignments/setup/</loc>
   </url>
   
@@ -135,18 +79,6 @@
   
   <url>
     <loc>/slide/setup/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/purrr-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/purrr-2/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/iteration/</loc>
   </url>
   
   <url>
@@ -167,10 +99,6 @@
   </url>
   
   <url>
-    <loc>/read/rmarkdown-basics/</loc>
-  </url>
-  
-  <url>
     <loc>/assignments/r-basics/</loc>
   </url>
   
@@ -179,32 +107,7 @@
   </url>
   
   <url>
-    <loc>/read/httr-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/httr-2/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/docker/</loc>
-  </url>
-  
-  <url>
     <loc>/read/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/read/dplyr-3/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/dplyr-4/</loc>
-  </url>
-  
-  <url>
-    <loc>/rubrics/</loc>
     <priority>0</priority>
   </url>
   
@@ -219,14 +122,6 @@
   
   <url>
     <loc>/projects/small-project-2/</loc>
-  </url>
-  
-  <url>
-    <loc>/rubrics/spatial/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/strings-regex/</loc>
   </url>
   
   <url>
@@ -288,22 +183,6 @@
   
   <url>
     <loc>/read/viz-relationships/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/websites/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/workflows/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/dplyr-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/read/r-pkgs/</loc>
   </url>
   
 </urlset>
