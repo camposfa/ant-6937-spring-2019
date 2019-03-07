@@ -291,11 +291,6 @@ names(clean_stickers)</code></pre>
 <li>Rename the long column</li>
 <li>Clean the names using janitor</li>
 </ol>
-<pre class="r"><code>stickers &lt;- stickers_path %&gt;% 
-  read_excel() %&gt;% 
-  slice(-1) %&gt;% 
-  rename(stickersgiven = 'absolute number of stickers given (Conditions 1 or 3: Out of 12; Conditions 2 or 4: Out of 30)') %&gt;% 
-  clean_names()</code></pre>
 <p><br></p>
 <hr />
 <p><br></p>
@@ -314,10 +309,6 @@ names(clean_stickers)</code></pre>
 <p><strong>Set your path here:</strong></p>
 <pre class="r"><code>artifacts_path &lt;- here(&quot;08_data-import/spreadsheets&quot;, &quot;messy_ktc_data.xlsx&quot;)</code></pre>
 <p>The first two are easy. Simply provide the cell range to the <code>read_excel()</code> function.</p>
-<pre class="r"><code>ceramic &lt;- artifacts_path %&gt;% 
-  read_excel(range = &quot;A2:I103&quot;)
-
-glimpse(ceramic)</code></pre>
 <pre><code>## Observations: 101
 ## Variables: 9
 ## $ Trench   &lt;chr&gt; &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, …
@@ -329,10 +320,6 @@ glimpse(ceramic)</code></pre>
 ## $ Mass     &lt;dbl&gt; 27.2, 5.8, 0.5, 0.0, 0.6, 0.6, 0.5, 1.0, 0.4, 5.1, 72.1…
 ## $ Recorder &lt;chr&gt; &quot;CC&quot;, &quot;CC&quot;, &quot;CC&quot;, &quot;CC&quot;, &quot;CC&quot;, &quot;CC&quot;, &quot;CC&quot;, &quot;CC&quot;, &quot;CC&quot;, &quot;…
 ## $ Date     &lt;dttm&gt; 2008-07-28, 2008-07-28, 2008-07-28, 2008-07-28, 2008-0…</code></pre>
-<pre class="r"><code>lithic &lt;- artifacts_path %&gt;% 
-  read_excel(range = &quot;L2:U14&quot;)
-
-glimpse(lithic)</code></pre>
 <pre><code>## Observations: 12
 ## Variables: 10
 ## $ Trench      &lt;chr&gt; &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A…
@@ -346,10 +333,6 @@ glimpse(lithic)</code></pre>
 ## $ Date        &lt;dttm&gt; 2008-07-28, 2008-07-28, 2008-07-28, 2008-07-28, 200…
 ## $ Context     &lt;chr&gt; &quot;1&quot;, &quot;1&quot;, &quot;4&quot;, &quot;5&quot;, &quot;5&quot;, &quot;6&quot;, &quot;7U&quot;, &quot;8&quot;, &quot;8&quot;, &quot;7L&quot;, …</code></pre>
 <p>Mollusc is a bit more complicated, but still not so bad. If we simply provide the cell range:</p>
-<pre class="r"><code>mollusc &lt;- artifacts_path %&gt;% 
-  read_excel(range = &quot;L18:X217&quot;)
-
-glimpse(mollusc)</code></pre>
 <pre><code>## Observations: 199
 ## Variables: 13
 ## $ Trench               &lt;chr&gt; &quot;A&quot;, &quot;Trench&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;…
@@ -372,14 +355,6 @@ glimpse(mollusc)</code></pre>
 <li>Filter out all the rows that correspond with column headings.</li>
 <li>Clean the names using <code>clean_names()</code> from the <code>janitor</code> package.</li>
 </ol>
-<pre class="r"><code>mollusc &lt;- artifacts_path %&gt;% 
-  read_excel(range = &quot;L18:X217&quot;,
-             col_types = c(&quot;text&quot;, &quot;text&quot;, &quot;text&quot;, &quot;text&quot;, &quot;text&quot;, &quot;numeric&quot;, &quot;numeric&quot;, 
-                           &quot;numeric&quot;, &quot;text&quot;, &quot;text&quot;, &quot;text&quot;, &quot;text&quot;, &quot;date&quot;)) %&gt;% 
-  filter(Trench != &quot;Trench&quot;) %&gt;% 
-  clean_names()
-
-glimpse(mollusc)</code></pre>
 <pre><code>## Observations: 183
 ## Variables: 13
 ## $ trench             &lt;chr&gt; &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, …
