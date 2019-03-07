@@ -117,11 +117,12 @@ install.packages(&amp;quot;here&amp;quot;) install.packages(&amp;quot;janitor&am
 Complete in Class 
 Paths Instructions:
  Download the zip file paths-project.zip and unzip the contents into this week&amp;rsquo;s folder.
+ Open the project called paths-project.Rproj.
  Open the R Markdown file located at paths-project/rmd/paths.Rmd.
  Go through the activity, changing code where appropriate.
  Nothing to turn in!
   
-  data.zip (1.7 MB)</description>
+  paths-project.</description>
     </item>
     
     <item>

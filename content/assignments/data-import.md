@@ -23,6 +23,8 @@ Instructions:
 
 1. Download the zip file `paths-project.zip` and unzip the contents into this week's folder.
 
+2. Open the project called `paths-project.Rproj`.
+
 2. Open the R Markdown file located at `paths-project/rmd/paths.Rmd`.
 
 3. Go through the activity, changing code where appropriate.
@@ -31,7 +33,7 @@ Instructions:
 
 <br>
 
-- [<i class="fas fa-file-archive"></i> data.zip (1.7 MB)](/livecode/data-import/paths-project.zip)
+- [<i class="fas fa-file-archive"></i> paths-project.zip (1.7 MB)](/livecode/data-import/paths-project.zip)
 
 
 <br><br>
@@ -50,7 +52,7 @@ Instructions:
 
 - [<i class="fas fa-file-csv"></i> nimbus.csv](/livecode/data-import/nimbus.csv) (data file)
 - [<i class="fab fa-markdown fa-sm"></i> ozone.Rmd](/livecode/data-import/ozone.Rmd)
-- [<i class="fas fa-code fa-sm"></i> ozone-solutions.html](/livecode/data-import/ozone-solutions) (for reference---code removed.)
+- [<i class="fas fa-code fa-sm"></i> ozone-solutions.html](/livecode/data-import/ozone-solutions.html) (for reference---code removed.)
 
 <br><br>
 
@@ -71,4 +73,4 @@ Instructions:
 - [<i class="fas fa-file-excel"></i> PosidFazioCordes_StickerRich_Excel-Dataverse.xlsx](/livecode/data-import/PosidFazioCordes_StickerRich_Excel-Dataverse.xlsx) (data file)
 - [<i class="fas fa-file-excel"></i> messy_ktc_data.xlsx](/livecode/data-import/messy_ktc_data.xlsx) (data file)
 - [<i class="fab fa-markdown fa-sm"></i> spreadsheets.Rmd](/livecode/data-import/spreadsheets.Rmd)
-- [<i class="fas fa-code fa-sm"></i> spreadsheets-solutions.html](/livecode/data-import/spreadsheets-solutions) (for reference---code removed.)
+- [<i class="fas fa-code fa-sm"></i> spreadsheets-solutions.html](/livecode/data-import/spreadsheets-solutions.html) (for reference---code removed.)

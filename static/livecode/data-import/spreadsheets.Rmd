@@ -1,0 +1,195 @@
+---
+title: "Spreadsheets"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE,
+                      message = FALSE,
+                      fig.align = "center", 
+                      fig.height = 6, 
+                      fig.width = 8)
+```
+
+
+```{r}
+library("tidyverse")
+library("knitr")
+library("readxl")
+library("here")
+library("janitor")
+```
+
+
+# Sticker Wealth
+
+**Set your path here:**
+
+```{r}
+stickers_path <- here("08_data-import/spreadsheets", "PosidFazioCordes_StickerRich_Excel-Dataverse.xlsx")
+```
+
+We're going to read in some messy data from an Excel file that accompanies a journal article about how children's altruistic behavior is shaped by their "wealth" in terms of the number of stickers they have: [Being Sticker Rich: Numerical Context Influences Children’s Sharing Behavior](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138928). The data are [archived in a data repository](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LHAQ5W), but they can also be downloaded from the course website.
+
+As a first attempt, let's just read in the file using `read_excel` with no other options provided.
+
+```{r}
+stickers <- read_excel(stickers_path)
+```
+
+Let's look at that mess.
+
+```{r}
+stickers
+```
+
+That second row of data is wonky, and we can just get rid of it. There's a nice `dplyr` function called `slice()` for choosing rows based on their position in the table. Here's a demostration:
+
+```{r, eval = FALSE}
+# Get row 2 only
+slice(stickers, 2)
+
+# Get rows 1 to 3
+slice(stickers, 1:3)
+
+# Get the last row only with the function n(), which is the number of rows in the table
+slice(stickers, n())
+
+# Get rows 2 to last row
+slice(stickers, 2:n())
+
+# Another way of writing the same thing is with negative indices (for rows to to remove)
+slice(stickers, -1)
+```
+
+
+Another issue is that some of the column names have completely ridiculous names like `absolute number of stickers given (Conditions 1 or 3: Out of 12; Conditions 2 or 4: Out of 30)`.
+
+```{r}
+names(stickers)
+```
+
+We can fix that with the `dplyr` function `rename()`. Here's a basic example of how you use this function:
+
+```{r, eval = FALSE}
+rename(your_data, new_col_name = old_col_name)
+```
+
+Note the normal variable names can be bare (unquoted), but for our name that is full of spaces and punctuation we'll need to use quotes around the old name. 
+
+Finally, we want to make cleaner names. The R package `janitor` provides a handy function `clean_names()` for making nice names using a variety of rules. By default, it makes names using [snake_case](https://en.wikipedia.org/wiki/Snake_case), but you can find all the other options in the [documentation](http://sfirke.github.io/janitor/reference/clean_names.html), including such delightful naming rules as "big_camel" (NamesLikeThis) and "screaming_sname" (NAMES_LIKE_THIS).
+
+```{r}
+clean_stickers <- clean_names(stickers)
+names(clean_stickers)
+```
+
+## Finished Product: Stickers
+
+Read in the stickers data in one fell swoop using piped functions. Your chain should be 5 lines long:
+
+1. Start with path to the data
+2. Call `read_excel()`
+3. Slice out the bad row
+4. Rename the long column
+5. Clean the names using `clean_names()`
+
+
+```{r, eval = FALSE}
+# Remove eval = FALSE from this chunk
+
+stickers <- # Your R code goes here
+```
+
+
+<br>
+
+***
+
+<br>
+
+# Messy Artifacts
+
+In this activity we're going to import data from a messy spreadsheet of mass measurements on archeological artifacts including lithics, ceramics, and molluscs. I found the data in a public respository for an [Archeological Data Analysis Workshop](https://github.com/benmarwick/SAA_R_workshop_2017) by MAtthew Harris and Ben Marwick.
+
+Go ahead and open the file `messy_ktc_data.xlsx`. Look upon the single worksheet with tables nested within tables and despair. This file violates practically every guideline in Broman and Woo's ["Data organization in spreadsheets"](https://kbroman.org/dataorg/).
+
+We have three goals here:
+
+1. Read in the subtable labeled "Ceramic data" and put it in an object called `ceramic`.
+2. Read in the subtable labeled "lithic data" and put it in an object called `lithic`.
+3. Read in all the mollusc data organized into 17 (?!?!!) subtables and put it all together in an object called `mollusc`.
+
+**Set your path here:**
+
+```{r}
+artifacts_path <- here("08_data-import/spreadsheets", "messy_ktc_data.xlsx")
+```
+
+
+The first two are easy. Simply provide the cell range to the `read_excel()` function.
+
+```{r eval = FALSE}
+# Remove eval = FALSE from this chunk
+
+ceramic <- artifacts_path %>% 
+  # read_excel() code
+
+glimpse(ceramic)
+```
+
+
+```{r eval = FALSE}
+# Remove eval = FALSE from this chunk
+
+lithic <- artifacts_path %>% 
+  # read_excel() code
+
+glimpse(lithic)
+```
+
+Mollusc is a bit more complicated, but still not so bad. If we simply provide the cell range:
+
+```{r}
+mollusc <- artifacts_path %>% 
+  read_excel(range = "L18:X217")
+
+glimpse(mollusc)
+```
+
+Everything is treated as a text column because the column headings for each subtable are intermixed with the data values. To fix this, write a sequence of commands in which you:
+
+1. Start with path to the data.
+2. Call read_excel() on the appropriate range and use the `col_types` argument to specify the column type for each column.
+3. Filter out all the rows that correspond with column headings.
+4. Clean the names using `clean_names()` from the `janitor` package
+
+```{r eval = FALSE}
+# Remove eval = FALSE from this chunk
+
+mollusc <- # Your R code goes here
+
+glimpse(mollusc)
+```
+
+Finally, let's make a histogram to visualize the mass distributions of bivalves and gastropods from our sample.
+
+```{r eval = FALSE}
+# Remove eval = FALSE from this chunk
+
+ggplot(filter(mollusc, element %in% c("Bivalve", "Gastropod")), 
+       aes(x = mass_g + 0.1)) +            # Add a little bit to mass to avoid log(0) problem
+  geom_histogram(color = "white", 
+                 fill = "thistle") + 
+  geom_hline(yintercept = 0) +             # Make nice black baseline at zero
+  scale_x_log10(labels = scales::comma) +  # Log-transform x-axis, and use comma lables
+  facet_wrap(~element, ncol = 1) +         # Arrange facets in single column
+  coord_cartesian(expand = FALSE) +        # Don't add extra space around extremes of the plot
+  theme_minimal() +
+  labs(x = "Mass (g)", y = "Count", 
+       title = "Mass of molluscs", 
+       caption = "Data from https://github.com/benmarwick/aswr/tree/master/inst/data")
+```
+
