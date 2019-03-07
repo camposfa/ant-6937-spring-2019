@@ -108,6 +108,24 @@ Visualizing Geospatial Data  Why all world maps are wrong XKCD Map Projections X
     
     <item>
       <title>Data Import</title>
+      <link>/assignments/data-import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/data-import/</guid>
+      <description>To complete this week&amp;rsquo;s activities, you will need two new packages.
+install.packages(&amp;quot;here&amp;quot;) install.packages(&amp;quot;janitor&amp;quot;)  
+Complete in Class 
+Paths Instructions:
+ Download the zip file paths-project.zip and unzip the contents into this week&amp;rsquo;s folder.
+ Open the R Markdown file located at paths-project/rmd/paths.Rmd.
+ Go through the activity, changing code where appropriate.
+ Nothing to turn in!
+  
+  data.zip (1.7 MB)</description>
+    </item>
+    
+    <item>
+      <title>Data Import</title>
       <link>/read/data-import/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
