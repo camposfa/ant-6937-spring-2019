@@ -1,0 +1,147 @@
+---
+title: "Tidy Data"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+## Setup
+
+```{r packages}
+library("tidyverse")
+library("glue")
+library("ggrepel")
+library("rcartocolor")
+library("knitr")
+
+theme_set(theme_minimal())
+```
+
+You will need the development version of the `tidyr` package to use the new reshaping functions.
+
+_Run only once:_
+
+```
+devtools::install_github("tidyverse/tidyr")
+```
+
+***
+
+
+## Make some practice data
+
+```{r}
+cases <- tibble(country = c("FR", "DE", "US"),
+                `2011` = c(7000, 5800, 15000),
+                `2012` = c(6900, 6000, 14000),
+                `2013` = c(7000, 6200, 13000))
+
+kable(cases)
+```
+
+```{r}
+pollution <- tibble(city = c("New York", "New York", "London", "London", "Beijing", "Beijing"),
+                    size = c("large", "small", "large", "small", "large", "small"),
+                    amount = c(23, 14, 22, 16, 121, 121))
+
+kable(pollution)
+```
+
+
+## Activity 1
+
+Plan (e.g., draw on paper) how the `cases` data set would look if it had the same values grouped into three columns: **country**, **year**, **n**.
+
+```
+Nothing to put here.
+```
+
+
+## Activity 2
+
+Use `pivot_long()` to reorganize `table4a` into three columns: **country**, **year**, and **cases**.
+
+```{r}
+# Your R code goes here
+```
+
+
+## Activity 3
+
+Plan (e.g., draw on paper) how the `pollution` data set would look if it had the same values grouped into three columns: **city**, **large**, **small**.
+
+```
+Nothing to put here.
+```
+
+## Activity 4
+
+Use `pivot_wide()` to reorganize `table2` into four columns: **country**, **year**, **cases**, and **population**.
+
+```{r}
+# Your R code goes here
+```
+
+## Activity 5
+
+Remember the pay gaps data set?
+
+```{r}
+# You will probably have to modify this...
+earnings <- read_csv(here::here("06_viz-relationships-change", "data", 
+                                "school-earnings.csv"))
+
+kable(head(earnings))
+```
+
+Let's visualizing pay disparities between men and women that graduated from 21 elite U.S. universities using a paired-value bubble plot. Specifically, we want to plot: 
+
+- Women's salaries on the x-axis
+- Men's salaries on the y-axis
+- The size and color of the point show the size of the pay gap
+- A 1-to-1 line showing gender parity, to provide context
+
+Reshape the `earnings` data so that it has the following columns (variables): `School`, `Gap`, `Gender` and `Pay`. Then, fill in the blanks to set aesthetic mappings to produce the plot.
+
+**Remove `eval = FALSE` from the two chunks below**
+
+```{r, eval = FALSE}
+earnings_wide <- earnings %>% 
+  __________ # Your pivot statement
+```
+
+#### Make the plot
+
+```{r, fig.width = 9, fig.height = 7, eval = FALSE}
+
+# Pay gap breaks for legend
+gap_breaks <- seq(0, 60, by = 10)
+gap_labs <- glue("${gap_breaks}k")
+
+# Pay amount breaks for breaks for axis
+pay_breaks <- seq(0, 150, by = 50)
+pay_labs <- glue("${pay_breaks}k")
+
+# Paired scatterplot over 1-to-1 diagonal
+ggplot(earnings_wide, aes(______________)) +
+  geom_abline(aes(_________), size = 1.5, color = "gray85") +
+  geom_point(aes(_______________), alpha = 0.8) +
+  geom_text_repel(aes(__________),
+                  point.padding = 0.5, show.legend = FALSE) +
+  coord_equal() +
+  expand_limits(x = 0, y = 0) +
+  scale_x_continuous(breaks = pay_breaks, labels = pay_labs) +
+  scale_y_continuous(breaks = pay_breaks, labels = pay_labs) +
+  scale_size_area(name = "Pay Gap", breaks = gap_breaks, 
+                  labels = gap_labs, max_size = 8) +
+  scale_color_carto_c(name = "Pay Gap", palette = "RedOr",
+                      breaks = gap_breaks, labels = gap_labs,
+                      guide = "legend") +
+  labs(x = "Women's Mid-career Salary",  y = "Men's Mid-career Salary")
+```

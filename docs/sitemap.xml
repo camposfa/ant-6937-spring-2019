@@ -124,6 +124,10 @@
   </url>
   
   <url>
+    <loc>/assignments/reshaping-data/</loc>
+  </url>
+  
+  <url>
     <loc>/slide/</loc>
     <priority>0</priority>
   </url>
