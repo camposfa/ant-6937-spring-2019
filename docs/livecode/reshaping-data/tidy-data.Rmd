@@ -107,7 +107,7 @@ Let's visualizing pay disparities between men and women that graduated from 21 e
 - The size and color of the point show the size of the pay gap
 - A 1-to-1 line showing gender parity, to provide context
 
-Reshape the `earnings` data so that it has the following columns (variables): `School`, `Gap`, `Gender` and `Pay`. Then, fill in the blanks to set aesthetic mappings to produce the plot.
+Reshape the `earnings` data so that it has the following columns (variables): `School`, `Gap`, `Women` and `Men`. Then, fill in the blanks to set aesthetic mappings to produce the plot.
 
 **Remove `eval = FALSE` from the two chunks below**
 
