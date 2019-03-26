@@ -65,7 +65,7 @@ Nothing to put here.
 
 ## Activity 2
 
-Use `pivot_long()` to reorganize `table4a` into three columns: **country**, **year**, and **cases**.
+Use `pivot_longer()` to reorganize `table4a` into three columns: **country**, **year**, and **cases**.
 
 ```{r}
 # Your R code goes here
@@ -82,7 +82,7 @@ Nothing to put here.
 
 ## Activity 4
 
-Use `pivot_wide()` to reorganize `table2` into four columns: **country**, **year**, **cases**, and **population**.
+Use `pivot_wider()` to reorganize `table2` into four columns: **country**, **year**, **cases**, and **population**.
 
 ```{r}
 # Your R code goes here
@@ -107,7 +107,7 @@ Let's visualizing pay disparities between men and women that graduated from 21 e
 - The size and color of the point show the size of the pay gap
 - A 1-to-1 line showing gender parity, to provide context
 
-Reshape the `earnings` data so that it has the following columns (variables): `School`, `Gap`, `Women` and `Men`. Then, fill in the blanks to set aesthetic mappings to produce the plot.
+Reshape the `earnings` data so that it has the following columns (variables): `School`, `Gap`, `Men` and `Women`. Then, fill in the blanks to set aesthetic mappings to produce the plot.
 
 **Remove `eval = FALSE` from the two chunks below**
 
