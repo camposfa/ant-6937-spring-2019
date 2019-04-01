@@ -147,6 +147,16 @@ Organizing Data  &amp;ldquo;Tidy Data&amp;rdquo; by Hadley Wickham.
     </item>
     
     <item>
+      <title>Data Manip. 1: Filter, Select, Arrange, Mutate</title>
+      <link>/read/dplyr-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/dplyr-1/</guid>
+      <description> Read  R4DS, 5.1&amp;ndash;5.5: Data Transformation: dplyr basic verbs: filter, arrange, select, and mutate.  
+Optional further reading.  Introduction to dplyr: many code examples Modern Dive, Chapter 4: Data Wrangling: Similar to assigned reading but organized differently. Might be a little easier to follow?  </description>
+    </item>
+    
+    <item>
       <title>Final Project</title>
       <link>/projects/final-project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
