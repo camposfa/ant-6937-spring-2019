@@ -69,6 +69,7 @@ lessons:
   - date: "2019-04-04"
     topics: "Data Manip. 1: Filter, Select, Arrange, Mutate"
     reading: "dplyr-1"
+    assignment: "dplyr-1"
     
   - date: "2019-04-11"
     topics: "Data Manip. 2: Group, Summarize"

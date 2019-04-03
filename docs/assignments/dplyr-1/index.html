@@ -30,7 +30,7 @@
     
   <link rel="alternate" href="../../index.xml" type="application/rss+xml" title="ANT 6973, Spring 2019">
   <link rel="feed" href="../../index.xml" type="application/rss+xml" title="ANT 6973, Spring 2019">
-  <link rel="canonical" href="../../read/dplyr-1/">
+  <link rel="canonical" href="../../assignments/dplyr-1/">
 </head>
 
   
@@ -111,22 +111,56 @@
 		<div class="main main-raised">
 			<div class="container">
 		  	<div class="section text-left">
-		  	  <h2 class="title text-center">Data Manipulation 1: Filter, Select, Arrange, Mutate</h2>
+		  	  <h2 class="title text-center">Data Manipulation 1</h2>
 	            
-
-<h2 id="read">Read</h2>
-
-<ul>
-<li><strong><a href="https://r4ds.had.co.nz/transform.html">R4DS, 5.1&ndash;5.5: Data Transformation</a>:</strong> <code>dplyr</code> basic verbs: <code>filter</code>, <code>arrange</code>, <code>select</code>, and <code>mutate</code>.</li>
-</ul>
 
 <p><br><br></p>
 
-<h2 id="optional-further-reading">Optional further reading.</h2>
+<p>To complete this week&rsquo;s activities, you will need to install the &ldquo;development&rdquo; version of <code>tidyr</code>.</p>
+
+<pre><code>devtools::install_github(&quot;tidyverse/tidyr&quot;)
+</code></pre>
+
+<h4 id="important-note"><strong>Important note:</strong></h4>
+
+<p>As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: <code>pivot_longer()</code> and <code>pivot_wider()</code>. It looks like these names are going to stick. All course materials have been updated accordingly. You will not see this change unless you reinstall the development version of <code>tidyr</code> by (re-)running the command <code>devtools::install_github(&quot;tidyverse/tidyr&quot;)</code>.</p>
+
+<p><br><br></p>
+
+<h3 id="companion-to-in-class-activities">Companion to in-class activities</h3>
 
 <ul>
-<li><strong><a href="https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html">Introduction to dplyr</a>:</strong> many code examples</li>
-<li><strong><a href="https://moderndive.com/4-wrangling.html">Modern Dive, Chapter 4: Data Wrangling</a>:</strong> Similar to assigned reading but organized differently. Might be a little easier to follow?</li>
+<li><a href="../../livecode/data-manip1/babynames-manip.Rmd"><i class="fab fa-markdown fa-lg"></i> babynames-manip.Rmd</a> (<strong>Nothing to turn in!</strong>)</li>
+</ul>
+
+<p><br><hr><br></p>
+
+<h3 id="complete-before-next-class">Complete before next class</h3>
+
+<p><br></p>
+
+<h4 id="data-manipulation-1"><strong>Data Manipulation 1</strong></h4>
+
+<p>Instructions:</p>
+
+<ol>
+<li><p>Download the R Markdown file and data files below</p></li>
+
+<li><p>Insert your code where indicated</p></li>
+
+<li><p><strong>Email me your knitted <code>.html</code> output</strong>.</p></li>
+</ol>
+
+<p><br></p>
+
+<ul>
+<li><p><a href="../../livecode/data-manip1/us_contagious_diseases.csv"><i class="fas fa-file-csv fa-lg"></i> us_contagious_diseases.csv</a> (data file)</p></li>
+
+<li><p><a href="../../livecode/data-manip1/nino34.long.anom.data.txt"><i class="fas fa-file-alt fa-lg"></i> nino34.long.anom.data.txt</a> (data file)</p></li>
+
+<li><p><a href="../../livecode/data-manip1/data-manip1.Rmd"><i class="fab fa-markdown fa-lg"></i> data-manip1.Rmd</a></p></li>
+
+<li><p><a href="../../livecode/data-manip1/data-manip1-solutions.html"><i class="fas fa-code fa-lg"></i> data-manip1-solutions.html</a> (for reference&mdash;code removed.)</p></li>
 </ul>
 
 	      </div>

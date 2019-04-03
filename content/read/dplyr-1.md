@@ -1,5 +1,5 @@
 ---
-title: "Data Manip. 1: Filter, Select, Arrange, Mutate"
+title: "Data Manipulation 1: Filter, Select, Arrange, Mutate"
 ---
 
 ## Read

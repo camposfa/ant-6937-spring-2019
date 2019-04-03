@@ -22,6 +22,10 @@
   </url>
   
   <url>
+    <loc>/assignments/dplyr-1/</loc>
+  </url>
+  
+  <url>
     <loc>/assignments/r-basics/</loc>
   </url>
   
@@ -71,6 +75,14 @@
   
   <url>
     <loc>/slide/data-import/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignments/dplyr-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignments/dplyr-1.utf8/</loc>
   </url>
   
   <url>

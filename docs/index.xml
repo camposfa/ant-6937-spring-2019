@@ -52,6 +52,15 @@ Invite link: https://www.datacamp.com/groups/shared_links/860db90029f1891286789d
     
     <item>
       <title></title>
+      <link>/assignments/dplyr-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/dplyr-1/</guid>
+      <description>Data Manipulation 1       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/assignments/r-basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -147,7 +156,27 @@ Organizing Data  &amp;ldquo;Tidy Data&amp;rdquo; by Hadley Wickham.
     </item>
     
     <item>
-      <title>Data Manip. 1: Filter, Select, Arrange, Mutate</title>
+      <title>Data Manipulation 1</title>
+      <link>/assignments/dplyr-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/dplyr-1/</guid>
+      <description>To complete this week&amp;rsquo;s activities, you will need to install the &amp;ldquo;development&amp;rdquo; version of tidyr.
+devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;)  Important note: As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: pivot_longer() and pivot_wider(). It looks like these names are going to stick. All course materials have been updated accordingly.</description>
+    </item>
+    
+    <item>
+      <title>Data Manipulation 1</title>
+      <link>/assignments/dplyr-1.utf8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/dplyr-1.utf8/</guid>
+      <description>To complete this week&amp;rsquo;s activities, you will need to install the &amp;ldquo;development&amp;rdquo; version of tidyr.
+devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;)  Important note: As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: pivot_longer() and pivot_wider(). It looks like these names are going to stick. All course materials have been updated accordingly.</description>
+    </item>
+    
+    <item>
+      <title>Data Manipulation 1: Filter, Select, Arrange, Mutate</title>
       <link>/read/dplyr-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

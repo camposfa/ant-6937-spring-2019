@@ -1,0 +1,207 @@
+---
+title: "Data Manipulation 1"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE,
+                      fig.width = 10)
+```
+
+## Setup
+
+```{r packages}
+library("lubridate")
+library("colorspace")
+library("here")
+library("tidyverse")
+library("glue")
+library("knitr")
+
+theme_set(theme_minimal())
+```
+
+**Remove `eval = FALSE` from each chunk before knitting**
+
+## US Contagious Diseases
+
+In this activity, we're going to manipulate some public health data to visualize measles rates in the US in relation to the vaccination program that began in 1963. The data are from [Project Tycho](https://www.tycho.pitt.edu/).
+
+#### Read the data
+
+```{r, eval = FALSE}
+diseases <- # Read the file here
+
+kable(head(diseases))
+```
+
+
+#### Manipulate the data
+
+- Filter to obtain data for Measles only
+- Calculate the following new variables:
+    - `incidence` is the raw count of cases divided by the population
+    - `incidence_10k` is the incidence multiplied by 10,000
+    - `fraction_weeks` is the proportion of weeks reporting during the year (note: there are 52 weeks in a year)
+    - `rate` is the estimated number of cases per week per 10K people over an entire year
+
+```{r, eval = FALSE}
+measles <- diseases %>%
+  # Your R code here
+
+kable(head(measles))
+```
+
+
+#### Heatmap of the measles rate by state
+
+```{r, fig.width=10, fig.height=8, eval = FALSE}
+ggplot(measles, <-- mappings here -->) +
+  geom_tile(color = "grey50") +
+  geom_vline(xintercept = 1963, color = "black", size = 1.5, lty = 2) +
+  annotate(geom = "text", x = 1962.5, y = 25, label = "Vaccination Program Begins",
+           angle = 90, size = 12, vjust = 0, color = "black", alpha = 0.5) +
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_fill_continuous_sequential(palette = "Reds 3", trans = "sqrt") +
+  labs(x = NULL, y = NULL, title = "Measles cases per week")
+```
+
+<br>
+<hr>
+<br>
+
+## El Niño
+
+In this activity, we're going to calculate the [Oceanic Niño Index](https://catalog.data.gov/dataset/climate-prediction-center-cpcoceanic-nino-index) from a time series of sea surface temperature data. Here's a description of the ONI from that page:
+
+>The Oceanic Niño Index (ONI) is one of the primary indices used to monitor the El Niño-Southern Oscillation (ENSO). The ONI is calculated by averaging sea surface temperature anomalies in an area of the east-central equatorial Pacific Ocean, which is called the Niño-3.4 region. Also, a 3-month time average (running mean) is calculated in order to better isolate variability closely related to the ENSO phenomenon.
+
+#### Read the data
+
+The Niño-3.4 sea surface temperature data are from here: <https://www.esrl.noaa.gov/psd/gcos_wgsp/Timeseries/Data/nino34.long.anom.data>
+
+This is what the data look like (first 10 rows and last 10 rows):
+
+```
+          1870        2018
+ 1870    -1.00   -1.20   -0.83   -0.81   -1.27   -1.08   -1.04   -0.88   -0.53   -0.92   -0.79   -0.79
+ 1871    -0.25   -0.58   -0.43   -0.50   -0.70   -0.53   -0.60   -0.33   -0.24   -0.33   -0.31   -0.58
+ 1872    -0.72   -0.62   -0.50   -0.77   -0.62   -0.52   -0.32   -0.85   -1.02   -0.94   -0.79   -0.88
+ 1873    -0.78   -1.01   -1.31   -0.67   -0.53   -0.48   -0.58   -0.39   -0.34   -0.78   -0.77   -0.70
+ 1874    -0.93   -1.06   -1.40   -0.94   -0.86   -0.72   -1.00   -1.05   -1.13   -1.25   -1.33   -1.14
+ 1875    -0.71   -0.37   -0.59   -0.87   -1.09   -0.76   -0.85   -0.81   -0.91   -0.83   -0.64   -0.75
+ 1876    -0.95   -1.20   -1.13   -1.18   -1.08   -0.43   -0.34   -0.16   -0.02    0.11    0.15    0.23
+ 1877     0.35    0.46    0.52    0.50    0.76    0.98    1.42    1.54    1.75    1.95    2.08    2.49
+ ...
+ ...
+ ...
+ 2016     2.56    2.11    1.60    1.05    0.45    0.06   -0.25   -0.48   -0.46   -0.75   -0.63   -0.51
+ 2017    -0.34   -0.01   -0.09    0.22    0.30    0.22    0.22   -0.18   -0.56   -0.52   -0.84   -0.85
+ 2018    -0.86   -0.73   -0.73   -0.36   -0.12    0.12    0.27    0.05    0.30    0.84    1.00    0.97
+  -99.99
+  NINA34
+ 5N-5S 170W-120W 
+ HadISST 
+  Anomaly from 1981-2010
+ https://www.esrl.noaa.gov/psd/gcos_wgsp/Timeseries/Nino34/
+  units=degC
+```
+
+We see that the data are organized in an annoying format: each row is a year, and there are 12 columns indicating the niño3.4 index value in each month (Jan--Dec). There are several additional challenging problems that make the data untidy.
+
+1. The columns are whitespace delimited, and they are separated by an inconsistent number of spaces.
+2. The first row is fairly pointless.
+3. There are no column names.
+4. There's a bunch of extra metadata tacked on to the bottom.
+5. The data are in wide format.
+
+
+Let's tackle problems 1--4 using `readr.`
+
+1. Use the function `read_table2()` to read in the data. This function allows any number of whitespace characters between columns, which is exactly what we need.
+2. Tell the function that we want to skip the first row using the `skip` argument.
+3. Provide column names using the `col_names` argument. Specifically, the first column should be called "year", and we can assign the numbers 1:12 to the next 12 columns.
+4. Use the `n_max` argument to tell the function that we only want to read 149 rows (`2018 - 1870 + 1 = 149`).
+
+```{r, eval = FALSE}
+n34 <- # Read the file here
+
+kable(head(n34))
+```
+
+#### Reshape the data
+
+Next, we use `pivot_longer()` to reshape the data to long format. Call the new value column `nino3.4`.
+
+```{r, eval = FALSE}
+n34 <- n34 %>%
+  pivot_longer(<-- your pivot stuff here-->)
+
+kable(head(n34))
+```
+
+#### Manipulate the data
+
+For plotting, we want to create a new date column out of the year and month. We can do this using `mutate()` by combining `glue()` and `ymd()`. Specifically:
+
+- We glue together the year, month, and "15" like this: `glue("{year}-{month}-15")`. This creates text values like `"1870-01-15"`.
+- The `ymd()` function from the `lubridate` package understands that these are actually dates.
+
+Here's the code:
+
+```{r, eval = FALSE}
+n34 <- n34 %>% 
+  mutate(<-- create the date column here -->)
+
+kable(head(n34))
+```
+
+Next, we want to calculate the Oceanic Niño Index. As described above, we do this by calculating a 3-month running average of our `nino3.4` variable. To do this, use `mutate()` to create a new variable called `oni`, and use the `lead()` and `lag()` functions to add the current month's nino3.4 value those of the previous and following months, then divide by 3 to take the average.
+
+```{r, eval = FALSE}
+n34 <- n34 %>% 
+  mutate(<-- create the oni column here-->)
+
+kable(head(n34))
+```
+
+#### Plots
+
+Finally, we can plot this! Let's show 1970 to the present only.
+
+```{r, eval = FALSE}
+ggplot(n34, aes(x = date, y = oni)) +
+  geom_hline(yintercept = 0, color = "gray70", size = 1) +
+  geom_area() +
+  theme_minimal() +
+  labs(x = "Year", y = "Oceanic Niño Index") +
+  coord_cartesian(xlim = c(ymd("1970-01-01"), ymd("2019-05-01")))
+```
+
+Or if we want to get fancy, we can split the series up into a positive and a negative set so we can use different fill colors for the El Niño (positive, warm) and La Niña (negative, cool) phases. Crucially, the positive and negative sets cannot just be plotted well when they're created using `filter()` (you can try it if you want).
+
+- To make the positive set, use `if_else()` in `mutate()` to modify the `oni` variable so that if the value is less than 0, it gets assigned the value zero.
+- Do the opposite to make the negative set.
+
+Use `?if_else()` to read about how to use the function.
+
+```{r, eval = FALSE}
+oni_pos <- n34 %>% 
+  mutate(<-- alter the oni column here -->)
+
+oni_neg <- n34 %>% 
+  mutate(<-- alter the oni column here -->)
+
+ggplot() +
+  geom_area(data = oni_pos, aes(x = date, y = oni), fill = "darkorange2") +
+  geom_area(data = oni_neg, aes(x = date, y = oni), fill = "skyblue2") +
+  geom_hline(yintercept = 0, color = "gray70", size = 1) +
+  theme_minimal() +
+  labs(x = "Year", y = "Oceanic Niño Index") +
+  coord_cartesian(xlim = c(ymd("1970-01-01"), ymd("2019-05-01")))
+```

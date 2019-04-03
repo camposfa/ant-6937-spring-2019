@@ -1,0 +1,114 @@
+---
+title: "Transform Data"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+```{r packages}
+library("tidyverse")
+library("babynames")
+```
+
+## babynames
+
+```{r}
+babynames
+```
+
+
+## Activity 1
+
+Alter the code to select just the `n` column:
+
+```{r}
+select(babynames, name, prop)
+```
+
+## Quiz
+
+Which of these is NOT a way to select the `name` and `n` columns together?
+
+```{r}
+select(babynames, -c(year, sex, prop))
+select(babynames, name:n)
+select(babynames, starts_with("n"))
+select(babynames, ends_with("n"))
+```
+
+## Activity 2
+
+See if you can use the logical operators to manipulate babynames to show:
+
+- All of the names where prop is greater than or equal to 0.08
+- All of the children named "Sea"
+- All of the names that have a missing value for n (Hint: this should return an empty data set).
+
+```{r}
+filter(babynames, is.na(n))
+```
+
+## Activity 3
+
+Use logical operators to alter the code below to return only the rows that contain:
+
+* Girls named Sea  
+* Names that were used by exactly 5 or 6 children in 1880  
+* Names that are one of Acura, Lexus, or Yugo
+
+```{r}
+filter(babynames, name == "Sea" | name == "Anemone")
+```
+
+## Activity 4
+
+Arrange babynames by n, and add name as a second (tie breaking) variable by which to arrange. Can you tell what the smallest value of `n` is?
+
+```{r}
+
+```
+
+## Activity 5
+
+Use `desc()` to find the names with the highest prop.
+Then, use `desc()` to find the names with the highest n.
+
+```{r}
+
+```
+
+## Activity 6
+
+Use `%>%` to write a sequence of functions that: 
+
+1. Filter babynames to just the girls that were born in 2015  
+2. Select the `name` and `n` columns  
+3. Arrange the results so that the most popular names are near the top.
+
+```{r}
+
+```
+
+## Activity 7
+
+- Use `mutate()` and `min_rank()` to rank each row in babynames from largest n to smallest n, and filter to extract the top 10 ranking names in the entire data set.
+- Do the same but use prop rather than n to rank the names.
+- What differences do you see in these rankings?
+
+```{r}
+
+```
+
+## Activity 8
+
+Use `mutate()` and `lag()` to find the year-to-year change with the largest increase in `n` for your name and sex.
+
+```{r}
+
+```
