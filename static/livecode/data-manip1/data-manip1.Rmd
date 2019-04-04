@@ -150,9 +150,7 @@ kable(head(n34))
 For plotting, we want to create a new date column out of the year and month. We can do this using `mutate()` by combining `glue()` and `ymd()`. Specifically:
 
 - We glue together the year, month, and "15" like this: `glue("{year}-{month}-15")`. This creates text values like `"1870-01-15"`.
-- The `ymd()` function from the `lubridate` package understands that these are actually dates.
-
-Here's the code:
+- The `ymd()` function (for "**y**ear **m**onth **d**ate") from the `lubridate` package understands that a string of characters formatted in this way actually represents a date.
 
 ```{r, eval = FALSE}
 n34 <- n34 %>% 
@@ -178,14 +176,15 @@ Finally, we can plot this! Let's show 1970 to the present only.
 ggplot(n34, aes(x = date, y = oni)) +
   geom_hline(yintercept = 0, color = "gray70", size = 1) +
   geom_area() +
-  theme_minimal() +
   labs(x = "Year", y = "Oceanic Niño Index") +
-  coord_cartesian(xlim = c(ymd("1970-01-01"), ymd("2019-05-01")))
+  coord_cartesian(xlim = c(ymd("1970-01-01"), ymd("2019-05-01"))) # Crops the plot
 ```
 
-Or if we want to get fancy, we can split the series up into a positive and a negative set so we can use different fill colors for the El Niño (positive, warm) and La Niña (negative, cool) phases. Crucially, the positive and negative sets cannot just be plotted well when they're created using `filter()` (you can try it if you want).
+Or if we want to get fancy, we can split the series up into a positive and a negative set so we can use different fill colors for the El Niño (positive, warm) and La Niña (negative, cool) phases. 
 
-- To make the positive set, use `if_else()` in `mutate()` to modify the `oni` variable so that if the value is less than 0, it gets assigned the value zero.
+For correct plotting, the positive and negative sets cannot be created just by using `filter()` (you can try it if you want).
+
+- To make the positive set, use `if_else()` in `mutate()` to modify the `oni` variable. If the oni value is less than 0, overwrite the value by setting it to 0.
 - Do the opposite to make the negative set.
 
 Use `?if_else()` to read about how to use the function.
@@ -201,7 +200,6 @@ ggplot() +
   geom_area(data = oni_pos, aes(x = date, y = oni), fill = "darkorange2") +
   geom_area(data = oni_neg, aes(x = date, y = oni), fill = "skyblue2") +
   geom_hline(yintercept = 0, color = "gray70", size = 1) +
-  theme_minimal() +
   labs(x = "Year", y = "Oceanic Niño Index") +
   coord_cartesian(xlim = c(ymd("1970-01-01"), ymd("2019-05-01")))
 ```
