@@ -52,15 +52,6 @@ Invite link: https://www.datacamp.com/groups/shared_links/860db90029f1891286789d
     
     <item>
       <title></title>
-      <link>/assignments/dplyr-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/dplyr-1/</guid>
-      <description>Data Manipulation 1       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>/assignments/r-basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -316,8 +307,10 @@ Description of the data  Download: -  ape_teeth.csv Data source: http://anthropo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/small-project-2/</guid>
-      <description>Instructions will appear here.
-Due date: Apr. 18 by the end of the day (11:59:59 pm)</description>
+      <description>Due date: Apr. 18 by the end of the day (11:59:59 pm)
+Introduction In this small project, you will think of conceptual questions to ask of one or more data sets.
+Because I think some of you disliked the ape_teeth data set from small project 1, this time I&amp;rsquo;m providing several different data sets that can be used.
+All your questions can be from one data set, or you can ask different questions of different data sets.</description>
     </item>
     
     <item>

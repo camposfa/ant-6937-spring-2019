@@ -48,8 +48,10 @@ Description of the data  Download: -  ape_teeth.csv Data source: http://anthropo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/small-project-2/</guid>
-      <description>Instructions will appear here.
-Due date: Apr. 18 by the end of the day (11:59:59 pm)</description>
+      <description>Due date: Apr. 18 by the end of the day (11:59:59 pm)
+Introduction In this small project, you will think of conceptual questions to ask of one or more data sets.
+Because I think some of you disliked the ape_teeth data set from small project 1, this time I&amp;rsquo;m providing several different data sets that can be used.
+All your questions can be from one data set, or you can ask different questions of different data sets.</description>
     </item>
     
   </channel>

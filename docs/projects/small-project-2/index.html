@@ -112,9 +112,164 @@
 			<div class="container">
 		  	<div class="section text-left">
 		  	  <h2 class="title text-center">Small Project 2</h2>
-	            <p>Instructions will appear here.</p>
+	            
 
-<p><strong>Due date: Apr. 18 by the end of the day (11:59:59 pm)</strong></p>
+<p><span style="color:red"><strong>Due date: Apr. 18 by the end of the day (11:59:59 pm)</strong></span></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>In this small project, you will think of conceptual questions to ask of one or more data sets.</p>
+
+<p><strong>Because I think some of you disliked the ape_teeth data set from small project 1, this time I&rsquo;m providing several different data sets that can be used.</strong></p>
+
+<p>All your questions can be from one data set, or you can ask different questions of different data sets. It&rsquo;s up to you.</p>
+
+<p><br></p>
+
+<h2 id="description-of-the-data">Description of the data</h2>
+
+<h4 id="1-research-funding-bias">1. Research funding bias</h4>
+
+<p>Data on gender bias in research funding in the Netherlands. From van der Lee and Ellemers (2015), <em>PNAS</em>, <a href="https://www.pnas.org/content/112/40/12349">&ldquo;Gender contributes to personal research funding success in The Netherlands&rdquo;</a>.</p>
+
+<p>Download: <a href="../../files/data/research_funding.csv"><i class="fas fa-file-csv fa-lg"></i> research_funding.csv</a></p>
+
+<p><u>Columns</u></p>
+
+<ul>
+<li>discipline: Research area discipline.</li>
+<li>applications_men: Total applications by men.</li>
+<li>applications_women: Total applications by women.</li>
+<li>awards_men: Total awards received by men.</li>
+<li>awards_women: Total awards received by women.</li>
+<li>success_rates_men: Success rate for men.</li>
+<li>success_rates_women: Success rate for women.</li>
+</ul>
+
+<p><br></p>
+
+<h4 id="2-pollling-data-from-us-2016-presidential-elections">2. Pollling data from US 2016 presidential elections</h4>
+
+<p>Poll results from US 2016 presidential elections. Data from <a href="https://fivethirtyeight.com/">https://fivethirtyeight.com/</a>. Original source: <a href="http://projects.fivethirtyeight.com/general-model/president_general_polls_2016.csv">http://projects.fivethirtyeight.com/general-model/president_general_polls_2016.csv</a>.</p>
+
+<p>Download: <a href="../../files/data/fte_polls_2016.csv"><i class="fas fa-file-csv fa-lg"></i> fte_polls_2016.csv</a></p>
+
+<p><u>Columns</u></p>
+
+<ul>
+<li>state: State in which poll was taken. &ldquo;U.S&rdquo; is for national polls.</li>
+<li>startdate: Poll&rsquo;s start date.</li>
+<li>enddate: Poll&rsquo;s end date.</li>
+<li>pollster: Pollster conducting the poll.</li>
+<li>grade: Grade assigned by fivethirtyeight to pollster.</li>
+<li>samplesize: Sample size.</li>
+<li>population: Type of population being polled. A = all adults, RV = registered voters, LV = likely voters, V = voters</li>
+<li>rawpoll_clinton: Percentage for Hillary Clinton.</li>
+<li>rawpoll_trump: Percentage for Donald Trump</li>
+<li>rawpoll_johnson: Percentage for Gary Johnson</li>
+<li>rawpoll_mcmullin: Percentage for Evan McMullin.</li>
+<li>adjpoll_clinton: Fivethirtyeight adjusted percentage for Hillary Clinton.</li>
+<li>ajdpoll_trump: Fivethirtyeight adjusted percentage for Donald Trump</li>
+<li>adjpoll_johnson: Fivethirtyeight adjusted percentage for Gary Johnson</li>
+<li>adjpoll_mcmullin: Fivethirtyeight adjusted percentage for Evan McMullin.</li>
+</ul>
+
+<p><br></p>
+
+<h4 id="3-primate-fruit-patch-visits">3. Primate fruit patch visits</h4>
+
+<p>Characteristics of fruit-producing trees visited by several capuchin groups over a 4-year period.</p>
+
+<p>Download: <a href="../../files/data/ssr_fpv.csv"><i class="fas fa-file-csv fa-lg"></i> ssr_fpv.csv</a></p>
+
+<p><u>Columns</u></p>
+
+<ul>
+<li>group: Code of capuchin group that visited the tree.</li>
+<li>scientific_name: Scientific name of the tree species.</li>
+<li>timestamp: Date and time of the visit.</li>
+<li>elevation: Elevation of tree in meters.</li>
+<li>num_monkeys: Number of monkeys observed eating in the tree.</li>
+<li>leaf_cover: Leaf cover score on 1&ndash;4 scale (0 = no leaves, 4 = full of leaves)</li>
+<li>leaf_maturity: Leaf maturity score on 1&ndash;4 scale (0 = no mature leaves, 4 = 100% of leaves present are mature leaves)</li>
+<li>fruit_cover: Fruit cover score on 1&ndash;4 scale (0 = no fruit, 4 = full of fruit)</li>
+<li>fruit_maturity: Fruit maturity score on 1&ndash;4 scale (0 = no ripe fruit, 4 = 100% of fruits present are ripe)</li>
+<li>flower_cover: Flower cover score on 1&ndash;4 scale (0 = no fruit, 4 = full of flowers)</li>
+<li>flower_maturity: Flower maturity score on 1&ndash;4 scale (0 = no mature flowers, 4 = 100% of flowers present are mature)</li>
+<li>trunk_diameter_cm: Diameter at breast height of the tree trunk.</li>
+<li>fruit_avail_index: A ripe fruit &ldquo;availability index&rdquo; ranging from 0 (no ripe fruit) to 1 (completely full of ripe fruit). Calculated as (fruit_cover / 4) * (fruit_maturity / 4).</li>
+<li>fruit_biomass_kg: Estimated biomass of available ripe fruit.</li>
+<li>lon: Geographic longitude coordinate (crs = 4326)</li>
+<li>lat: Geographic latitude coordinate (crs = 4326)</li>
+</ul>
+
+<p><br></p>
+
+<h4 id="4-hourly-temperature-measurements-in-kenya">4. Hourly temperature measurements in Kenya</h4>
+
+<p>Air temperature recorded hourly during 2016 by a weather station located in Amboseli national park, Kenya.</p>
+
+<p>Download: <a href="../../files/data/weather_2016.csv"><i class="fas fa-file-csv fa-lg"></i> weather_2016.csv</a></p>
+
+<p><u>Columns</u></p>
+
+<ul>
+<li>year_of: Year</li>
+<li>month_of: Abbreviation of month</li>
+<li>date_of: Date of temperature reading</li>
+<li>0: Air temperature at hour 0 (midnight)<br />
+&hellip;</li>
+<li>23: Air temperature at hour 23 (11 pm)</li>
+</ul>
+
+<p><br>
+<hr>
+<br></p>
+
+<h2 id="instructions">Instructions</h2>
+
+<h4 id="content-instructions">Content Instructions</h4>
+
+<ul>
+<li>Think of three (and only three!) conceptual questions about any of the data sets. Clearly state each question in your report. You might want to create different sections for your different questions.</li>
+<li>Using <code>dplyr</code> and/or <code>tidyr</code>, manipulate the data as necessary to get it into shape for plotting.</li>
+<li>Using <code>ggplot2</code>, create <em>at least one plot for each question</em> that helps you to answer the question. For each plot, provide an explanation for why you chose the <em>type</em> of plot (e.g. scatterplot, boxplot, bar chart, histogram, etc.), and why you believe that it is best for showing the information related to your question.</li>
+<li>Answer your questions by interpreting your plots and identifying any trends that they reveal (or do not reveal).</li>
+<li>In total, your text related to the conceptual questions, plot design decisions, and interpretation should be in the neighborhood of 1000 words.</li>
+<li>In your report,
+
+<ul>
+<li><strong>Use at least 3 different <code>dplyr</code> verbs</strong> (e.g., <code>filter()</code>, <code>arrange()</code>, <code>select()</code>, <code>mutate()</code>, <code>summarise()</code>, <code>group_by()</code>, etc.)</li>
+<li><strong>Use at least 1 <code>tidyr</code> verb</strong> (e.g., <code>pivot_longer()</code>, <code>pivot_wider()</code>, or the older versions if necessary).</li>
+<li><strong>Use at least 3 different <code>ggplot2</code> geoms.</strong></li>
+</ul></li>
+</ul>
+
+<p><br></p>
+
+<h4 id="formatting-instructions">Formatting Instructions</h4>
+
+<ul>
+<li>The project report should look similar to some of our class activities, but it should include more narrative/explanation along with the code and plots.</li>
+<li>Please create your report in an R markdown file called <code>small-project-2_XX.Rmd</code>, where you substitute your initials for &ldquo;XX&rdquo; (for example, my report would be called <code>small-project-2_FC.Rmd</code>.</li>
+<li>The R Markdown report should show all of the code that you used to work with the data and produce your plots.</li>
+<li>Put your <code>.html</code> file and the <code>.Rmd</code> file <strong>together in one <code>.zip</code> file and submit through Blackboard.</strong></li>
+</ul>
+
+<p><br></p>
+
+<h4 id="evaluation-criteria">Evaluation Criteria</h4>
+
+<p>Projects will be graded on workflow and presentation rather than particular conclusions. <em>So don&rsquo;t fret if you ask a question that fails to turn up interesting results!</em> The data are what they are.</p>
+
+<p>To receive full credit, I am looking for:</p>
+
+<ul>
+<li>Clear, coherent questions about the data. Questions end in a question mark!</li>
+<li>The data manipulations should be purposeful&mdash;they should be used to get the data into shape for answering your questions and plotting.</li>
+<li>Each plot that you include in the report should help to answer one of your proposed questions, with a justification for <em>why</em> you chose to make the type of plot that you made. I am not looking for a dumping ground of many preliminary or poor-quality plots that you experimented with while trying to make a good one.</li>
+<li>Interpretation of your plots and responses to your proposed question.</li>
+</ul>
 
 	      </div>
       </div>
