@@ -79,7 +79,7 @@ Download: [<i class="fas fa-file-csv fa-lg"></i> ssr_fpv.csv](/files/data/ssr_fp
  - leaf_maturity: Leaf maturity score on 1--4 scale (0 = no mature leaves, 4 = 100% of leaves present are mature leaves)
  - fruit_cover: Fruit cover score on 1--4 scale (0 = no fruit, 4 = full of fruit)
  - fruit_maturity: Fruit maturity score on 1--4 scale (0 = no ripe fruit, 4 = 100% of fruits present are ripe)
- - flower_cover: Flower cover score on 1--4 scale (0 = no fruit, 4 = full of flowers)
+ - flower_cover: Flower cover score on 1--4 scale (0 = no flowers, 4 = full of flowers)
  - flower_maturity: Flower maturity score on 1--4 scale (0 = no mature flowers, 4 = 100% of flowers present are mature)
  - trunk_diameter_cm: Diameter at breast height of the tree trunk.
  - fruit_avail_index: A ripe fruit "availability index" ranging from 0 (no ripe fruit) to 1 (completely full of ripe fruit). Calculated as (fruit_cover / 4) * (fruit_maturity / 4).
