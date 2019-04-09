@@ -167,6 +167,16 @@ Optional further reading.  Introduction to dplyr: many code examples Modern Dive
     </item>
     
     <item>
+      <title>Data Manipulation 2: Grouped Summaries, Filters, and Mutates</title>
+      <link>/read/dplyr-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/dplyr-2/</guid>
+      <description> Read  R4DS, 5.6&amp;ndash;5.7: Data Transformation: dplyr basic verbs: summarise, group_by, and new ways to use mutate and filter.  
+Optional further reading (same as last week).  Introduction to dplyr: many code examples Modern Dive, Chapter 4: Data Wrangling: Similar to assigned reading but organized differently. Might be a little easier to follow?  </description>
+    </item>
+    
+    <item>
       <title>Data Manipulation, Part 1</title>
       <link>/slide/data-manip1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

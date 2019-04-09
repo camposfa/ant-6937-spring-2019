@@ -74,7 +74,7 @@ lessons:
     
   - date: "2019-04-11"
     topics: "Data Manip. 2: Group, Summarize"
-    #reading: "dplyr-2"
+    reading: "dplyr-2"
 
   - date: "2019-04-18"
     topics: "Catch-up / Work on Small Project 2"
