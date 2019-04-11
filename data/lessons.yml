@@ -61,7 +61,6 @@ lessons:
     topics: "Reshaping Data"
     assignment: "reshaping-data"
     slide: "reshaping-data"
-    #reading: "tidyr"
     
   - date: "2019-03-28"
     topics: "<i class='fas fa-chalkboard-teacher'></i> <b>No class:</b> AAPA Conference <i class='fas fa-globe-americas'></i>"
@@ -75,6 +74,7 @@ lessons:
   - date: "2019-04-11"
     topics: "Data Manip. 2: Group, Summarize"
     reading: "dplyr-2"
+    assignment: "dplyr-2"
 
   - date: "2019-04-18"
     topics: "Catch-up / Work on Small Project 2"
