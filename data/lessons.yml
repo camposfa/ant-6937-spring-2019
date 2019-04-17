@@ -80,7 +80,7 @@ lessons:
   - date: "2019-04-18"
     topics: "Catch-up / Work on Small Project 2"
     project: "small-project-2"
-    #reading: "small-project-1"
+    assignment: "viz-challenges"
     
   - date: "2019-04-25"
     topics: "Data Manip. 3: Joins"
