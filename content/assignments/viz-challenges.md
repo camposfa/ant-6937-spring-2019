@@ -53,7 +53,7 @@ Source: [The Human Mortality Database](https://www.mortality.org).
 2. Inspect the data in the text files carefully. There are a couple of problems with the data structure that will need to be addressed when you import the files.
 3. The two files can be "bound" together row-wise using the `dplyr` function `bind_rows()`. Before binding, what do you need to add to each country's data file?
 4. Notice in the data how people >= 110 years old are coded, and why this is a problem. Since we want to treat age as a number, recode all such people to be 110 years old, and convert the column to a number.
-5. You can create a new column with percentile bins using the `dplyr` function `ntile()`. When doinng so, create 100 bins.
+5. You can create a new column with percentile bins using the `dplyr` function `ntile()`. When doing so, create 100 bins.
 
 **Hints for plotting:**
 
