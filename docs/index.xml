@@ -205,21 +205,25 @@ Optional further reading (same as last week).  Introduction to dplyr: many code 
     
     <item>
       <title>Final Project</title>
-      <link>/projects/final-project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/final-project/</guid>
-      <description>Instructions will appear here.
-Due date: May 05 by the end of the day (11:59:59 pm)</description>
-    </item>
-    
-    <item>
-      <title>Final Project: Proposal</title>
       <link>/projects/final-project-temp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/final-project-temp/</guid>
-      <description>Projects should essentially look like any of our modules, but with you identifying the dataset and questions rather than working from a template. You may choose to replicate a figure from an existing study, but are also encouraged to use this opportunity to perform some exploratory analysis on data you may be using in your DS421 team projects or your own dissertation research. Remember that as with modules, finals will be graded on workflow and presentation rather than particular conclusions.</description>
+      <description>Due date: May. 05 by the end of the day (11:59:59 pm)
+The final project should essentially look like any of our small projects, but with two key differences:
+ You will decide on the data set to use, and I especially encourage you to find and/or use a data set that is related to your thesis topic. If this is not possible, I can help you find a data set on a topic relevant to your interests.</description>
+    </item>
+    
+    <item>
+      <title>Final Project</title>
+      <link>/projects/final-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/final-project/</guid>
+      <description>Due date: May 05 by the end of the day (11:59:59 pm)
+
+Description The final project should essentially look like any of our small projects, but with two key differences:
+ You will decide on the data set to use, and I especially encourage you to find and/or use a data set that is related to your thesis topic. If this is not possible, I can help you find a data set on a topic relevant to your interests.</description>
     </item>
     
     <item>
