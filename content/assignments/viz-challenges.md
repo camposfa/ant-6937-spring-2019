@@ -67,6 +67,11 @@ Source: [The Human Mortality Database](https://www.mortality.org).
 **What interesting things does this visualization reveal about mortality patterns in these countries?**
 
 <br>
+
+**SOLUTIONS:** [<i class="fas fa-code fa-lg"></i> death-rates-europe.html](/livecode/viz-challenges/death-rates-europe.html)
+
+
+<br>
 <hr>
 <br>
 
@@ -100,3 +105,7 @@ Source: [Global Historical Climatology Network Daily](https://www.ncdc.noaa.gov/
 2. Facet by the temperature variables using `facet_wrap()`.
 3. Use a diverging color palette centered at zero. I used the `RColorBrewer` palette called "RdBu".
 4. To get the diverging color scale right (centered at zero), find the largest absolute value in the new anomaly column (call it "lim"). Then use `limits = c(-lim, lim)` in your `scale_fill_` function.
+
+<br>
+
+**SOLUTIONS:** [<i class="fas fa-code fa-lg"></i> sat-weather.html](/livecode/viz-challenges/sat-weather.html)
