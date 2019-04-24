@@ -84,7 +84,7 @@ lessons:
     
   - date: "2019-04-25"
     topics: "Data Manip. 3: Joins"
-    #project: "joins"
+    reading: "two-table-operations"
   
   - topics: "<i class='fas fa-graduation-cap fa-lg'></i><b> FINAL PROJECTS<b>" 
     
