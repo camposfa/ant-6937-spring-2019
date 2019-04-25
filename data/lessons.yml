@@ -85,6 +85,7 @@ lessons:
   - date: "2019-04-25"
     topics: "Data Manip. 3: Joins"
     reading: "two-table-operations"
+    assignment: "joins"
   
   - topics: "<i class='fas fa-graduation-cap fa-lg'></i><b> FINAL PROJECTS<b>" 
     

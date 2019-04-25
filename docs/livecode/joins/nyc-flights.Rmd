@@ -1,0 +1,163 @@
+---
+title: "In-class Activity: NYC Flights"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE,
+                      fig.align = "center", 
+                      fig.height = 11, 
+                      fig.width = 15)
+```
+
+## Setup
+
+```{r}
+library("knitr")
+library("tidyverse")
+library("nycflights13")
+library("rnaturalearth")
+library("sf")
+library("rcartocolor")
+library("colorspace")
+library("scales")
+
+theme_set(theme_minimal())
+```
+
+## Spatial Data
+
+Let's read in some spatial data using the `rnaturalearth` package. Review the [maps activity](https://www.campos-lab.net/courses/ant6973-s2019/assignments/viz-spatial/) and [slides](https://www.campos-lab.net/courses/ant6973-s2019/slide/viz-color-files-spatial/) for a refresher. Specifically, we want the continental 48 states and the world at medium scale. We'll also extract the bounding box for our new object called `states48` for easier plotting.
+
+```{r spatial}
+states48 <- ne_states(iso_a2 = 'US', returnclass = "sf") %>%
+  filter(name != "Hawaii" & name != "Alaska")
+
+world <- ne_countries(scale = "medium", returnclass = "sf")
+
+my_bbox <- st_bbox(states48)
+```
+
+<br>
+<hr>
+<br>
+
+#### Problem 1: Mapping the number of flights by destination.
+
+Using the `flights` and `airports` tables, create a new data set called `airports_n` that includes the number of flights to each destination and all the airport metadata from the `airports` table (including `lat` adn `lon`).
+
+```{r n-flights, eval = FALSE}
+airports_n <- # Your R code here
+
+kable(head(airports_n))
+```
+
+Create the map by completing the code below.
+
+```{r n-flights-plot, eval = FALSE}
+ggplot() +
+  geom_sf(data = _______, fill = "gray85") +  # World map on the bottom
+  geom_sf(data = _______, fill = "floralwhite") + # States map goes next
+  geom_point(data = ____, aes(____________),  # One dot per airport, with size and fill mapped to n
+             alpha = 0.7, shape = 21, color = "black") + # Point shape 21 uses fill for interior and color for border
+  scale_fill_viridis_c(option = "inferno", name = "# Flights",  # Viridis color scale (replace if you want)
+                       breaks = seq(2000, 16000, by = 2000), labels = scales::comma) +
+  scale_size_area(name = "# Flights", max_size = 16,  # Same names, breaks, and labels needed to combine legends
+                  breaks = seq(2000, 16000, by = 2000), labels = scales::comma) +
+  guides(fill = guide_legend()) + # Make fill guide a legend rather than a colorbar
+  coord_sf(xlim = my_bbox[c("xmin", "xmax")],
+           ylim = my_bbox[c("ymin", "ymax")]) + # Restrict plot area to our bounding box
+  theme(panel.background = element_rect(fill = "aliceblue"), # Various theme tweaks (from Africa maps activity)
+        panel.border = element_rect(fill = NA),
+        legend.title.align = 0.5,
+        legend.background = element_rect(fill = "white"),
+        legend.text.align = 0.5,
+        legend.justification = c(0, 0),
+        legend.position = c(0.9, 0.05)) +
+  labs(x = NULL, y = NULL, title = "Number of flights arriving from NYC")
+```
+
+<br>
+<hr>
+<br>
+
+#### Problem 2: Mapping average arrival delays for flights from NYC.
+
+Using the `flights` and `airports` tables, create a new data set called `avg_delay` that calculates the average arrival delay (`arr_delay`) then bring in all the airport metadata from the `airports` table (including `lat` adn `lon`).
+
+```{r avg-delay, eval = FALSE}
+avg_delay <- # Your R code here
+
+kable(head(avg_delay))
+```
+
+Create the map by completing the code below.
+
+```{r avg-delay-plot, eval = FALSE}
+ggplot() +
+  geom_sf(data = _________, fill = "gray85") +
+  geom_sf(data = _________, fill = "floralwhite") +
+  geom_point(data = ______, aes(_________________),
+             shape = 21, color = "black", size = 5) +
+  scale_fill_continuous_diverging(palette = "Blue-Red 2", name = "Delay (minutes)", 
+                                  breaks = seq(-20, 40, by = 10), mid = 0) +
+  guides(fill = guide_legend()) +
+  coord_sf(xlim = my_bbox[c("xmin", "xmax")],
+           ylim = my_bbox[c("ymin", "ymax")]) +
+  theme(panel.background = element_rect(fill = "aliceblue"),
+        panel.border = element_rect(fill = NA),
+        legend.title.align = 0.5,
+        legend.background = element_rect(fill = "white"),
+        legend.text.align = 0.5,
+        legend.justification = c(0, 0),
+        legend.position = c(0.9, 0.05)) +
+  labs(x = NULL, y = NULL, title = "Average delay for flights arriving from NYC")
+```
+
+<br>
+<hr>
+<br>
+
+#### Problem 3: Mapping 100 routes at random.
+
+In this activity, we want to draw (approximately) the route each plane flies from its origin to its destination for the 100 flights drawn randomly from the entire set. We want to color these routes by the carrier's full name (e.g., "Delta Air Lines Inc."). What variables would you need? What tables would you need to combine?
+
+Let's call this new data set `rand_flights`. Use the `dplyr` function `sample_n()` to select 100 rows at random.
+
+```{r routes, eval = FALSE}
+flights_latlon <- # Your R code here
+
+set.seed(1234)
+rand_flights <- flights_latlon %>%
+  sample_n(100)
+
+glimpse(rand_flights)
+```
+
+Create the map by completing the code below.
+
+```{r routes-plot, eval = FALSE}
+ggplot() +
+  geom_sf(data = _______, fill = "gray85") +
+  geom_sf(data = _______, fill = "floralwhite") +
+  geom_point(data = ____, aes(___________),
+             color = "black", size = 3) +
+  geom_segment(data = ______,
+               aes(_________________),
+               arrow = arrow(length = unit(0.2, "cm"))) +
+  coord_sf(xlim = my_bbox[c("xmin", "xmax")],
+           ylim = my_bbox[c("ymin", "ymax")]) +
+  scale_color_carto_d(palette = "Bold", name = "Carrier") +
+  theme(panel.background = element_rect(fill = "aliceblue"),
+        panel.border = element_rect(fill = NA),
+        legend.title.align = 0,
+        legend.background = element_rect(fill = "white"),
+        legend.text.align = 0,
+        legend.justification = c(0, 0),
+        legend.position = c(0.85, 0.05)) +
+  labs(x = NULL, y = NULL, title = "100 routes from NYC airports")
+```

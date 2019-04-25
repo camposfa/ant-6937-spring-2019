@@ -1,0 +1,83 @@
+---
+title: "Two-table Operations"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+```{r packages}
+library("tidyverse")
+library("nycflights13")
+```
+
+
+## Practice Data
+
+```{r}
+band <- tibble(name = c("Mick", "John", "Paul"),
+               band = c("Stones", "Beatles", "Beatles"))
+
+instrument <- tibble(name = c("John", "Paul", "Keith"),
+                     plays = c("guitar", "bass", "guitar"))
+```
+
+
+## Activity 1
+
+Which airlines had the largest arrival delays? Complete the code below. 
+
+
+```{r eval = FALSE}
+flights %>%
+  drop_na(arr_delay) %>%
+  __________________ %>%
+  group_by(_________) %>%
+  __________________ %>%
+  arrange(__________)
+```
+
+
+## Activity 2
+
+- Use flights and airports to compute the average arr_delay by destination airport (names only, not codes), and the number of flights that this is based on.
+
+- Arrange by average delay, from worst to best.
+
+```{r}
+# Your R code goes here
+```
+
+
+## Activity 3
+
+- Can you figure out how to get the full name of both the origin airport (origin) and the destination airport (dest) in the flights table?
+
+- Do as before, but group by both origin name and destination name.
+
+```{r}
+# Your R code goes here
+```
+
+
+## Activity 4
+
+How many airports in airports are serviced by flights originating in New York (i.e. flights in our dataset?) 
+
+```{r}
+# Your R code goes here
+```
+
+
+## Activity 5
+
+What are the unique dest codes present in the flights table that have no corresponding information in the airports table?.
+
+```{r}
+# Your R code goes here
+```
