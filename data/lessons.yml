@@ -83,9 +83,10 @@ lessons:
     assignment: "viz-challenges"
     
   - date: "2019-04-25"
-    topics: "Data Manip. 3: Joins"
+    topics: "Data Manip. 3: Two-table Operations"
     reading: "two-table-operations"
     assignment: "joins"
+    slide: "two-table-operations"
   
   - topics: "<i class='fas fa-graduation-cap fa-lg'></i><b> FINAL PROJECTS<b>" 
     
