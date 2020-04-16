@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-  <meta name="generator" content="Hugo 0.55.3" />                                                                   
+  <meta name="generator" content="Hugo 0.69.0" />                                                                   
                
     
   <title>ANT 6973, Spring 2019</title>
@@ -112,44 +112,28 @@
 			<div class="container">
 		  	<div class="section text-left">
 		  	  <h2 class="title text-center">Color, Saving Output, and Geospatial Data</h2>
-	            
-
-<h2 id="read">Read</h2>
-
+	            <h2 id="read">Read</h2>
 <h4 id="making-effective-use-of-color">Making Effective Use of Color</h4>
-
 <ul>
 <li><strong><a href="https://serialmentor.com/dataviz/color-basics.html">Wilke, Ch. 4: Color scales</a></strong></li>
 <li><strong><a href="https://serialmentor.com/dataviz/color-pitfalls.html">Wilke, Ch. 19: Common pitfalls of color use</a></strong></li>
 </ul>
-
-<p><br><br></p>
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <h4 id="saving-plots-as-image-files">Saving Plots as Image Files</h4>
-
 <ul>
 <li><strong><a href="https://r4ds.had.co.nz/graphics-for-communication.html#saving-your-plots">R4DS, Ch. 28.7: Saving your plots</a></strong></li>
 </ul>
-
-<p><br><br></p>
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <h4 id="visualizing-geospatial-data">Visualizing Geospatial Data</h4>
-
 <ul>
 <li><strong><a href="https://www.youtube.com/watch?v=kIID5FDi2JQ">Why all world maps are wrong</a></strong></li>
 <li><strong><a href="https://xkcd.com/977/">XKCD Map Projections</a></strong></li>
 <li><strong><a href="https://xkcd.com/1138/">XKCD Heatmap</a></strong></li>
 <li><strong><a href="https://serialmentor.com/dataviz/geospatial-data.html">Wilke, Ch. 15: Visualizing geospatial data</a></strong></li>
 </ul>
-
-<p><br>
-<hr>
-<br></p>
-
+<!-- raw HTML omitted -->
 <h2 id="color-resources">Color Resources</h2>
-
-<p><img src="../../img/hcl-palettes-principles-1.png" alt="" /></p>
-
+<p><img src="../../img/hcl-palettes-principles-1.png" alt=""></p>
 <ul>
 <li><a href="http://colorbrewer2.org/">Color Brewer</a>: Color advice and a great set of color palettes; r package: <a href="https://cran.r-project.org/package=RColorBrewer">RColorBrewer</a>.</li>
 <li><a href="https://carto.com/carto-colors/">CARTOColors</a>: Cartography-focused color palettes; r package: <a href="https://cran.r-project.org/package=rcartocolor">rcartocolor</a>.</li>
@@ -158,44 +142,37 @@
 <li><a href="https://github.com/clauswilke/multiscales">multiscales</a>: Multivariate color scales.</li>
 <li><a href="https://cran.r-project.org/package=dichromat">dichromat</a>: A package to simulate color blindness.</li>
 </ul>
-
-<p><br><br></p>
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <h2 id="optional-further-reading-about-image-file-formats">Optional further reading about image file formats.</h2>
-
 <ul>
 <li><strong><a href="https://serialmentor.com/dataviz/image-file-formats.html">Wilke, Ch. 27: Understanding the most commonly used image file formats</a></strong></li>
 </ul>
-
-<p><br><br></p>
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <h2 id="extra-software-and-r-packages-for-geospatial-data">Extra Software and R Packages for Geospatial Data</h2>
-
 <p>Last week when we were trying to produce basic maps, some of you were able to get it working right away, whereas others were getting cryptic errors</p>
-
 <p>If map-making is something that interests you, it would be a good idea to make sure that your computer has all the necessary software to do so by following the steps below.</p>
-
 <p>If any of you are still having trouble getting the mapping to work, these steps should also resolve those problems.</p>
-
 <ol>
-<li><p>Install software that enables your computer to compile R packages from their source code.</p>
-
+<li>
+<p>Install software that enables your computer to compile R packages from their source code.</p>
 <ul>
 <li><strong>Windows:</strong> Download and install <a href="https://cran.r-project.org/bin/windows/Rtools/">Rtools</a> (currently Rtools35.exe).</li>
 <li><strong>Mac:</strong> Open terminal and type <code>xcode-select --install</code>
-<br><br></li>
-</ul></li>
-
-<li><p>Back in R Studio, install these packages: <code>sf</code>, <code>maps</code>, <code>maptools</code>, <code>rgeos</code>, and <code>rnaturalearth</code>.</p></li>
-
-<li><p><em>For Mac people only:</em> R doesn’t do all the geographic calculations by itself. It relies on some other software that runs behind the scenes. When people on Windows install <code>sf</code>, those pieces of software should be installed automatically. This doesn’t happen on a Mac, so you have to install them manually. The easiest way to do this is with Terminal. Here&rsquo;s what you have to do:</p>
-
+<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+</li>
+<li>
+<p>Back in R Studio, install these packages: <code>sf</code>, <code>maps</code>, <code>maptools</code>, <code>rgeos</code>, and <code>rnaturalearth</code>.</p>
+</li>
+<li>
+<p><em>For Mac people only:</em> R doesn’t do all the geographic calculations by itself. It relies on some other software that runs behind the scenes. When people on Windows install <code>sf</code>, those pieces of software should be installed automatically. This doesn’t happen on a Mac, so you have to install them manually. The easiest way to do this is with Terminal. Here&rsquo;s what you have to do:</p>
 <ul>
 <li>Open Terminal</li>
 <li>If you haven&rsquo;t already, go to <a href="brew.sh">brew.sh</a>, copy the big long command under &ldquo;Install Homebrew&rdquo; (starts with <code>/usr/bin/ruby -e &quot;$(curl -fsSL...</code>).</li>
 <li>Paste the command into Terminal, and press enter. This installs Homebrew, which is special software that lets you install Unix-y programs from the Terminal. This will take a while.</li>
 <li>In Terminal, type this line to install the geographic software: <code>brew install gdal geos proj</code>. This will also take a while.</li>
-</ul></li>
+</ul>
+</li>
 </ol>
 
 	      </div>

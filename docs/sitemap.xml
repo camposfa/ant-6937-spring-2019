@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -28,28 +28,24 @@
   </url>
   
   <url>
-    <loc>/assignments/r-basics/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/overview-notes/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/archives/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/assignments/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/assignments/checklist/blh017/</loc>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -62,6 +58,10 @@
   
   <url>
     <loc>/slide/viz-color-files-spatial/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignments/checklist/czx412/</loc>
   </url>
   
   <url>
@@ -101,6 +101,10 @@
   </url>
   
   <url>
+    <loc>/assignments/checklist/djp156/</loc>
+  </url>
+  
+  <url>
     <loc>/projects/final-project/</loc>
   </url>
   
@@ -117,6 +121,14 @@
   </url>
   
   <url>
+    <loc>/assignments/checklist/jby773/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignments/checklist/jlh937/</loc>
+  </url>
+  
+  <url>
     <loc>/assignments/joins/</loc>
   </url>
   
@@ -129,12 +141,15 @@
   </url>
   
   <url>
-    <loc>/projects/</loc>
-    <priority>0</priority>
+    <loc>/assignments/checklist/pkk097/</loc>
   </url>
   
   <url>
-    <loc>/slide/r-basics/</loc>
+    <loc>/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignments/checklist/qxr592/</loc>
   </url>
   
   <url>
@@ -146,8 +161,11 @@
   </url>
   
   <url>
+    <loc>/slide/r-basics/</loc>
+  </url>
+  
+  <url>
     <loc>/read/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -160,7 +178,6 @@
   
   <url>
     <loc>/slide/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -173,7 +190,6 @@
   
   <url>
     <loc>/tags/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -242,34 +258,6 @@
   
   <url>
     <loc>/read/viz-relationships/</loc>
-  </url>
-  
-  <url>
-    <loc>/assignments/checklist/blh017/</loc>
-  </url>
-  
-  <url>
-    <loc>/assignments/checklist/czx412/</loc>
-  </url>
-  
-  <url>
-    <loc>/assignments/checklist/djp156/</loc>
-  </url>
-  
-  <url>
-    <loc>/assignments/checklist/jby773/</loc>
-  </url>
-  
-  <url>
-    <loc>/assignments/checklist/jlh937/</loc>
-  </url>
-  
-  <url>
-    <loc>/assignments/checklist/pkk097/</loc>
-  </url>
-  
-  <url>
-    <loc>/assignments/checklist/qxr592/</loc>
   </url>
   
   <url>

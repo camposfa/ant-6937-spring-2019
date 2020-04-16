@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reads on ANT 6973, Spring 2019</title>
@@ -16,10 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/color-files-geospatial/</guid>
-      <description>Read Making Effective Use of Color  Wilke, Ch. 4: Color scales Wilke, Ch. 19: Common pitfalls of color use  
-Saving Plots as Image Files  R4DS, Ch. 28.7: Saving your plots  
-Visualizing Geospatial Data  Why all world maps are wrong XKCD Map Projections XKCD Heatmap Wilke, Ch. 15: Visualizing geospatial data  
- Color Resources  Color Brewer: Color advice and a great set of color palettes; r package: RColorBrewer.</description>
+      <description>Read Making Effective Use of Color  Wilke, Ch. 4: Color scales Wilke, Ch. 19: Common pitfalls of color use  Saving Plots as Image Files  R4DS, Ch. 28.7: Saving your plots  Visualizing Geospatial Data  Why all world maps are wrong XKCD Map Projections XKCD Heatmap Wilke, Ch. 15: Visualizing geospatial data  Color Resources  Color Brewer: Color advice and a great set of color palettes; r package: RColorBrewer.</description>
     </item>
     
     <item>
@@ -28,10 +25,7 @@ Visualizing Geospatial Data  Why all world maps are wrong XKCD Map Projections X
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/data-import/</guid>
-      <description>Read 
-Organizing Data  &amp;ldquo;Tidy Data&amp;rdquo; by Hadley Wickham.
- Don&amp;rsquo;t pay much attention to any R code you encounter, as most of it has now been superseded by newer tidyverse functions.
- This was Wickham&amp;rsquo;s early &amp;ldquo;tidy tools&amp;rdquo; manifesto; it provided guiding principles and a framework for developing the tidyverse.  Peruse the website &amp;ldquo;Data Organization in Spreadsheets&amp;rdquo;, much of which has been written up in a journal article:</description>
+      <description>Read Organizing Data  &amp;ldquo;Tidy Data&amp;rdquo; by Hadley Wickham.  Don&amp;rsquo;t pay much attention to any R code you encounter, as most of it has now been superseded by newer tidyverse functions. This was Wickham&amp;rsquo;s early &amp;ldquo;tidy tools&amp;rdquo; manifesto; it provided guiding principles and a framework for developing the tidyverse.   Peruse the website &amp;ldquo;Data Organization in Spreadsheets&amp;rdquo;, much of which has been written up in a journal article:</description>
     </item>
     
     <item>
@@ -40,8 +34,7 @@ Organizing Data  &amp;ldquo;Tidy Data&amp;rdquo; by Hadley Wickham.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/dplyr-1/</guid>
-      <description> Read  R4DS, 5.1&amp;ndash;5.5: Data Transformation: dplyr basic verbs: filter, arrange, select, and mutate.  
-Optional further reading.  Introduction to dplyr: many code examples Modern Dive, Chapter 4: Data Wrangling: Similar to assigned reading but organized differently. Might be a little easier to follow?  </description>
+      <description>Read  R4DS, 5.1&amp;ndash;5.5: Data Transformation: dplyr basic verbs: filter, arrange, select, and mutate.  Optional further reading.  Introduction to dplyr: many code examples Modern Dive, Chapter 4: Data Wrangling: Similar to assigned reading but organized differently. Might be a little easier to follow?  </description>
     </item>
     
     <item>
@@ -50,8 +43,7 @@ Optional further reading.  Introduction to dplyr: many code examples Modern Dive
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/dplyr-2/</guid>
-      <description> Read  R4DS, 5.6&amp;ndash;5.7: Data Transformation: dplyr basic verbs: summarise, group_by, and new ways to use mutate and filter.  
-Optional further reading (same as last week).  Introduction to dplyr: many code examples Modern Dive, Chapter 4: Data Wrangling: Similar to assigned reading but organized differently. Might be a little easier to follow?  </description>
+      <description>Read  R4DS, 5.6&amp;ndash;5.7: Data Transformation: dplyr basic verbs: summarise, group_by, and new ways to use mutate and filter.  Optional further reading (same as last week).  Introduction to dplyr: many code examples Modern Dive, Chapter 4: Data Wrangling: Similar to assigned reading but organized differently. Might be a little easier to follow?  </description>
     </item>
     
     <item>
@@ -60,7 +52,7 @@ Optional further reading (same as last week).  Introduction to dplyr: many code 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/setup/</guid>
-      <description> Read  Preface of Healy&amp;rsquo;s Data Visualization.  </description>
+      <description>Read  Preface of Healy&amp;rsquo;s Data Visualization.  </description>
     </item>
     
     <item>
@@ -69,8 +61,10 @@ Optional further reading (same as last week).  Introduction to dplyr: many code 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/r-basics/</guid>
-      <description>Read  ModernDive Ch. 2: Getting Started with Data in R Healy Section 2.3: Things to know about R Healy Section 2.4: Be patient with R, and with yourself
- Tidyverse style guide, Ch. 1 and Ch. 2. Consistent style is an important element of communication and collaboration. Skim over the sections 1. Files and 2. Syntax. Don&amp;rsquo;t worry if you don&amp;rsquo;t understand the code examples. Just try to get a feel for the style recommendations (e.</description>
+      <description>Read   ModernDive Ch. 2: Getting Started with Data in R
+  Healy Section 2.3: Things to know about R
+  Healy Section 2.4: Be patient with R, and with yourself
+  Tidyverse style guide, Ch. 1 and Ch. 2. Consistent style is an important element of communication and collaboration. Skim over the sections 1. Files and 2. Syntax. Don&amp;rsquo;t worry if you don&amp;rsquo;t understand the code examples.</description>
     </item>
     
     <item>
@@ -79,8 +73,8 @@ Optional further reading (same as last week).  Introduction to dplyr: many code 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/two-table-operations/</guid>
-      <description> Read  Modern Dive, Chapter 4.7: &amp;ldquo;Join Data Frames&amp;rdquo;: A concise overview of join verbs in dplyr.
- R4DS, 13: Relational Data: More detailed, with many examples. Also covers set operations.
+      <description>Read   Modern Dive, Chapter 4.7: &amp;ldquo;Join Data Frames&amp;rdquo;: A concise overview of join verbs in dplyr.
+  R4DS, 13: Relational Data: More detailed, with many examples. Also covers set operations.
   </description>
     </item>
     
@@ -90,7 +84,7 @@ Optional further reading (same as last week).  Introduction to dplyr: many code 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/viz-basics/</guid>
-      <description> Read  Healy, Ch. 1: Look At Data Wilke, Ch. 1: Introduction Wilke, Ch. 2: Visualizing data: Mapping data onto aesthetics  </description>
+      <description>Read  Healy, Ch. 1: Look At Data Wilke, Ch. 1: Introduction Wilke, Ch. 2: Visualizing data: Mapping data onto aesthetics  </description>
     </item>
     
     <item>
@@ -99,7 +93,7 @@ Optional further reading (same as last week).  Introduction to dplyr: many code 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/viz-amounts/</guid>
-      <description> Read  Wilke, Ch. 6: Visualizing Amounts Wilke, Ch. 10: Visualizing Proportions Wilke, Ch. 11: Visualizing Nested Proportions  Kristin Henry (2017) &amp;ldquo;In Defense of Pie Charts, and Why You Shouldn’t Use Them.&amp;rdquo;  Robert Kosara (2016), &amp;ldquo;Stacked Bars Are the Worst.&amp;rdquo; &amp;ldquo;What to consider when creating stacked column charts.&amp;rdquo;  </description>
+      <description>Read  Wilke, Ch. 6: Visualizing Amounts Wilke, Ch. 10: Visualizing Proportions Wilke, Ch. 11: Visualizing Nested Proportions  Kristin Henry (2017) &amp;ldquo;In Defense of Pie Charts, and Why You Shouldn’t Use Them.&amp;quot;   Robert Kosara (2016), &amp;ldquo;Stacked Bars Are the Worst.&amp;quot; &amp;ldquo;What to consider when creating stacked column charts.&amp;quot;  </description>
     </item>
     
     <item>
@@ -108,7 +102,7 @@ Optional further reading (same as last week).  Introduction to dplyr: many code 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/viz-distributions/</guid>
-      <description>Read  Wilke, Ch. 7: Visualizing distributions: Histograms and density plots Wilke, Ch. 9: Visualizing many distributions at once Wilke, Ch. 16: Visualizing uncertainty  Popovich and Pearce, &amp;ldquo;It’s Not Your Imagination. Summers Are Getting Hotter.&amp;rdquo; Matthew Conlen, &amp;ldquo;Kernel Density Estimation&amp;rdquo; Nicole Torres (2010), &amp;ldquo;Why It’s So Hard for Us to Visualize Uncertainty&amp;rdquo; Robert Kosara (2017), &amp;ldquo;Communicating Uncertainty When Lives Are on the Line&amp;rdquo; Nathan Yau (FlowingData): &amp;ldquo;Showing uncertainty during the live election forecast&amp;rdquo;&amp;rdquo; (and a humorous critique of the NYT election uncertainty dial).</description>
+      <description>Read  Wilke, Ch. 7: Visualizing distributions: Histograms and density plots Wilke, Ch. 9: Visualizing many distributions at once Wilke, Ch. 16: Visualizing uncertainty  Popovich and Pearce, &amp;ldquo;It’s Not Your Imagination. Summers Are Getting Hotter.&amp;quot; Matthew Conlen, &amp;ldquo;Kernel Density Estimation&amp;rdquo; Nicole Torres (2010), &amp;ldquo;Why It’s So Hard for Us to Visualize Uncertainty&amp;rdquo; Robert Kosara (2017), &amp;ldquo;Communicating Uncertainty When Lives Are on the Line&amp;rdquo; Nathan Yau (FlowingData): &amp;ldquo;Showing uncertainty during the live election forecast&amp;rdquo;&amp;quot; (and a humorous critique of the NYT election uncertainty dial).</description>
     </item>
     
     <item>
@@ -117,7 +111,7 @@ Optional further reading (same as last week).  Introduction to dplyr: many code 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/viz-relationships/</guid>
-      <description> Read  Wilke, Ch. 12: Visualizing associations among two or more quantitative variables Wilke, Ch. 13: Visualizing time series and other functions of an independent variable Wilke, Ch. 14: Visualizing trends  Nathan Yau, &amp;ldquo;11 Ways to Visualize Changes Over Time – A Guide&amp;rdquo; Keiran Healy, &amp;ldquo;Two Y-Axes&amp;rdquo; Stephanie Evergreen, &amp;ldquo;Two Alternatives to Using a Second Y-Axis&amp;rdquo;  </description>
+      <description>Read  Wilke, Ch. 12: Visualizing associations among two or more quantitative variables Wilke, Ch. 13: Visualizing time series and other functions of an independent variable Wilke, Ch. 14: Visualizing trends  Nathan Yau, &amp;ldquo;11 Ways to Visualize Changes Over Time – A Guide&amp;rdquo; Keiran Healy, &amp;ldquo;Two Y-Axes&amp;rdquo; Stephanie Evergreen, &amp;ldquo;Two Alternatives to Using a Second Y-Axis&amp;rdquo;  </description>
     </item>
     
   </channel>

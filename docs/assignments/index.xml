@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assignments on ANT 6973, Spring 2019</title>
@@ -9,178 +9,6 @@
     
 	<atom:link href="/assignments/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title></title>
-      <link>/assignments/r-basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/r-basics/</guid>
-      <description>R and RStudio Basics       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
-    </item>
-    
-    <item>
-      <title>Data Import</title>
-      <link>/assignments/data-import/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/data-import/</guid>
-      <description>To complete this week&amp;rsquo;s activities, you will need two new packages.
-install.packages(&amp;quot;here&amp;quot;) install.packages(&amp;quot;janitor&amp;quot;)  
-Complete in Class 
-Paths Instructions:
- Download the zip file paths-project.zip and unzip the contents into this week&amp;rsquo;s folder.
- Open the project called paths-project.Rproj.
- Open the R Markdown file located at paths-project/rmd/paths.Rmd.
- Go through the activity, changing code where appropriate.
- Nothing to turn in!
-  
-  paths-project.</description>
-    </item>
-    
-    <item>
-      <title>Data Manipulation 1</title>
-      <link>/assignments/dplyr-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/dplyr-1/</guid>
-      <description>To complete this week&amp;rsquo;s activities, you will need to install the &amp;ldquo;development&amp;rdquo; version of tidyr.
-devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;)  Important note: As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: pivot_longer() and pivot_wider(). It looks like these names are going to stick. All course materials have been updated accordingly.</description>
-    </item>
-    
-    <item>
-      <title>Data Manipulation 2</title>
-      <link>/assignments/dplyr-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/dplyr-2/</guid>
-      <description>Companion to in-class activities   summarise-activities.Rmd (Nothing to turn in!)</description>
-    </item>
-    
-    <item>
-      <title>Introduction &amp; Setup</title>
-      <link>/assignments/setup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/setup/</guid>
-      <description> Complete in Class  DataCamp Lesson: RStudio IDE, Part I, Chapter 1: &amp;ldquo;Orientation&amp;rdquo; (by Garrett Grolemund).  </description>
-    </item>
-    
-    <item>
-      <title>Joins</title>
-      <link>/assignments/joins/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/joins/</guid>
-      <description>To complete this week&amp;rsquo;s activities, you will need to install the package nycflights13. Do this in console, not in your R Markdown file!
-install.packages(&amp;quot;nycflights13&amp;quot;)  
-Companion to in-class activities   two-table-operations.Rmd (Nothing to turn in!)  
-
-Complete before next class 
-NYC Flights Instructions:
- Download the R Markdown file and data files below
- Insert your code where indicated
- Email me your knitted .</description>
-    </item>
-    
-    <item>
-      <title>R and RStudio Basics</title>
-      <link>/assignments/r-basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/r-basics/</guid>
-      <description>Complete in Class  DataCamp Lesson: Introduction to R, Chapter 1: &amp;ldquo;Intro to Basics&amp;rdquo; (by Jonathan Cornelissen). DataCamp Lesson: Reporting with R Markdown, Chapter 1: &amp;ldquo;Authoring R Markdown Reports&amp;rdquo; (by Garrett Grolemund).  
- (Optional) If this was too easy&amp;hellip; 
-Learn about (or brush up on) different kinds of objects in R by completing a few other chapters of Introduction to R by Jonathan Cornelissen. Note: these chapters cover base R, not the tidyverse R dialect, but the basic ideas will always be useful.</description>
-    </item>
-    
-    <item>
-      <title>Reshaping Data</title>
-      <link>/assignments/reshaping-data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/reshaping-data/</guid>
-      <description>To complete this week&amp;rsquo;s activities, you will need to install the &amp;ldquo;development&amp;rdquo; version of tidyr.
-devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;)  Important note: As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: pivot_longer() and pivot_wider(). It looks like these names are going to stick. All course materials have been updated accordingly.</description>
-    </item>
-    
-    <item>
-      <title>Visualization Basics</title>
-      <link>/assignments/viz-basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/viz-basics/</guid>
-      <description>Complete in Class Mammalian sleep dataset: msleep
-Instructions: Download the R Markdown file below, insert your code where indicated, and send me your edited .Rmd file and knitted .html output as email attachments.
-  msleep.Rmd  msleep.html (for reference only)  
-Complete on your own time between now and class on Feb. 07 Chapters 1&amp;ndash;4 of Data Visualization with ggplot2 (Part 1) by Rick Scavetta.
- Chapter 1: &amp;ldquo;Introduction&amp;rdquo; Chapter 2: &amp;ldquo;Data&amp;rdquo; Chapter 3: &amp;ldquo;Aesthetics&amp;rdquo; Chapter 4: &amp;ldquo;Geometries&amp;rdquo;  If you get stuck, feel free to email me or come by my office for some guidance.</description>
-    </item>
-    
-    <item>
-      <title>Visualization Challenges</title>
-      <link>/assignments/viz-challenges/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/viz-challenges/</guid>
-      <description>Catch-up work  Work on Small Project 2! Get caught up will any other assignments that you haven&amp;rsquo;t completed. This includes:
- 9 DataCamp chapters. msleep pies baboon-activities babynames maps ozone spreadsheets tidy-data data-manip1   
-If you&amp;rsquo;re all caught up, practice your data manipulation and plotting skills by working on the two small challenges below. I&amp;rsquo;ll post solutions after class is over.
-
- 1. Sex differences in mortality over time in Western Europe Data:</description>
-    </item>
-    
-    <item>
-      <title>Visualizing Amounts and Parts of a Whole</title>
-      <link>/assignments/viz-amounts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/viz-amounts/</guid>
-      <description>Complete in Class Pie Chart Practice
-Instructions: Download the R Markdown file below, insert your code where indicated, and send me your knitted .html output as an email attachment. No need to send the .Rmd file!
-  pies.Rmd  
-Baboon Activity Budgets (if we run out of time, complete between now and class on Feb. 14)
-Instructions: Download the R Markdown file below, insert your code where indicated, and send me your knitted .</description>
-    </item>
-    
-    <item>
-      <title>Visualizing Distributions and Uncertainty</title>
-      <link>/assignments/viz-distributions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/viz-distributions/</guid>
-      <description> Data for in-class activities Body Mass of Late Quaternary Mammals
-Instructions: Download the R Object file to use during the in-class activities. Nothing to turn in!
-  late-quaternary-mammals.RDS  
- Between now and class on Feb. 21  Get caught up will past DataCamp and in-class activities! Start thinking about Small Project 1.  </description>
-    </item>
-    
-    <item>
-      <title>Visualizing Geospatial Data</title>
-      <link>/assignments/viz-spatial/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/viz-spatial/</guid>
-      <description>Complete and Submit Before Class On Mar. 7 Maps
-Instructions:
- Follow the instructions at the bottom of this page under the heading &amp;ldquo;Extra Software and R Packages for Geospatial Data&amp;rdquo;. These steps should install the necessary software for spatial data visualization.
- Download the .zip file of data below, and unzip the file into this week&amp;rsquo;s folder.
- Download the R Markdown file below, insert your code where indicated, and email me your knitted .</description>
-    </item>
-    
-    <item>
-      <title>Visualizing Relationships and Change Over Time</title>
-      <link>/assignments/viz-relationships/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/viz-relationships/</guid>
-      <description>Complete in Class and Submit Baby Names
-Instructions: Download the R Markdown file below, insert your code where indicated, and email me your knitted .html output. No need to send the .Rmd file!
-To complete this assignment, you must install the babynames package:
-install.packages(&amp;quot;babynames&amp;quot;)    babynames.Rmd  babynames-solutions.html (for reference&amp;mdash;finished plots with no code!)  
-For Reference Only (nothing to turn in!) Katrina
-Instructions: Just look at it!</description>
-    </item>
     
     <item>
       <title>blh017</title>
@@ -201,12 +29,56 @@ Instructions: Just look at it!</description>
     </item>
     
     <item>
+      <title>Data Import</title>
+      <link>/assignments/data-import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/data-import/</guid>
+      <description>To complete this week&amp;rsquo;s activities, you will need two new packages.
+install.packages(&amp;quot;here&amp;quot;) install.packages(&amp;quot;janitor&amp;quot;) Complete in Class Paths Instructions:
+  Download the zip file paths-project.zip and unzip the contents into this week&amp;rsquo;s folder.
+  Open the project called paths-project.Rproj.
+  Open the R Markdown file located at paths-project/rmd/paths.Rmd.
+  Go through the activity, changing code where appropriate.
+  Nothing to turn in!
+   paths-project.zip (1.</description>
+    </item>
+    
+    <item>
+      <title>Data Manipulation 1</title>
+      <link>/assignments/dplyr-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/dplyr-1/</guid>
+      <description>To complete this week&amp;rsquo;s activities, you will need to install the &amp;ldquo;development&amp;rdquo; version of tidyr.
+devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;) Important note: As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: pivot_longer() and pivot_wider(). It looks like these names are going to stick. All course materials have been updated accordingly. You will not see this change unless you reinstall the development version of tidyr by (re-)running the command devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;).</description>
+    </item>
+    
+    <item>
+      <title>Data Manipulation 2</title>
+      <link>/assignments/dplyr-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/dplyr-2/</guid>
+      <description>Companion to in-class activities  summarise-activities.Rmd (Nothing to turn in!)  </description>
+    </item>
+    
+    <item>
       <title>djp156</title>
       <link>/assignments/checklist/djp156/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/checklist/djp156/</guid>
       <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity check_circle   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity check_circle   2019-04-04 data-manip1 Activity check_circle   2019-04-25 nyc-flights Activity check_circle    </description>
+    </item>
+    
+    <item>
+      <title>Introduction &amp; Setup</title>
+      <link>/assignments/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/setup/</guid>
+      <description>Complete in Class  DataCamp Lesson: RStudio IDE, Part I, Chapter 1: &amp;ldquo;Orientation&amp;rdquo; (by Garrett Grolemund).  </description>
     </item>
     
     <item>
@@ -228,6 +100,20 @@ Instructions: Just look at it!</description>
     </item>
     
     <item>
+      <title>Joins</title>
+      <link>/assignments/joins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/joins/</guid>
+      <description>To complete this week&amp;rsquo;s activities, you will need to install the package nycflights13. Do this in console, not in your R Markdown file!
+install.packages(&amp;quot;nycflights13&amp;quot;) Companion to in-class activities  two-table-operations.Rmd (Nothing to turn in!)  Complete before next class NYC Flights Instructions:
+  Download the R Markdown file and data files below
+  Insert your code where indicated
+  Email me your knitted .html output.
+    nyc-flights.</description>
+    </item>
+    
+    <item>
       <title>pkk097</title>
       <link>/assignments/checklist/pkk097/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -243,6 +129,98 @@ Instructions: Just look at it!</description>
       
       <guid>/assignments/checklist/qxr592/</guid>
       <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity check_circle   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity check_circle   2019-04-04 data-manip1 Activity check_circle   2019-04-25 nyc-flights Activity check_circle    </description>
+    </item>
+    
+    <item>
+      <title>R and RStudio Basics</title>
+      <link>/assignments/r-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/r-basics/</guid>
+      <description>Complete in Class  DataCamp Lesson: Introduction to R, Chapter 1: &amp;ldquo;Intro to Basics&amp;rdquo; (by Jonathan Cornelissen). DataCamp Lesson: Reporting with R Markdown, Chapter 1: &amp;ldquo;Authoring R Markdown Reports&amp;rdquo; (by Garrett Grolemund).  (Optional) If this was too easy&amp;hellip; Learn about (or brush up on) different kinds of objects in R by completing a few other chapters of Introduction to R by Jonathan Cornelissen. Note: these chapters cover base R, not the tidyverse R dialect, but the basic ideas will always be useful.</description>
+    </item>
+    
+    <item>
+      <title>Reshaping Data</title>
+      <link>/assignments/reshaping-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/reshaping-data/</guid>
+      <description>To complete this week&amp;rsquo;s activities, you will need to install the &amp;ldquo;development&amp;rdquo; version of tidyr.
+devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;) Important note: As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: pivot_longer() and pivot_wider(). It looks like these names are going to stick. All course materials have been updated accordingly. You will not see this change unless you reinstall the development version of tidyr by (re-)running the command devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;).</description>
+    </item>
+    
+    <item>
+      <title>Visualization Basics</title>
+      <link>/assignments/viz-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-basics/</guid>
+      <description>Complete in Class Mammalian sleep dataset: msleep
+Instructions: Download the R Markdown file below, insert your code where indicated, and send me your edited .Rmd file and knitted .html output as email attachments.
+ msleep.Rmd msleep.html (for reference only)  Complete on your own time between now and class on Feb. 07 Chapters 1&amp;ndash;4 of Data Visualization with ggplot2 (Part 1) by Rick Scavetta.
+ Chapter 1: &amp;ldquo;Introduction&amp;rdquo; Chapter 2: &amp;ldquo;Data&amp;rdquo; Chapter 3: &amp;ldquo;Aesthetics&amp;rdquo; Chapter 4: &amp;ldquo;Geometries&amp;rdquo;  If you get stuck, feel free to email me or come by my office for some guidance.</description>
+    </item>
+    
+    <item>
+      <title>Visualization Challenges</title>
+      <link>/assignments/viz-challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-challenges/</guid>
+      <description>Catch-up work   Work on Small Project 2!
+  Get caught up will any other assignments that you haven&amp;rsquo;t completed. This includes:
+ 9 DataCamp chapters. msleep pies baboon-activities babynames maps ozone spreadsheets tidy-data data-manip1    If you&amp;rsquo;re all caught up, practice your data manipulation and plotting skills by working on the two small challenges below. I&amp;rsquo;ll post solutions after class is over.
+1. Sex differences in mortality over time in Western Europe Data:</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Amounts and Parts of a Whole</title>
+      <link>/assignments/viz-amounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-amounts/</guid>
+      <description>Complete in Class Pie Chart Practice
+Instructions: Download the R Markdown file below, insert your code where indicated, and send me your knitted .html output as an email attachment. No need to send the .Rmd file!
+ pies.Rmd  Baboon Activity Budgets (if we run out of time, complete between now and class on Feb. 14)
+Instructions: Download the R Markdown file below, insert your code where indicated, and send me your knitted .</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Distributions and Uncertainty</title>
+      <link>/assignments/viz-distributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-distributions/</guid>
+      <description>Data for in-class activities Body Mass of Late Quaternary Mammals
+Instructions: Download the R Object file to use during the in-class activities. Nothing to turn in!
+ late-quaternary-mammals.RDS  Between now and class on Feb. 21  Get caught up will past DataCamp and in-class activities! Start thinking about Small Project 1.  </description>
+    </item>
+    
+    <item>
+      <title>Visualizing Geospatial Data</title>
+      <link>/assignments/viz-spatial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-spatial/</guid>
+      <description>Complete and Submit Before Class On Mar. 7 Maps
+Instructions:
+  Follow the instructions at the bottom of this page under the heading &amp;ldquo;Extra Software and R Packages for Geospatial Data&amp;rdquo;. These steps should install the necessary software for spatial data visualization.
+  Download the .zip file of data below, and unzip the file into this week&amp;rsquo;s folder.
+  Download the R Markdown file below, insert your code where indicated, and email me your knitted .</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Relationships and Change Over Time</title>
+      <link>/assignments/viz-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-relationships/</guid>
+      <description>Complete in Class and Submit Baby Names
+Instructions: Download the R Markdown file below, insert your code where indicated, and email me your knitted .html output. No need to send the .Rmd file!
+To complete this assignment, you must install the babynames package:
+install.packages(&amp;quot;babynames&amp;quot;)  babynames.Rmd babynames-solutions.html (for reference&amp;mdash;finished plots with no code!)  For Reference Only (nothing to turn in!) Katrina
+Instructions: Just look at it! And use it as a guide if you want to create maps.</description>
     </item>
     
     <item>

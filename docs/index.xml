@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ANT 6973: Data Visualization and Exploration on ANT 6973, Spring 2019</title>
@@ -17,8 +17,7 @@
       <pubDate>Sat, 22 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/datacamp/</guid>
-      <description>ANT 6973 DataCamp Dashboard 
-Throughout the course we will be using DataCamp, a platform that provides an interactive way to learn how to use R to create visualizations and carry out data analysis.
+      <description>ANT 6973 DataCamp Dashboard Throughout the course we will be using DataCamp, a platform that provides an interactive way to learn how to use R to create visualizations and carry out data analysis.
 Invite link: https://www.datacamp.com/groups/shared_links/860db90029f1891286789d3ece4f95d11df40484</description>
     </item>
     
@@ -28,8 +27,7 @@ Invite link: https://www.datacamp.com/groups/shared_links/860db90029f1891286789d
       <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/schedule/</guid>
-      <description>warning  clear  Please note: Syllabus content will be updated frequently as we progress through the topics.    
- Date Topics Readings Assignments Slides Projects     R, RSTUDIO, AND THE TIDYVERSE       2019-01-17 Introduction &amp; Setup       2019-01-24 R Basics and R Markdown         DATA VISUALIZATION       2019-01-31 Visualization Basics       2019-02-07 Visualizing Amounts and Parts of a Whole       2019-02-14 Visualizing Distributions and Uncertainty       2019-02-21 Visualizing Relationships and Change Over Time       2019-02-28 Color, Output, and Geospatial Data         DATA MANIPULATION       2019-03-07 Data Import       2019-03-14  No class: Spring Break        2019-03-21 Reshaping Data       2019-03-28  No class: AAPA Conference        2019-04-04 Data Manip.</description>
+      <description>&amp;lt;th style=&amp;quot;width:15%;text-align:left&amp;quot;&amp;gt;Date&amp;lt;/th&amp;gt; &amp;lt;th style=&amp;quot;width:55%&amp;quot;&amp;gt;Topics&amp;lt;/th&amp;gt; &amp;lt;th style=&amp;quot;width:7.5%;text-align:center&amp;quot;&amp;gt;Readings&amp;lt;/th&amp;gt; &amp;lt;th style=&amp;quot;width:7.5%;text-align:center&amp;quot;&amp;gt;Assignments&amp;lt;/th&amp;gt; &amp;lt;th style=&amp;quot;width:7.5%;text-align:center&amp;quot;&amp;gt;Slides&amp;lt;/th&amp;gt; &amp;lt;th style=&amp;quot;width:7.5%;text-align:center&amp;quot;&amp;gt;Projects&amp;lt;/th&amp;gt;  &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;i class=&#39;fab fa-r-project fa-lg&#39;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;b&amp;gt; R, RSTUDIO, AND THE TIDYVERSE&amp;lt;/b&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;2019-01-17&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Introduction &amp;amp; Setup&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/read/setup&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/assignments/setup&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/slide/setup&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;2019-01-24&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;R Basics and R Markdown&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/read/r-basics&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/assignments/r-basics&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/slide/r-basics&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;i class=&#39;fas fa-chart-bar fa-lg&#39;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;b&amp;gt; DATA VISUALIZATION&amp;lt;/b&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;2019-01-31&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Visualization Basics&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/read/viz-basics&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/assignments/viz-basics&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/slide/viz-basics&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;2019-02-07&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Visualizing Amounts and Parts of a Whole&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/read/viz-amounts&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/assignments/viz-amounts&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/slide/viz-amounts&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;2019-02-14&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Visualizing Distributions and Uncertainty&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/read/viz-distributions&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/assignments/viz-distributions&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/slide/viz-distributions&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;2019-02-21&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Visualizing Relationships and Change Over Time&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/read/viz-relationships&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/assignments/viz-relationships&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/slide/viz-relationships&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;2019-02-28&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Color, Output, and Geospatial Data&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/read/color-files-geospatial&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/assignments/viz-spatial&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/slide/viz-color-files-spatial&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/projects/small-project-1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;i class=&#39;fas fa-tools fa-lg&#39;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;b&amp;gt; DATA MANIPULATION&amp;lt;/b&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;2019-03-07&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Data Import&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/read/data-import&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/assignments/data-import&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/slide/data-import&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;2019-03-14&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;i class=&#39;fas fa-umbrella-beach&#39;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;b&amp;gt;No class:&amp;lt;/b&amp;gt; Spring Break &amp;lt;i class=&#39;fas fa-sun&#39;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;2019-03-21&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Reshaping Data&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/assignments/reshaping-data&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/slide/reshaping-data&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;2019-03-28&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;i class=&#39;fas fa-chalkboard-teacher&#39;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;b&amp;gt;No class:&amp;lt;/b&amp;gt; AAPA Conference &amp;lt;i class=&#39;fas fa-globe-americas&#39;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fab fa-readme fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-tasks fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;far fa-file-pdf fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fas fa-project-diagram fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;left&amp;quot;&amp;gt;2019-04-04&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Data Manip.</description>
     </item>
     
     <item>
@@ -47,16 +45,7 @@ Invite link: https://www.datacamp.com/groups/shared_links/860db90029f1891286789d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description> ANT 6973 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/assignments/r-basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/r-basics/</guid>
-      <description>R and RStudio Basics       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
+      <description>ANT 6973 </description>
     </item>
     
     <item>
@@ -66,468 +55,14 @@ Invite link: https://www.datacamp.com/groups/shared_links/860db90029f1891286789d
       
       <guid>/overview-notes/</guid>
       <description>tutorial for Data Science Triad: GitHub, RMarkdown, Travis-CI
-rstudio Watch: - RStudio IDE, Part I
-Read: readings/setup.md - Prerequisites - Running R code - RStudio Cheat sheet (for reference)
-rmarkdown Watch:
+rstudio Watch:
+ RStudio IDE, Part I  Read: readings/setup.md
+ Prerequisites Running R code RStudio Cheat sheet (for reference)  rmarkdown Watch:
  Reports with RMarkdown (by Garrett Grolemund)  Read:
  Introduction [r4ds-27.1] R Markdown [r4ds-27.2] Code chunks [r4ds-27.4]  git Watch:
 DataCamp Lesson: RStudio IDE, Part II, Chapter 2: Version Control (by Garrett Grolemund).
 vis.1 Watch:
  Tidyverse Chapter 2: Data Visualization (David Robinson)  (Yes, we&amp;rsquo;re starting with Chapter 2, we&amp;rsquo;ll go back to Chapter 1 soon).</description>
-    </item>
-    
-    <item>
-      <title>Cheat Sheets</title>
-      <link>/cheatsheets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/cheatsheets/</guid>
-      <description>RStudio RStudio is a popular software application that provides a user-friendly interface for using R. RStudio make it easier to write and run code, organize your work into projects, and manage packages (among many other things). This cheat sheet describes some of the most useful features of RStudio.      Data Visualization The ggplot2 package will be our primary tool for creating plots in this course. See ggplot2.</description>
-    </item>
-    
-    <item>
-      <title>Color, Saving Output, and Geospatial Data</title>
-      <link>/read/color-files-geospatial/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/read/color-files-geospatial/</guid>
-      <description>Read Making Effective Use of Color  Wilke, Ch. 4: Color scales Wilke, Ch. 19: Common pitfalls of color use  
-Saving Plots as Image Files  R4DS, Ch. 28.7: Saving your plots  
-Visualizing Geospatial Data  Why all world maps are wrong XKCD Map Projections XKCD Heatmap Wilke, Ch. 15: Visualizing geospatial data  
- Color Resources  Color Brewer: Color advice and a great set of color palettes; r package: RColorBrewer.</description>
-    </item>
-    
-    <item>
-      <title>Color, Saving Output, and Geospatial Data</title>
-      <link>/slide/viz-color-files-spatial/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/viz-color-files-spatial/</guid>
-      <description> 07_color-output-spatial.pdf (  4.2 MB)  </description>
-    </item>
-    
-    <item>
-      <title>Data Import</title>
-      <link>/assignments/data-import/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/data-import/</guid>
-      <description>To complete this week&amp;rsquo;s activities, you will need two new packages.
-install.packages(&amp;quot;here&amp;quot;) install.packages(&amp;quot;janitor&amp;quot;)  
-Complete in Class 
-Paths Instructions:
- Download the zip file paths-project.zip and unzip the contents into this week&amp;rsquo;s folder.
- Open the project called paths-project.Rproj.
- Open the R Markdown file located at paths-project/rmd/paths.Rmd.
- Go through the activity, changing code where appropriate.
- Nothing to turn in!
-  
-  paths-project.</description>
-    </item>
-    
-    <item>
-      <title>Data Import</title>
-      <link>/read/data-import/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/read/data-import/</guid>
-      <description>Read 
-Organizing Data  &amp;ldquo;Tidy Data&amp;rdquo; by Hadley Wickham.
- Don&amp;rsquo;t pay much attention to any R code you encounter, as most of it has now been superseded by newer tidyverse functions.
- This was Wickham&amp;rsquo;s early &amp;ldquo;tidy tools&amp;rdquo; manifesto; it provided guiding principles and a framework for developing the tidyverse.  Peruse the website &amp;ldquo;Data Organization in Spreadsheets&amp;rdquo;, much of which has been written up in a journal article:</description>
-    </item>
-    
-    <item>
-      <title>Data Import</title>
-      <link>/slide/data-import/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/data-import/</guid>
-      <description> 08_data-import.pdf (  4.0 MB)  </description>
-    </item>
-    
-    <item>
-      <title>Data Manipulation 1</title>
-      <link>/assignments/dplyr-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/dplyr-1/</guid>
-      <description>To complete this week&amp;rsquo;s activities, you will need to install the &amp;ldquo;development&amp;rdquo; version of tidyr.
-devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;)  Important note: As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: pivot_longer() and pivot_wider(). It looks like these names are going to stick. All course materials have been updated accordingly.</description>
-    </item>
-    
-    <item>
-      <title>Data Manipulation 1: Filter, Select, Arrange, Mutate</title>
-      <link>/read/dplyr-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/read/dplyr-1/</guid>
-      <description> Read  R4DS, 5.1&amp;ndash;5.5: Data Transformation: dplyr basic verbs: filter, arrange, select, and mutate.  
-Optional further reading.  Introduction to dplyr: many code examples Modern Dive, Chapter 4: Data Wrangling: Similar to assigned reading but organized differently. Might be a little easier to follow?  </description>
-    </item>
-    
-    <item>
-      <title>Data Manipulation 2</title>
-      <link>/assignments/dplyr-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/dplyr-2/</guid>
-      <description>Companion to in-class activities   summarise-activities.Rmd (Nothing to turn in!)</description>
-    </item>
-    
-    <item>
-      <title>Data Manipulation 2: Grouped Summaries, Filters, and Mutates</title>
-      <link>/read/dplyr-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/read/dplyr-2/</guid>
-      <description> Read  R4DS, 5.6&amp;ndash;5.7: Data Transformation: dplyr basic verbs: summarise, group_by, and new ways to use mutate and filter.  
-Optional further reading (same as last week).  Introduction to dplyr: many code examples Modern Dive, Chapter 4: Data Wrangling: Similar to assigned reading but organized differently. Might be a little easier to follow?  </description>
-    </item>
-    
-    <item>
-      <title>Data Manipulation, Part 1</title>
-      <link>/slide/data-manip1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/data-manip1/</guid>
-      <description> 10_data-manip-1.pdf (  2.3 MB)  </description>
-    </item>
-    
-    <item>
-      <title>Data Manipulation, Part 2</title>
-      <link>/slide/data-manip2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/data-manip2/</guid>
-      <description> 11_data-manip-2.pdf (  2.5 MB)  </description>
-    </item>
-    
-    <item>
-      <title>Final Project</title>
-      <link>/projects/final-project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/final-project/</guid>
-      <description>Due date: May 05 by the end of the day (11:59:59 pm)
-
-Description The final project should essentially look like any of our small projects, but with two key differences:
- You will decide on the data set to use, and I especially encourage you to find and/or use a data set that is related to your thesis topic. If this is not possible, I can help you find a data set on a topic relevant to your interests.</description>
-    </item>
-    
-    <item>
-      <title>Introduction &amp; Setup</title>
-      <link>/assignments/setup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/setup/</guid>
-      <description> Complete in Class  DataCamp Lesson: RStudio IDE, Part I, Chapter 1: &amp;ldquo;Orientation&amp;rdquo; (by Garrett Grolemund).  </description>
-    </item>
-    
-    <item>
-      <title>Introduction &amp; Setup</title>
-      <link>/read/setup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/read/setup/</guid>
-      <description> Read  Preface of Healy&amp;rsquo;s Data Visualization.  </description>
-    </item>
-    
-    <item>
-      <title>Introduction &amp; Setup</title>
-      <link>/slide/setup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/setup/</guid>
-      <description> 01_Introduction-and-Setup.pdf (  7.5 MB)  </description>
-    </item>
-    
-    <item>
-      <title>Joins</title>
-      <link>/assignments/joins/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/joins/</guid>
-      <description>To complete this week&amp;rsquo;s activities, you will need to install the package nycflights13. Do this in console, not in your R Markdown file!
-install.packages(&amp;quot;nycflights13&amp;quot;)  
-Companion to in-class activities   two-table-operations.Rmd (Nothing to turn in!)  
-
-Complete before next class 
-NYC Flights Instructions:
- Download the R Markdown file and data files below
- Insert your code where indicated
- Email me your knitted .</description>
-    </item>
-    
-    <item>
-      <title>Modules</title>
-      <link>/module-table/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/module-table/</guid>
-      <description>Module Candidate paper Data Format Technical skills   timeline Climate Change Petit et al. (1999)  Tabular data   Parsing tabular data, visualization (readr, ggplot2)   directions_boat Overfishing   Worm et al. (2006)  Relational databases  groups, joins, filters. SQL (dplyr, tidyr)   bug_report Ecological Simulations  May (1974)  memory Simulated data Functional programming, (purrr)   my_location Range shifts Pinsky et al.</description>
-    </item>
-    
-    <item>
-      <title>Modules</title>
-      <link>/modules/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/modules/</guid>
-      <description>Climate Change   Tabular data What is the evidence for a changing climate? In this unit, we will examine some of the most important indicators of global climate change: including CO2 concentration, global mean temperature, sea level rise, land ice sheet melt, and arctic sea ice cover. We will wrangle a wide range of tabular data file formats used by NOAA and other agencies and introduce the fundamentals of data visualization with ggplot2 and data processing with basic functions from the readr, tidyr, and dplyr packages as we seek to replicate the principle results of climate change over the last decades and also the past thousands of years.</description>
-    </item>
-    
-    <item>
-      <title>R Basics and R Markdown</title>
-      <link>/slide/r-basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/r-basics/</guid>
-      <description> 02_R-basics.pdf (  6.0 MB)  </description>
-    </item>
-    
-    <item>
-      <title>R and RStudio Basics</title>
-      <link>/assignments/r-basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/r-basics/</guid>
-      <description>Complete in Class  DataCamp Lesson: Introduction to R, Chapter 1: &amp;ldquo;Intro to Basics&amp;rdquo; (by Jonathan Cornelissen). DataCamp Lesson: Reporting with R Markdown, Chapter 1: &amp;ldquo;Authoring R Markdown Reports&amp;rdquo; (by Garrett Grolemund).  
- (Optional) If this was too easy&amp;hellip; 
-Learn about (or brush up on) different kinds of objects in R by completing a few other chapters of Introduction to R by Jonathan Cornelissen. Note: these chapters cover base R, not the tidyverse R dialect, but the basic ideas will always be useful.</description>
-    </item>
-    
-    <item>
-      <title>R and RStudio Basics</title>
-      <link>/read/r-basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/read/r-basics/</guid>
-      <description>Read  ModernDive Ch. 2: Getting Started with Data in R Healy Section 2.3: Things to know about R Healy Section 2.4: Be patient with R, and with yourself
- Tidyverse style guide, Ch. 1 and Ch. 2. Consistent style is an important element of communication and collaboration. Skim over the sections 1. Files and 2. Syntax. Don&amp;rsquo;t worry if you don&amp;rsquo;t understand the code examples. Just try to get a feel for the style recommendations (e.</description>
-    </item>
-    
-    <item>
-      <title>Reshaping Data</title>
-      <link>/assignments/reshaping-data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/reshaping-data/</guid>
-      <description>To complete this week&amp;rsquo;s activities, you will need to install the &amp;ldquo;development&amp;rdquo; version of tidyr.
-devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;)  Important note: As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: pivot_longer() and pivot_wider(). It looks like these names are going to stick. All course materials have been updated accordingly.</description>
-    </item>
-    
-    <item>
-      <title>Reshaping Data</title>
-      <link>/slide/reshaping-data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/reshaping-data/</guid>
-      <description> 09_reshaping-data.pdf (  3.3 MB)  </description>
-    </item>
-    
-    <item>
-      <title>Small Project 1: Ape Teeth</title>
-      <link>/projects/small-project-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/small-project-1/</guid>
-      <description>Due date: Feb. 28 by the end of the day (11:59:59 pm)
-Introduction In this small project, you will think of conceptual questions to ask of a data set of ape teeth measurements and create plots to answer those questions.
-
-Description of the data  Download: -  ape_teeth.csv Data source: http://anthropologicaldata.free.fr/  Columns
- Species: ape species the tooth belongs to, including:  Gorilla gorilla (Western gorilla) Pan troglodytes (Common chimpanzee) Pongo pygmaeus (Bornean orangutan)  Site: where specimen is located Specimen: specimen ID number Sex: Male or Female Source: where data come from Tooth: name of tooth (see below).</description>
-    </item>
-    
-    <item>
-      <title>Small Project 2</title>
-      <link>/projects/small-project-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/small-project-2/</guid>
-      <description>Due date: Apr. 18 by the end of the day (11:59:59 pm)
-Introduction In this small project, you will think of conceptual questions to ask of one or more data sets.
-Because I think some of you disliked the ape_teeth data set from small project 1, this time I&amp;rsquo;m providing several different data sets that can be used.
-All your questions can be from one data set, or you can ask different questions of different data sets.</description>
-    </item>
-    
-    <item>
-      <title>Tools</title>
-      <link>/tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tools/</guid>
-      <description>  GitHub     R    cloud Cloud computing     Docker               </description>
-    </item>
-    
-    <item>
-      <title>Two-table Operations</title>
-      <link>/slide/two-table-operations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/two-table-operations/</guid>
-      <description> 12_two-table-operations.pdf (  2.7 MB)  </description>
-    </item>
-    
-    <item>
-      <title>Two-table Operations: Joins and Set operations</title>
-      <link>/read/two-table-operations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/read/two-table-operations/</guid>
-      <description> Read  Modern Dive, Chapter 4.7: &amp;ldquo;Join Data Frames&amp;rdquo;: A concise overview of join verbs in dplyr.
- R4DS, 13: Relational Data: More detailed, with many examples. Also covers set operations.
-  </description>
-    </item>
-    
-    <item>
-      <title>Visualization Basics</title>
-      <link>/assignments/viz-basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/viz-basics/</guid>
-      <description>Complete in Class Mammalian sleep dataset: msleep
-Instructions: Download the R Markdown file below, insert your code where indicated, and send me your edited .Rmd file and knitted .html output as email attachments.
-  msleep.Rmd  msleep.html (for reference only)  
-Complete on your own time between now and class on Feb. 07 Chapters 1&amp;ndash;4 of Data Visualization with ggplot2 (Part 1) by Rick Scavetta.
- Chapter 1: &amp;ldquo;Introduction&amp;rdquo; Chapter 2: &amp;ldquo;Data&amp;rdquo; Chapter 3: &amp;ldquo;Aesthetics&amp;rdquo; Chapter 4: &amp;ldquo;Geometries&amp;rdquo;  If you get stuck, feel free to email me or come by my office for some guidance.</description>
-    </item>
-    
-    <item>
-      <title>Visualization Basics</title>
-      <link>/read/viz-basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/read/viz-basics/</guid>
-      <description> Read  Healy, Ch. 1: Look At Data Wilke, Ch. 1: Introduction Wilke, Ch. 2: Visualizing data: Mapping data onto aesthetics  </description>
-    </item>
-    
-    <item>
-      <title>Visualization Basics</title>
-      <link>/slide/viz-basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/viz-basics/</guid>
-      <description> 03_viz-basics.pdf (  4.6 MB)  </description>
-    </item>
-    
-    <item>
-      <title>Visualization Challenges</title>
-      <link>/assignments/viz-challenges/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/viz-challenges/</guid>
-      <description>Catch-up work  Work on Small Project 2! Get caught up will any other assignments that you haven&amp;rsquo;t completed. This includes:
- 9 DataCamp chapters. msleep pies baboon-activities babynames maps ozone spreadsheets tidy-data data-manip1   
-If you&amp;rsquo;re all caught up, practice your data manipulation and plotting skills by working on the two small challenges below. I&amp;rsquo;ll post solutions after class is over.
-
- 1. Sex differences in mortality over time in Western Europe Data:</description>
-    </item>
-    
-    <item>
-      <title>Visualizing Amounts and Parts of a Whole</title>
-      <link>/assignments/viz-amounts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/viz-amounts/</guid>
-      <description>Complete in Class Pie Chart Practice
-Instructions: Download the R Markdown file below, insert your code where indicated, and send me your knitted .html output as an email attachment. No need to send the .Rmd file!
-  pies.Rmd  
-Baboon Activity Budgets (if we run out of time, complete between now and class on Feb. 14)
-Instructions: Download the R Markdown file below, insert your code where indicated, and send me your knitted .</description>
-    </item>
-    
-    <item>
-      <title>Visualizing Amounts and Parts of a Whole</title>
-      <link>/read/viz-amounts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/read/viz-amounts/</guid>
-      <description> Read  Wilke, Ch. 6: Visualizing Amounts Wilke, Ch. 10: Visualizing Proportions Wilke, Ch. 11: Visualizing Nested Proportions  Kristin Henry (2017) &amp;ldquo;In Defense of Pie Charts, and Why You Shouldn’t Use Them.&amp;rdquo;  Robert Kosara (2016), &amp;ldquo;Stacked Bars Are the Worst.&amp;rdquo; &amp;ldquo;What to consider when creating stacked column charts.&amp;rdquo;  </description>
-    </item>
-    
-    <item>
-      <title>Visualizing Amounts and Parts of a Whole</title>
-      <link>/slide/viz-amounts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/viz-amounts/</guid>
-      <description> 04_viz-amounts.pdf (  1.6 MB)  </description>
-    </item>
-    
-    <item>
-      <title>Visualizing Distributions and Uncertainty</title>
-      <link>/assignments/viz-distributions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/viz-distributions/</guid>
-      <description> Data for in-class activities Body Mass of Late Quaternary Mammals
-Instructions: Download the R Object file to use during the in-class activities. Nothing to turn in!
-  late-quaternary-mammals.RDS  
- Between now and class on Feb. 21  Get caught up will past DataCamp and in-class activities! Start thinking about Small Project 1.  </description>
-    </item>
-    
-    <item>
-      <title>Visualizing Distributions and Uncertainty</title>
-      <link>/read/viz-distributions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/read/viz-distributions/</guid>
-      <description>Read  Wilke, Ch. 7: Visualizing distributions: Histograms and density plots Wilke, Ch. 9: Visualizing many distributions at once Wilke, Ch. 16: Visualizing uncertainty  Popovich and Pearce, &amp;ldquo;It’s Not Your Imagination. Summers Are Getting Hotter.&amp;rdquo; Matthew Conlen, &amp;ldquo;Kernel Density Estimation&amp;rdquo; Nicole Torres (2010), &amp;ldquo;Why It’s So Hard for Us to Visualize Uncertainty&amp;rdquo; Robert Kosara (2017), &amp;ldquo;Communicating Uncertainty When Lives Are on the Line&amp;rdquo; Nathan Yau (FlowingData): &amp;ldquo;Showing uncertainty during the live election forecast&amp;rdquo;&amp;rdquo; (and a humorous critique of the NYT election uncertainty dial).</description>
-    </item>
-    
-    <item>
-      <title>Visualizing Distributions and Uncertainty</title>
-      <link>/slide/viz-distributions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/viz-distributions/</guid>
-      <description> 05_viz-distributions.pdf (  3.3 MB)  </description>
-    </item>
-    
-    <item>
-      <title>Visualizing Distributions and Uncertainty</title>
-      <link>/slide/viz-relationships/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/viz-relationships/</guid>
-      <description> 06_viz-relationships.pdf (  1.5 MB)  </description>
-    </item>
-    
-    <item>
-      <title>Visualizing Geospatial Data</title>
-      <link>/assignments/viz-spatial/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/viz-spatial/</guid>
-      <description>Complete and Submit Before Class On Mar. 7 Maps
-Instructions:
- Follow the instructions at the bottom of this page under the heading &amp;ldquo;Extra Software and R Packages for Geospatial Data&amp;rdquo;. These steps should install the necessary software for spatial data visualization.
- Download the .zip file of data below, and unzip the file into this week&amp;rsquo;s folder.
- Download the R Markdown file below, insert your code where indicated, and email me your knitted .</description>
-    </item>
-    
-    <item>
-      <title>Visualizing Relationships and Change Over Time</title>
-      <link>/assignments/viz-relationships/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/viz-relationships/</guid>
-      <description>Complete in Class and Submit Baby Names
-Instructions: Download the R Markdown file below, insert your code where indicated, and email me your knitted .html output. No need to send the .Rmd file!
-To complete this assignment, you must install the babynames package:
-install.packages(&amp;quot;babynames&amp;quot;)    babynames.Rmd  babynames-solutions.html (for reference&amp;mdash;finished plots with no code!)  
-For Reference Only (nothing to turn in!) Katrina
-Instructions: Just look at it!</description>
-    </item>
-    
-    <item>
-      <title>Visualizing Relationships and Change Over Time</title>
-      <link>/read/viz-relationships/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/read/viz-relationships/</guid>
-      <description> Read  Wilke, Ch. 12: Visualizing associations among two or more quantitative variables Wilke, Ch. 13: Visualizing time series and other functions of an independent variable Wilke, Ch. 14: Visualizing trends  Nathan Yau, &amp;ldquo;11 Ways to Visualize Changes Over Time – A Guide&amp;rdquo; Keiran Healy, &amp;ldquo;Two Y-Axes&amp;rdquo; Stephanie Evergreen, &amp;ldquo;Two Alternatives to Using a Second Y-Axis&amp;rdquo;  </description>
     </item>
     
     <item>
@@ -540,6 +75,33 @@ Instructions: Just look at it!</description>
     </item>
     
     <item>
+      <title>Cheat Sheets</title>
+      <link>/cheatsheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cheatsheets/</guid>
+      <description>You can find these and more at https://www.rstudio.com/resources/cheatsheets/.</description>
+    </item>
+    
+    <item>
+      <title>Color, Saving Output, and Geospatial Data</title>
+      <link>/read/color-files-geospatial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/color-files-geospatial/</guid>
+      <description>Read Making Effective Use of Color  Wilke, Ch. 4: Color scales Wilke, Ch. 19: Common pitfalls of color use  Saving Plots as Image Files  R4DS, Ch. 28.7: Saving your plots  Visualizing Geospatial Data  Why all world maps are wrong XKCD Map Projections XKCD Heatmap Wilke, Ch. 15: Visualizing geospatial data  Color Resources  Color Brewer: Color advice and a great set of color palettes; r package: RColorBrewer.</description>
+    </item>
+    
+    <item>
+      <title>Color, Saving Output, and Geospatial Data</title>
+      <link>/slide/viz-color-files-spatial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/viz-color-files-spatial/</guid>
+      <description> 07_color-output-spatial.pdf ( 4.2 MB)  </description>
+    </item>
+    
+    <item>
       <title>czx412</title>
       <link>/assignments/checklist/czx412/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -549,12 +111,138 @@ Instructions: Just look at it!</description>
     </item>
     
     <item>
+      <title>Data Import</title>
+      <link>/assignments/data-import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/data-import/</guid>
+      <description>To complete this week&amp;rsquo;s activities, you will need two new packages.
+install.packages(&amp;quot;here&amp;quot;) install.packages(&amp;quot;janitor&amp;quot;) Complete in Class Paths Instructions:
+  Download the zip file paths-project.zip and unzip the contents into this week&amp;rsquo;s folder.
+  Open the project called paths-project.Rproj.
+  Open the R Markdown file located at paths-project/rmd/paths.Rmd.
+  Go through the activity, changing code where appropriate.
+  Nothing to turn in!
+   paths-project.zip (1.</description>
+    </item>
+    
+    <item>
+      <title>Data Import</title>
+      <link>/read/data-import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/data-import/</guid>
+      <description>Read Organizing Data  &amp;ldquo;Tidy Data&amp;rdquo; by Hadley Wickham.  Don&amp;rsquo;t pay much attention to any R code you encounter, as most of it has now been superseded by newer tidyverse functions. This was Wickham&amp;rsquo;s early &amp;ldquo;tidy tools&amp;rdquo; manifesto; it provided guiding principles and a framework for developing the tidyverse.   Peruse the website &amp;ldquo;Data Organization in Spreadsheets&amp;rdquo;, much of which has been written up in a journal article:</description>
+    </item>
+    
+    <item>
+      <title>Data Import</title>
+      <link>/slide/data-import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/data-import/</guid>
+      <description> 08_data-import.pdf ( 4.0 MB)  </description>
+    </item>
+    
+    <item>
+      <title>Data Manipulation 1</title>
+      <link>/assignments/dplyr-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/dplyr-1/</guid>
+      <description>To complete this week&amp;rsquo;s activities, you will need to install the &amp;ldquo;development&amp;rdquo; version of tidyr.
+devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;) Important note: As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: pivot_longer() and pivot_wider(). It looks like these names are going to stick. All course materials have been updated accordingly. You will not see this change unless you reinstall the development version of tidyr by (re-)running the command devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;).</description>
+    </item>
+    
+    <item>
+      <title>Data Manipulation 1: Filter, Select, Arrange, Mutate</title>
+      <link>/read/dplyr-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/dplyr-1/</guid>
+      <description>Read  R4DS, 5.1&amp;ndash;5.5: Data Transformation: dplyr basic verbs: filter, arrange, select, and mutate.  Optional further reading.  Introduction to dplyr: many code examples Modern Dive, Chapter 4: Data Wrangling: Similar to assigned reading but organized differently. Might be a little easier to follow?  </description>
+    </item>
+    
+    <item>
+      <title>Data Manipulation 2</title>
+      <link>/assignments/dplyr-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/dplyr-2/</guid>
+      <description>Companion to in-class activities  summarise-activities.Rmd (Nothing to turn in!)  </description>
+    </item>
+    
+    <item>
+      <title>Data Manipulation 2: Grouped Summaries, Filters, and Mutates</title>
+      <link>/read/dplyr-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/dplyr-2/</guid>
+      <description>Read  R4DS, 5.6&amp;ndash;5.7: Data Transformation: dplyr basic verbs: summarise, group_by, and new ways to use mutate and filter.  Optional further reading (same as last week).  Introduction to dplyr: many code examples Modern Dive, Chapter 4: Data Wrangling: Similar to assigned reading but organized differently. Might be a little easier to follow?  </description>
+    </item>
+    
+    <item>
+      <title>Data Manipulation, Part 1</title>
+      <link>/slide/data-manip1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/data-manip1/</guid>
+      <description> 10_data-manip-1.pdf ( 2.3 MB)  </description>
+    </item>
+    
+    <item>
+      <title>Data Manipulation, Part 2</title>
+      <link>/slide/data-manip2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/data-manip2/</guid>
+      <description> 11_data-manip-2.pdf ( 2.5 MB)  </description>
+    </item>
+    
+    <item>
       <title>djp156</title>
       <link>/assignments/checklist/djp156/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/checklist/djp156/</guid>
       <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity check_circle   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity check_circle   2019-04-04 data-manip1 Activity check_circle   2019-04-25 nyc-flights Activity check_circle    </description>
+    </item>
+    
+    <item>
+      <title>Final Project</title>
+      <link>/projects/final-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/final-project/</guid>
+      <description>**Due date: May 05 by the end of the day (11:59:59 pm)**Description The final project should essentially look like any of our small projects, but with two key differences:
+  You will decide on the data set to use, and I especially encourage you to find and/or use a data set that is related to your thesis topic. If this is not possible, I can help you find a data set on a topic relevant to your interests.</description>
+    </item>
+    
+    <item>
+      <title>Introduction &amp; Setup</title>
+      <link>/assignments/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/setup/</guid>
+      <description>Complete in Class  DataCamp Lesson: RStudio IDE, Part I, Chapter 1: &amp;ldquo;Orientation&amp;rdquo; (by Garrett Grolemund).  </description>
+    </item>
+    
+    <item>
+      <title>Introduction &amp; Setup</title>
+      <link>/read/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/setup/</guid>
+      <description>Read  Preface of Healy&amp;rsquo;s Data Visualization.  </description>
+    </item>
+    
+    <item>
+      <title>Introduction &amp; Setup</title>
+      <link>/slide/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/setup/</guid>
+      <description> 01_Introduction-and-Setup.pdf ( 7.5 MB)  </description>
     </item>
     
     <item>
@@ -576,6 +264,38 @@ Instructions: Just look at it!</description>
     </item>
     
     <item>
+      <title>Joins</title>
+      <link>/assignments/joins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/joins/</guid>
+      <description>To complete this week&amp;rsquo;s activities, you will need to install the package nycflights13. Do this in console, not in your R Markdown file!
+install.packages(&amp;quot;nycflights13&amp;quot;) Companion to in-class activities  two-table-operations.Rmd (Nothing to turn in!)  Complete before next class NYC Flights Instructions:
+  Download the R Markdown file and data files below
+  Insert your code where indicated
+  Email me your knitted .html output.
+    nyc-flights.</description>
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>/module-table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/module-table/</guid>
+      <description>Module Candidate paper Data Format Technical skills   timeline Climate Change Petit et al. (1999)  Tabular data   Parsing tabular data, visualization (readr, ggplot2)   directions_boat Overfishing   Worm et al. (2006)  Relational databases  groups, joins, filters. SQL (dplyr, tidyr)   bug_report Ecological Simulations  May (1974)  memory Simulated data Functional programming, (purrr)   my_location Range shifts Pinsky et al.</description>
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>/modules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/modules/</guid>
+      <description>Climate Change   Tabular data What is the evidence for a changing climate? In this unit, we will examine some of the most important indicators of global climate change: including CO2 concentration, global mean temperature, sea level rise, land ice sheet melt, and arctic sea ice cover. We will wrangle a wide range of tabular data file formats used by NOAA and other agencies and introduce the fundamentals of data visualization with ggplot2 and data processing with basic functions from the readr, tidyr, and dplyr packages as we seek to replicate the principle results of climate change over the last decades and also the past thousands of years.</description>
+    </item>
+    
+    <item>
       <title>pkk097</title>
       <link>/assignments/checklist/pkk097/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -591,6 +311,250 @@ Instructions: Just look at it!</description>
       
       <guid>/assignments/checklist/qxr592/</guid>
       <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity check_circle   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity check_circle   2019-04-04 data-manip1 Activity check_circle   2019-04-25 nyc-flights Activity check_circle    </description>
+    </item>
+    
+    <item>
+      <title>R and RStudio Basics</title>
+      <link>/assignments/r-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/r-basics/</guid>
+      <description>Complete in Class  DataCamp Lesson: Introduction to R, Chapter 1: &amp;ldquo;Intro to Basics&amp;rdquo; (by Jonathan Cornelissen). DataCamp Lesson: Reporting with R Markdown, Chapter 1: &amp;ldquo;Authoring R Markdown Reports&amp;rdquo; (by Garrett Grolemund).  (Optional) If this was too easy&amp;hellip; Learn about (or brush up on) different kinds of objects in R by completing a few other chapters of Introduction to R by Jonathan Cornelissen. Note: these chapters cover base R, not the tidyverse R dialect, but the basic ideas will always be useful.</description>
+    </item>
+    
+    <item>
+      <title>R and RStudio Basics</title>
+      <link>/read/r-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/r-basics/</guid>
+      <description>Read   ModernDive Ch. 2: Getting Started with Data in R
+  Healy Section 2.3: Things to know about R
+  Healy Section 2.4: Be patient with R, and with yourself
+  Tidyverse style guide, Ch. 1 and Ch. 2. Consistent style is an important element of communication and collaboration. Skim over the sections 1. Files and 2. Syntax. Don&amp;rsquo;t worry if you don&amp;rsquo;t understand the code examples.</description>
+    </item>
+    
+    <item>
+      <title>R Basics and R Markdown</title>
+      <link>/slide/r-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/r-basics/</guid>
+      <description> 02_R-basics.pdf ( 6.0 MB)  </description>
+    </item>
+    
+    <item>
+      <title>Reshaping Data</title>
+      <link>/assignments/reshaping-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/reshaping-data/</guid>
+      <description>To complete this week&amp;rsquo;s activities, you will need to install the &amp;ldquo;development&amp;rdquo; version of tidyr.
+devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;) Important note: As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: pivot_longer() and pivot_wider(). It looks like these names are going to stick. All course materials have been updated accordingly. You will not see this change unless you reinstall the development version of tidyr by (re-)running the command devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;).</description>
+    </item>
+    
+    <item>
+      <title>Reshaping Data</title>
+      <link>/slide/reshaping-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/reshaping-data/</guid>
+      <description> 09_reshaping-data.pdf ( 3.3 MB)  </description>
+    </item>
+    
+    <item>
+      <title>Small Project 1: Ape Teeth</title>
+      <link>/projects/small-project-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/small-project-1/</guid>
+      <description>Introduction In this small project, you will think of conceptual questions to ask of a data set of ape teeth measurements and create plots to answer those questions.
+Description of the data  Download: - ape_teeth.csv Data source: http://anthropologicaldata.free.fr/  Columns Species: ape species the tooth belongs to, including:  Gorilla gorilla (Western gorilla) Pan troglodytes (Common chimpanzee) Pongo pygmaeus (Bornean orangutan)   Site: where specimen is located Specimen: specimen ID number Sex: Male or Female Source: where data come from Tooth: name of tooth (see below).</description>
+    </item>
+    
+    <item>
+      <title>Small Project 2</title>
+      <link>/projects/small-project-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/small-project-2/</guid>
+      <description>**Due date: Apr. 18 by the end of the day (11:59:59 pm)**Introduction In this small project, you will think of conceptual questions to ask of one or more data sets.
+Because I think some of you disliked the ape_teeth data set from small project 1, this time I&amp;rsquo;m providing several different data sets that can be used.
+All your questions can be from one data set, or you can ask different questions of different data sets.</description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/</guid>
+      <description>  GitHub     R    cloud Cloud computing     Docker               </description>
+    </item>
+    
+    <item>
+      <title>Two-table Operations</title>
+      <link>/slide/two-table-operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/two-table-operations/</guid>
+      <description> 12_two-table-operations.pdf ( 2.7 MB)  </description>
+    </item>
+    
+    <item>
+      <title>Two-table Operations: Joins and Set operations</title>
+      <link>/read/two-table-operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/two-table-operations/</guid>
+      <description>Read   Modern Dive, Chapter 4.7: &amp;ldquo;Join Data Frames&amp;rdquo;: A concise overview of join verbs in dplyr.
+  R4DS, 13: Relational Data: More detailed, with many examples. Also covers set operations.
+  </description>
+    </item>
+    
+    <item>
+      <title>Visualization Basics</title>
+      <link>/assignments/viz-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-basics/</guid>
+      <description>Complete in Class Mammalian sleep dataset: msleep
+Instructions: Download the R Markdown file below, insert your code where indicated, and send me your edited .Rmd file and knitted .html output as email attachments.
+ msleep.Rmd msleep.html (for reference only)  Complete on your own time between now and class on Feb. 07 Chapters 1&amp;ndash;4 of Data Visualization with ggplot2 (Part 1) by Rick Scavetta.
+ Chapter 1: &amp;ldquo;Introduction&amp;rdquo; Chapter 2: &amp;ldquo;Data&amp;rdquo; Chapter 3: &amp;ldquo;Aesthetics&amp;rdquo; Chapter 4: &amp;ldquo;Geometries&amp;rdquo;  If you get stuck, feel free to email me or come by my office for some guidance.</description>
+    </item>
+    
+    <item>
+      <title>Visualization Basics</title>
+      <link>/read/viz-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/viz-basics/</guid>
+      <description>Read  Healy, Ch. 1: Look At Data Wilke, Ch. 1: Introduction Wilke, Ch. 2: Visualizing data: Mapping data onto aesthetics  </description>
+    </item>
+    
+    <item>
+      <title>Visualization Basics</title>
+      <link>/slide/viz-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/viz-basics/</guid>
+      <description> 03_viz-basics.pdf ( 4.6 MB)  </description>
+    </item>
+    
+    <item>
+      <title>Visualization Challenges</title>
+      <link>/assignments/viz-challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-challenges/</guid>
+      <description>Catch-up work   Work on Small Project 2!
+  Get caught up will any other assignments that you haven&amp;rsquo;t completed. This includes:
+ 9 DataCamp chapters. msleep pies baboon-activities babynames maps ozone spreadsheets tidy-data data-manip1    If you&amp;rsquo;re all caught up, practice your data manipulation and plotting skills by working on the two small challenges below. I&amp;rsquo;ll post solutions after class is over.
+1. Sex differences in mortality over time in Western Europe Data:</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Amounts and Parts of a Whole</title>
+      <link>/assignments/viz-amounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-amounts/</guid>
+      <description>Complete in Class Pie Chart Practice
+Instructions: Download the R Markdown file below, insert your code where indicated, and send me your knitted .html output as an email attachment. No need to send the .Rmd file!
+ pies.Rmd  Baboon Activity Budgets (if we run out of time, complete between now and class on Feb. 14)
+Instructions: Download the R Markdown file below, insert your code where indicated, and send me your knitted .</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Amounts and Parts of a Whole</title>
+      <link>/read/viz-amounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/viz-amounts/</guid>
+      <description>Read  Wilke, Ch. 6: Visualizing Amounts Wilke, Ch. 10: Visualizing Proportions Wilke, Ch. 11: Visualizing Nested Proportions  Kristin Henry (2017) &amp;ldquo;In Defense of Pie Charts, and Why You Shouldn’t Use Them.&amp;quot;   Robert Kosara (2016), &amp;ldquo;Stacked Bars Are the Worst.&amp;quot; &amp;ldquo;What to consider when creating stacked column charts.&amp;quot;  </description>
+    </item>
+    
+    <item>
+      <title>Visualizing Amounts and Parts of a Whole</title>
+      <link>/slide/viz-amounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/viz-amounts/</guid>
+      <description> 04_viz-amounts.pdf ( 1.6 MB)  </description>
+    </item>
+    
+    <item>
+      <title>Visualizing Distributions and Uncertainty</title>
+      <link>/assignments/viz-distributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-distributions/</guid>
+      <description>Data for in-class activities Body Mass of Late Quaternary Mammals
+Instructions: Download the R Object file to use during the in-class activities. Nothing to turn in!
+ late-quaternary-mammals.RDS  Between now and class on Feb. 21  Get caught up will past DataCamp and in-class activities! Start thinking about Small Project 1.  </description>
+    </item>
+    
+    <item>
+      <title>Visualizing Distributions and Uncertainty</title>
+      <link>/read/viz-distributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/viz-distributions/</guid>
+      <description>Read  Wilke, Ch. 7: Visualizing distributions: Histograms and density plots Wilke, Ch. 9: Visualizing many distributions at once Wilke, Ch. 16: Visualizing uncertainty  Popovich and Pearce, &amp;ldquo;It’s Not Your Imagination. Summers Are Getting Hotter.&amp;quot; Matthew Conlen, &amp;ldquo;Kernel Density Estimation&amp;rdquo; Nicole Torres (2010), &amp;ldquo;Why It’s So Hard for Us to Visualize Uncertainty&amp;rdquo; Robert Kosara (2017), &amp;ldquo;Communicating Uncertainty When Lives Are on the Line&amp;rdquo; Nathan Yau (FlowingData): &amp;ldquo;Showing uncertainty during the live election forecast&amp;rdquo;&amp;quot; (and a humorous critique of the NYT election uncertainty dial).</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Distributions and Uncertainty</title>
+      <link>/slide/viz-distributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/viz-distributions/</guid>
+      <description> 05_viz-distributions.pdf ( 3.3 MB)  </description>
+    </item>
+    
+    <item>
+      <title>Visualizing Distributions and Uncertainty</title>
+      <link>/slide/viz-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/viz-relationships/</guid>
+      <description> 06_viz-relationships.pdf ( 1.5 MB)  </description>
+    </item>
+    
+    <item>
+      <title>Visualizing Geospatial Data</title>
+      <link>/assignments/viz-spatial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-spatial/</guid>
+      <description>Complete and Submit Before Class On Mar. 7 Maps
+Instructions:
+  Follow the instructions at the bottom of this page under the heading &amp;ldquo;Extra Software and R Packages for Geospatial Data&amp;rdquo;. These steps should install the necessary software for spatial data visualization.
+  Download the .zip file of data below, and unzip the file into this week&amp;rsquo;s folder.
+  Download the R Markdown file below, insert your code where indicated, and email me your knitted .</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Relationships and Change Over Time</title>
+      <link>/assignments/viz-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-relationships/</guid>
+      <description>Complete in Class and Submit Baby Names
+Instructions: Download the R Markdown file below, insert your code where indicated, and email me your knitted .html output. No need to send the .Rmd file!
+To complete this assignment, you must install the babynames package:
+install.packages(&amp;quot;babynames&amp;quot;)  babynames.Rmd babynames-solutions.html (for reference&amp;mdash;finished plots with no code!)  For Reference Only (nothing to turn in!) Katrina
+Instructions: Just look at it! And use it as a guide if you want to create maps.</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Relationships and Change Over Time</title>
+      <link>/read/viz-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/viz-relationships/</guid>
+      <description>Read  Wilke, Ch. 12: Visualizing associations among two or more quantitative variables Wilke, Ch. 13: Visualizing time series and other functions of an independent variable Wilke, Ch. 14: Visualizing trends  Nathan Yau, &amp;ldquo;11 Ways to Visualize Changes Over Time – A Guide&amp;rdquo; Keiran Healy, &amp;ldquo;Two Y-Axes&amp;rdquo; Stephanie Evergreen, &amp;ldquo;Two Alternatives to Using a Second Y-Axis&amp;rdquo;  </description>
     </item>
     
     <item>

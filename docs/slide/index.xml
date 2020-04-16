@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides on ANT 6973, Spring 2019</title>
@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/viz-color-files-spatial/</guid>
-      <description> 07_color-output-spatial.pdf (  4.2 MB)  </description>
+      <description> 07_color-output-spatial.pdf ( 4.2 MB)  </description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/data-import/</guid>
-      <description> 08_data-import.pdf (  4.0 MB)  </description>
+      <description> 08_data-import.pdf ( 4.0 MB)  </description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/data-manip1/</guid>
-      <description> 10_data-manip-1.pdf (  2.3 MB)  </description>
+      <description> 10_data-manip-1.pdf ( 2.3 MB)  </description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/data-manip2/</guid>
-      <description> 11_data-manip-2.pdf (  2.5 MB)  </description>
+      <description> 11_data-manip-2.pdf ( 2.5 MB)  </description>
     </item>
     
     <item>
@@ -52,7 +52,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/setup/</guid>
-      <description> 01_Introduction-and-Setup.pdf (  7.5 MB)  </description>
+      <description> 01_Introduction-and-Setup.pdf ( 7.5 MB)  </description>
     </item>
     
     <item>
@@ -61,7 +61,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/r-basics/</guid>
-      <description> 02_R-basics.pdf (  6.0 MB)  </description>
+      <description> 02_R-basics.pdf ( 6.0 MB)  </description>
     </item>
     
     <item>
@@ -70,7 +70,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/reshaping-data/</guid>
-      <description> 09_reshaping-data.pdf (  3.3 MB)  </description>
+      <description> 09_reshaping-data.pdf ( 3.3 MB)  </description>
     </item>
     
     <item>
@@ -79,7 +79,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/two-table-operations/</guid>
-      <description> 12_two-table-operations.pdf (  2.7 MB)  </description>
+      <description> 12_two-table-operations.pdf ( 2.7 MB)  </description>
     </item>
     
     <item>
@@ -88,7 +88,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/viz-basics/</guid>
-      <description> 03_viz-basics.pdf (  4.6 MB)  </description>
+      <description> 03_viz-basics.pdf ( 4.6 MB)  </description>
     </item>
     
     <item>
@@ -97,7 +97,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/viz-amounts/</guid>
-      <description> 04_viz-amounts.pdf (  1.6 MB)  </description>
+      <description> 04_viz-amounts.pdf ( 1.6 MB)  </description>
     </item>
     
     <item>
@@ -106,7 +106,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/viz-distributions/</guid>
-      <description> 05_viz-distributions.pdf (  3.3 MB)  </description>
+      <description> 05_viz-distributions.pdf ( 3.3 MB)  </description>
     </item>
     
     <item>
@@ -115,7 +115,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/viz-relationships/</guid>
-      <description> 06_viz-relationships.pdf (  1.5 MB)  </description>
+      <description> 06_viz-relationships.pdf ( 1.5 MB)  </description>
     </item>
     
   </channel>
