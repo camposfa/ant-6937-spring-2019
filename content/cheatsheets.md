@@ -8,7 +8,7 @@ description = "Cheat sheets will provide a brief introduction to a range of data
 <div class="row">
 <div class="col-md-6">
 <h3>RStudio</h3>
-RStudio is a popular software application that provides a user-friendly interface for using R. RStudio make it easier to write and run code, organize your work into projects, and manage packages (among many other things). This cheat sheet describes some of the most useful features of RStudio.
+RStudio is a popular software application that provides a user-friendly interface for using R. RStudio make it easier to write and run code, organize your work into projects, and manage packages (among many other things). This cheat sheet describes some of the most useful features of RStudio. This is a test.
 </div>
 <div class="col-md-6">
 <a href="../files/rstudio-ide.pdf"><img src="../img/rstudio-ide.png" class="img-rounded img-responsive img-raised"/></a>
