@@ -3,7 +3,7 @@ lessons:
   
   - date: "2021-01-20"
     topics: "Introduction & Setup"
-    reading: "setup"
+    #reading: "setup"
     #assignment: "setup"
     #slide: "setup"
     

@@ -9,11 +9,11 @@ markup: "mmark"
   <span></span>     | <span></span>
   -----------|-------------------------------------------------------------------
   Instructor | **Dr. Fernando Campos**  <a href="mailto:fernando.campos@utsa.edu" title="email"><i class="fas fa-envelope"></i></a>|  
-  Location   |     **McKinney Humanities (MH) 3.02.52**           |   
-  Times      | **Thu 9:00 am - 11:45 am**    |  
+  Location   |     **Virtual meetings on [Zoom](https://utsa.zoom.us/)**           |   
+  Times      | **Wednesdays 9:00 am – 11:45 am**    |  
   Course     |   **ANT 6973.002**                 |  
   CRN        |   **34610**                        |  
-Office Hours | **Tue/Thu, 2:00-3:30 pm**, MH 4.03.44 |
+  Office Hours | **Tue/Thu, 10:00 am – 11:00 am** (email to set up meeting) |
 
 
 
