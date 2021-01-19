@@ -13,7 +13,7 @@ which dictates the organizational structure of this repository.
 Markdown (and/or `.Rmd`) source files for the pages can be found in `content/`.  
 
 Rendered site files are found in `docs/` and hosted using [Netlify](https://www.netlify.com)
-at <https://www.campos-lab.net/courses/ant6973-s2019/>.
+at <https://www.campos-lab.net/courses/data-viz-course/>.
 
 This site is built using [Material Kit](https://github.com/creativetimofficial/material-kit)
 which implements Google's Material Design using [Bootstrap](https://getbootstrap.com) CSS.
