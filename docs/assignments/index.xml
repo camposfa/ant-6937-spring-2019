@@ -69,12 +69,16 @@ devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;) Important note: As
     </item>
     
     <item>
-      <title>Introduction &amp; Setup</title>
+      <title>Introduction and Setup</title>
       <link>/assignments/setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/setup/</guid>
-      <description>Complete in Class  DataCamp Lesson: RStudio IDE, Part I, Chapter 1: &amp;ldquo;Orientation&amp;rdquo; (by Garrett Grolemund).  </description>
+      <description>Complete in Class To start becoming familiar with R, we’re going to complete some interactive, self-paced lessons using swirl.
+ Steps:
+
+Open up RStudio, type the following in the console pane (next to the &amp;gt; symbol), and press Enter. This should install the ‘swirl’ package for R. That means the package files have been downloaded and saved to your computer.  install.packages(&amp;quot;swirl&amp;quot;) 
+But to actually use the functions in the swirl package, we need to load the package into our current R session.</description>
     </item>
     
     <item>

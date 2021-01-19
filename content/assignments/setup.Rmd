@@ -1,0 +1,53 @@
+---
+title: "Introduction and Setup"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Complete in Class
+
+
+To start becoming familiar with R, we're going to complete some interactive, self-paced lessons using [swirl](https://swirlstats.com/).
+
+<br><hr>
+
+**Steps:**
+
+<br>
+
+1. Open up RStudio, type the following in the console pane (next to the `>` symbol), and press Enter. This should install the 'swirl' package for R. That means the package files have been downloaded and saved to your computer. 
+
+```
+install.packages("swirl")
+```
+
+<br>
+
+2. But to actually use the functions in the swirl package, we need to **load** the package into our current R session. We do this using the `library()` function, providing it the name of the package that we want to load.
+
+```
+library("swirl")
+```
+
+<br>
+
+3. Enter the following command to install a very basic course called "R_Programming_E" (admittedly, not the greatest name).
+
+```
+install_course_github("swirldev", "R_Programming_E")
+```
+
+<br>
+
+4. Okay! We're ready to run the course. Enter the following:
+
+```
+swirl()
+```
+
+<br>
+
+5. When prompted (after a few screens), choose the lesson called "**Basic Building Blocks**".

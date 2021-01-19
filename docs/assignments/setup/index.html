@@ -91,11 +91,41 @@
 		<div class="main main-raised">
 			<div class="container">
 		  	<div class="section text-left">
-		  	  <h2 class="title text-center">Introduction &amp; Setup</h2>
-	            <h3 id="complete-in-class">Complete in Class</h3>
-<ul>
-<li>DataCamp Lesson: <strong><a href="https://www.datacamp.com/courses/working-with-the-rstudio-ide-part-1">RStudio IDE, Part I, Chapter 1: &ldquo;Orientation&rdquo;</a></strong> (by Garrett Grolemund).</li>
-</ul>
+		  	  <h2 class="title text-center">Introduction and Setup</h2>
+	            
+
+
+<div id="complete-in-class" class="section level2">
+<h2>Complete in Class</h2>
+<p>To start becoming familiar with R, we’re going to complete some interactive, self-paced lessons using <a href="https://swirlstats.com/">swirl</a>.</p>
+<br>
+<hr>
+<p><strong>Steps:</strong></p>
+<p><br></p>
+<ol style="list-style-type: decimal">
+<li>Open up RStudio, type the following in the console pane (next to the <code>&gt;</code> symbol), and press Enter. This should install the ‘swirl’ package for R. That means the package files have been downloaded and saved to your computer.</li>
+</ol>
+<pre><code>install.packages(&quot;swirl&quot;)</code></pre>
+<p><br></p>
+<ol start="2" style="list-style-type: decimal">
+<li>But to actually use the functions in the swirl package, we need to <strong>load</strong> the package into our current R session. We do this using the <code>library()</code> function, providing it the name of the package that we want to load.</li>
+</ol>
+<pre><code>library(&quot;swirl&quot;)</code></pre>
+<p><br></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Enter the following command to install a very basic course called “R_Programming_E” (admittedly, not the greatest name).</li>
+</ol>
+<pre><code>install_course_github(&quot;swirldev&quot;, &quot;R_Programming_E&quot;)</code></pre>
+<p><br></p>
+<ol start="4" style="list-style-type: decimal">
+<li>Okay! We’re ready to run the course. Enter the following:</li>
+</ol>
+<pre><code>swirl()</code></pre>
+<p><br></p>
+<ol start="5" style="list-style-type: decimal">
+<li>When prompted (after a few screens), choose the lesson called “<strong>Basic Building Blocks</strong>”.</li>
+</ol>
+</div>
 
 	      </div>
       </div>

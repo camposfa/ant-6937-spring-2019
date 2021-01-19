@@ -3,9 +3,9 @@ lessons:
   
   - date: "2021-01-20"
     topics: "Introduction & Setup"
-    #reading: "setup"
-    #assignment: "setup"
-    #slide: "setup"
+    reading: "setup"
+    # assignment: "setup"
+    # slide: "setup"
     
   - date: "2021-01-27"
     topics: "R Basics and R Markdown"

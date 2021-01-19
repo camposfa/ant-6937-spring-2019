@@ -113,15 +113,15 @@
   </url>
   
   <url>
-    <loc>/assignments/setup/</loc>
-  </url>
-  
-  <url>
     <loc>/read/setup/</loc>
   </url>
   
   <url>
     <loc>/slide/setup/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignments/setup/</loc>
   </url>
   
   <url>
