@@ -33,7 +33,7 @@ library("swirl")
 
 <br>
 
-3. Enter the following command to install a very basic course called "R_Programming_E" (admittedly, not the greatest name).
+3. Enter the following command to install an introductory course called "R_Programming_E" (admittedly, not the greatest name).
 
 ```
 install_course_github("swirldev", "R_Programming_E")

@@ -38,7 +38,7 @@ All reading materials will be online or posted to the course website. Assigned r
 ## Course Requirements
 
 #### <u>In-Class Exercises</u>
-As a (mostly) flipped classroom, our in-class time will involve brief refreshers on new concepts introduced in the readings followed by working on exercises that relate to those concepts. These exercises will include DataCamp chapters or courses that can be accessed through the course's [DataCamp portal](../datacamp/), as well as custom activities that the instructor will describe in class. While students are working on these exercises, the instructor will actively engage with students to help them understand material that they find confusing, help identify problems that are preventing students from completing the exercises, and discuss novel applications and alternative approaches to the data visualization challenges that students are working to complete.
+As a (mostly) flipped classroom, our in-class time will involve brief refreshers on new concepts introduced in the readings followed by working on exercises that relate to those concepts. These exercises will include activities that the instructor will describe in class. While students are working on these exercises, the instructor will actively engage with students to help them understand material that they find confusing, help identify problems that are preventing students from completing the exercises, and discuss novel applications and alternative approaches to the data visualization challenges that students are working to complete.
 
 **Assigned in-class exercises can be found under the "Assignments" column of the [course schedule](../schedule/).**
 
