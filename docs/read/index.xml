@@ -54,15 +54,27 @@
     </item>
     
     <item>
-      <title>R and RStudio Basics</title>
+      <title>R Basics and R Markdown</title>
       <link>/read/r-basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/r-basics/</guid>
-      <description>Read   ModernDive Ch. 2: Getting Started with Data in R
+      <description>Read  ModernDive Ch. 1: Getting Started with Data in R (section 1.1 is review, the rest may be more useful)
+ Healy Section 2.3: Things to know about R
+ Chapter 2 of R Markdown: The Definitive Guide (skip the long video at the end and the example applications)
+   Skim  Tidyverse style guide, Ch. 1 and Ch. 2. Consistent style is an important element of communication and collaboration.</description>
+    </item>
+    
+    <item>
+      <title>R Basics and R Markdown</title>
+      <link>/read/r-basics_old/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/r-basics_old/</guid>
+      <description>Read   ModernDive Ch. 1: Getting Started with Data in R
   Healy Section 2.3: Things to know about R
-  Healy Section 2.4: Be patient with R, and with yourself
-  Tidyverse style guide, Ch. 1 and Ch. 2. Consistent style is an important element of communication and collaboration. Skim over the sections 1. Files and 2. Syntax. Don&amp;rsquo;t worry if you don&amp;rsquo;t understand the code examples.</description>
+  Chapter 2 of R Markdown: The Definitive Guide (you can skip the long video at the end and the example applications)
+  Tidyverse style guide, Ch. 1 and Ch. 2. Consistent style is an important element of communication and collaboration. SKIM over the sections 1. Files and 2.</description>
     </item>
     
     <item>

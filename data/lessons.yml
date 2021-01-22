@@ -9,7 +9,7 @@ lessons:
     
   - date: "2021-01-27"
     topics: "R Basics and R Markdown"
-    # reading: "r-basics"
+    reading: "r-basics"
     # assignment: "r-basics"
     # slide: "r-basics" 
     

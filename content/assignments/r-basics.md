@@ -1,5 +1,5 @@
 ---
-title: R and RStudio Basics
+title: R Basics and R Markdown
 ---
 
 ### Complete in Class
