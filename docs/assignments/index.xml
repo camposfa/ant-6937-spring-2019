@@ -138,7 +138,13 @@ install.packages(&amp;quot;nycflights13&amp;quot;) Companion to in-class activit
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/r-basics/</guid>
-      <description>Complete in Class  DataCamp Lesson: Introduction to R, Chapter 1: &amp;ldquo;Intro to Basics&amp;rdquo; (by Jonathan Cornelissen). DataCamp Lesson: Reporting with R Markdown, Chapter 1: &amp;ldquo;Authoring R Markdown Reports&amp;rdquo; (by Garrett Grolemund).  (Optional) If this was too easy&amp;hellip; Learn about (or brush up on) different kinds of objects in R by completing a few other chapters of Introduction to R by Jonathan Cornelissen. Note: these chapters cover base R, not the tidyverse R dialect, but the basic ideas will always be useful.</description>
+      <description>Setup To complete this week’s activities, you must have a few packages installed. You can do so by running the commands below in your R console (only needs to be done once).
+install.packages(&amp;quot;tidyverse&amp;quot;) install.packages(&amp;quot;here&amp;quot;) install.packages(&amp;quot;rmarkdown&amp;quot;)  Complete in Class Markdown CV
+Instructions:
+Create a basic CV in markdown (you can make stuff up!)
+ What to include
+Top-level header should be your name
+ Include contact info: phone, email, and link to some website.</description>
     </item>
     
     <item>

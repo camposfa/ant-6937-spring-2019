@@ -1,0 +1,56 @@
+---
+title: "R Basics and R Markdown"
+output: html_document
+---
+
+## Setup
+
+To complete this week's activities, you must have a few packages installed. You can do so by running the commands below in your R console (only needs to be done once).
+
+```
+install.packages("tidyverse")
+install.packages("here")
+install.packages("rmarkdown")
+```
+
+## Complete in Class
+
+**Markdown CV**
+
+Instructions:
+
+1. Create a basic CV in markdown (you can make stuff up!)
+
+2. What to include
+  
+    a. Top-level header should be your name
+    
+    b. Include contact info: phone, email, and link to some website.
+    
+    c. Include second-level headings for education, employment, publications, and teaching
+    
+    d. Each section should include a bulleted or numbered list of items, or a table
+    
+    e. Highlight years in bold and (possibly fake) journal names in italics
+    
+    f. Embed some kind of image at the bottom
+
+3. **Submit the `.md` and `.html` files for your completed CV in Blackboard.**
+
+<br>
+
+**Paths**
+
+Instructions: 
+
+1. Download the zip file [<i class="fas fa-file-archive"></i> paths-project.zip (786 KB)](/livecode/r-basics/paths-project.zip) and unzip the contents into this week's folder.
+
+2. Open the project called `paths-project.Rproj`.
+
+3. In RStudio, Open the R Markdown file located at `paths-project/rmd/paths.Rmd`.
+
+4. Go through the activity, changing code where appropriate.
+
+5. **Nothing to turn in!**
+
+

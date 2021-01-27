@@ -10,8 +10,8 @@ lessons:
   - date: "2021-01-27"
     topics: "R Basics and R Markdown"
     reading: "r-basics"
-    # assignment: "r-basics"
-    # slide: "r-basics" 
+    assignment: "r-basics"
+    slide: "r-basics" 
     
   - topics: "<i class='fas fa-chart-bar fa-lg'></i><b> DATA VISUALIZATION</b>"
   

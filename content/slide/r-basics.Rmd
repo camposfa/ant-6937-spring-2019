@@ -1,0 +1,5 @@
+---
+title: R Basics and R Markdown
+---
+
+- Week 2 slides: [R Basics and R Markdown ( <i class="far fa-file-pdf"></i> 5.5 MB)](../../files/slides/02_R-basics.pdf)
