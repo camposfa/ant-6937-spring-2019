@@ -60,12 +60,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   identifier = "GitHub"
   name = "Github"
   pre = "<i class='fab fa-github fa-2x'></i>"
-  url = "https://github.com/camposfa/ant-6973-spring-2019"
+  url = "https://github.com/camposfa/data-viz-course"
 [[menu.footer]]
   weight = 3
   name = "Textbook: Wilke"
   pre = "<i class='material-icons'>book</i>"
-  url = "https://serialmentor.com/dataviz/"
+  url = "https://clauswilke.com/dataviz/"
 [[menu.footer]]
   weight = 4
   name = "Textbook: Healy"

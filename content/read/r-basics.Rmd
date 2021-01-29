@@ -1,5 +1,5 @@
 ---
-title: R Basics and R Markdown
+title: "R Basics and R Markdown"
 ---
 
 ## Read
