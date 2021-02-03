@@ -164,9 +164,10 @@ devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;) Important note: As
       
       <guid>/assignments/viz-basics/</guid>
       <description>Complete in Class Mammalian sleep dataset: msleep
-Instructions: Download the R Markdown file below, insert your code where indicated, and send me your edited .Rmd file and knitted .html output as email attachments.
- msleep.Rmd msleep.html (for reference only)  Complete on your own time between now and class on Feb. 07 Chapters 1&amp;ndash;4 of Data Visualization with ggplot2 (Part 1) by Rick Scavetta.
- Chapter 1: &amp;ldquo;Introduction&amp;rdquo; Chapter 2: &amp;ldquo;Data&amp;rdquo; Chapter 3: &amp;ldquo;Aesthetics&amp;rdquo; Chapter 4: &amp;ldquo;Geometries&amp;rdquo;  If you get stuck, feel free to email me or come by my office for some guidance.</description>
+ Description of dataset From V. M. Savage and G. B. West. A quantitative, theoretical framework for understanding mammalian sleep. Proceedings of the National Academy of Sciences, 104 (3):1051-1056, 2007.  
+Instructions:
+Download the R Markdown file below, insert your code where indicated, submit the .md and .html files for your activity in Blackboard.
+  msleep.Rmd  msleep_solutions.html (for reference only—finished plots with no code!</description>
     </item>
     
     <item>
