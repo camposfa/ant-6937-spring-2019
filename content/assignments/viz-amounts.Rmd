@@ -1,0 +1,17 @@
+---
+title: "Visualizing Amounts and Parts of a Whole"
+output: html_document
+---
+
+## Complete in Class
+
+**Baboon Activity Budgets** (if we run out of time, complete between now and class on Feb. 17)
+
+Instructions: Download the R Markdown file below, insert your code where indicated, submit the `.Rmd` and `.html` files for your activity in Blackboard.
+
+- [<i class="fab fa-markdown fa-sm"></i> baboon-activities.Rmd](/livecode/viz-amounts/baboon-activities.Rmd)
+- [<i class="fas fa-file-csv"></i> baboon_acts_2000.csv](/livecode/viz-amounts/baboon_acts_2000.csv) (data file)
+- [<i class="fas fa-code fa-sm"></i> baboon-activities-solutions.html](/livecode/viz-amounts/baboon-activities-solutions.html) (for reference---finished plots with no code!)
+
+
+If you get stuck, please [email](mailto:fernando.campos@utsa.edu) me for some help!

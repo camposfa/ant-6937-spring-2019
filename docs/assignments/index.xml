@@ -188,10 +188,9 @@ Download the R Markdown file below, insert your code where indicated, submit the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/viz-amounts/</guid>
-      <description>Complete in Class Pie Chart Practice
-Instructions: Download the R Markdown file below, insert your code where indicated, and send me your knitted .html output as an email attachment. No need to send the .Rmd file!
- pies.Rmd  Baboon Activity Budgets (if we run out of time, complete between now and class on Feb. 14)
-Instructions: Download the R Markdown file below, insert your code where indicated, and send me your knitted .</description>
+      <description>Complete in Class Baboon Activity Budgets (if we run out of time, complete between now and class on Feb. 17)
+Instructions: Download the R Markdown file below, insert your code where indicated, submit the .Rmd and .html files for your activity in Blackboard.
+  baboon-activities.Rmd  baboon_acts_2000.csv (data file)  baboon-activities-solutions.html (for reference—finished plots with no code!)  If you get stuck, please email me for some help!</description>
     </item>
     
     <item>

@@ -14,7 +14,7 @@ output: html_document
 
 **Instructions:**
 
-Download the R Markdown file below, insert your code where indicated, submit the `.md` and `.html` files for your activity in Blackboard.
+Download the R Markdown file below, insert your code where indicated, submit the `.Rmd` and `.html` files for your activity in Blackboard.
 
 - [<i class="fab fa-markdown fa-sm"></i> msleep.Rmd](/livecode/viz-basics/msleep.Rmd)
 - [<i class="fas fa-code fa-sm"></i> msleep_solutions.html](/livecode/viz-basics/msleep_solutions.html) (for reference only---finished plots with no code!)

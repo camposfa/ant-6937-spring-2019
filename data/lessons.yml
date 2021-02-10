@@ -24,8 +24,8 @@ lessons:
   - date: "2021-02-10"
     topics: "Visualizing Amounts and Parts of a Whole"
     reading: "viz-amounts"
-    # assignment: "viz-amounts"
-    # slide: "viz-amounts"
+    assignment: "viz-amounts"
+    slide: "viz-amounts"
     
   - date: "2021-02-17"
     topics: "Visualizing Distributions and Uncertainty"

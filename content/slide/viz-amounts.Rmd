@@ -1,0 +1,6 @@
+---
+title: "Visualizing Amounts and Parts of a Whole"
+output: html_document
+---
+
+- Week 4 slides: [Data Visualization Basics ( <i class="far fa-file-pdf"></i> 3.5 MB)](../../files/slides/04_viz-amounts.pdf)
