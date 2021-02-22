@@ -28,28 +28,31 @@ lessons:
     slide: "viz-amounts"
     
   - date: "2021-02-17"
+    topics: "<i class='fas fa-snowflake'></i> We pause while Texas gets its act together. <i class='fas fa-house-damage'></i>"
+
+  - date: "2021-02-24"
     topics: "Visualizing Distributions and Uncertainty"
-    # reading: "viz-distributions"
+    reading: "viz-distributions"
     # assignment: "viz-distributions"
     # slide: "viz-distributions"
     
-  - date: "2021-02-24"
+  - date: "2021-03-03"
     topics: "Visualizing Relationships and Change Over Time"
     # reading: "viz-relationships"
     # assignment: "viz-relationships"
     # slide: "viz-relationships"
     
-  - date: "2021-03-03"
+  - date: "2021-03-10"
+    topics: "<i class='fas fa-umbrella-beach'></i> <b>No class:</b> Spring Break <i class='fas fa-sun'></i>"
+    
+  - date: "2021-03-17"
     topics: "Color, Output, and Composing Multiple Plots"
     # assignment: "viz-spatial"
     # reading: "color-files-geospatial"
     # project: "small-project-1"
     # slide: "viz-color-files-spatial"
 
-  - date: "2021-03-10"
-    topics: "<i class='fas fa-umbrella-beach'></i> <b>No class:</b> Spring Break <i class='fas fa-sun'></i>"
-
-  - date: "2021-03-17"
+  - date: "2021-03-24"
     topics: "Visualizing Geospatial Data"
     # assignment: "viz-spatial"
     # reading: "color-files-geospatial"
@@ -58,13 +61,13 @@ lessons:
   
   - topics: "<i class='fas fa-tools fa-lg'></i><b> DATA MANIPULATION</b>"
   
-  - date: "2021-03-24"
+  - date: "2021-03-31"
     topics: "Data Import"
     # reading: "data-import"
     # assignment: "data-import"
     # slide: "data-import"
   
-  - date: "2021-03-31"
+  - date: "2021-04-07"
     topics: "Reshaping Data"
     # assignment: "reshaping-data"
     # slide: "reshaping-data"
@@ -72,13 +75,13 @@ lessons:
   # - date: "2021-03-31"
     # topics: "<i class='fas fa-chalkboard-teacher'></i> <b>No class:</b> AAPA Conference <i class='fas fa-globe-americas'></i>"
  
-  - date: "2021-04-07"
+  - date: "2021-04-14"
     topics: "Data Manip. 1: Filter, Select, Arrange, Mutate"
     # reading: "dplyr-1"
     # assignment: "dplyr-1"
     # slide: "data-manip1"
     
-  - date: "2021-04-14"
+  - date: "2021-04-21"
     topics: "Data Manip. 2: Group, Summarize"
     # reading: "dplyr-2"
     # assignment: "dplyr-2"
@@ -89,7 +92,7 @@ lessons:
   #   topics: "Catch-up / Work on Small Project 2"
   #   # assignment: "viz-challenges"
     
-  - date: "2021-04-21"
+  - date: "2021-04-28"
     topics: "Data Manip. 3: Two-table Operations"
     # reading: "two-table-operations"
     # assignment: "joins"
@@ -97,10 +100,10 @@ lessons:
   
   - topics: "<i class='fas fa-graduation-cap fa-lg'></i><b> FINAL PROJECTS<b>" 
     
-  - date: "2021-05-28"
+  - date: "2021-05-05"
     topics: "Catch-up / Work on Final Projects"
     #project: "final-project"
     
-  - date: "2021-05-05"
-    topics: "<b>No class:</b> Final Projects due by end of day (23:59:59)"
-    # project: "final-project"
+  # - date: "2021-05-05"
+  #   topics: "<b>No class:</b> Final Projects due by end of day (23:59:59)"
+  #   project: "final-project"
