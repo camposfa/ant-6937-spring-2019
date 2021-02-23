@@ -1,0 +1,110 @@
+---
+title: "Quaternary Mammals"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+library("knitr")
+
+if (!("here" %in% installed.packages()))
+  install.packages("here")
+
+if (!("ggridges" %in% installed.packages()))
+  install.packages("ggridges")
+
+knitr::opts_chunk$set(fig.align = "center", 
+                      fig.height = 6, 
+                      fig.width = 8, 
+                      warning = FALSE,
+                      cache = FALSE,
+                      message = FALSE)
+```
+
+Let's load the packages that we need, and also specify that we want to use `theme_minimal()` for all plots. The `16` that I provide to this function just specifies a larger font size, since the default is a little small (the default is 11 pt font).
+
+```{r}
+library("tidyverse")
+library("ggridges")
+library("here")
+
+theme_set(theme_minimal(16))
+
+# MODIFY AS NEEDED! E.g., "week5/data/late_quaternary_mammals.RDS" or whatever
+lqm <- readRDS(here("05_viz-distributions/data/late_quaternary_mammals.RDS"))
+```
+
+## Histograms
+
+#### Exploring different bin settings
+
+Make a histogram of log_mass with exactly 15 bins, with the boundary of the first bin starting at 0.
+
+```{r}
+# your R code goes here
+```
+
+Make a histogram of log_mass with bins that are exactly 0.25 units of log_mass wide, with the boundary of the first bin starting at 0.
+
+```{r}
+# your R code goes here
+```
+
+Make a histogram of log_mass and use the `breaks` argument to make bin breaks at each 0.5 unit interval between 0 and 8, with the boundary of the first bin starting at 0. Hint: use the `seq()` function to make a regular sequence. Example usage (you'll need to modify): `seq(from = 1, to = 2, by = 0.1)`
+
+```{r}
+# your R code goes here
+```
+
+
+#### Faceting
+
+Make a plot of small multiples with a histogram of log_mass for each continent. To visualize the distributions more clearly, allow the y-axis scale to vary among the small multiples, but keep the same x-axis scale for all. Set the bin positions however you want.
+
+```{r}
+# your R code goes here
+```
+
+
+#### Age-pyramid plots
+
+Reproduce the vertical age-pyramid-style histogram plot that we saw in class comparing the distributions of log_mass for North America and Oceanic late Quaternary mammals.
+
+```{r}
+# your R code goes here
+```
+
+Do the same but use density plots instead. Note that the calculated stat variable in your aesthetic mapping changes from count to density.
+
+```{r}
+# your R code goes here
+```
+
+
+#### Overlapping densities
+
+Make an overlapping density plot of log_mass using a different fill color for each continent. Use transparency, and note that the densities are more easily separable if they're outlined in some contrasting color (e.g., white or black).
+
+```{r}
+# your R code goes here
+```
+
+
+#### Ridgeline plots
+
+Make a ridgeline plot of log_mass by Order of mammals. The data set is already ordered so that the Order with the largest mean log_mass appears on top. But for this plot, reorder the Orders by the smallest member of each order using `fct_reorder()`. Hint: in `fct_reorder()`, if there are multiple values of the column that you want to reorder by (log_mass) for each category value (order)---which there are here---then by default it uses the median value. In this case, you want to specify that it should use the *min* value rather than the median value using the .fun argument:
+
+`... y = fct_reorder(<column to reorder>, <column to reorder by>, .fun = <the new function to use>) ...`
+
+```{r}
+# your R code goes here
+```
+
+Make the gradient ridgeline plot that we saw in class of log_mass for each Order. To get the color palette in the solutions file, add `scale_fill_viridis_c(option = "plasma")` to your plot.
+
+```{r, fig.width=10}
+# your R code goes here
+```
+
+

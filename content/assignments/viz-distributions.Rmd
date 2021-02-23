@@ -1,0 +1,18 @@
+---
+title: "Visualizing Distributions and Uncertainty"
+output: html_document
+---
+
+### Data for in-class activities
+
+- [<i class="fas fa-database fa-sm"></i> late-quaternary-mammals.RDS](/livecode/viz-distributions/late-quaternary-mammals.RDS)
+- [<i class="fas fa-file-csv"></i> model_summary.csv](/livecode/viz-distributions/model_summary.csv)
+
+### Complete on your own
+
+**Body Mass of Late Quaternary Mammals**
+
+Instructions: Download the R Markdown file below, insert your code where indicated, submit the `.Rmd` and `.html` files for your activity in Blackboard.
+
+- [<i class="fab fa-markdown fa-sm"></i> quaternary-mammals.Rmd](/livecode/viz-distributions/quaternary-mammals.Rmd)
+- [<i class="fas fa-code fa-sm"></i> quaternary-mammals-solutions.html](/livecode/viz-distributions/quaternary-mammals-solutions.html) (for reference---finished plots with no code!)

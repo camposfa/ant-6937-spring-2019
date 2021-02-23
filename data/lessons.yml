@@ -33,8 +33,8 @@ lessons:
   - date: "2021-02-24"
     topics: "Visualizing Distributions and Uncertainty"
     reading: "viz-distributions"
-    # assignment: "viz-distributions"
-    # slide: "viz-distributions"
+    assignment: "viz-distributions"
+    slide: "viz-distributions"
     
   - date: "2021-03-03"
     topics: "Visualizing Relationships and Change Over Time"

@@ -1,0 +1,12 @@
+﻿parameter,mean,std_error,lower,upper
+Lactating,0.0053,0.0089,-0.0094,0.0198
+Pregnant,0.2002,0.0097,0.1842,0.2163
+Wet season,-0.0926,0.0084,-0.1063,-0.0786
+Group size,0.015,0.0071,0.0033,0.0267
+Alpha rank,-0.0652,0.0316,-0.1171,-0.0133
+High dominance rank,-0.0121,0.0104,-0.0293,0.005
+Max temperature,0.0215,0.0043,0.0144,0.0286
+3-mo rainfall anomaly,0.0016,0.0037,-0.0044,0.0077
+Time to extraction,0.0607,0.0044,0.0534,0.068
+Time to assay,0.0254,0.004,0.0189,0.0321
+Age,0.0226,0.0025,0.0184,0.0267

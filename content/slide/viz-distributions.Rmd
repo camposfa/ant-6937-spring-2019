@@ -1,0 +1,6 @@
+---
+title: "Visualizing Distributions and Uncertainty"
+output: html_document
+---
+
+- Week 6 slides: [Visualizing Distributions and Uncertainty ( <i class="far fa-file-pdf"></i> 5 MB)](../../files/slides/05_viz-distributions.pdf)

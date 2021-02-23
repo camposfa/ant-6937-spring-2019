@@ -199,9 +199,9 @@ Instructions: Download the R Markdown file below, insert your code where indicat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/viz-distributions/</guid>
-      <description>Data for in-class activities Body Mass of Late Quaternary Mammals
-Instructions: Download the R Object file to use during the in-class activities. Nothing to turn in!
- late-quaternary-mammals.RDS  Between now and class on Feb. 21  Get caught up will past DataCamp and in-class activities! Start thinking about Small Project 1.  </description>
+      <description>  Data for in-class activities   late-quaternary-mammals.RDS  model_summary.csv   Complete on your own Body Mass of Late Quaternary Mammals
+Instructions: Download the R Markdown file below, insert your code where indicated, submit the .Rmd and .html files for your activity in Blackboard.
+  quaternary-mammals.Rmd  quaternary-mammals-solutions.html (for reference—finished plots with no code!)   </description>
     </item>
     
     <item>
