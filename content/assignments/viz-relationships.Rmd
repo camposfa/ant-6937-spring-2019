@@ -1,0 +1,19 @@
+---
+title: "Visualizing Relationships and Change Over Time"
+output: html_document
+---
+
+### Complete in Class and Submit
+
+**Baby Names**
+
+Instructions: Download the R Markdown file below, insert your answers and code where indicated, submit the `.Rmd` and `.html` files for your activity in Blackboard.
+
+To complete this assignment, you must install the `babynames` package:
+
+```
+install.packages("babynames")
+```
+
+- [<i class="fab fa-markdown fa-sm"></i> babynames.Rmd](/livecode/viz-relationships/babynames.Rmd)
+- [<i class="fas fa-code fa-sm"></i> babynames-solutions.html](/livecode/viz-relationships/babynames-solutions.html) (for reference---finished plots with no code!)

@@ -1,5 +1,5 @@
 ---
-title: "In-class Activity: Changing Baby Names Over Time"
+title: "Baby Names Activity"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -19,10 +19,9 @@ knitr::opts_chunk$set(echo = TRUE,
 ```{r}
 library("tidyverse")
 library("babynames")
-library("cowplot")
 library("knitr")
 
-theme_set(theme_minimal())
+theme_set(theme_minimal(16))
 ```
 
 The `babynames` package provides a data set (also called `babynames`) that we're going to work with here. Let's view the first 10 rows as usual:
@@ -31,38 +30,38 @@ The `babynames` package provides a data set (also called `babynames`) that we're
 kable(head(babynames, n = 10))
 ```
 
-Now, we're going to attempt to filter the babynames dataset to get only names of people in this class. **Note the use of the `%in%` operator,** which is a convenient way of checking if some value belongs to a given set. It's a much cleaner alternative to something like `name == "Fernando" | name == "Eugene" | name == "Robert" ...`.
+Now, we're going to attempt to filter the babynames dataset to get only names of people in this class. **Note the use of the `%in%` operator,** which is a convenient way of checking if some value belongs to a given set. It's a cleaner alternative to something like `name == "Fernando" | name == "Emily" | name == "Jenna" ...`.
 
 ```{r}
-this_class <- filter(babynames, name %in% c("Fernando", "Eugene", "Robert", "Adam", "Karrie",
-                                            "Janelle", "Lori", "Lou", "Averee", "Anna",
-                                            "Shelby", "Alessandra"))
+this_class <- babynames %>% 
+  filter(name %in% c("Emily", "Katherine", "Sara", "Sadie",
+                     "Kaylie", "Jenna", "Alexandra", "Fernando"))
 ```
 
 ## Line Graphs
 
 #### **Problem 1:** 
 
-Below, we attempt to make a simple line graph with year on the x axis and prop on the y axis, with a different color for each name. Doesn't quite work out though...
+Below, attempt to make a simple line graph with year on the x axis and prop on the y axis, with a different color for each name. You should get a plot that looks weird.
 
 ```{r}
-ggplot(this_class, aes(x = year, y = prop, color = name)) +
-  geom_line()
+# your R code goes here
 ```
 
-Why is this happening? _(Hint: inspect the data for "Robert")_
+Why is this happening? _(Hint: inspect the data for "Emily" in the year 2000)_
 
 `<your answer goes here>`
 
 
 #### **Problem 2:** 
 
-Below, we modify the filter statement above to obtain a data set of names for this class that does not have this problem. Use the exact same ggplot code as above to verify that the problem is gone. Recall that the "or" operator in R is `|` and the "and" operator in R is `&`.
+Now we modify the filter statement above to obtain a data set of names for this class that does not have this problem. Use the exact same ggplot code as above to verify that the problem is gone. Recall that the "or" operator in R is `|` and the "and" operator in R is `&`.
 
 ```{r}
-this_class <- filter(this_class,
-                     (name %in% c("Fernando", "Eugene", "Robert", "Adam") & sex == "M") |
-                       (name %in% c("Karrie", "Janelle", "Lori", "Lou", "Averee", "Anna", "Shelby", "Alessandra") & sex == "F"))
+this_class <- this_class %>% 
+  filter((name %in% c("Fernando") & sex == "M") |
+           (name %in% c("Emily", "Katherine", "Sara", "Sadie", "Kaylie", "Jenna", "Alexandra") & sex == "F"))
+
 # your R code goes here
 ```
 
@@ -70,9 +69,12 @@ Answer the following question:
 
 - Describe (in words) the logic of this modified `filter()` statement (i.e., what rows are retained in the data set?). How did this solve our problem?
 
+`<your answer goes here>`
+
+
 #### **Problem 3:** 
 
-If we're interested trends for each name over time rather than relative popularity, the previous graph is of limited use. In particular, the popularity of "Robert" during the mid-20th century makes it hard to see what's going on for many other names.
+If we're interested trends for each name over time rather than relative popularity, the previous graph is of limited use In particular, the popularity of "Emily" during the late 20th and early 21st century makes it hard to see the trends over time for some of the less-common names.
 
 Show the same data as small multiples with the following characteristics:
 
@@ -80,7 +82,7 @@ Show the same data as small multiples with the following characteristics:
 - Each small panel has its own y-axis that is scaled to the popularity of the name.
 - Remove color so that all lines are simply black.
 
-```{r}
+```{r, echo = FALSE}
 # your R code goes here
 ```
 
@@ -88,7 +90,7 @@ Show the same data as small multiples with the following characteristics:
 
 We can emphasize the temporal trends more effectively by filling the area under each curve. We can do this using `geom_ribbon()`. Try to add a ribbon to the previous plot with 50% transparency (`alpha = 0.5`). To get the aesthetic mappings right, it may be helpful to read to the [help page]](https://ggplot2.tidyverse.org/reference/geom_ribbon.html) for `geom_ribbon()`.
 
-```{r}
+```{r, echo = FALSE}
 # your R code goes here
 ```
 
@@ -96,21 +98,22 @@ We can emphasize the temporal trends more effectively by filling the area under 
 
 Although color would be redundant here, let's bring it back in to get some practice with ribbons. Try mapping fill and/or color to `name` to get the plot to look exactly like the one I made in the solutions file. _Note in particular that there is no solid outline on the sides and bottom!_ You can try doing this globally or in the `geom` functions, but not all configurations will produce the desired effect. The color/fill legend is pointless, so let's turn it off by adding this line to the plot: `guides(color = "none", fill = "none")`.
 
-```{r}
+```{r, echo = FALSE}
 # your R code goes here
 ```
 
 #### **Problem 6:** 
 
-If you're only plotting a few lines, then plotting them together rather than in small multiples allows you to compare the trends more easily. Directly labeling the line with the name is cognitively easier to process than matching up a color with a legend. Let's try making a line graph for the names "Fernando" and "Eugene" only, with names labeling the lines. Here's the code to do that:
+If you're only plotting a few lines, then plotting them together rather than in small multiples allows you to compare the trends more easily. Directly labeling the line with the name is cognitively easier to process than matching up a color with a legend. Let's make a line graph for the names "Sara" and "Sadie" only, with names labeling the lines. Here's the code to do that:
 
 ```{r}
-fer_eug <- filter(this_class, name %in% c("Fernando", "Eugene"))
+sara_sadie <- this_class %>% 
+  filter(name %in% c("Sara", "Sadie"))
 
 ggplot() +
-  geom_line(data = fer_eug, aes(x = year, y = prop, color = name)) +
-  geom_text(data = filter(fer_eug, year == max(year)),
-            aes(x = year + 1, y = prop, color = name, label = name), hjust = 0) +
+  geom_line(data = sara_sadie, aes(x = year, y = prop, color = name)) +
+  geom_text(data = filter(sara_sadie, year == max(year)),
+            aes(x = year, y = prop, color = name, label = name), hjust = 0, nudge_x = 1) +
   guides(color = "none") +
   expand_limits(x = 2025)
 ```
@@ -118,39 +121,37 @@ ggplot() +
 Answer the following questions about this code and its plot:
 
 - Describe the data set used for the `geom_text()` function. How does the modified filter statement accomplish what we need? How many rows does this subset have?
-- Why did I make the aesthetic mapping `x = year + 1` for the `geom_text()` function?
-- Try deleting `hjust = 0`, or replacing it with `hjust = 1`. What does this option do?
+- What code here is keeping the text from overlapping with the line?
+- Try deleting `hjust = 0` (the default is `hjust = 0.5`), or replacing it with `hjust = 1`. What does this option do?
 - View the help file for `expand_limits()` and describe how it improves our plot.
 
 `<your answers go here>`
 
 #### **Problem 7:** 
 
-There's another similar geom called `geom_path()`. To see how it differs from `geom_line()`, we're going to sort our data set by the column `prop`. This is our first introduction to a lovely `dplyr` function called `arrange()`. Like other tidyverse functions that you have encountered, the function takes a data set as its first argument. After that, we simply give it the column that we want to sort by.
+There's another geom that is similar to `geom_line()` called `geom_path()`. To see how it differs from `geom_line()`, we're going to **sort** our data set by the column `prop`. This is our first introduction to a lovely `dplyr` function called `arrange()`. Like other tidyverse functions that you have encountered, the function takes a data set as its first argument. After that, we simply give it the column that we want to sort by.
 
 ```{r, fig.height = 8}
-fer_eug_ordered <- arrange(fer_eug, prop)
+sara_sadie_ordered <- sara_sadie %>% 
+  arrange(prop)
 
 # Lines
-p1 <- ggplot() +
-  geom_line(data = fer_eug_ordered, aes(x = year, y = prop, color = name)) +
-  geom_text(data = filter(fer_eug_ordered, year == max(year)),
+ggplot() +
+  geom_line(data = sara_sadie_ordered, aes(x = year, y = prop, color = name)) +
+  geom_text(data = filter(sara_sadie_ordered, year == max(year)),
             aes(x = year + 1, y = prop, color = name, label = name), hjust = 0) +
   guides(color = "none") +
   expand_limits(x = 2025) +
-  labs(x = "Year", y = "Proportion")
+  labs(x = "Year", y = "Proportion", title = "geom_line()")
 
 # Paths
-p2 <- ggplot() +
-  geom_path(data = fer_eug_ordered, aes(x = year, y = prop, color = name)) +
-  geom_text(data = filter(fer_eug_ordered, year == max(year)),
+ggplot() +
+  geom_path(data = sara_sadie_ordered, aes(x = year, y = prop, color = name)) +
+  geom_text(data = filter(sara_sadie_ordered, year == max(year)),
             aes(x = year + 1, y = prop, color = name, label = name), hjust = 0) +
   guides(color = "none") +
   expand_limits(x = 2025) +
-  labs(x = "Year", y = "Proportion")
-
-# Plot together to see the difference
-plot_grid(p1, p2, labels = c("geom_line()", "geom_path()"), ncol = 1)
+  labs(x = "Year", y = "Proportion", title = "geom_path()")
 ```
 
 Answer the following questions about this code and its plot:
@@ -162,7 +163,7 @@ Answer the following questions about this code and its plot:
 
 #### **Problem 8:** 
 
-Finally, let's practice adding annotations to plots. An annotation is graphical element, like a point, line, box, or text label, that is added to a plot but is not part of your data set. Annotations can be added using the `annotate()` function.
+Finally, let's practice adding annotations to plots. An annotation is graphical element, like a point, line, box, or text label, that is added to a plot but is not part of your data set. Annotations can be added using the `annotate()` function. Note that writing `\n` in the text forces a line break.
 
 We're going to plot the popularity over time of the name Lionel for boys, and annotate some of interesting features with both rectangles and text. Here's a template:
 
@@ -182,6 +183,7 @@ Note that putting `\n` in the label creates a line break. Using this template, h
 - 1982 -- 1986: "Lionel Richie's 3 best-selling albums" (I used color "coral")
 - 2004 -- 2017: "Lionel Messi's career with FC Barcelona" (I used color "skyblue2")
 
-```{r, fig.width = 10}
+```{r, echo = FALSE, fig.width = 10}
 # your R code goes here
 ```
+

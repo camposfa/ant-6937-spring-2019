@@ -1,0 +1,6 @@
+---
+title: "Visualizing Relationships and Change Over Time"
+output: html_document
+---
+
+- Week 7 slides: [Visualizing Relationships and Change Over Time ( <i class="far fa-file-pdf"></i> 2.9 MB)](../../files/slides/06_viz-relationships.pdf)

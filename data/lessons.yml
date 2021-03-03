@@ -39,8 +39,8 @@ lessons:
   - date: "2021-03-03"
     topics: "Visualizing Relationships and Change Over Time"
     reading: "viz-relationships"
-    # assignment: "viz-relationships"
-    # slide: "viz-relationships"
+    assignment: "viz-relationships"
+    slide: "viz-relationships"
     
   - date: "2021-03-10"
     topics: "<i class='fas fa-umbrella-beach'></i> <b>No class:</b> Spring Break <i class='fas fa-sun'></i>"

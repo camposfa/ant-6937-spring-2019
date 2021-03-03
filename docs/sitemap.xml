@@ -253,10 +253,6 @@
   </url>
   
   <url>
-    <loc>/slide/viz-relationships/</loc>
-  </url>
-  
-  <url>
     <loc>/assignments/viz-spatial/</loc>
   </url>
   
@@ -266,6 +262,10 @@
   
   <url>
     <loc>/read/viz-relationships/</loc>
+  </url>
+  
+  <url>
+    <loc>/slide/viz-relationships/</loc>
   </url>
   
   <url>
