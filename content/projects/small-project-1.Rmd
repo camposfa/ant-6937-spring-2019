@@ -1,18 +1,20 @@
 ---
 title: "Small Project 1: Ape Teeth"
+output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 <br>
-<span style="color:red">**Due date: Feb. 28 by the end of the day (11:59:59 pm)**</span>
+<span style="color:red">**Due date: Mar. 17 by the end of the day (11:59:59 pm)**</span>
 
 
 ## Introduction
 
 In this small project, you will think of conceptual questions to ask of a data set of ape teeth measurements and create plots to answer those questions.
 
-<br>
 
-#### Description of the data
+*Description of the data**
 
 - Download: - [<i class="fas fa-file-csv"></i> ape_teeth.csv](/files/data/ape_teeth.csv)
 - Data source: <http://anthropologicaldata.free.fr/>
@@ -45,19 +47,16 @@ Note that there are no crown cervico-occlusal ("height") measurements in the dat
 
 The following short fact sheets about these great apes provide general information about diet, social organization, and mating system. These may or may not be helpful for formulating your questions.
 
-- [_Gorilla_ fact sheet](http://pin.primate.wisc.edu/factsheets/entry/gorilla)
-- [_Pan_ fact sheet](http://pin.primate.wisc.edu/factsheets/entry/chimpanzee)
-- [_Pongo_ fact sheet](http://pin.primate.wisc.edu/factsheets/entry/orangutan)
+- [_Gorilla_ fact sheet](https://primate.wisc.edu/primate-info-net/pin-factsheets/pin-factsheet-gorilla/)
+- [_Pan_ fact sheet](https://primate.wisc.edu/primate-info-net/pin-factsheets/pin-factsheet-chimpanzee/)
+- [_Pongo_ fact sheet](https://primate.wisc.edu/primate-info-net/pin-factsheets/pin-factsheet-orang-utan/)
 
-<br>
-<hr>
-<br>
 
 ## Instructions
 
-#### Content Instructions
+**Content Instructions**
 
-- Think of three (and only three!) conceptual questions about the ape teeth data.
+- Think of three (and only three!) conceptual questions about the ape teeth data. To help guide your thinking here, consider how individuals vary both within and between species, and think about what the different kinds of teeth do for different individual animals.
 - Clearly state each question in your report. You might want to create different sections for your different questions.
 - Using `ggplot2`, create **at least one plot for each question** that helps you to answer the question. For each plot, provide an explanation for why you chose the _type_ of plot (e.g. scatterplot, boxplot, bar chart, histogram, etc.), and why you believe that it is best for showing the information related to your question. 
 - **You must use at least three different primary geoms.**
@@ -66,7 +65,7 @@ The following short fact sheets about these great apes provide general informati
 
 <br>
 
-#### Formatting Instructions
+**Formatting Instructions**
 
 - The project report should essentially look similar to some of our class activities, but it should include more narrative/explanation along with the code and plots.
 - Please create your report in an R markdown file called `small-project-1_XX.Rmd`, where you substitute your initials for "XX" (for example, my report would be called `small-project-1_FC.Rmd`.
@@ -75,9 +74,9 @@ The following short fact sheets about these great apes provide general informati
 
 <br>
 
-#### Evaluation Criteria
+**Evaluation Criteria**
 
-Projects will be graded on workflow and presentation rather than particular conclusions. _So don't fret if you ask a question that fails to turn up interesting results!_ The data are what they are.
+Projects will be graded on workflow and presentation rather than particular conclusions. **So don't worry if you ask a question that fails to turn up interesting results!** The data are what they are.
 
 To receive full credit, I am looking for:
 
@@ -85,4 +84,4 @@ To receive full credit, I am looking for:
 - The questions should be conceptual, and should not prompt a specific analysis or plot.
 - Each plot that you include in the report should help to answer one of your proposed questions, with a justification for _why_ you chose to make the type of plot that you made. I am not looking for a dumping ground of many preliminary or poor-quality plots that you experimented with while trying to make a good one.
 - Interpretation of your plots and responses to your proposed question.
-- _Statistical analysis is not necessary._ Just interpret your plots.
+- Statistical analysis is not necessary or expected. Just interpret your plots.

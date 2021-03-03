@@ -49,7 +49,7 @@ lessons:
     topics: "Color, Output, and Composing Multiple Plots"
     # assignment: "viz-spatial"
     # reading: "color-files-geospatial"
-    # project: "small-project-1"
+    project: "small-project-1"
     # slide: "viz-color-files-spatial"
 
   - date: "2021-03-24"
