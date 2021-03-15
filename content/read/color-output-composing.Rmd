@@ -22,6 +22,7 @@ editor_options:
 
 **Composing multiple plots**
 
+- [**Wilke, Ch. 21: Multi-panel figures**](https://clauswilke.com/dataviz/multi-panel-figures.html)
 - [**Patchwork: Getting started**](https://patchwork.data-imaginist.com/articles/patchwork.html)
 
 <hr>
