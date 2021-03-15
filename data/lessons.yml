@@ -47,10 +47,10 @@ lessons:
     
   - date: "2021-03-17"
     topics: "Color, Output, and Composing Multiple Plots"
-    # assignment: "viz-spatial"
-    # reading: "color-files-geospatial"
+    reading: "color-output-composing"
+    assignment: "color-output-composing"
+    #slide: "color-output-composing"
     project: "small-project-1"
-    # slide: "viz-color-files-spatial"
 
   - date: "2021-03-24"
     topics: "Visualizing Geospatial Data"

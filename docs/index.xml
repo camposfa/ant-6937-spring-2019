@@ -88,6 +88,20 @@ vis.1 Watch:
     </item>
     
     <item>
+      <title>Color, Saving Output, and Composing Multiple Plots</title>
+      <link>/read/color-output-composing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/color-output-composing/</guid>
+      <description>Read Making effective use of color
+ Wilke, Ch. 4: Color scales Wilke, Ch. 19: Common pitfalls of color use  
+Saving plots as image files
+ R4DS, Ch. 28.7: Saving your plots Wilke, Ch. 27: Understanding the most commonly used image file formats  
+Composing multiple plots
+ Patchwork: Getting started    Color Resources  Color Brewer: Color advice and a great set of color palettes; r package: RColorBrewer.</description>
+    </item>
+    
+    <item>
       <title>Color, Saving Output, and Geospatial Data</title>
       <link>/read/color-files-geospatial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -557,6 +571,18 @@ Instructions:
   Follow the instructions at the bottom of this page under the heading &amp;ldquo;Extra Software and R Packages for Geospatial Data&amp;rdquo;. These steps should install the necessary software for spatial data visualization.
   Download the .zip file of data below, and unzip the file into this week&amp;rsquo;s folder.
   Download the R Markdown file below, insert your code where indicated, and email me your knitted .</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Relationships and Change Over Time</title>
+      <link>/assignments/color-output-composing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/color-output-composing/</guid>
+      <description>  No assignment for this week! 
+Finish up Small Project 1 and any other assignments that you haven’t completed.
+We will have some class time on March. 17 for any help or questions related to Small Project 1.
+ </description>
     </item>
     
     <item>

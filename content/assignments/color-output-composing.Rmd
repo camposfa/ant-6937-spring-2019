@@ -1,0 +1,12 @@
+---
+title: "Visualizing Relationships and Change Over Time"
+output: html_document
+---
+
+### No assignment for this week!
+
+<br><br>
+
+**Finish up Small Project 1 and any other assignments that you haven't completed.**
+
+We will have some class time on March. 17 for any help or questions related to Small Project 1.

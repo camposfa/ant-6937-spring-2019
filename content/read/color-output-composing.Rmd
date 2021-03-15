@@ -1,0 +1,39 @@
+---
+title: "Color, Saving Output, and Composing Multiple Plots"
+editor_options: 
+  chunk_output_type: console
+---
+
+## Read
+
+**Making effective use of color**
+
+- [**Wilke, Ch. 4: Color scales**](https://clauswilke.com/dataviz/color-basics.html)
+- [**Wilke, Ch. 19: Common pitfalls of color use**](https://clauswilke.com/dataviz/color-pitfalls.html)
+
+<br>
+
+**Saving plots as image files**
+
+- [**R4DS, Ch. 28.7: Saving your plots**](https://r4ds.had.co.nz/graphics-for-communication.html#saving-your-plots)
+- [**Wilke, Ch. 27: Understanding the most commonly used image file formats**](https://clauswilke.com/dataviz/image-file-formats.html)
+
+<br>
+
+**Composing multiple plots**
+
+- [**Patchwork: Getting started**](https://patchwork.data-imaginist.com/articles/patchwork.html)
+
+<hr>
+
+## Color Resources
+
+![](/img/hcl-palettes-principles-1.png)
+
+- [Color Brewer](http://colorbrewer2.org/): Color advice and a great set of color palettes; r package: [RColorBrewer](https://cran.r-project.org/package=RColorBrewer).
+- [CARTOColors](https://carto.com/carto-colors/): Cartography-focused color palettes, including vibrant qualitative color palettes; r package: [rcartocolor](https://cran.r-project.org/package=rcartocolor).
+- [scico](https://github.com/thomasp85/scico): Interesting set of less-common palettes, based on the "scientific color maps" described [here](http://www.fabiocrameri.ch/colourmaps.php).
+- [viridis](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html): Small set of very nice color palettes, best for sequential data; r package: [viridis](https://cran.r-project.org/web/packages/viridis).
+- [colorspace](http://colorspace.r-forge.r-project.org/articles/colorspace.html): HCL-based color palettes; replicates some of the ones listed above, but also provides some interesting new ones; r package: [colorspace](https://cran.r-project.org/package=colorspace).
+- [multiscales](https://github.com/clauswilke/multiscales): Multivariate color scales.
+- [dichromat](https://cran.r-project.org/package=dichromat): A package to simulate color blindness.

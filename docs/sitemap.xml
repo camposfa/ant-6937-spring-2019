@@ -32,6 +32,8 @@
   </url><url>
     <loc>/cheatsheets/</loc>
   </url><url>
+    <loc>/read/color-output-composing/</loc>
+  </url><url>
     <loc>/read/color-files-geospatial/</loc>
   </url><url>
     <loc>/slide/viz-color-files-spatial/</loc>
@@ -131,6 +133,8 @@
     <loc>/slide/viz-distributions/</loc>
   </url><url>
     <loc>/assignments/viz-spatial/</loc>
+  </url><url>
+    <loc>/assignments/color-output-composing/</loc>
   </url><url>
     <loc>/assignments/viz-relationships/</loc>
   </url><url>
