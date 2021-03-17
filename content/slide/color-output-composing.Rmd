@@ -1,0 +1,5 @@
+---
+title: Color, Saving Output, and Geospatial Data
+---
+
+- [07_color-output-composing.pdf ( <i class="far fa-file-pdf"></i> 6.4 MB)](../../files/slides/07_color-output-composing.pdf)

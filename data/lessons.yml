@@ -49,7 +49,7 @@ lessons:
     topics: "Color, Output, and Composing Multiple Plots"
     reading: "color-output-composing"
     assignment: "color-output-composing"
-    #slide: "color-output-composing"
+    slide: "color-output-composing"
     project: "small-project-1"
 
   - date: "2021-03-24"
