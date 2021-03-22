@@ -206,15 +206,15 @@ Instructions: Download the R Markdown file below, insert your code where indicat
     
     <item>
       <title>Visualizing Geospatial Data</title>
-      <link>/assignments/viz-spatial/</link>
+      <link>/assignments/viz-geospatial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/assignments/viz-spatial/</guid>
-      <description>Complete and Submit Before Class On Mar. 7 Maps
+      <guid>/assignments/viz-geospatial/</guid>
+      <description>Complete and Submit Before Class On Mar. 7 Maps
 Instructions:
-  Follow the instructions at the bottom of this page under the heading &amp;ldquo;Extra Software and R Packages for Geospatial Data&amp;rdquo;. These steps should install the necessary software for spatial data visualization.
-  Download the .zip file of data below, and unzip the file into this week&amp;rsquo;s folder.
-  Download the R Markdown file below, insert your code where indicated, and email me your knitted .</description>
+Follow the instructions at the bottom of this page under the heading “Extra Software and R Packages for Geospatial Data”. These steps should install the necessary software for spatial data visualization.
+ Download the .zip file of data below, and unzip the file into this week’s folder.
+ Download the R Markdown file below, insert your code where indicated, and email me your knitted .</description>
     </item>
     
     <item>

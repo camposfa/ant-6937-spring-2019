@@ -1,0 +1,65 @@
+---
+title: "Color, Saving Output, and Geospatial Data"
+output: html_document
+---
+
+## Read
+
+**Visualizing Geospatial Data**
+
+- [**Wilke, Ch. 15: Visualizing geospatial data**](https://serialmentor.com/dataviz/geospatial-data.html)
+- [**Why all world maps are wrong**](https://www.youtube.com/watch?v=kIID5FDi2JQ)
+- [**XKCD Map Projections**](https://xkcd.com/977/)
+
+
+
+## Extra Software and R Packages for Geospatial Data
+
+To use the powerful spatial functions in R, some extra software will be required. R doesn't do all the geographic calculations by itself. It relies on some other software that runs behind the scenes. Depending on your computer and how it's configured, some of you may able to get this working right away, whereas others may need some additional steps as detailed below.
+
+<br><br>
+
+**Windows users**
+
+1. With R/RStudio **closed**, download and install [Rtools](https://cran.r-project.org/bin/windows/Rtools/) (currently Rtools40.exe), which is software that enables your computer to compile R packages from their source code.
+
+2. Start up R Studio, and then install these packages: `sf`, `stars`, and `rnaturalearth`.
+
+3. Load these packages in your R session. If all is working as it should, you may get a message similar to `Linking to GEOS 3.8.1, GDAL 3.1.4, PROJ 6.3.1` when loading the `sf` package (version numbers may differ).
+
+<br><br>
+
+**Mac users**
+
+<u>Worth a try</u>
+
+1. Let's try the easy way first. In RStudio, try installing these R packages: `sf`, `stars`, and `rnaturalearth`. If prompted about installing from binary or from source, choose binary or answer "N" to installing from source.
+
+2. If there were no errors in step 1, try loading the packages in your R session. If all is working as it should, you may get a message similar to `Linking to GEOS 3.8.1, GDAL 3.1.4, PROJ 6.3.1` when loading the `sf` package  (version numbers may differ). But it's likely that you may encounter an error, in which case...
+
+<br>
+
+<u>What you'll probably have to do</u>
+
+1. Close R/Rstudio
+
+2. Install software that enables your computer to compile R packages from their source code.
+
+    - Open terminal
+    - Type `xcode-select --install` and let it run.
+
+3. Install homebrew (if you haven't already).
+
+    - Open Terminal
+    - Go to [brew.sh](brew.sh), copy the big long command under "Install Homebrew" (currently, `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` but go ahead and copy from the webpage to be sure).
+    - Paste the command into Terminal, and press enter. This installs Homebrew, which is special software that lets you install Unix-y programs from the Terminal. This will take a while. 
+
+4. In Terminal, type this line to install the geographic software: `brew install gdal geos proj`. This will also take a while.
+
+5. Open up R Studio, install these packages: `sf`, `maps`, `maptools`, `rgeos`, and `rnaturalearth`.
+
+6. Load these packages in your R session. If all is working as it should, you may get a message similar to `Linking to GEOS 3.8.1, GDAL 3.1.4, PROJ 6.3.1` when loading the `sf` package  (version numbers may differ).
+
+<br><br>
+    
+If you're unable to get this working, let me know.

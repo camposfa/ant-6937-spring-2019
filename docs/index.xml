@@ -103,11 +103,12 @@ Composing multiple plots
     
     <item>
       <title>Color, Saving Output, and Geospatial Data</title>
-      <link>/read/color-files-geospatial/</link>
+      <link>/read/viz-geospatial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/read/color-files-geospatial/</guid>
-      <description>Read Making Effective Use of Color  Wilke, Ch. 4: Color scales Wilke, Ch. 19: Common pitfalls of color use  Saving Plots as Image Files  R4DS, Ch. 28.7: Saving your plots  Visualizing Geospatial Data  Why all world maps are wrong XKCD Map Projections XKCD Heatmap Wilke, Ch. 15: Visualizing geospatial data  Color Resources  Color Brewer: Color advice and a great set of color palettes; r package: RColorBrewer.</description>
+      <guid>/read/viz-geospatial/</guid>
+      <description>Read Visualizing Geospatial Data
+ Wilke, Ch. 15: Visualizing geospatial data Why all world maps are wrong XKCD Map Projections   Extra Software and R Packages for Geospatial Data To use the powerful spatial functions in R, some extra software will be required. R doesn’t do all the geographic calculations by itself. It relies on some other software that runs behind the scenes. Depending on your computer and how it’s configured, some of you may able to get this working right away, whereas others may need some additional steps as detailed below.</description>
     </item>
     
     <item>
@@ -571,15 +572,15 @@ Instructions: Download the R Markdown file below, insert your code where indicat
     
     <item>
       <title>Visualizing Geospatial Data</title>
-      <link>/assignments/viz-spatial/</link>
+      <link>/assignments/viz-geospatial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/assignments/viz-spatial/</guid>
-      <description>Complete and Submit Before Class On Mar. 7 Maps
+      <guid>/assignments/viz-geospatial/</guid>
+      <description>Complete and Submit Before Class On Mar. 7 Maps
 Instructions:
-  Follow the instructions at the bottom of this page under the heading &amp;ldquo;Extra Software and R Packages for Geospatial Data&amp;rdquo;. These steps should install the necessary software for spatial data visualization.
-  Download the .zip file of data below, and unzip the file into this week&amp;rsquo;s folder.
-  Download the R Markdown file below, insert your code where indicated, and email me your knitted .</description>
+Follow the instructions at the bottom of this page under the heading “Extra Software and R Packages for Geospatial Data”. These steps should install the necessary software for spatial data visualization.
+ Download the .zip file of data below, and unzip the file into this week’s folder.
+ Download the R Markdown file below, insert your code where indicated, and email me your knitted .</description>
     </item>
     
     <item>

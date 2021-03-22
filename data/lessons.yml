@@ -54,8 +54,8 @@ lessons:
 
   - date: "2021-03-24"
     topics: "Visualizing Geospatial Data"
-    # assignment: "viz-spatial"
-    # reading: "color-files-geospatial"
+    reading: "viz-geospatial"
+    # assignment: "viz-geospatial"
     # project: "small-project-1"
     # slide: "viz-color-files-spatial"
   
