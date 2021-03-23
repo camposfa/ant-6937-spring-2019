@@ -25,6 +25,13 @@ To use the powerful spatial functions in R, some extra software will be required
 
 2. Start up R Studio, and then install these packages: `sf`, `stars`, `rgeos`, and `rnaturalearth`.
 
+```
+install.packages("sf")
+install.packages("stars")
+install.packages("rgeos")
+install.packages("rnaturalearth")
+```
+
 3. Load these packages in your R session. If all is working as it should, you may get a message similar to `Linking to GEOS 3.8.1, GDAL 3.1.4, PROJ 6.3.1` when loading the `sf` package (version numbers may differ).
 
 <br><br>
@@ -33,7 +40,14 @@ To use the powerful spatial functions in R, some extra software will be required
 
 <u>Worth a try</u>
 
-1. Let's try the easy way first. In RStudio, try installing these R packages: `sf`, `stars`, `rgeos`, and `rnaturalearth`. If prompted about installing from binary or from source, choose binary or answer "N" to installing from source.
+1. Let's try the easy way first. In RStudio, try installing these R packages: `sf`, `stars`, `rgeos`, and `rnaturalearth`. _If prompted about installing from binary or from source, choose binary or answer "N" to installing from source._
+
+```
+install.packages("sf")
+install.packages("stars")
+install.packages("rgeos")
+install.packages("rnaturalearth")
+```
 
 2. If there were no errors in step 1, try loading the packages in your R session. If all is working as it should, you may get a message similar to `Linking to GEOS 3.8.1, GDAL 3.1.4, PROJ 6.3.1` when loading the `sf` package  (version numbers may differ). But it's likely that you may encounter an error, in which case...
 
@@ -57,6 +71,13 @@ To use the powerful spatial functions in R, some extra software will be required
 4. In Terminal, type this line to install the geographic software: `brew install gdal geos proj`. This will also take a while.
 
 5. Open up R Studio, install these packages: `sf`, `stars`, `rgeos`, and `rnaturalearth`.
+
+```
+install.packages("sf")
+install.packages("stars")
+install.packages("rgeos")
+install.packages("rnaturalearth")
+```
 
 6. Load these packages in your R session. If all is working as it should, you may get a message similar to `Linking to GEOS 3.8.1, GDAL 3.1.4, PROJ 6.3.1` when loading the `sf` package  (version numbers may differ).
 
