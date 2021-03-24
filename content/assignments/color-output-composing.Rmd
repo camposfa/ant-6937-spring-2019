@@ -1,5 +1,5 @@
 ---
-title: "Visualizing Relationships and Change Over Time"
+title: "Color, Saving Output, and Composing Multiple Plots"
 output: html_document
 ---
 

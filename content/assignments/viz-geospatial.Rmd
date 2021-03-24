@@ -1,14 +1,21 @@
 ---
-title: Visualizing Geospatial Data
+title: "Visualizing Geospatial Data"
+output: html_document
 ---
 
-### Complete and Submit Before Class On Mar. 7
+### Data for in-class activities
+
+- Zip file containing shapefile of county-level income data for Texas: [<i class="fas fa-file-archive"></i> texas_income.zip](/livecode/viz-geospatial/texas_income.zip)
+- GeoTIFF of elevation data for northwestern Costa Rica: [<i class="fas fa-layer-group"></i> acg_elevation.tif](/livecode/viz-geospatial/acg_elevation.tif)
+
+
+### Complete on your own
 
 **Maps**
 
 Instructions: 
 
-1. Follow the instructions at the bottom of [this page](../../read/color-files-geospatial) under the heading "Extra Software and R Packages for Geospatial Data". These steps should install the necessary software for spatial data visualization.
+1. Follow the instructions at the bottom of [this page](../../read/viz-geospatial) under the heading "Extra Software and R Packages for Geospatial Data". These steps should install the necessary software for spatial data visualization.
 
 2. Download the `.zip` file of data below, and unzip the file into this week's folder.
 
@@ -17,21 +24,19 @@ Instructions:
 
 <br><br>
 
-- [<i class="fas fa-file-archive"></i> data.zip (10.7 MB)](/livecode/viz-spatial/data.zip)
-- [<i class="fab fa-markdown fa-sm"></i> maps.Rmd](/livecode/viz-spatial/maps.Rmd)
-- [<i class="fas fa-code fa-sm"></i> maps-solutions.html](/livecode/viz-spatial/maps-solutions.html) (for reference---finished plots with no code!)
+- [<i class="fas fa-file-archive"></i> maps-data.zip (10.8 MB)](/livecode/viz-geospatial/maps-data.zip)
+- [<i class="fab fa-markdown fa-sm"></i> maps.Rmd](/livecode/viz-geospatial/maps.Rmd)
+- [<i class="fas fa-code fa-sm"></i> maps-solutions.html](/livecode/viz-geospatial/maps-solutions.html) (for reference---finished plots with no code!)
 
 <br><br>
 
-To complete this assignment, you must have the following packages. You have probably installed some of these already.
+To complete this assignment, you must have the following packages installed (skip if you already installed them).
 
 ```
-install.packages("tidyverse")
 install.packages("sf")
 install.packages("rgeos")
 install.packages("rnaturalearth")
-install.packages("RColorBrewer")
-install.packages("rcartocolor")
-install.packages("colorspace")
-install.packages("scales")
+install.packages("stars")
 ```
+
+This is in addition to our old stalwarts, `here`, `tidyverse`, `RColorBrewer`, `rcartocolor`, and `scales`.

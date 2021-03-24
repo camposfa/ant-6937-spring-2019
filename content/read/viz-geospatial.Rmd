@@ -1,5 +1,5 @@
 ---
-title: "Color, Saving Output, and Geospatial Data"
+title: "Visualizing Geospatial Data"
 output: html_document
 ---
 

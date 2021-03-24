@@ -16,6 +16,18 @@
     </item>
     
     <item>
+      <title>Color, Saving Output, and Composing Multiple Plots</title>
+      <link>/assignments/color-output-composing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/color-output-composing/</guid>
+      <description>  No assignment for this week! 
+Finish up Small Project 1 and any other assignments that you haven’t completed.
+We will have some class time on March. 17 for any help or questions related to Small Project 1.
+ </description>
+    </item>
+    
+    <item>
       <title>czx412</title>
       <link>/assignments/checklist/czx412/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -210,23 +222,10 @@ Instructions: Download the R Markdown file below, insert your code where indicat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/viz-geospatial/</guid>
-      <description>Complete and Submit Before Class On Mar. 7 Maps
+      <description>Data for in-class activities  Zip file containing shapefile of county-level income data for Texas:  texas_income.zip GeoTIFF of elevation data for northwestern Costa Rica:  acg_elevation.tif   Complete on your own Maps
 Instructions:
 Follow the instructions at the bottom of this page under the heading “Extra Software and R Packages for Geospatial Data”. These steps should install the necessary software for spatial data visualization.
- Download the .zip file of data below, and unzip the file into this week’s folder.
- Download the R Markdown file below, insert your code where indicated, and email me your knitted .</description>
-    </item>
-    
-    <item>
-      <title>Visualizing Relationships and Change Over Time</title>
-      <link>/assignments/color-output-composing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/color-output-composing/</guid>
-      <description>  No assignment for this week! 
-Finish up Small Project 1 and any other assignments that you haven’t completed.
-We will have some class time on March. 17 for any help or questions related to Small Project 1.
- </description>
+ Download the .</description>
     </item>
     
     <item>

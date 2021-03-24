@@ -89,6 +89,18 @@ vis.1 Watch:
     
     <item>
       <title>Color, Saving Output, and Composing Multiple Plots</title>
+      <link>/assignments/color-output-composing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/color-output-composing/</guid>
+      <description>  No assignment for this week! 
+Finish up Small Project 1 and any other assignments that you haven’t completed.
+We will have some class time on March. 17 for any help or questions related to Small Project 1.
+ </description>
+    </item>
+    
+    <item>
+      <title>Color, Saving Output, and Composing Multiple Plots</title>
       <link>/read/color-output-composing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -102,6 +114,15 @@ Composing multiple plots
     </item>
     
     <item>
+      <title>Color, Saving Output, and Composing Multiple Plots</title>
+      <link>/slide/color-output-composing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/color-output-composing/</guid>
+      <description>   Week 8 slides: 07_color-output-composing.pdf (  6.4 MB)  </description>
+    </item>
+    
+    <item>
       <title>Color, Saving Output, and Geospatial Data</title>
       <link>/read/viz-geospatial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -109,24 +130,6 @@ Composing multiple plots
       <guid>/read/viz-geospatial/</guid>
       <description>Read Visualizing Geospatial Data
  Wilke, Ch. 15: Visualizing geospatial data Why all world maps are wrong XKCD Map Projections   Extra Software and R Packages for Geospatial Data To use the powerful spatial functions in R, some extra software will be required. R doesn’t do all the geographic calculations by itself. It relies on some other software that runs behind the scenes. Depending on your computer and how it’s configured, some of you may able to get this working right away, whereas others may need some additional steps as detailed below.</description>
-    </item>
-    
-    <item>
-      <title>Color, Saving Output, and Geospatial Data</title>
-      <link>/slide/color-output-composing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/color-output-composing/</guid>
-      <description>   07_color-output-composing.pdf (  6.4 MB)  </description>
-    </item>
-    
-    <item>
-      <title>Color, Saving Output, and Geospatial Data</title>
-      <link>/slide/viz-color-files-spatial/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/viz-color-files-spatial/</guid>
-      <description> 07_color-output-spatial.pdf ( 4.2 MB)  </description>
     </item>
     
     <item>
@@ -576,23 +579,19 @@ Instructions: Download the R Markdown file below, insert your code where indicat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/viz-geospatial/</guid>
-      <description>Complete and Submit Before Class On Mar. 7 Maps
+      <description>Data for in-class activities  Zip file containing shapefile of county-level income data for Texas:  texas_income.zip GeoTIFF of elevation data for northwestern Costa Rica:  acg_elevation.tif   Complete on your own Maps
 Instructions:
 Follow the instructions at the bottom of this page under the heading “Extra Software and R Packages for Geospatial Data”. These steps should install the necessary software for spatial data visualization.
- Download the .zip file of data below, and unzip the file into this week’s folder.
- Download the R Markdown file below, insert your code where indicated, and email me your knitted .</description>
+ Download the .</description>
     </item>
     
     <item>
-      <title>Visualizing Relationships and Change Over Time</title>
-      <link>/assignments/color-output-composing/</link>
+      <title>Visualizing Geospatial Data</title>
+      <link>/slide/viz-geospatial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/assignments/color-output-composing/</guid>
-      <description>  No assignment for this week! 
-Finish up Small Project 1 and any other assignments that you haven’t completed.
-We will have some class time on March. 17 for any help or questions related to Small Project 1.
- </description>
+      <guid>/slide/viz-geospatial/</guid>
+      <description>   08_color-output-spatial.pdf (  3.5 MB)  </description>
     </item>
     
     <item>
