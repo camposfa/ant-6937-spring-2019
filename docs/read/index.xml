@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/read/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>&#34;Reshaping Data</title>
+      <link>/read/reshaping-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/reshaping-data/</guid>
+      <description>   “Tidy Data” by Hadley Wickham.  Don’t pay much attention to any R code you encounter, as most of it has now been superseded by newer tidyverse functions.
+ This was Wickham’s early “tidy tools” manifesto; it provided guiding principles and a framework for developing the tidyverse.   </description>
+    </item>
+    
+    <item>
       <title>Color, Saving Output, and Composing Multiple Plots</title>
       <link>/read/color-output-composing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -36,7 +46,11 @@ Composing multiple plots
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/data-import/</guid>
-      <description>Read Organizing Data  &amp;ldquo;Tidy Data&amp;rdquo; by Hadley Wickham.  Don&amp;rsquo;t pay much attention to any R code you encounter, as most of it has now been superseded by newer tidyverse functions. This was Wickham&amp;rsquo;s early &amp;ldquo;tidy tools&amp;rdquo; manifesto; it provided guiding principles and a framework for developing the tidyverse.   Peruse the website &amp;ldquo;Data Organization in Spreadsheets&amp;rdquo;, much of which has been written up in a journal article:</description>
+      <description>Read Organizing Data
+ Peruse the website “Data Organization in Spreadsheets”, much of which has been written up in a journal article:
+Broman KW, Woo KH (2018) Data organization in spreadsheets. The American Statistician 78:2–10. PDF (  3.9 MB)  
+Importing Data
+ R4DS, Ch. 10: Tibbles (short) R4DS, Ch. 11.2: Data Import, “Getting started”  I suggest working through the exercises to help you understand the code.</description>
     </item>
     
     <item>

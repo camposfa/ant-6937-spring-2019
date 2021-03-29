@@ -30,7 +30,7 @@
     
   <link rel="alternate" href="../../index.xml" type="application/rss+xml" title="ANT 6973, Spring 2021">
   <link rel="feed" href="../../index.xml" type="application/rss+xml" title="ANT 6973, Spring 2021">
-  <link rel="canonical" href="../../read/data-import/">
+  <link rel="canonical" href="../../read/reshaping-data/">
 </head>
 
   
@@ -91,37 +91,19 @@
 		<div class="main main-raised">
 			<div class="container">
 		  	<div class="section text-left">
-		  	  <h2 class="title text-center">Data Import</h2>
+		  	  <h2 class="title text-center">&#34;Reshaping Data</h2>
 	            
 <script src="../../rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
-<div id="read" class="section level2">
-<h2>Read</h2>
-<p><strong>Organizing Data</strong></p>
 <ul>
-<li><strong>Peruse the website <a href="https://kbroman.org/dataorg/">“Data Organization in Spreadsheets”</a></strong>, much of which has been written up in a journal article:<br />
-Broman KW, Woo KH (2018) Data organization in spreadsheets. <em>The American Statistician</em> 78:2–10. <a href="../../files/Broman%20-%202018%20-%20Data%20Organization%20in%20Spreadsheets.pdf">PDF ( <i class="far fa-file-pdf"></i> 3.9 MB)</a></li>
-</ul>
-<p><br></p>
-<p><strong>Importing Data</strong></p>
+<li><strong><a href="http://vita.had.co.nz/papers/tidy-data.pdf">“Tidy Data”</a> by Hadley Wickham.</strong>
 <ul>
-<li><strong><a href="https://r4ds.had.co.nz/tibbles.html">R4DS, Ch. 10: Tibbles</a> (short)</strong></li>
-<li><strong><a href="https://r4ds.had.co.nz/data-import.html#getting-started">R4DS, Ch. 11.2: Data Import, “Getting started”</a></strong>
-<ul>
-<li>I suggest working through the exercises to help you understand the code.</li>
+<li>Don’t pay much attention to any R code you encounter, as most of it has now been superseded by newer tidyverse functions.<br />
+</li>
+<li>This was Wickham’s early “tidy tools” manifesto; it provided guiding principles and a framework for developing the tidyverse.</li>
 </ul></li>
 </ul>
-<hr>
-</div>
-<div id="supplemental-reading" class="section level2">
-<h2>Supplemental Reading</h2>
-<p>Do you need to read messy files? I suggeset reading the remainder of <a href="https://r4ds.had.co.nz/data-import.html">R4DS, Ch. 11</a>. In particular:</p>
-<ul>
-<li><a href="https://r4ds.had.co.nz/data-import.html#parsing-a-vector">Section 11.3, “Parsing a Vector”</a> decribes a variety of functions provided by the <code>readr</code> package to analyze and interpret different kinds of input and figure out what kind of value it’s supposed to be. For example, understanding that the value represents a number when it’s formatted as <code>$123,456,789</code>, or that the value represents a date when it’s formatted as <code>oct. 14, 1979</code> or <code>1 enero 2015</code>.</li>
-<li><a href="https://r4ds.had.co.nz/data-import.html#parsing-a-file">Section 11.4, “Parsing a file”</a> describes strategies for guessing column types during import, diagnosing problems, and overriding the defaults when the guesses fail.</li>
-</ul>
-</div>
 
 	      </div>
       </div>
