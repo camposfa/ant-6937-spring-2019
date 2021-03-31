@@ -1,5 +1,5 @@
 ---
-title: "Data-Import"
+title: "Ozone activity"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -17,6 +17,8 @@ knitr::opts_chunk$set(warning = FALSE,
 ```{r}
 library("tidyverse")
 library("knitr")
+library("rnaturalearth")
+library("sf")
 library("here")
 ```
 
@@ -138,40 +140,41 @@ In our case, we would use the `col_double()` function to ensure that `ozone` is 
 
 ## The hole in the ozone layer
 
-Now that we have our data, we can use it to plot a picture of the hole in the ozone layer. Note that the "hole" in the ozone layer is the light regions around the south pole. The circular white area centered on the south pole shows where the satellite did not take measurements, and the small gray region shows the missing values.
+Now that we have our data, we can use it to plot a picture of the hole in the ozone layer. Note that the "hole" in the ozone layer is the light regions around the south pole. The circular white area centered on the south pole shows where the satellite did not take measurements, and the small gray region shows the missing values. Let's plot this using an orthographic projection centered over the South Pole.
 
 Note: remove `eval = FALSE` from the chunk header below, and then delete this line.
 
-```{r, eval = FALSE, fig.width = 6, fig.height = 6}
-
-world <- map_data(map = "world")
+```{r, eval = FALSE, echo = FALSE, fig.width = 6, fig.height = 6}
+ortho <- "+proj=ortho +lat_0=-90 +lon_0=0"
+world <- <--obtain world data from rnaturalearth--->
+nimbus_sf <- st_as_sf(nimbus, coords = c("longitude", "latitude"), crs = 4326)
 
 ggplot() +
-  geom_point(data = nimbus, aes(longitude, latitude, color = ozone)) +
-  geom_path(data = world, aes(long, lat, group = group)) +
-  coord_map("ortho", orientation = c(-90, 0, 0)) +
-  scale_color_viridis_c(option = "magma", direction = -1) +
+  <---nimbus layer with aesthetic mappings--->) +
+  <---world layer with black lines and no fill---> +
+  <---coord function using our custom CRS---> +
+  <---scale function---> +
   theme_void() +
   theme(panel.background = element_rect(fill = "gray95"))
 ```
 
 ## Writing data
 
-`readr` also contains functiomns for saving data. These functions parallel the read functions and each save a data frame or tibble in a specific file format.
+`readr` also contains functions for saving data. These functions parallel the read functions and each save a data frame or tibble in a specific file format.
 
 Function            | Writes
 ------------------- | ----------------------------------------
 `write_csv()`       | Comma separated values
 `write_excel_csv()` | CSV that you plan to open in Excel
 `write_delim()`     | General delimited files
-`write_file()`      | A single string, written as is
-`write_lines()`     | A vector of strings, one string per line
 `write_tsv()`       | Tab delimited values
+`write_file()`      | A single string, written as is
+`write_csv2()`      | For CSV files with other separators (for example `;` as column separator and `,` as decimal separator)
 
-To use a write function, first give it the name of the data frame to save, then give it a filepath from your wqorking directory to the location where you would like to save the file. This filepath should end in the name of the new file. So we can save the clean `nimbus` data set as a csv in our working directory with.
+To use a write function, first give it the name of the data frame to save, then give it a file path from your working directory to the location where you would like to save the file. This file path should end in the name of the new file. So we can save the clean `nimbus` data set as a csv in our working directory with.
 
 ```{r eval = FALSE}
-write_csv(nimbus, path = "nimbus-clean.csv")
+write_csv(nimbus, path = here("09_data-import/data/nimbus-clean.csv"))
 ```
 
 <br>

@@ -19,7 +19,7 @@ Instructions:
 
 2. Download the `.zip` file of data below, and unzip the file into this week's folder.
 
-3. Download the R Markdown file below, insert your code where indicated, and email me your knitted `.html` output.
+3. Download the R Markdown file below, insert your code where indicated, and upload your knitted `.html` output and the `.Rmd` file to Blackboard.
 
 
 <br><br>

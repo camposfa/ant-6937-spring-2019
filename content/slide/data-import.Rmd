@@ -1,0 +1,6 @@
+---
+title: "Data Import"
+output: html_document
+---
+
+- [09_data-import.pdf ( <i class="far fa-file-pdf"></i> 4.0 MB)](../../files/slides/09_data-import.pdf)

@@ -42,14 +42,8 @@ We will have some class time on March. 17 for any help or questions related to S
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/data-import/</guid>
-      <description>To complete this week&amp;rsquo;s activities, you will need two new packages.
-install.packages(&amp;quot;here&amp;quot;) install.packages(&amp;quot;janitor&amp;quot;) Complete in Class Paths Instructions:
-  Download the zip file paths-project.zip and unzip the contents into this week&amp;rsquo;s folder.
-  Open the project called paths-project.Rproj.
-  Open the R Markdown file located at paths-project/rmd/paths.Rmd.
-  Go through the activity, changing code where appropriate.
-  Nothing to turn in!
-   paths-project.zip (1.</description>
+      <description>To complete this week’s activities, you will need a new package, in addition to a few you already have installed (readr, readxl).
+install.packages(&amp;quot;janitor&amp;quot;) Data for in-class activities  Example messy spreadsheet containing biographical data for various people:  deaths.xlsx Atmospheric ozone measurements of the southern hemisphere collected by NASA’s NIMBUS-7 satellite in October 1985:  nimbus.csv R markdown template for ozone activity  ozone.Rmd   Complete on your own Spreadsheets</description>
     </item>
     
     <item>

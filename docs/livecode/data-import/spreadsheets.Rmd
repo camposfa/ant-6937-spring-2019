@@ -28,12 +28,12 @@ library("janitor")
 **Set your path here:**
 
 ```{r}
-stickers_path <- here("08_data-import/spreadsheets", "PosidFazioCordes_StickerRich_Excel-Dataverse.xlsx")
+stickers_path <- here("09_data-import/spreadsheets/PosidFazioCordes_StickerRich_Excel-Dataverse.xlsx")
 ```
 
 We're going to read in some messy data from an Excel file that accompanies a journal article about how children's altruistic behavior is shaped by their "wealth" in terms of the number of stickers they have: [Being Sticker Rich: Numerical Context Influences Children’s Sharing Behavior](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138928). The data are [archived in a data repository](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LHAQ5W), but they can also be downloaded from the course website.
 
-As a first attempt, let's just read in the file using `read_excel` with no other options provided.
+As a first attempt, let's just read in the file using `read_excel()` with no other options provided.
 
 ```{r}
 stickers <- read_excel(stickers_path)
@@ -45,7 +45,7 @@ Let's look at that mess.
 stickers
 ```
 
-That second row of data is wonky, and we can just get rid of it. There's a nice `dplyr` function called `slice()` for choosing rows based on their position in the table. Here's a demostration:
+That second row of data is wonky, and we can just get rid of it. There's a nice `dplyr` function called `slice()` for choosing rows based on their position in the table. Here's a demonstration:
 
 ```{r, eval = FALSE}
 # Get row 2 only
@@ -71,15 +71,7 @@ Another issue is that some of the column names have completely ridiculous names 
 names(stickers)
 ```
 
-We can fix that with the `dplyr` function `rename()`. Here's a basic example of how you use this function:
-
-```{r, eval = FALSE}
-rename(your_data, new_col_name = old_col_name)
-```
-
-Note the normal variable names can be bare (unquoted), but for our name that is full of spaces and punctuation we'll need to use quotes around the old name. 
-
-Finally, we want to make cleaner names. The R package `janitor` provides a handy function `clean_names()` for making nice names using a variety of rules. By default, it makes names using [snake_case](https://en.wikipedia.org/wiki/Snake_case), but you can find all the other options in the [documentation](http://sfirke.github.io/janitor/reference/clean_names.html), including such delightful naming rules as "big_camel" (NamesLikeThis) and "screaming_sname" (NAMES_LIKE_THIS).
+If we enjoyed wasting time, we could fix that by manually renaming each column. Instead, let's use the R package `janitor`, which provides a handy function `clean_names()` for making nice names using a variety of rules. By default, it makes names using [snake_case](https://en.wikipedia.org/wiki/Snake_case), but you can find all the other options in the [documentation](https://rdrr.io/cran/snakecase/man/to_any_case.html), including such delightful naming rules as "big_camel" (NamesLikeThis) and "screaming_snake" (NAMES_LIKE_THIS).
 
 ```{r}
 clean_stickers <- clean_names(stickers)
@@ -125,7 +117,7 @@ We have three goals here:
 **Set your path here:**
 
 ```{r}
-artifacts_path <- here("08_data-import/spreadsheets", "messy_ktc_data.xlsx")
+artifacts_path <- here("09_data-import/spreadsheets/messy_ktc_data.xlsx")
 ```
 
 
@@ -187,7 +179,7 @@ ggplot(filter(mollusc, element %in% c("Bivalve", "Gastropod")),
   scale_x_log10(labels = scales::comma) +  # Log-transform x-axis, and use comma lables
   facet_wrap(~element, ncol = 1) +         # Arrange facets in single column
   coord_cartesian(expand = FALSE) +        # Don't add extra space around extremes of the plot
-  theme_minimal() +
+  theme_minimal(14) +
   labs(x = "Mass (g)", y = "Count", 
        title = "Mass of molluscs", 
        caption = "Data from https://github.com/benmarwick/aswr/tree/master/inst/data")

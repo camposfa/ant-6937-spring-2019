@@ -1,0 +1,39 @@
+---
+title: "Data Import"
+output: html_document
+---
+
+
+To complete this week's activities, you will need a new package, in addition to a few you already have installed (`readr`, `readxl`).
+
+```
+install.packages("janitor")
+```
+
+### Data for in-class activities
+
+- Example messy spreadsheet containing biographical data for various people: [<i class="fas fa-file-excel"></i> deaths.xlsx](/livecode/data-import/deaths.xlsx)
+- Atmospheric ozone measurements of the southern hemisphere collected by NASA’s NIMBUS-7 satellite in October 1985: [<i class="fas fa-file-csv"></i> nimbus.csv](/livecode/data-import/nimbus.csv)
+- R markdown template for ozone activity [<i class="fab fa-markdown fa-sm"></i> ozone.Rmd](/livecode/data-import/ozone.Rmd)
+
+
+### Complete on your own
+
+
+**Spreadsheets**
+
+
+Instructions: 
+
+1. Download the data and R Markdown file below
+
+2. Insert your code where indicated
+
+3. Download the R Markdown file below, insert your code where indicated, and upload your knitted `.html` output and the `.Rmd` file to Blackboard.
+
+<br>
+
+- [<i class="fas fa-file-excel"></i> PosidFazioCordes_StickerRich_Excel-Dataverse.xlsx](/livecode/data-import/PosidFazioCordes_StickerRich_Excel-Dataverse.xlsx) (data file)
+- [<i class="fas fa-file-excel"></i> messy_ktc_data.xlsx](/livecode/data-import/messy_ktc_data.xlsx) (data file)
+- [<i class="fab fa-markdown fa-sm"></i> spreadsheets.Rmd](/livecode/data-import/spreadsheets.Rmd)
+- [<i class="fas fa-code fa-sm"></i> spreadsheets-solutions.html](/livecode/data-import/spreadsheets-solutions.html) (for reference---code removed.)

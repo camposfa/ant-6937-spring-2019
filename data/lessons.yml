@@ -63,8 +63,8 @@ lessons:
   - date: "2021-03-31"
     topics: "Data Import"
     reading: "data-import"
-    # assignment: "data-import"
-    # slide: "data-import"
+    assignment: "data-import"
+    slide: "data-import"
   
   - date: "2021-04-07"
     topics: "Reshaping Data"
