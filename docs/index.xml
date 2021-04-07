@@ -182,7 +182,7 @@ Importing Data
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/data-import/</guid>
-      <description>   08_data-import.pdf (  4.0 MB)  </description>
+      <description>   Week 10 slides: 09_data-import.pdf (  4.0 MB)  </description>
     </item>
     
     <item>
@@ -415,8 +415,14 @@ Top-level header should be your name
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/reshaping-data/</guid>
-      <description>To complete this week&amp;rsquo;s activities, you will need to install the &amp;ldquo;development&amp;rdquo; version of tidyr.
-devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;) Important note: As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: pivot_longer() and pivot_wider(). It looks like these names are going to stick. All course materials have been updated accordingly. You will not see this change unless you reinstall the development version of tidyr by (re-)running the command devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;).</description>
+      <description>  Complete on your own 
+Tidy Data
+Instructions:
+Download the R Markdown file below
+ Insert your code where indicated
+ Download the R Markdown file below, insert your code where indicated, and upload your knitted .html output and the .Rmd file to Blackboard.
+  
+  school-earnings.csv  tidy-data.Rmd  tidy-data-solutions.html (for reference—code removed.)   </description>
     </item>
     
     <item>
@@ -425,7 +431,7 @@ devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;) Important note: As
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/reshaping-data/</guid>
-      <description> 09_reshaping-data.pdf ( 3.3 MB)  </description>
+      <description>   Week 11 slides: 09_reshaping-data.pdf (  2.6 MB)  </description>
     </item>
     
     <item>
@@ -601,7 +607,7 @@ Follow the instructions at the bottom of this page under the heading “Extra So
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/viz-geospatial/</guid>
-      <description>   08_color-output-spatial.pdf (  3.5 MB)  </description>
+      <description>   Week 9 slides: 08_color-output-spatial.pdf (  3.5 MB)  </description>
     </item>
     
     <item>

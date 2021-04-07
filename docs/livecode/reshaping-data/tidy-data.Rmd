@@ -15,23 +15,13 @@ knitr::opts_chunk$set(echo = TRUE,
 
 ```{r packages}
 library("tidyverse")
-library("glue")
+library("scales")
 library("ggrepel")
 library("rcartocolor")
 library("knitr")
 
 theme_set(theme_minimal())
 ```
-
-You will need the development version of the `tidyr` package to use the new reshaping functions.
-
-_Run only once:_
-
-```
-devtools::install_github("tidyverse/tidyr")
-```
-
-***
 
 
 ## Make some practice data
@@ -94,13 +84,12 @@ Remember the pay gaps data set?
 
 ```{r}
 # You will probably have to modify this...
-earnings <- read_csv(here::here("06_viz-relationships-change", "data", 
-                                "school-earnings.csv"))
+earnings <- read_csv(here::here("10_reshaping-data/data/school-earnings.csv"))
 
 kable(head(earnings))
 ```
 
-Let's visualizing pay disparities between men and women that graduated from 21 elite U.S. universities using a paired-value bubble plot. Specifically, we want to plot: 
+Let's visualize pay disparities between men and women that graduated from 21 elite U.S. universities using a paired-value bubble plot. Specifically, we want to plot: 
 
 - Women's salaries on the x-axis
 - Men's salaries on the y-axis
@@ -119,29 +108,22 @@ earnings_wide <- earnings %>%
 #### Make the plot
 
 ```{r, fig.width = 9, fig.height = 7, eval = FALSE}
-
-# Pay gap breaks for legend
-gap_breaks <- seq(0, 60, by = 10)
-gap_labs <- glue("${gap_breaks}k")
-
-# Pay amount breaks for breaks for axis
-pay_breaks <- seq(0, 150, by = 50)
-pay_labs <- glue("${pay_breaks}k")
+# A custom formatting function to make labels like $100k instead of 100000
+# # The unit_format() function is provided by the scales package
+kdollars <- unit_format(scale = 1e-3, prefix = "$", suffix = "k")
 
 # Paired scatterplot over 1-to-1 diagonal
 ggplot(earnings_wide, aes(______________)) +
   geom_abline(aes(_________), size = 1.5, color = "gray85") +
   geom_point(aes(_______________), alpha = 0.8) +
-  geom_text_repel(aes(__________),
-                  point.padding = 0.5, show.legend = FALSE) +
+  geom_text_repel(aes(__________), point.padding = 10, 
+                  show.legend = FALSE, max.overlaps = Inf) +
   coord_equal() +
   expand_limits(x = 0, y = 0) +
-  scale_x_continuous(breaks = pay_breaks, labels = pay_labs) +
-  scale_y_continuous(breaks = pay_breaks, labels = pay_labs) +
-  scale_size_area(name = "Pay Gap", breaks = gap_breaks, 
-                  labels = gap_labs, max_size = 8) +
+  scale_x_continuous(breaks = breaks_width(width = 5e4), labels = kdollars) +
+  scale_y_continuous(breaks = breaks_width(width = 5e4), labels = kdollars) +
+  scale_size_area(name = "Pay Gap", labels = kdollars, max_size = 8) +
   scale_color_carto_c(name = "Pay Gap", palette = "RedOr",
-                      breaks = gap_breaks, labels = gap_labs,
-                      guide = "legend") +
+                      labels = kdollars, guide = "legend") +
   labs(x = "Women's Mid-career Salary",  y = "Men's Mid-career Salary")
 ```
