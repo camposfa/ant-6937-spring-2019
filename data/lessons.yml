@@ -68,6 +68,7 @@ lessons:
   
   - date: "2021-04-07"
     topics: "Reshaping Data"
+    reading: "reshaping-data"
     # assignment: "reshaping-data"
     # slide: "reshaping-data"
     

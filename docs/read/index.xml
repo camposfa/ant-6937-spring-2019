@@ -12,7 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/reshaping-data/</guid>
-      <description>   “Tidy Data” by Hadley Wickham.  Don’t pay much attention to any R code you encounter, as most of it has now been superseded by newer tidyverse functions.
+      <description>  Forgot to post this earlier. Don’t worry about reading before class, just take a look at it some time.
+
+ “Tidy Data” by Hadley Wickham.  Ignore all the R code thatt you encounter, as bascially all of it has now been superseded by newer tidyverse functions.
  This was Wickham’s early “tidy tools” manifesto; it provided guiding principles and a framework for developing the tidyverse.   </description>
     </item>
     
