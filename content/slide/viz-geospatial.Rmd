@@ -3,4 +3,4 @@ title: "Visualizing Geospatial Data"
 output: html_document
 ---
 
-- [08_color-output-spatial.pdf ( <i class="far fa-file-pdf"></i> 3.5 MB)](../../files/slides/08_geospatial.pdf)
+- Week 9 slides: [08_color-output-spatial.pdf ( <i class="far fa-file-pdf"></i> 3.5 MB)](../../files/slides/08_geospatial.pdf)

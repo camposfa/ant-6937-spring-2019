@@ -69,8 +69,8 @@ lessons:
   - date: "2021-04-07"
     topics: "Reshaping Data"
     reading: "reshaping-data"
-    # assignment: "reshaping-data"
-    # slide: "reshaping-data"
+    assignment: "reshaping-data"
+    slide: "reshaping-data"
     
   # - date: "2021-03-31"
     # topics: "<i class='fas fa-chalkboard-teacher'></i> <b>No class:</b> AAPA Conference <i class='fas fa-globe-americas'></i>"

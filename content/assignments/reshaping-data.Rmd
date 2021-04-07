@@ -1,0 +1,25 @@
+---
+title: "Reshaping Data"
+outputL=: html_document
+---
+
+
+### Complete on your own
+
+<br>
+
+**Tidy Data**
+
+Instructions: 
+
+1. Download the R Markdown file below
+
+2. Insert your code where indicated
+
+3. Download the R Markdown file below, insert your code where indicated, and upload your knitted `.html` output and the `.Rmd` file to Blackboard.
+
+<br>
+
+- [<i class="fas fa-file-csv"></i> school-earnings.csv](/livecode/reshaping-data/school-earnings.csv)
+- [<i class="fab fa-markdown fa-sm"></i> tidy-data.Rmd](/livecode/reshaping-data/tidy-data.Rmd)
+- [<i class="fas fa-code fa-sm"></i> tidy-data-solutions.html](/livecode/reshaping-data/tidy-data-solutions.html) (for reference---code removed.)
