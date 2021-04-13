@@ -16,8 +16,6 @@ The final project should essentially look like any of our small projects, but wi
 2. You must create a digital poster similar to what you might use at an academic conference, that presents your project visually.
 
 
-<br><br>
-
 #### **Evaluation**
 
 To receive full credit, I am looking for:
@@ -36,8 +34,6 @@ To receive full credit, I am looking for:
 
 - As in the small projects, you will be graded on workflow and presentation rather than on the particular conclusions, and statistical analysis is not necessary.
 
-
-<br><br>
 
 #### **What to turn in**
 

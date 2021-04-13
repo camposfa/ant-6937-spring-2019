@@ -86,7 +86,7 @@ lessons:
     # reading: "dplyr-2"
     # assignment: "dplyr-2"
     # slide: "data-manip2"
-    # project: "small-project-2"
+    project: "small-project-2"
 
   # - date: "2021-04-14"
   #   topics: "Catch-up / Work on Small Project 2"
@@ -102,7 +102,7 @@ lessons:
     
   - date: "2021-05-05"
     topics: "Catch-up / Work on Final Projects"
-    #project: "final-project"
+    project: "final-project"
     
   # - date: "2021-05-05"
   #   topics: "<b>No class:</b> Final Projects due by end of day (23:59:59)"
