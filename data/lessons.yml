@@ -77,7 +77,7 @@ lessons:
  
   - date: "2021-04-14"
     topics: "Data Manip. 1: Filter, Select, Arrange, Mutate"
-    # reading: "dplyr-1"
+    reading: "dplyr-1"
     # assignment: "dplyr-1"
     # slide: "data-manip1"
     
