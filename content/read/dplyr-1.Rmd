@@ -1,6 +1,6 @@
 ---
 title: "Data Manipulation 1: Filter, Arrange, Select, Mutate"
-output: "html_document"
+output: html_document
 ---
 
 ## Read

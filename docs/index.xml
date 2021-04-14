@@ -186,13 +186,19 @@ Importing Data
     </item>
     
     <item>
-      <title>Data Manipulation 1</title>
+      <title>Data Manipulation 1: Filter, Arrange, Select, Mutate</title>
       <link>/assignments/dplyr-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/dplyr-1/</guid>
-      <description>To complete this week&amp;rsquo;s activities, you will need to install the &amp;ldquo;development&amp;rdquo; version of tidyr.
-devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;) Important note: As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: pivot_longer() and pivot_wider(). It looks like these names are going to stick. All course materials have been updated accordingly. You will not see this change unless you reinstall the development version of tidyr by (re-)running the command devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;).</description>
+      <description>Companion to in-class activities   babynames-manip.Rmd (Nothing to turn in!)   Complete before next class 
+Data Manipulation 1
+Instructions:
+Download the R Markdown file and data files below
+ Insert your code where indicated
+ Download the R Markdown file below, insert your code where indicated, and upload your knitted .html output and the .Rmd file to Blackboard.
+  
+  us_contagious_diseases.csv (data file)</description>
     </item>
     
     <item>
@@ -202,6 +208,15 @@ devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;) Important note: As
       
       <guid>/read/dplyr-1/</guid>
       <description>  Read  R4DS, 5.1–5.5: Data Transformation: dplyr basic verbs: filter(), arrange(), select(), and mutate().   Optional further reading.  Introduction to dplyr: many code examples Modern Dive, Chapter 3, 3.1–3.2 and 3.5–3.6, 3.8: Data Wrangling: Similar to assigned reading but organized differently. Some might find the text easier to follow.   </description>
+    </item>
+    
+    <item>
+      <title>Data Manipulation 1: Filter, Arrange, Select, Mutate</title>
+      <link>/slide/data-manip1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/data-manip1/</guid>
+      <description>   Week 12 slides: 11_data-manip-1.pdf (  3 MB)  </description>
     </item>
     
     <item>
@@ -220,15 +235,6 @@ devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;) Important note: As
       
       <guid>/read/dplyr-2/</guid>
       <description>Read  R4DS, 5.6&amp;ndash;5.7: Data Transformation: dplyr basic verbs: summarise, group_by, and new ways to use mutate and filter.  Optional further reading (same as last week).  Introduction to dplyr: many code examples Modern Dive, Chapter 4: Data Wrangling: Similar to assigned reading but organized differently. Might be a little easier to follow?  </description>
-    </item>
-    
-    <item>
-      <title>Data Manipulation, Part 1</title>
-      <link>/slide/data-manip1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/data-manip1/</guid>
-      <description> 10_data-manip-1.pdf ( 2.3 MB)  </description>
     </item>
     
     <item>
@@ -433,7 +439,7 @@ Download the R Markdown file below
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/slide/reshaping-data/</guid>
-      <description>   Week 11 slides: 09_reshaping-data.pdf (  2.6 MB)  </description>
+      <description>   Week 11 slides: 10_reshaping-data.pdf (  2.6 MB)  </description>
     </item>
     
     <item>

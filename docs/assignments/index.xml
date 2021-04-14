@@ -47,13 +47,19 @@ install.packages(&amp;quot;janitor&amp;quot;) Data for in-class activities  Exam
     </item>
     
     <item>
-      <title>Data Manipulation 1</title>
+      <title>Data Manipulation 1: Filter, Arrange, Select, Mutate</title>
       <link>/assignments/dplyr-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/dplyr-1/</guid>
-      <description>To complete this week&amp;rsquo;s activities, you will need to install the &amp;ldquo;development&amp;rdquo; version of tidyr.
-devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;) Important note: As we discussed in class on March 21, the wide/long reshaping functions were in flux when we learned about them. Since that time, the authors have settled on slightly different names: pivot_longer() and pivot_wider(). It looks like these names are going to stick. All course materials have been updated accordingly. You will not see this change unless you reinstall the development version of tidyr by (re-)running the command devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;).</description>
+      <description>Companion to in-class activities   babynames-manip.Rmd (Nothing to turn in!)   Complete before next class 
+Data Manipulation 1
+Instructions:
+Download the R Markdown file and data files below
+ Insert your code where indicated
+ Download the R Markdown file below, insert your code where indicated, and upload your knitted .html output and the .Rmd file to Blackboard.
+  
+  us_contagious_diseases.csv (data file)</description>
     </item>
     
     <item>

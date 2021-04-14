@@ -51,7 +51,7 @@ See if you can use the logical operators to manipulate babynames to show:
 - All of the names that have a missing value for n (Hint: this should return an empty data set).
 
 ```{r}
-filter(babynames, is.na(n))
+
 ```
 
 ## Activity 3
@@ -63,7 +63,7 @@ Use logical operators to alter the code below to return only the rows that conta
 * Names that are one of Acura, Lexus, or Yugo
 
 ```{r}
-filter(babynames, name == "Sea" | name == "Anemone")
+
 ```
 
 ## Activity 4

@@ -3,4 +3,4 @@ title: "Reshaping Data"
 output: html_document
 ---
 
-- Week 11 slides: [09_reshaping-data.pdf ( <i class="far fa-file-pdf"></i> 2.6 MB)](../../files/slides/09_reshaping-data.pdf)
+- Week 11 slides: [10_reshaping-data.pdf ( <i class="far fa-file-pdf"></i> 2.6 MB)](../../files/slides/10_reshaping-data.pdf)

@@ -1,0 +1,6 @@
+---
+title: "Data Manipulation 1: Filter, Arrange, Select, Mutate"
+output: html_document
+---
+
+- Week 12 slides: [11_data-manip-1.pdf ( <i class="far fa-file-pdf"></i> 3 MB)](../../files/slides/11_data-manip-1.pdf)

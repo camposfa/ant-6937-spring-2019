@@ -10,6 +10,7 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE,
                       warning = FALSE,
                       message = FALSE,
+                      cache = FALSE,
                       fig.width = 10)
 ```
 
@@ -17,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE,
 
 ```{r packages}
 library("lubridate")
-library("colorspace")
+library("rcartocolor")
 library("here")
 library("tidyverse")
 library("glue")
@@ -67,7 +68,7 @@ ggplot(measles, <-- mappings here -->) +
   annotate(geom = "text", x = 1962.5, y = 25, label = "Vaccination Program Begins",
            angle = 90, size = 12, vjust = 0, color = "black", alpha = 0.5) +
   scale_x_continuous(expand = c(0, 0)) +
-  scale_fill_continuous_sequential(palette = "Reds 3", trans = "sqrt") +
+  scale_fill_distiller(palette = "RdPu", tran = "sqrt", direction = 1) +
   labs(x = NULL, y = NULL, title = "Measles cases per week")
 ```
 
