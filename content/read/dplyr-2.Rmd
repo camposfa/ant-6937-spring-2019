@@ -1,0 +1,15 @@
+---
+title: "Data Manipulation 2: Grouped Operations and Summaries"
+output: html_document
+---
+
+## Read
+
+- [**R4DS, 5.6--5.7: Data Transformation**](https://r4ds.had.co.nz/transform.html#grouped-summaries-with-summarise): `dplyr` basic verbs: `summarise`, `group_by`, and new ways to use `mutate` and `filter`.
+
+
+
+## Optional further reading (_same as last week_).
+
+- [**Introduction to dplyr**](https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html): many code examples
+- [**Modern Dive, Chapter 3, 3.3--3.4: Data Wrangling**](https://moderndive.com/3-wrangling.html#summarize): Similar to assigned reading but organized differently. Some might find the text easier to follow.
