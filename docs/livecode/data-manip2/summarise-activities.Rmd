@@ -145,9 +145,19 @@ Why are the values slightly different?
 ```
 
 
-## Activity 9
+## Activity 9A
 
 Using msleep, determine how much each species' log body weight differs from the average log body weight for its order.
+
+
+```{r}
+
+```
+
+
+## Activity 9B
+
+Using baby names, add a rank column to each name for each year and sex. What were the top 10 ranked boys names in 2015, and what were their ranks?
 
 
 ```{r}
