@@ -3,7 +3,7 @@ title: "Small Project 2"
 
 ---
 
-<span style="color:red">**Due date: Apr. 21 by the end of the day (11:59:59 pm)**</span>
+<span style="color:red">**Due date: Apr. 28 by the end of the day (11:59:59 pm)**</span>
 
 ## Introduction
 

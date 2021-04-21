@@ -3,4 +3,4 @@ title: "Data Import"
 output: html_document
 ---
 
-- Week 10 slides: [09_data-import.pdf ( <i class="far fa-file-pdf"></i> 4.0 MB)](../../files/slides/09_data-import.pdf)
+- This week's slides: [09_data-import.pdf ( <i class="far fa-file-pdf"></i> 4.0 MB)](../../files/slides/09_data-import.pdf)

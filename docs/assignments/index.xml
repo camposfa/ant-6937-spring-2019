@@ -47,6 +47,15 @@ install.packages(&amp;quot;janitor&amp;quot;) Data for in-class activities  Exam
     </item>
     
     <item>
+      <title>Data Manip. 2: Grouped Operations and Summaries</title>
+      <link>/assignments/dplyr-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/dplyr-2/</guid>
+      <description>  Companion to in-class activities   summarise-activities.Rmd (Nothing to turn in!)   </description>
+    </item>
+    
+    <item>
       <title>Data Manipulation 1: Filter, Arrange, Select, Mutate</title>
       <link>/assignments/dplyr-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -60,15 +69,6 @@ Download the R Markdown file and data files below
  Download the R Markdown file below, insert your code where indicated, and upload your knitted .html output and the .Rmd file to Blackboard.
   
   us_contagious_diseases.csv (data file)</description>
-    </item>
-    
-    <item>
-      <title>Data Manipulation 2</title>
-      <link>/assignments/dplyr-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/dplyr-2/</guid>
-      <description>Companion to in-class activities  summarise-activities.Rmd (Nothing to turn in!)  </description>
     </item>
     
     <item>

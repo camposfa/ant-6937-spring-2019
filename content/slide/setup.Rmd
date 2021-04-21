@@ -2,4 +2,4 @@
 title: Introduction & Setup
 ---
 
-- Week 1 slides: [Introduction and setup ( <i class="far fa-file-pdf"></i> 14.2 MB)](../../files/slides/01_introduction-and-setup.pdf)
+- This week's slides: [Introduction and setup ( <i class="far fa-file-pdf"></i> 14.2 MB)](../../files/slides/01_introduction-and-setup.pdf)

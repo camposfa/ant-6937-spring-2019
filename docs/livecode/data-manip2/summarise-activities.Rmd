@@ -89,13 +89,12 @@ What is the average diameter of the area experiencing hurricane strength winds (
 
 ## Activity 7a
 
-- For each vore, calculate the average of all columns in the msleep data set.
+- For each vore, calculate the average of only the columns that start with "sleep" in the msleep data set.
 - Hint: use na.rm = TRUE
 
 ```{r}
 
 ```
-
 
 ## Activity 7b
 
@@ -109,7 +108,7 @@ What is the average diameter of the area experiencing hurricane strength winds (
 
 ## Activity 7c
 
-- For each vore, calculate the average of only the columns that start with "sleep" in the msleep data set.
+- For each vore, calculate the average of all columns in the msleep data set.
 - Hint: use na.rm = TRUE
 
 ```{r}
@@ -117,14 +116,21 @@ What is the average diameter of the area experiencing hurricane strength winds (
 ```
 
 
+## **Not discussed in class:** how to apply several _different_ functions (with possibly different arguments) to multiple columns.
+
+Notes:
+
+- The different functions should be provided in a list.
+- Names that you provide for the summary functions become suffixes on the old column names (in the example below, sleep_total_avg, sleep_total_min, etc.).
+- The `.x` argument is a placeholder for the underlying data to summarize.
+
 ```{r}
-# Example applying several functions with arguments to several columns (not discussed in class)
 msleep %>% 
   group_by(vore) %>% 
-  summarise_at(vars(starts_with("sleep")), 
-               list(avg = ~mean(., na.rm = TRUE),
-                    min = ~min(., na.rm = TRUE),
-                    max = ~max(., na.rm = TRUE)))
+  summarise(across(starts_with("sleep"), 
+                   list(avg = ~ mean(.x, na.rm = TRUE),
+                        min = ~ min(.x, na.rm = TRUE),
+                        max = ~ max(.x, na.rm = TRUE))))
 ```
 
 ## Activity 8

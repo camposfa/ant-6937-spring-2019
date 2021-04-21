@@ -3,4 +3,4 @@ title: "Color, Saving Output, and Composing Multiple Plots"
 output: html_document
 ---
 
-- Week 8 slides: [07_color-output-composing.pdf ( <i class="far fa-file-pdf"></i> 6.4 MB)](../../files/slides/07_color-output-composing.pdf)
+- This week's slides: [07_color-output-composing.pdf ( <i class="far fa-file-pdf"></i> 6.4 MB)](../../files/slides/07_color-output-composing.pdf)

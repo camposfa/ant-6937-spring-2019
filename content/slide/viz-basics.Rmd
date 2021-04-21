@@ -3,4 +3,4 @@ title: "Visualization Basics"
 output: html_document
 ---
 
-- Week 3 slides: [Data Visualization Basics ( <i class="far fa-file-pdf"></i> 3.8 MB)](../../files/slides/03_viz-basics.pdf)
+- This week's slides: [Data Visualization Basics ( <i class="far fa-file-pdf"></i> 3.8 MB)](../../files/slides/03_viz-basics.pdf)
