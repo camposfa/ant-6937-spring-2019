@@ -85,7 +85,7 @@ lessons:
     topics: "Data Manip. 2: Grouped Operations and Summaries"
     reading: "dplyr-2"
     assignment: "dplyr-2"
-    # slide: "data-manip2"
+    slide: "data-manip2"
 
   # - date: "2021-04-14"
   #   topics: "Catch-up / Work on Small Project 2"
