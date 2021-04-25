@@ -1,0 +1,10 @@
+---
+title: "Two-table Operations: Joins and Set operations"
+output: html_document
+---
+
+## Read
+
+- [**Modern Dive, Chapter 3.7: "Join Data Frames"**](https://moderndive.com/3-wrangling.html#joins): A concise overview of join verbs in `dplyr.`
+
+- [**R4DS, 13: Relational Data**](https://r4ds.had.co.nz/relational-data.html): More detailed, with many examples. Also covers set operations.

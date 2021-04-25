@@ -492,9 +492,9 @@ You can use one or more of the data sets listed below.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/read/two-table-operations/</guid>
-      <description>Read   Modern Dive, Chapter 4.7: &amp;ldquo;Join Data Frames&amp;rdquo;: A concise overview of join verbs in dplyr.
-  R4DS, 13: Relational Data: More detailed, with many examples. Also covers set operations.
-  </description>
+      <description>  Read  Modern Dive, Chapter 3.7: “Join Data Frames”: A concise overview of join verbs in dplyr.
+ R4DS, 13: Relational Data: More detailed, with many examples. Also covers set operations.
+   </description>
     </item>
     
     <item>

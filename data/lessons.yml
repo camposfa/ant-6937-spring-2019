@@ -93,7 +93,7 @@ lessons:
     
   - date: "2021-04-28"
     topics: "Data Manip. 3: Two-table Operations"
-    # reading: "two-table-operations"
+    reading: "two-table-operations"
     # assignment: "joins"
     # slide: "two-table-operations"
     project: "small-project-2"
