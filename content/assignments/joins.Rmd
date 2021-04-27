@@ -1,0 +1,17 @@
+---
+title: "Two-table Operations: Joins and Set operations"
+output: html_document
+---
+
+To complete this week's activities, you will need to install the package `nycflights13`. _Do this in console, not in your R Markdown file!_
+
+```
+install.packages("nycflights13")
+```
+
+
+### Companion to in-class activities
+
+- [<i class="fab fa-markdown fa-lg"></i> two-table-operations.Rmd](/livecode/joins/two-table-operations.Rmd) (**Nothing to turn in!**)
+
+

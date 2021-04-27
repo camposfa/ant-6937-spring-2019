@@ -1,0 +1,5 @@
+---
+title: "Two-table Operations: Joins and Set operations"
+---
+
+- This week's slides: [13_two-table-operations.pdf ( <i class="far fa-file-pdf"></i> 2.9 MB)](../../files/slides/../../files/slides/13_two-table-operations.pdf)

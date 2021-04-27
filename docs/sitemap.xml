@@ -76,8 +76,6 @@
   </url><url>
     <loc>/assignments/checklist/jlh937/</loc>
   </url><url>
-    <loc>/assignments/joins/</loc>
-  </url><url>
     <loc>/module-table/</loc>
   </url><url>
     <loc>/modules/</loc>
@@ -112,9 +110,11 @@
   </url><url>
     <loc>/tools/</loc>
   </url><url>
-    <loc>/slide/two-table-operations/</loc>
+    <loc>/assignments/joins/</loc>
   </url><url>
     <loc>/read/two-table-operations/</loc>
+  </url><url>
+    <loc>/slide/two-table-operations/</loc>
   </url><url>
     <loc>/assignments/viz-basics/</loc>
   </url><url>
